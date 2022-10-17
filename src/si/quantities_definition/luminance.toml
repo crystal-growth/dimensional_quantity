@@ -1,0 +1,229 @@
+name = "Luminance"
+symbol = "Luminance"
+snake_case_name = "luminance"
+short_dim_formula = "L<sup>-2</sup>⋅J"
+long_dim_formula = "Length<sup>-2</sup>⋅Luminous intensity"
+units_formula = "m<sup>-2</sup>⋅cd"
+
+[dimensions]
+length = -2
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 1
+angle = 0
+information = 0
+
+[units.YOTTACANDELA_PER_SQUARE_METER]
+multiplier = "1.0_E24"
+symbol = "Ycd/m²"
+singular = "yottacandela per square meter"
+plural = "yottacandelas per square meter"
+
+[units.ZETTACANDELA_PER_SQUARE_METER]
+multiplier = "1.0_E21"
+symbol = "Zcd/m²"
+singular = "zettacandela per square meter"
+plural = "zettacandelas per square meter"
+
+[units.EXACANDELA_PER_SQUARE_METER]
+multiplier = "1.0_E18"
+symbol = "Ecd/m²"
+singular = "exacandela per square meter"
+plural = "exacandelas per square meter"
+
+[units.PETACANDELA_PER_SQUARE_METER]
+multiplier = "1.0_E15"
+symbol = "Pcd/m²"
+singular = "petacandela per square meter"
+plural = "petacandelas per square meter"
+
+[units.TERACANDELA_PER_SQUARE_METER]
+multiplier = "1.0_E12"
+symbol = "Tcd/m²"
+singular = "teracandela per square meter"
+plural = "teracandelas per square meter"
+
+[units.GIGACANDELA_PER_SQUARE_METER]
+multiplier = "1.0_E9"
+symbol = "Gcd/m²"
+singular = "gigacandela per square meter"
+plural = "gigacandelas per square meter"
+
+[units.MEGACANDELA_PER_SQUARE_METER]
+multiplier = "1.0_E6"
+symbol = "Mcd/m²"
+singular = "megacandela per square meter"
+plural = "megacandelas per square meter"
+
+[units.KILOCANDELA_PER_SQUARE_METER]
+multiplier = "1.0_E3"
+symbol = "kcd/m²"
+singular = "kilocandela per square meter"
+plural = "kilocandelas per square meter"
+
+[units.HECTOCANDELA_PER_SQUARE_METER]
+multiplier = "1.0_E2"
+symbol = "hcd/m²"
+singular = "hectocandela per square meter"
+plural = "hectocandelas per square meter"
+
+[units.DECACANDELA_PER_SQUARE_METER]
+multiplier = "1.0E1"
+symbol = "dacd/m²"
+singular = "decacandela per square meter"
+plural = "decacandelas per square meter"
+
+[units.CANDELA_PER_SQUARE_METER]
+multiplier = "1.0E0"
+symbol = "cd/m²"
+singular = "candela per square meter"
+plural = "candelas per square meter"
+
+[units.DECICANDELA_PER_SQUARE_METER]
+multiplier = "1.0E-1"
+symbol = "dcd/m²"
+singular = "decicandela per square meter"
+plural = "decicandelas per square meter"
+
+[units.CENTICANDELA_PER_SQUARE_METER]
+multiplier = "1.0E-2"
+symbol = "ccd/m²"
+singular = "centicandela per square meter"
+plural = "centicandelas per square meter"
+
+[units.MILLICANDELA_PER_SQUARE_METER]
+multiplier = "1.0E-3"
+symbol = "mcd/m²"
+singular = "millicandela per square meter"
+plural = "millicandelas per square meter"
+
+[units.MICROCANDELA_PER_SQUARE_METER]
+multiplier = "1.0E-6"
+symbol = "µcd/m²"
+singular = "microcandela per square meter"
+plural = "microcandelas per square meter"
+
+[units.NANOCANDELA_PER_SQUARE_METER]
+multiplier = "1.0E-9"
+symbol = "ncd/m²"
+singular = "nanocandela per square meter"
+plural = "nanocandelas per square meter"
+
+[units.PICOCANDELA_PER_SQUARE_METER]
+multiplier = "1.0E-12"
+symbol = "pcd/m²"
+singular = "picocandela per square meter"
+plural = "picocandelas per square meter"
+
+[units.FEMTOCANDELA_PER_SQUARE_METER]
+multiplier = "1.0E-15"
+symbol = "fcd/m²"
+singular = "femtocandela per square meter"
+plural = "femtocandelas per square meter"
+
+[units.ATTOCANDELA_PER_SQUARE_METER]
+multiplier = "1.0E-18"
+symbol = "acd/m²"
+singular = "attocandela per square meter"
+plural = "attocandelas per square meter"
+
+[units.ZEPTOCANDELA_PER_SQUARE_METER]
+multiplier = "1.0E-21"
+symbol = "zcd/m²"
+singular = "zeptocandela per square meter"
+plural = "zeptocandelas per square meter"
+
+[units.YOCTOCANDELA_PER_SQUARE_METER]
+multiplier = "1.0E-24"
+symbol = "ycd/m²"
+singular = "yoctocandela per square meter"
+plural = "yoctocandelas per square meter"
+
+[units.CANDELA_PER_SQUARE_PICOMETER]
+multiplier = "1.0_E24"
+symbol = "cd/pm²"
+singular = "candela per square picometer"
+plural = "candelas per square picometer"
+
+[units.CANDELA_PER_SQUARE_NANOMETER]
+multiplier = "1.0_E18"
+symbol = "cd/nm²"
+singular = "candela per square nanometer"
+plural = "candelas per square nanometer"
+
+[units.CANDELA_PER_SQUARE_MICROMETER]
+multiplier = "1.0_E12"
+symbol = "cd/µm²"
+singular = "candela per square micrometer"
+plural = "candelas per square micrometer"
+
+[units.CANDELA_PER_SQUARE_MILLIMETER]
+multiplier = "1.0_E6"
+symbol = "cd/mm²"
+singular = "candela per square millimeter"
+plural = "candelas per square millimeter"
+
+[units.CANDELA_PER_SQUARE_CENTIMETER]
+multiplier = "1.0_E4"
+symbol = "cd/cm²"
+singular = "candela per square centimeter"
+plural = "candelas per square centimeter"
+
+[units.CANDELA_PER_SQUARE_KILOMETER]
+multiplier = "1.0E-6"
+symbol = "cd/km²"
+singular = "candela per square kilometer"
+plural = "candelas per square kilometer"
+
+[units.CANDELA_PER_SQUARE_MEGAMETER]
+multiplier = "1.0E-12"
+symbol = "cd/Mm²"
+singular = "candela per square megameter"
+plural = "candelas per square megameter"
+
+[units.CANDELA_PER_SQUARE_GIGAMETER]
+multiplier = "1.0E-18"
+symbol = "cd/Gm²"
+singular = "candela per square gigameter"
+plural = "candelas per square gigameter"
+
+[units.CANDELA_PER_SQUARE_TERAMETER]
+multiplier = "1.0E-24"
+symbol = "cd/Tm²"
+singular = "candela per square terameter"
+plural = "candelas per square terameter"
+
+[units.CANDELA_PER_SQUARE_INCH]
+multiplier = "1.550_003_100_006_200_2_E3"
+symbol = "cd/in²"
+singular = "candela per square inch"
+plural = "candelas per square inch"
+
+[units.CANDELA_PER_SQUARE_FOOT]
+multiplier = "1.076_391_041_670_972_2_E1"
+symbol = "cd/ft²"
+singular = "candela per square foot"
+plural = "candelas per square foot"
+
+[units.FOOTLAMBERT]
+multiplier = "3.426_259_099_635_390_5_E0"
+symbol = "fl"
+singular = "footlambert"
+plural = "footlamberts"
+
+[units.LAMBERT]
+multiplier = "3.183_098_861_837_906_7_E3"
+symbol = "la"
+singular = "lambert"
+plural = "lamberts"
+
+[units.STILB]
+multiplier = "1.0_E4"
+symbol = "sb"
+singular = "stilb"
+plural = "stilbs"
+

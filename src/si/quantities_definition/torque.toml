@@ -1,0 +1,301 @@
+name = "Torque"
+symbol = "Torque"
+snake_case_name = "torque"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-2</sup>⋅θ"
+long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-2</sup>⋅Angle"
+units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-2</sup>⋅rad"
+
+[dimensions]
+length = 2
+mass = 1
+time = -2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 1
+information = 0
+
+[units.YOTTANEWTON_METER]
+multiplier = "1.0_E24"
+symbol = "YN·m"
+singular = "yottanewton meter"
+plural = "yottanewton meters"
+
+[units.ZETTANEWTON_METER]
+multiplier = "1.0_E21"
+symbol = "ZN·m"
+singular = "zettanewton meter"
+plural = "zettanewton meters"
+
+[units.EXANEWTON_METER]
+multiplier = "1.0_E18"
+symbol = "EN·m"
+singular = "exanewton meter"
+plural = "exanewton meters"
+
+[units.PETANEWTON_METER]
+multiplier = "1.0_E15"
+symbol = "PN·m"
+singular = "petanewton meter"
+plural = "petanewton meters"
+
+[units.TERANEWTON_METER]
+multiplier = "1.0_E12"
+symbol = "TN·m"
+singular = "teranewton meter"
+plural = "teranewton meters"
+
+[units.GIGANEWTON_METER]
+multiplier = "1.0_E9"
+symbol = "GN·m"
+singular = "giganewton meter"
+plural = "giganewton meters"
+
+[units.MEGANEWTON_METER]
+multiplier = "1.0_E6"
+symbol = "MN·m"
+singular = "meganewton meter"
+plural = "meganewton meters"
+
+[units.KILONEWTON_METER]
+multiplier = "1.0_E3"
+symbol = "kN·m"
+singular = "kilonewton meter"
+plural = "kilonewton meters"
+
+[units.HECTONEWTON_METER]
+multiplier = "1.0_E2"
+symbol = "hN·m"
+singular = "hectonewton meter"
+plural = "hectonewton meters"
+
+[units.DECANEWTON_METER]
+multiplier = "1.0E1"
+symbol = "daN·m"
+singular = "decanewton meter"
+plural = "decanewton meters"
+
+[units.NEWTON_METER]
+multiplier = "1.0E0"
+symbol = "N·m"
+singular = "newton meter"
+plural = "newton meters"
+
+[units.DECINEWTON_METER]
+multiplier = "1.0E-1"
+symbol = "dN·m"
+singular = "decinewton meter"
+plural = "decinewton meters"
+
+[units.CENTINEWTON_METER]
+multiplier = "1.0E-2"
+symbol = "cN·m"
+singular = "centinewton meter"
+plural = "centinewton meters"
+
+[units.MILLINEWTON_METER]
+multiplier = "1.0E-3"
+symbol = "mN·m"
+singular = "millinewton meter"
+plural = "millinewton meters"
+
+[units.MICRONEWTON_METER]
+multiplier = "1.0E-6"
+symbol = "µN·m"
+singular = "micronewton meter"
+plural = "micronewton meters"
+
+[units.NANONEWTON_METER]
+multiplier = "1.0E-9"
+symbol = "nN·m"
+singular = "nanonewton meter"
+plural = "nanonewton meters"
+
+[units.PICONEWTON_METER]
+multiplier = "1.0E-12"
+symbol = "pN·m"
+singular = "piconewton meter"
+plural = "piconewton meters"
+
+[units.FEMTONEWTON_METER]
+multiplier = "1.0E-15"
+symbol = "fN·m"
+singular = "femtonewton meter"
+plural = "femtonewton meters"
+
+[units.ATTONEWTON_METER]
+multiplier = "1.0E-18"
+symbol = "aN·m"
+singular = "attonewton meter"
+plural = "attonewton meters"
+
+[units.ZEPTONEWTON_METER]
+multiplier = "1.0E-21"
+symbol = "zN·m"
+singular = "zeptonewton meter"
+plural = "zeptonewton meters"
+
+[units.YOCTONEWTON_METER]
+multiplier = "1.0E-24"
+symbol = "yN·m"
+singular = "yoctonewton meter"
+plural = "yoctonewton meters"
+
+[units.NEWTON_YOTTAMETER]
+multiplier = "1.0_E24"
+symbol = "N·Ym"
+singular = "newton yottameter"
+plural = "newton yottameters"
+
+[units.NEWTON_ZETTAMETER]
+multiplier = "1.0_E21"
+symbol = "N·Zm"
+singular = "newton zettameter"
+plural = "newton zettameters"
+
+[units.NEWTON_EXAMETER]
+multiplier = "1.0_E18"
+symbol = "N·Em"
+singular = "newton exameter"
+plural = "newton exameters"
+
+[units.NEWTON_PETAMETER]
+multiplier = "1.0_E15"
+symbol = "N·Pm"
+singular = "newton petameter"
+plural = "newton petameters"
+
+[units.NEWTON_TERAMETER]
+multiplier = "1.0_E12"
+symbol = "N·Tm"
+singular = "newton terameter"
+plural = "newton terameters"
+
+[units.NEWTON_GIGAMETER]
+multiplier = "1.0_E9"
+symbol = "N·Gm"
+singular = "newton gigameter"
+plural = "newton gigameters"
+
+[units.NEWTON_MEGAMETER]
+multiplier = "1.0_E6"
+symbol = "N·Mm"
+singular = "newton megameter"
+plural = "newton megameters"
+
+[units.NEWTON_KILOMETER]
+multiplier = "1.0_E3"
+symbol = "N·km"
+singular = "newton kilometer"
+plural = "newton kilometers"
+
+[units.NEWTON_HECTOMETER]
+multiplier = "1.0_E2"
+symbol = "N·hm"
+singular = "newton hectometer"
+plural = "newton hectometers"
+
+[units.NEWTON_DECAMETER]
+multiplier = "1.0E1"
+symbol = "N·dam"
+singular = "newton decameter"
+plural = "newton decameters"
+
+[units.NEWTON_DECIMETER]
+multiplier = "1.0E-1"
+symbol = "N·dm"
+singular = "newton decimeter"
+plural = "newton decimeters"
+
+[units.NEWTON_CENTIMETER]
+multiplier = "1.0E-2"
+symbol = "N·cm"
+singular = "newton centimeter"
+plural = "newton centimeters"
+
+[units.NEWTON_MILLIMETER]
+multiplier = "1.0E-3"
+symbol = "N·mm"
+singular = "newton millimeter"
+plural = "newton millimeters"
+
+[units.NEWTON_MICROMETER]
+multiplier = "1.0E-6"
+symbol = "N·µm"
+singular = "newton micrometer"
+plural = "newton micrometers"
+
+[units.NEWTON_NANOMETER]
+multiplier = "1.0E-9"
+symbol = "N·nm"
+singular = "newton nanometer"
+plural = "newton nanometers"
+
+[units.NEWTON_PICOMETER]
+multiplier = "1.0E-12"
+symbol = "N·pm"
+singular = "newton picometer"
+plural = "newton picometers"
+
+[units.NEWTON_FEMTOMETER]
+multiplier = "1.0E-15"
+symbol = "N·fm"
+singular = "newton femtometer"
+plural = "newton femtometers"
+
+[units.NEWTON_ATTOMETER]
+multiplier = "1.0E-18"
+symbol = "N·am"
+singular = "newton attometer"
+plural = "newton attometers"
+
+[units.NEWTON_ZEPTOMETER]
+multiplier = "1.0E-21"
+symbol = "N·zm"
+singular = "newton zeptometer"
+plural = "newton zeptometers"
+
+[units.NEWTON_YOCTOMETER]
+multiplier = "1.0E-24"
+symbol = "N·ym"
+singular = "newton yoctometer"
+plural = "newton yoctometers"
+
+[units.DYNE_METER]
+multiplier = "1.0_E-5"
+symbol = "dyn·m"
+singular = "dyne meter"
+plural = "dyne meters"
+
+[units.DYNE_CENTIMETER]
+multiplier = "1.0_E-7"
+symbol = "dyn·cm"
+singular = "dyne centimeter"
+plural = "dyne centimeters"
+
+[units.KILOGRAM_FORCE_METER]
+multiplier = "9.806_65_E0"
+symbol = "kgf·m"
+singular = "kilogram-force meter"
+plural = "kilogram-force meters"
+
+[units.OUNCE_FORCE_INCH]
+multiplier = "7.061_553_06_E-3"
+symbol = "ozf·in"
+singular = "ounce-force inch"
+plural = "ounces-force inches"
+
+[units.POUND_FORCE_FOOT]
+multiplier = "1.355_818_065_6_E0"
+symbol = "lbf·ft"
+singular = "pound-force foot"
+plural = "pounds-force feet"
+
+[units.POUND_FORCE_INCH]
+multiplier = "1.129_848_388_E-1"
+symbol = "lbf·in"
+singular = "pound-force inch"
+plural = "pounds-force inches"
+

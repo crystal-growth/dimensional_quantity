@@ -1,0 +1,157 @@
+name = "Capacitance"
+symbol = "Capacitance"
+snake_case_name = "capacitance"
+short_dim_formula = "L<sup>-2</sup>⋅M<sup>-1</sup>⋅T<sup>4</sup>⋅I<sup>2</sup>"
+long_dim_formula = "Length<sup>-2</sup>⋅Mass<sup>-1</sup>⋅Time<sup>4</sup>⋅Electric current<sup>2</sup>"
+units_formula = "m<sup>-2</sup>⋅kg<sup>-1</sup>⋅s<sup>4</sup>⋅A<sup>2</sup>"
+
+[dimensions]
+length = -2
+mass = -1
+time = 4
+electric_current = 2
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAFARAD]
+multiplier = "1.0_E24"
+symbol = "YF"
+singular = "yottafarad"
+plural = "yottafarads"
+
+[units.ZETTAFARAD]
+multiplier = "1.0_E21"
+symbol = "ZF"
+singular = "zettafarad"
+plural = "zettafarads"
+
+[units.EXAFARAD]
+multiplier = "1.0_E18"
+symbol = "EF"
+singular = "exafarad"
+plural = "exafarads"
+
+[units.PETAFARAD]
+multiplier = "1.0_E15"
+symbol = "PF"
+singular = "petafarad"
+plural = "petafarads"
+
+[units.TERAFARAD]
+multiplier = "1.0_E12"
+symbol = "TF"
+singular = "terafarad"
+plural = "terafarads"
+
+[units.GIGAFARAD]
+multiplier = "1.0_E9"
+symbol = "GF"
+singular = "gigafarad"
+plural = "gigafarads"
+
+[units.MEGAFARAD]
+multiplier = "1.0_E6"
+symbol = "MF"
+singular = "megafarad"
+plural = "megafarads"
+
+[units.KILOFARAD]
+multiplier = "1.0_E3"
+symbol = "kF"
+singular = "kilofarad"
+plural = "kilofarads"
+
+[units.HECTOFARAD]
+multiplier = "1.0_E2"
+symbol = "hF"
+singular = "hectofarad"
+plural = "hectofarads"
+
+[units.DECAFARAD]
+multiplier = "1.0E1"
+symbol = "daF"
+singular = "decafarad"
+plural = "decafarads"
+
+[units.FARAD]
+multiplier = "1.0E0"
+symbol = "F"
+singular = "farad"
+plural = "farads"
+
+[units.DECIFARAD]
+multiplier = "1.0E-1"
+symbol = "dF"
+singular = "decifarad"
+plural = "decifarads"
+
+[units.CENTIFARAD]
+multiplier = "1.0E-2"
+symbol = "cF"
+singular = "centifarad"
+plural = "centifarads"
+
+[units.MILLIFARAD]
+multiplier = "1.0E-3"
+symbol = "mF"
+singular = "millifarad"
+plural = "millifarads"
+
+[units.MICROFARAD]
+multiplier = "1.0E-6"
+symbol = "µF"
+singular = "microfarad"
+plural = "microfarads"
+
+[units.NANOFARAD]
+multiplier = "1.0E-9"
+symbol = "nF"
+singular = "nanofarad"
+plural = "nanofarads"
+
+[units.PICOFARAD]
+multiplier = "1.0E-12"
+symbol = "pF"
+singular = "picofarad"
+plural = "picofarads"
+
+[units.FEMTOFARAD]
+multiplier = "1.0E-15"
+symbol = "fF"
+singular = "femtofarad"
+plural = "femtofarads"
+
+[units.ATTOFARAD]
+multiplier = "1.0E-18"
+symbol = "aF"
+singular = "attofarad"
+plural = "attofarads"
+
+[units.ZEPTOFARAD]
+multiplier = "1.0E-21"
+symbol = "zF"
+singular = "zeptofarad"
+plural = "zeptofarads"
+
+[units.YOCTOFARAD]
+multiplier = "1.0E-24"
+symbol = "yF"
+singular = "yoctofarad"
+plural = "yoctofarads"
+
+[units.ABFARAD]
+multiplier = "1.0_E9"
+symbol = "abF"
+singular = "abfarad"
+plural = "abfarads"
+
+[units.STATFARAD]
+multiplier = "1.112_650_E-12"
+symbol = "statF"
+singular = "statfarad"
+plural = "statfarads"
+

@@ -1,0 +1,25 @@
+name = "Molar flux"
+symbol = "MolarFlux"
+snake_case_name = "molar_flux"
+short_dim_formula = "L<sup>-2</sup>⋅T<sup>-1</sup>⋅N"
+long_dim_formula = "Length<sup>-2</sup>⋅Time<sup>-1</sup>⋅Amount of substance"
+units_formula = "m<sup>-2</sup>⋅s<sup>-1</sup>⋅mol"
+
+[dimensions]
+length = -2
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.MOLE_PER_SQUARE_METER_SECOND]
+multiplier = "1.0E0"
+symbol = "mol/(m²·s)"
+singular = "mole per square meter second"
+plural = "moles per square meter second"
+

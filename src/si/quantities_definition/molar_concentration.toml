@@ -1,0 +1,343 @@
+name = "Molar concentration"
+symbol = "MolarConcentration"
+snake_case_name = "molar_concentration"
+short_dim_formula = "L<sup>-3</sup>⋅N"
+long_dim_formula = "Length<sup>-3</sup>⋅Amount of substance"
+units_formula = "m<sup>-3</sup>⋅mol"
+
+[dimensions]
+length = -3
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAMOLE_PER_CUBIC_METER]
+multiplier = "1.0_E24"
+symbol = "Ymol/m³"
+singular = "yottamole per cubic meter"
+plural = "yottamoles per cubic meter"
+
+[units.ZETTAMOLE_PER_CUBIC_METER]
+multiplier = "1.0_E21"
+symbol = "Zmol/m³"
+singular = "zettamole per cubic meter"
+plural = "zettamoles per cubic meter"
+
+[units.EXAMOLE_PER_CUBIC_METER]
+multiplier = "1.0_E18"
+symbol = "Emol/m³"
+singular = "examole per cubic meter"
+plural = "examoles per cubic meter"
+
+[units.PETAMOLE_PER_CUBIC_METER]
+multiplier = "1.0_E15"
+symbol = "Pmol/m³"
+singular = "petamole per cubic meter"
+plural = "petamoles per cubic meter"
+
+[units.TERAMOLE_PER_CUBIC_METER]
+multiplier = "1.0_E12"
+symbol = "Tmol/m³"
+singular = "teramole per cubic meter"
+plural = "teramoles per cubic meter"
+
+[units.GIGAMOLE_PER_CUBIC_METER]
+multiplier = "1.0_E9"
+symbol = "Gmol/m³"
+singular = "gigamole per cubic meter"
+plural = "gigamoles per cubic meter"
+
+[units.MEGAMOLE_PER_CUBIC_METER]
+multiplier = "1.0_E6"
+symbol = "Mmol/m³"
+singular = "megamole per cubic meter"
+plural = "megamoles per cubic meter"
+
+[units.KILOMOLE_PER_CUBIC_METER]
+multiplier = "1.0_E3"
+symbol = "kmol/m³"
+singular = "kilomole per cubic meter"
+plural = "kilomoles per cubic meter"
+
+[units.HECTOMOLE_PER_CUBIC_METER]
+multiplier = "1.0_E2"
+symbol = "hmol/m³"
+singular = "hectomole per cubic meter"
+plural = "hectomoles per cubic meter"
+
+[units.DECAMOLE_PER_CUBIC_METER]
+multiplier = "1.0E1"
+symbol = "damol/m³"
+singular = "decamole per cubic meter"
+plural = "decamoles per cubic meter"
+
+[units.MOLE_PER_CUBIC_METER]
+multiplier = "1.0E0"
+symbol = "mol/m³"
+singular = "mole per cubic meter"
+plural = "moles per cubic meter"
+
+[units.DECIMOLE_PER_CUBIC_METER]
+multiplier = "1.0E-1"
+symbol = "dmol/m³"
+singular = "decimole per cubic meter"
+plural = "decimoles per cubic meter"
+
+[units.CENTIMOLE_PER_CUBIC_METER]
+multiplier = "1.0E-2"
+symbol = "cmol/m³"
+singular = "centimole per cubic meter"
+plural = "centimoles per cubic meter"
+
+[units.MILLIMOLE_PER_CUBIC_METER]
+multiplier = "1.0E-3"
+symbol = "mmol/m³"
+singular = "millimole per cubic meter"
+plural = "millimoles per cubic meter"
+
+[units.MICROMOLE_PER_CUBIC_METER]
+multiplier = "1.0E-6"
+symbol = "µmol/m³"
+singular = "micromole per cubic meter"
+plural = "micromoles per cubic meter"
+
+[units.NANOMOLE_PER_CUBIC_METER]
+multiplier = "1.0E-9"
+symbol = "nmol/m³"
+singular = "nanomole per cubic meter"
+plural = "nanomoles per cubic meter"
+
+[units.PICOMOLE_PER_CUBIC_METER]
+multiplier = "1.0E-12"
+symbol = "pmol/m³"
+singular = "picomole per cubic meter"
+plural = "picomoles per cubic meter"
+
+[units.FEMTOMOLE_PER_CUBIC_METER]
+multiplier = "1.0E-15"
+symbol = "fmol/m³"
+singular = "femtomole per cubic meter"
+plural = "femtomoles per cubic meter"
+
+[units.ATTOMOLE_PER_CUBIC_METER]
+multiplier = "1.0E-18"
+symbol = "amol/m³"
+singular = "attomole per cubic meter"
+plural = "attomoles per cubic meter"
+
+[units.ZEPTOMOLE_PER_CUBIC_METER]
+multiplier = "1.0E-21"
+symbol = "zmol/m³"
+singular = "zeptomole per cubic meter"
+plural = "zeptomoles per cubic meter"
+
+[units.YOCTOMOLE_PER_CUBIC_METER]
+multiplier = "1.0E-24"
+symbol = "ymol/m³"
+singular = "yoctomole per cubic meter"
+plural = "yoctomoles per cubic meter"
+
+[units.KILOMOLE_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E+6"
+symbol = "kmol/dm³"
+singular = "kilomole per cubic decimeter"
+plural = "kilomoles per cubic decimeter"
+
+[units.KILOMOLE_PER_LITER]
+multiplier = "1.0_E+6"
+symbol = "kmol/L"
+singular = "kilomole per liter"
+plural = "kilomoles per liter"
+
+[units.MOLE_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E+3"
+symbol = "mol/dm³"
+singular = "mole per cubic decimeter"
+plural = "moles per cubic decimeter"
+
+[units.MOLE_PER_LITER]
+multiplier = "1.0_E+3"
+symbol = "mol/L"
+singular = "mole per liter"
+plural = "moles per liter"
+
+[units.MILLIMOLE_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E+0"
+symbol = "mmol/dm³"
+singular = "millimole per cubic decimeter"
+plural = "millimoles per cubic decimeter"
+
+[units.MILLIMOLE_PER_LITER]
+multiplier = "1.0_E+0"
+symbol = "mmol/L"
+singular = "millimole per liter"
+plural = "millimoles per liter"
+
+[units.MICROMOLE_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E-3"
+symbol = "μmol/dm³"
+singular = "micromole per cubic decimeter"
+plural = "micromoles per cubic decimeter"
+
+[units.MICROMOLE_PER_LITER]
+multiplier = "1.0_E-3"
+symbol = "μmol/L"
+singular = "micromole per liter"
+plural = "micromoles per liter"
+
+[units.NANOMOLE_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E-6"
+symbol = "nmol/dm³"
+singular = "nanomole per cubic decimeter"
+plural = "nanomoles per cubic decimeter"
+
+[units.NANOMOLE_PER_LITER]
+multiplier = "1.0_E-6"
+symbol = "nmol/L"
+singular = "nanomole per liter"
+plural = "nanomoles per liter"
+
+[units.PICOMOLE_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E-9"
+symbol = "pmol/dm³"
+singular = "picomole per cubic decimeter"
+plural = "picomoles per cubic decimeter"
+
+[units.PICOMOLE_PER_LITER]
+multiplier = "1.0_E-9"
+symbol = "pmol/L"
+singular = "picomole per liter"
+plural = "picomoles per liter"
+
+[units.FEMTOMOLE_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E-12"
+symbol = "fmol/dm³"
+singular = "femtomole per cubic decimeter"
+plural = "femtomoles per cubic decimeter"
+
+[units.FEMTOMOLE_PER_LITER]
+multiplier = "1.0_E-12"
+symbol = "fmol/L"
+singular = "femtomole per liter"
+plural = "femtomoles per liter"
+
+[units.KILOMOLE_PER_DECILITER]
+multiplier = "1.0_E+7"
+symbol = "kmol/dL"
+singular = "kilomole per deciliter"
+plural = "kilomoles per deciliter"
+
+[units.MOLE_PER_DECILITER]
+multiplier = "1.0_E+4"
+symbol = "mol/dL"
+singular = "mole per deciliter"
+plural = "moles per deciliter"
+
+[units.MILLIMOLE_PER_DECILITER]
+multiplier = "1.0_E+1"
+symbol = "mmol/dL"
+singular = "millimole per deciliter"
+plural = "millimoles per deciliter"
+
+[units.MICROMOLE_PER_DECILITER]
+multiplier = "1.0_E-2"
+symbol = "μmol/dL"
+singular = "micromole per deciliter"
+plural = "micromoles per deciliter"
+
+[units.NANOMOLE_PER_DECILITER]
+multiplier = "1.0_E-5"
+symbol = "nmol/dL"
+singular = "nanomole per deciliter"
+plural = "nanomoles per deciliter"
+
+[units.PICOMOLE_PER_DECILITER]
+multiplier = "1.0_E-8"
+symbol = "pmol/dL"
+singular = "picomole per deciliter"
+plural = "picomoles per deciliter"
+
+[units.FEMTOMOLE_PER_DECILITER]
+multiplier = "1.0_E-11"
+symbol = "fmol/dL"
+singular = "femtomole per deciliter"
+plural = "femtomoles per deciliter"
+
+[units.KILOMOLE_PER_MILLILITER]
+multiplier = "1.0_E+9"
+symbol = "kmol/mL"
+singular = "kilomole per milliliter"
+plural = "kilomoles per milliliter"
+
+[units.MOLE_PER_MILLILITER]
+multiplier = "1.0_E+6"
+symbol = "mol/mL"
+singular = "mole per milliliter"
+plural = "moles per milliliter"
+
+[units.MILLIMOLE_PER_MILLILITER]
+multiplier = "1.0_E+3"
+symbol = "mmol/mL"
+singular = "millimole per milliliter"
+plural = "millimoles per milliliter"
+
+[units.MICROMOLE_PER_MILLILITER]
+multiplier = "1.0_E+0"
+symbol = "μmol/mL"
+singular = "micromole per milliliter"
+plural = "micromoles per milliliter"
+
+[units.NANOMOLE_PER_MILLILITER]
+multiplier = "1.0_E-3"
+symbol = "nmol/mL"
+singular = "nanomole per milliliter"
+plural = "nanomoles per milliliter"
+
+[units.PICOMOLE_PER_MILLILITER]
+multiplier = "1.0_E-6"
+symbol = "pmol/mL"
+singular = "picomole per milliliter"
+plural = "picomoles per milliliter"
+
+[units.FEMTOMOLE_PER_MILLILITER]
+multiplier = "1.0_E-9"
+symbol = "fmol/mL"
+singular = "femtomole per milliliter"
+plural = "femtomoles per milliliter"
+
+[units.PARTICLE_PER_CUBIC_METER]
+multiplier = "1.6605390671738_E-24"
+symbol = "particle/m³"
+singular = "particle per cubic meter"
+plural = "particles per cubic meter"
+
+[units.PARTICLE_PER_CUBIC_DECIMETER]
+multiplier = "1.6605390671738_E-21"
+symbol = "particle/dm³"
+singular = "particle per cubic decimeter"
+plural = "particles per cubic decimeter"
+
+[units.PARTICLE_PER_LITER]
+multiplier = "1.6605390671738_E-21"
+symbol = "particle/L"
+singular = "particle per liter"
+plural = "particles per liter"
+
+[units.PARTICLE_PER_DECILITER]
+multiplier = "1.6605390671738_E-20"
+symbol = "particle/dL"
+singular = "particle per deciliter"
+plural = "particles per deciliter"
+
+[units.PARTICLE_PER_MILLILITER]
+multiplier = "1.6605390671738_E-18"
+symbol = "particle/mL"
+singular = "particle per milliliter"
+plural = "particles per milliliter"
+

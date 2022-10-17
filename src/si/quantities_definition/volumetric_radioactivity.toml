@@ -1,0 +1,37 @@
+name = "Volumetric radioactivity"
+symbol = "VolumetricRadioactivity"
+snake_case_name = "volumetric_radioactivity"
+short_dim_formula = "L<sup>-3</sup>⋅T<sup>-1</sup>"
+long_dim_formula = "Length<sup>-3</sup>⋅Time<sup>-1</sup>"
+units_formula = "m<sup>-3</sup>⋅s<sup>-1</sup>"
+
+[dimensions]
+length = -3
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.BECQUEREL_PER_CUBIC_METER]
+multiplier = "1.0E0"
+symbol = "Bq·m⁻³"
+singular = "becquerel per cubic meter"
+plural = "becquerels per cubic meter"
+
+[units.CURIE_PER_CUBIC_METER]
+multiplier = "3.7_E10"
+symbol = "Ci·m⁻³"
+singular = "curie per cubic meter"
+plural = "curie per cubic meter"
+
+[units.DISINTEGRATIONS_PER_MINUTE_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-2"
+symbol = "dpm·m⁻³"
+singular = "disintegration per minute per cubic meter"
+plural = "disintegrations per minute per cubic meter"
+

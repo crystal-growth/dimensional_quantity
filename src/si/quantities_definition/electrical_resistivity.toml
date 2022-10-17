@@ -1,0 +1,199 @@
+name = "Electrical resistivity"
+symbol = "ElectricalResistivity"
+snake_case_name = "electrical_resistivity"
+short_dim_formula = "L<sup>3</sup>⋅M⋅T<sup>-3</sup>⋅I<sup>-2</sup>"
+long_dim_formula = "Length<sup>3</sup>⋅Mass⋅Time<sup>-3</sup>⋅Electric current<sup>-2</sup>"
+units_formula = "m<sup>3</sup>⋅kg⋅s<sup>-3</sup>⋅A<sup>-2</sup>"
+
+[dimensions]
+length = 3
+mass = 1
+time = -3
+electric_current = -2
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAOHM_METER]
+multiplier = "1.0_E24"
+symbol = "YΩ·m"
+singular = "yottaohm meter"
+plural = "yottaohm meters"
+
+[units.ZETTAOHM_METER]
+multiplier = "1.0_E21"
+symbol = "ZΩ·m"
+singular = "zettaohm meter"
+plural = "zettaohm meters"
+
+[units.EXAOHM_METER]
+multiplier = "1.0_E18"
+symbol = "EΩ·m"
+singular = "exaohm meter"
+plural = "exaohm meters"
+
+[units.PETAOHM_METER]
+multiplier = "1.0_E15"
+symbol = "PΩ·m"
+singular = "petaohm meter"
+plural = "petaohm meters"
+
+[units.TERAOHM_METER]
+multiplier = "1.0_E12"
+symbol = "TΩ·m"
+singular = "teraohm meter"
+plural = "teraohm meters"
+
+[units.GIGAOHM_METER]
+multiplier = "1.0_E9"
+symbol = "GΩ·m"
+singular = "gigaohm meter"
+plural = "gigaohm meters"
+
+[units.MEGAOHM_METER]
+multiplier = "1.0_E6"
+symbol = "MΩ·m"
+singular = "megaohm meter"
+plural = "megaohm meters"
+
+[units.KILOOHM_METER]
+multiplier = "1.0_E3"
+symbol = "kΩ·m"
+singular = "kiloohm meter"
+plural = "kiloohm meters"
+
+[units.HECTOOHM_METER]
+multiplier = "1.0_E2"
+symbol = "hΩ·m"
+singular = "hectoohm meter"
+plural = "hectoohm meters"
+
+[units.DECAOHM_METER]
+multiplier = "1.0E1"
+symbol = "daΩ·m"
+singular = "decaohm meter"
+plural = "decaohm meters"
+
+[units.OHM_METER]
+multiplier = "1.0E0"
+symbol = "Ω·m"
+singular = "ohm meter"
+plural = "ohm meters"
+
+[units.DECIOHM_METER]
+multiplier = "1.0E-1"
+symbol = "dΩ·m"
+singular = "deciohm meter"
+plural = "deciohm meters"
+
+[units.CENTIOHM_METER]
+multiplier = "1.0E-2"
+symbol = "cΩ·m"
+singular = "centiohm meter"
+plural = "centiohm meters"
+
+[units.MILLIOHM_METER]
+multiplier = "1.0E-3"
+symbol = "mΩ·m"
+singular = "milliohm meter"
+plural = "milliohm meters"
+
+[units.MICROOHM_METER]
+multiplier = "1.0E-6"
+symbol = "µΩ·m"
+singular = "microohm meter"
+plural = "microohm meters"
+
+[units.NANOOHM_METER]
+multiplier = "1.0E-9"
+symbol = "nΩ·m"
+singular = "nanoohm meter"
+plural = "nanoohm meters"
+
+[units.PICOOHM_METER]
+multiplier = "1.0E-12"
+symbol = "pΩ·m"
+singular = "picoohm meter"
+plural = "picoohm meters"
+
+[units.FEMTOOHM_METER]
+multiplier = "1.0E-15"
+symbol = "fΩ·m"
+singular = "femtoohm meter"
+plural = "femtoohm meters"
+
+[units.ATTOOHM_METER]
+multiplier = "1.0E-18"
+symbol = "aΩ·m"
+singular = "attoohm meter"
+plural = "attoohm meters"
+
+[units.ZEPTOOHM_METER]
+multiplier = "1.0E-21"
+symbol = "zΩ·m"
+singular = "zeptoohm meter"
+plural = "zeptoohm meters"
+
+[units.YOCTOOHM_METER]
+multiplier = "1.0E-24"
+symbol = "yΩ·m"
+singular = "yoctoohm meter"
+plural = "yoctoohm meters"
+
+[units.ABOHM_METER]
+multiplier = "1.0_E-9"
+symbol = "abΩ·m"
+singular = "abohm meter"
+plural = "abohm meters"
+
+[units.STATOHM_METER]
+multiplier = "8.987_552_917_115_481_E11"
+symbol = "statΩ·m"
+singular = "statohm meter"
+plural = "statohm meters"
+
+[units.OHM_CENTIMETER]
+multiplier = "1.0_E-2"
+symbol = "Ω·cm"
+singular = "ohm centimeter"
+plural = "ohm centimeters"
+
+[units.ABOHM_CENTIMETER]
+multiplier = "1.0_E-11"
+symbol = "abΩ·cm"
+singular = "abohm centimeter"
+plural = "abohm centimeters"
+
+[units.STATOHM_CENTIMETER]
+multiplier = "8.9875529171155_E+9"
+symbol = "statΩ·cm"
+singular = "statohm centimeter"
+plural = "statohm centimeters"
+
+[units.OHM_INCH]
+multiplier = "2.54_E-2"
+symbol = "Ω·in"
+singular = "ohm inch"
+plural = "ohm inches"
+
+[units.OHM_FOOT]
+multiplier = "3.048_E-1"
+symbol = "Ω·ft"
+singular = "ohm foot"
+plural = "ohm feet"
+
+[units.OHM_YARD]
+multiplier = "9.144_E-1"
+symbol = "Ω·yd"
+singular = "ohm yard"
+plural = "ohm yards"
+
+[units.OHM_SQUARE_MILLIMETER_PER_METER]
+multiplier = "1.0_E-6"
+symbol = "Ω·mm²/m"
+singular = "ohm square millimeter per meter"
+plural = "ohm square millimeters per meter"
+

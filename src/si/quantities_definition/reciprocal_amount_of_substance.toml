@@ -1,0 +1,31 @@
+name = "Reciprocal amount of substance"
+symbol = "ReciprocalAmountOfSubstance"
+snake_case_name = "reciprocal_amount_of_substance"
+short_dim_formula = "N<sup>-1</sup>"
+long_dim_formula = "Amount of substance<sup>-1</sup>"
+units_formula = "mol<sup>-1</sup>"
+
+[dimensions]
+length = 0
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = -1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.RECIPROCAL_MOLE]
+multiplier = "1.0E0"
+symbol = "mol⁻¹"
+singular = "reciprocal mole"
+plural = "reciprocal moles"
+
+[units.AVOGADRO_CONSTANT]
+multiplier = "6.022_140_76_E23"
+symbol = "Nᴀ"
+singular = "Avogadro constant"
+plural = "Avogadro constants"
+

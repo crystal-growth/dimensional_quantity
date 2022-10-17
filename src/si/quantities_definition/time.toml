@@ -1,0 +1,205 @@
+name = "Time"
+symbol = "Time"
+snake_case_name = "time"
+short_dim_formula = "T"
+long_dim_formula = "Time"
+units_formula = "s"
+
+[dimensions]
+length = 0
+mass = 0
+time = 1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTASECOND]
+multiplier = "1.0_E24"
+symbol = "Ys"
+singular = "yottasecond"
+plural = "yottaseconds"
+
+[units.ZETTASECOND]
+multiplier = "1.0_E21"
+symbol = "Zs"
+singular = "zettasecond"
+plural = "zettaseconds"
+
+[units.EXASECOND]
+multiplier = "1.0_E18"
+symbol = "Es"
+singular = "exasecond"
+plural = "exaseconds"
+
+[units.PETASECOND]
+multiplier = "1.0_E15"
+symbol = "Ps"
+singular = "petasecond"
+plural = "petaseconds"
+
+[units.TERASECOND]
+multiplier = "1.0_E12"
+symbol = "Ts"
+singular = "terasecond"
+plural = "teraseconds"
+
+[units.GIGASECOND]
+multiplier = "1.0_E9"
+symbol = "Gs"
+singular = "gigasecond"
+plural = "gigaseconds"
+
+[units.MEGASECOND]
+multiplier = "1.0_E6"
+symbol = "Ms"
+singular = "megasecond"
+plural = "megaseconds"
+
+[units.KILOSECOND]
+multiplier = "1.0_E3"
+symbol = "ks"
+singular = "kilosecond"
+plural = "kiloseconds"
+
+[units.HECTOSECOND]
+multiplier = "1.0_E2"
+symbol = "hs"
+singular = "hectosecond"
+plural = "hectoseconds"
+
+[units.DECASECOND]
+multiplier = "1.0E1"
+symbol = "das"
+singular = "decasecond"
+plural = "decaseconds"
+
+[units.SECOND]
+multiplier = "1.0E0"
+symbol = "s"
+singular = "second"
+plural = "seconds"
+
+[units.DECISECOND]
+multiplier = "1.0E-1"
+symbol = "ds"
+singular = "decisecond"
+plural = "deciseconds"
+
+[units.CENTISECOND]
+multiplier = "1.0E-2"
+symbol = "cs"
+singular = "centisecond"
+plural = "centiseconds"
+
+[units.MILLISECOND]
+multiplier = "1.0E-3"
+symbol = "ms"
+singular = "millisecond"
+plural = "milliseconds"
+
+[units.MICROSECOND]
+multiplier = "1.0E-6"
+symbol = "µs"
+singular = "microsecond"
+plural = "microseconds"
+
+[units.NANOSECOND]
+multiplier = "1.0E-9"
+symbol = "ns"
+singular = "nanosecond"
+plural = "nanoseconds"
+
+[units.PICOSECOND]
+multiplier = "1.0E-12"
+symbol = "ps"
+singular = "picosecond"
+plural = "picoseconds"
+
+[units.FEMTOSECOND]
+multiplier = "1.0E-15"
+symbol = "fs"
+singular = "femtosecond"
+plural = "femtoseconds"
+
+[units.ATTOSECOND]
+multiplier = "1.0E-18"
+symbol = "as"
+singular = "attosecond"
+plural = "attoseconds"
+
+[units.ZEPTOSECOND]
+multiplier = "1.0E-21"
+symbol = "zs"
+singular = "zeptosecond"
+plural = "zeptoseconds"
+
+[units.YOCTOSECOND]
+multiplier = "1.0E-24"
+symbol = "ys"
+singular = "yoctosecond"
+plural = "yoctoseconds"
+
+[units.SECOND_SIDEREAL]
+multiplier = "9.972_696_E-1"
+symbol = "s(sidereal)"
+singular = "second (sidereal)"
+plural = "seconds (sidereal)"
+
+[units.DAY]
+multiplier = "8.64_E4"
+symbol = "d"
+singular = "day"
+plural = "days"
+
+[units.DAY_SIDEREAL]
+multiplier = "8.616_409_E4"
+symbol = "d(sidereal)"
+singular = "day (sidereal)"
+plural = "days (sidereal)"
+
+[units.HOUR]
+multiplier = "3.6_E3"
+symbol = "h"
+singular = "hour"
+plural = "hours"
+
+[units.HOUR_SIDEREAL]
+multiplier = "3.590_170_E3"
+symbol = "h(sidereal)"
+singular = "hour (sidereal)"
+plural = "hours (sidereal)"
+
+[units.MINUTE]
+multiplier = "6.0_E1"
+symbol = "min"
+singular = "minute"
+plural = "minutes"
+
+[units.SHAKE]
+multiplier = "1.0_E-8"
+symbol = "10.0ns"
+singular = "shake"
+plural = "shakes"
+
+[units.YEAR]
+multiplier = "3.1536_E7"
+symbol = "a"
+singular = "year"
+plural = "years"
+
+[units.YEAR_SIDEREAL]
+multiplier = "3.155_815_E7"
+symbol = "a(sidereal)"
+singular = "year (sidereal)"
+plural = "years (sidereal)"
+
+[units.YEAR_TROPICAL]
+multiplier = "3.155_693_E7"
+symbol = "a(tropical)"
+singular = "year (tropical)"
+plural = "years (tropical)"
+

@@ -1,0 +1,175 @@
+name = "Electric current"
+symbol = "ElectricCurrent"
+snake_case_name = "electric_current"
+short_dim_formula = "I"
+long_dim_formula = "Electric current"
+units_formula = "A"
+
+[dimensions]
+length = 0
+mass = 0
+time = 0
+electric_current = 1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAAMPERE]
+multiplier = "1.0_E24"
+symbol = "YA"
+singular = "yottaampere"
+plural = "yottaamperes"
+
+[units.ZETTAAMPERE]
+multiplier = "1.0_E21"
+symbol = "ZA"
+singular = "zettaampere"
+plural = "zettaamperes"
+
+[units.EXAAMPERE]
+multiplier = "1.0_E18"
+symbol = "EA"
+singular = "exaampere"
+plural = "exaamperes"
+
+[units.PETAAMPERE]
+multiplier = "1.0_E15"
+symbol = "PA"
+singular = "petaampere"
+plural = "petaamperes"
+
+[units.TERAAMPERE]
+multiplier = "1.0_E12"
+symbol = "TA"
+singular = "teraampere"
+plural = "teraamperes"
+
+[units.GIGAAMPERE]
+multiplier = "1.0_E9"
+symbol = "GA"
+singular = "gigaampere"
+plural = "gigaamperes"
+
+[units.MEGAAMPERE]
+multiplier = "1.0_E6"
+symbol = "MA"
+singular = "megaampere"
+plural = "megaamperes"
+
+[units.KILOAMPERE]
+multiplier = "1.0_E3"
+symbol = "kA"
+singular = "kiloampere"
+plural = "kiloamperes"
+
+[units.HECTOAMPERE]
+multiplier = "1.0_E2"
+symbol = "hA"
+singular = "hectoampere"
+plural = "hectoamperes"
+
+[units.DECAAMPERE]
+multiplier = "1.0E1"
+symbol = "daA"
+singular = "decaampere"
+plural = "decaamperes"
+
+[units.AMPERE]
+multiplier = "1.0E0"
+symbol = "A"
+singular = "ampere"
+plural = "amperes"
+
+[units.DECIAMPERE]
+multiplier = "1.0E-1"
+symbol = "dA"
+singular = "deciampere"
+plural = "deciamperes"
+
+[units.CENTIAMPERE]
+multiplier = "1.0E-2"
+symbol = "cA"
+singular = "centiampere"
+plural = "centiamperes"
+
+[units.MILLIAMPERE]
+multiplier = "1.0E-3"
+symbol = "mA"
+singular = "millampere"
+plural = "millamperes"
+
+[units.MICROAMPERE]
+multiplier = "1.0E-6"
+symbol = "µA"
+singular = "microampere"
+plural = "microamperes"
+
+[units.NANOAMPERE]
+multiplier = "1.0E-9"
+symbol = "nA"
+singular = "nanoampere"
+plural = "nanoamperes"
+
+[units.PICOAMPERE]
+multiplier = "1.0E-12"
+symbol = "pA"
+singular = "picoampere"
+plural = "picoamperes"
+
+[units.FEMTOAMPERE]
+multiplier = "1.0E-15"
+symbol = "fA"
+singular = "femtoampere"
+plural = "femtoamperes"
+
+[units.ATTOAMPERE]
+multiplier = "1.0E-18"
+symbol = "aA"
+singular = "attoampere"
+plural = "attoamperes"
+
+[units.ZEPTOAMPERE]
+multiplier = "1.0E-21"
+symbol = "zA"
+singular = "zeptoampere"
+plural = "zeptoamperes"
+
+[units.YOCTOAMPERE]
+multiplier = "1.0E-24"
+symbol = "yA"
+singular = "yoctoampere"
+plural = "yoctoamperes"
+
+[units.ELEMENTARY_CHARGE_PER_SECOND]
+multiplier = "1.602_176_634_E-19"
+symbol = "e/s"
+singular = "elementary charge per second"
+plural = "elementary charges per second"
+
+[units.ATOMIC_UNIT_OF_CHARGE_PER_SECOND]
+multiplier = "1.602_176_634_E-19"
+symbol = "a.u.ofcharge/s"
+singular = "atomic unit of charge per second"
+plural = "atomic units of charge per second"
+
+[units.ABAMPERE]
+multiplier = "1.0_E1"
+symbol = "abA"
+singular = "abampere"
+plural = "abamperes"
+
+[units.GILBERT]
+multiplier = "7.957_747_E-1"
+symbol = "Gi"
+singular = "gilbert"
+plural = "gilberts"
+
+[units.STATAMPERE]
+multiplier = "3.335_641_E-10"
+symbol = "statA"
+singular = "statampere"
+plural = "statamperes"
+

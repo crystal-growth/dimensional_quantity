@@ -1,0 +1,121 @@
+name = "Volumetric number density"
+symbol = "VolumetricNumberDensity"
+snake_case_name = "volumetric_number_density"
+short_dim_formula = "L<sup>-3</sup>"
+long_dim_formula = "Length<sup>-3</sup>"
+units_formula = "m<sup>-3</sup>"
+
+[dimensions]
+length = -3
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.PER_CUBIC_KILOMETER]
+multiplier = "1.0_E-9"
+symbol = "km⁻³"
+singular = "per cubic kilometer"
+plural = "per cubic kilometer"
+
+[units.PER_CUBIC_METER]
+multiplier = "1.0E0"
+symbol = "m⁻³"
+singular = "per cubic meter"
+plural = "per cubic meter"
+
+[units.PER_CUBIC_DECIMETER]
+multiplier = "1.0_E+3"
+symbol = "dm⁻³"
+singular = "per cubic decimeter"
+plural = "per cubic decimeter"
+
+[units.PER_CUBIC_CENTIMETER]
+multiplier = "1.0_E+6"
+symbol = "cm⁻³"
+singular = "per cubic centimeter"
+plural = "per cubic centimeter"
+
+[units.PER_CUBIC_MILLIMETER]
+multiplier = "1.0_E+9"
+symbol = "mm⁻³"
+singular = "per cubic millimeter"
+plural = "per cubic millimeter"
+
+[units.PER_CUBIC_FOOT]
+multiplier = "3.5314662471285_E+1"
+symbol = "ft⁻³"
+singular = "per cubic foot"
+plural = "per cubic foot"
+
+[units.PER_CUBIC_INCH]
+multiplier = "6.1023758990325_E+4"
+symbol = "in⁻³"
+singular = "per cubic inch"
+plural = "per cubic inch"
+
+[units.PER_CUBIC_MILE]
+multiplier = "2.3991274853161_E-10"
+symbol = "mi⁻³"
+singular = "per cubic mile"
+plural = "per cubic mile"
+
+[units.PER_CUBIC_YARD]
+multiplier = "1.3079505474362_E+0"
+symbol = "yd⁻³"
+singular = "per cubic yard"
+plural = "per cubic yard"
+
+[units.PER_FLUID_OUNCE]
+multiplier = "3.3814022201611_E+4"
+symbol = "perfloz"
+singular = "per fluid ounce"
+plural = "per fluid ounce"
+
+[units.PER_FLUID_OUNCE_IMPERIAL]
+multiplier = "3.5195082824588_E+4"
+symbol = "perfloz(UK)"
+singular = "per Imperial fluid ounce"
+plural = "per Imperial fluid ounce"
+
+[units.PER_GALLON_IMPERIAL]
+multiplier = "2.1996924829909_E+2"
+symbol = "pergal(UK)"
+singular = "per Imperial gallon"
+plural = "per Imperial gallon"
+
+[units.PER_GALLON]
+multiplier = "2.6417203728418_E+2"
+symbol = "pergal"
+singular = "per gallon"
+plural = "per gallon"
+
+[units.PER_LITER]
+multiplier = "1.0_E+3"
+symbol = "L⁻¹"
+singular = "per liter"
+plural = "per liter"
+
+[units.PER_DECILITER]
+multiplier = "1.0_E+4"
+symbol = "dL⁻¹"
+singular = "per deciliter"
+plural = "per deciliter"
+
+[units.PER_CENTILITER]
+multiplier = "1.0_E+5"
+symbol = "cL⁻¹"
+singular = "per centiliter"
+plural = "per centiliter"
+
+[units.PER_MILLILITER]
+multiplier = "1.0_E+6"
+symbol = "mL⁻¹"
+singular = "per milliliter"
+plural = "per milliliter"
+

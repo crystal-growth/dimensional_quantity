@@ -1,0 +1,295 @@
+name = "Thermal conductivity"
+symbol = "ThermalConductivity"
+snake_case_name = "thermal_conductivity"
+short_dim_formula = "L⋅M⋅T<sup>-3</sup>⋅`ΔTh`<sup>-1</sup>"
+long_dim_formula = "Length⋅Mass⋅Time<sup>-3</sup>⋅Temperature interval<sup>-1</sup>"
+units_formula = "m⋅kg⋅s<sup>-3</sup>⋅ΔK<sup>-1</sup>"
+
+[dimensions]
+length = 1
+mass = 1
+time = -3
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = -1
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+21"
+symbol = "Yg·m/(s³·K)"
+singular = "yottagram meter per second cubed kelvin"
+plural = "yottagrams meter per second cubed kelvin"
+
+[units.ZETTAGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+18"
+symbol = "Zg·m/(s³·K)"
+singular = "zettagram meter per second cubed kelvin"
+plural = "zettagrams meter per second cubed kelvin"
+
+[units.EXAGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+15"
+symbol = "Eg·m/(s³·K)"
+singular = "exagram meter per second cubed kelvin"
+plural = "exagrams meter per second cubed kelvin"
+
+[units.PETAGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+12"
+symbol = "Pg·m/(s³·K)"
+singular = "petagram meter per second cubed kelvin"
+plural = "petagrams meter per second cubed kelvin"
+
+[units.TERAGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+9"
+symbol = "Tg·m/(s³·K)"
+singular = "teragram meter per second cubed kelvin"
+plural = "teragrams meter per second cubed kelvin"
+
+[units.GIGAGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+6"
+symbol = "Gg·m/(s³·K)"
+singular = "gigagram meter per second cubed kelvin"
+plural = "gigagrams meter per second cubed kelvin"
+
+[units.MEGAGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+3"
+symbol = "Mg·m/(s³·K)"
+singular = "megagram meter per second cubed kelvin"
+plural = "megagrams meter per second cubed kelvin"
+
+[units.KILOGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+0"
+symbol = "kg·m/(s³·K)"
+singular = "kilogram meter per second cubed kelvin"
+plural = "kilograms meter per second cubed kelvin"
+
+[units.HECTOGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-1"
+symbol = "hg·m/(s³·K)"
+singular = "hectogram meter per second cubed kelvin"
+plural = "hectograms meter per second cubed kelvin"
+
+[units.DECAGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-2"
+symbol = "dag·m/(s³·K)"
+singular = "decagram meter per second cubed kelvin"
+plural = "decagrams meter per second cubed kelvin"
+
+[units.GRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-3"
+symbol = "g·m/(s³·K)"
+singular = "gram meter per second cubed kelvin"
+plural = "grams meter per second cubed kelvin"
+
+[units.DECIGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-4"
+symbol = "dg·m/(s³·K)"
+singular = "decigram meter per second cubed kelvin"
+plural = "decigrams meter per second cubed kelvin"
+
+[units.CENTIGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-5"
+symbol = "cg·m/(s³·K)"
+singular = "centigram meter per second cubed kelvin"
+plural = "centigrams meter per second cubed kelvin"
+
+[units.MILLIGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-6"
+symbol = "mg·m/(s³·K)"
+singular = "milligram meter per second cubed kelvin"
+plural = "milligrams meter per second cubed kelvin"
+
+[units.MICROGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-9"
+symbol = "µg·m/(s³·K)"
+singular = "microgram meter per second cubed kelvin"
+plural = "micrograms meter per second cubed kelvin"
+
+[units.NANOGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-12"
+symbol = "ng·m/(s³·K)"
+singular = "nanogram meter per second cubed kelvin"
+plural = "nanograms meter per second cubed kelvin"
+
+[units.PICOGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-15"
+symbol = "pg·m/(s³·K)"
+singular = "picogram meter per second cubed kelvin"
+plural = "picograms meter per second cubed kelvin"
+
+[units.FEMTOGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-18"
+symbol = "fg·m/(s³·K)"
+singular = "femtogram meter per second cubed kelvin"
+plural = "femtograms meter per second cubed kelvin"
+
+[units.ATTOGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-21"
+symbol = "ag·m/(s³·K)"
+singular = "attogram meter per second cubed kelvin"
+plural = "attograms meter per second cubed kelvin"
+
+[units.ZEPTOGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-24"
+symbol = "zg·m/(s³·K)"
+singular = "zeptogram meter per second cubed kelvin"
+plural = "zeptograms meter per second cubed kelvin"
+
+[units.YOCTOGRAM_METER_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-27"
+symbol = "yg·m/(s³·K)"
+singular = "yoctogram meter per second cubed kelvin"
+plural = "yoctograms meter per second cubed kelvin"
+
+[units.YOTTAWATT_PER_METER_KELVIN]
+multiplier = "1.0_E24"
+symbol = "YW/(m·K)"
+singular = "yottawatt per meter kelvin"
+plural = "yottawatts per meter kelvin"
+
+[units.ZETTAWATT_PER_METER_KELVIN]
+multiplier = "1.0_E21"
+symbol = "ZW/(m·K)"
+singular = "zettawatt per meter kelvin"
+plural = "zettawatts per meter kelvin"
+
+[units.EXAWATT_PER_METER_KELVIN]
+multiplier = "1.0_E18"
+symbol = "EW/(m·K)"
+singular = "exawatt per meter kelvin"
+plural = "exawatts per meter kelvin"
+
+[units.PETAWATT_PER_METER_KELVIN]
+multiplier = "1.0_E15"
+symbol = "PW/(m·K)"
+singular = "petawatt per meter kelvin"
+plural = "petawatts per meter kelvin"
+
+[units.TERAWATT_PER_METER_KELVIN]
+multiplier = "1.0_E12"
+symbol = "TW/(m·K)"
+singular = "terawatt per meter kelvin"
+plural = "terawatts per meter kelvin"
+
+[units.GIGAWATT_PER_METER_KELVIN]
+multiplier = "1.0_E9"
+symbol = "GW/(m·K)"
+singular = "gigawatt per meter kelvin"
+plural = "gigawatts per meter kelvin"
+
+[units.MEGAWATT_PER_METER_KELVIN]
+multiplier = "1.0_E6"
+symbol = "MW/(m·K)"
+singular = "megawatt per meter kelvin"
+plural = "megawatts per meter kelvin"
+
+[units.KILOWATT_PER_METER_KELVIN]
+multiplier = "1.0_E3"
+symbol = "kW/(m·K)"
+singular = "kilowatt per meter kelvin"
+plural = "kilowatts per meter kelvin"
+
+[units.HECTOWATT_PER_METER_KELVIN]
+multiplier = "1.0_E2"
+symbol = "hW/(m·K)"
+singular = "hectowatt per meter kelvin"
+plural = "hectowatts per meter kelvin"
+
+[units.DECAWATT_PER_METER_KELVIN]
+multiplier = "1.0E1"
+symbol = "daW/(m·K)"
+singular = "decawatt per meter kelvin"
+plural = "decawatts per meter kelvin"
+
+[units.WATT_PER_METER_KELVIN]
+multiplier = "1.0E0"
+symbol = "W/(m·K)"
+singular = "watt per meter kelvin"
+plural = "watts per meter kelvin"
+
+[units.DECIWATT_PER_METER_KELVIN]
+multiplier = "1.0E-1"
+symbol = "dW/(m·K)"
+singular = "deciwatt per meter kelvin"
+plural = "deciwatts per meter kelvin"
+
+[units.CENTIWATT_PER_METER_KELVIN]
+multiplier = "1.0E-2"
+symbol = "cW/(m·K)"
+singular = "centiwatt per meter kelvin"
+plural = "centiwatts per meter kelvin"
+
+[units.MILLIWATT_PER_METER_KELVIN]
+multiplier = "1.0E-3"
+symbol = "mW/(m·K)"
+singular = "milliwatt per meter kelvin"
+plural = "milliwatts per meter kelvin"
+
+[units.MICROWATT_PER_METER_KELVIN]
+multiplier = "1.0E-6"
+symbol = "µW/(m·K)"
+singular = "microwatt per meter kelvin"
+plural = "microwatts per meter kelvin"
+
+[units.NANOWATT_PER_METER_KELVIN]
+multiplier = "1.0E-9"
+symbol = "nW/(m·K)"
+singular = "nanowatt per meter kelvin"
+plural = "nanowatts per meter kelvin"
+
+[units.PICOWATT_PER_METER_KELVIN]
+multiplier = "1.0E-12"
+symbol = "pW/(m·K)"
+singular = "picowatt per meter kelvin"
+plural = "picowatts per meter kelvin"
+
+[units.FEMTOWATT_PER_METER_KELVIN]
+multiplier = "1.0E-15"
+symbol = "fW/(m·K)"
+singular = "femtowatt per meter kelvin"
+plural = "femtowatts per meter kelvin"
+
+[units.ATTOWATT_PER_METER_KELVIN]
+multiplier = "1.0E-18"
+symbol = "aW/(m·K)"
+singular = "attowatt per meter kelvin"
+plural = "attowatts per meter kelvin"
+
+[units.ZEPTOWATT_PER_METER_KELVIN]
+multiplier = "1.0E-21"
+symbol = "zW/(m·K)"
+singular = "zeptowatt per meter kelvin"
+plural = "zeptowatts per meter kelvin"
+
+[units.YOCTOWATT_PER_METER_KELVIN]
+multiplier = "1.0E-24"
+symbol = "yW/(m·K)"
+singular = "yoctowatt per meter kelvin"
+plural = "yoctowatts per meter kelvin"
+
+[units.KILOGRAM_METER_PER_SECOND_CUBED_DEGREE_CELSIUS]
+multiplier = "1.0_E+0"
+symbol = "kg·m/(s³·°C)"
+singular = "kilogram meter per second cubed degree celsius"
+plural = "kilograms meter per second cubed degree celsius"
+
+[units.KILOWATT_PER_METER_DEGREE_CELSIUS]
+multiplier = "1.0_E3"
+symbol = "kW/(m·°C)"
+singular = "kilowatt per meter degree celsius"
+plural = "kilowatts per meter degree celsius"
+
+[units.WATT_PER_METER_DEGREE_CELSIUS]
+multiplier = "1.0E0"
+symbol = "W/(m·°C)"
+singular = "watt per meter degree celsius"
+plural = "watts per meter degree celsius"
+
+[units.MILLIWATT_PER_METER_DEGREE_CELSIUS]
+multiplier = "1.0E-3"
+symbol = "mW/(m·°C)"
+singular = "milliwatt per meter degree celsius"
+plural = "milliwatts per meter degree celsius"
+

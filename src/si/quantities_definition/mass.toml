@@ -1,0 +1,295 @@
+name = "Mass"
+symbol = "Mass"
+snake_case_name = "mass"
+short_dim_formula = "M"
+long_dim_formula = "Mass"
+units_formula = "kg"
+
+[dimensions]
+length = 0
+mass = 1
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAGRAM]
+multiplier = "1.0_E+21"
+symbol = "Yg"
+singular = "yottagram"
+plural = "yottagrams"
+
+[units.ZETTAGRAM]
+multiplier = "1.0_E+18"
+symbol = "Zg"
+singular = "zettagram"
+plural = "zettagrams"
+
+[units.EXAGRAM]
+multiplier = "1.0_E+15"
+symbol = "Eg"
+singular = "exagram"
+plural = "exagrams"
+
+[units.PETAGRAM]
+multiplier = "1.0_E+12"
+symbol = "Pg"
+singular = "petagram"
+plural = "petagrams"
+
+[units.TERAGRAM]
+multiplier = "1.0_E+9"
+symbol = "Tg"
+singular = "teragram"
+plural = "teragrams"
+
+[units.GIGAGRAM]
+multiplier = "1.0_E+6"
+symbol = "Gg"
+singular = "gigagram"
+plural = "gigagrams"
+
+[units.MEGAGRAM]
+multiplier = "1.0_E+3"
+symbol = "Mg"
+singular = "megagram"
+plural = "megagrams"
+
+[units.KILOGRAM]
+multiplier = "1.0_E+0"
+symbol = "kg"
+singular = "kilogram"
+plural = "kilograms"
+
+[units.HECTOGRAM]
+multiplier = "1.0_E-1"
+symbol = "hg"
+singular = "hectogram"
+plural = "hectograms"
+
+[units.DECAGRAM]
+multiplier = "1.0_E-2"
+symbol = "dag"
+singular = "decagram"
+plural = "decagrams"
+
+[units.GRAM]
+multiplier = "1.0_E-3"
+symbol = "g"
+singular = "gram"
+plural = "grams"
+
+[units.DECIGRAM]
+multiplier = "1.0_E-4"
+symbol = "dg"
+singular = "decigram"
+plural = "decigrams"
+
+[units.CENTIGRAM]
+multiplier = "1.0_E-5"
+symbol = "cg"
+singular = "centigram"
+plural = "centigrams"
+
+[units.MILLIGRAM]
+multiplier = "1.0_E-6"
+symbol = "mg"
+singular = "milligram"
+plural = "milligrams"
+
+[units.MICROGRAM]
+multiplier = "1.0_E-9"
+symbol = "µg"
+singular = "microgram"
+plural = "micrograms"
+
+[units.NANOGRAM]
+multiplier = "1.0_E-12"
+symbol = "ng"
+singular = "nanogram"
+plural = "nanograms"
+
+[units.PICOGRAM]
+multiplier = "1.0_E-15"
+symbol = "pg"
+singular = "picogram"
+plural = "picograms"
+
+[units.FEMTOGRAM]
+multiplier = "1.0_E-18"
+symbol = "fg"
+singular = "femtogram"
+plural = "femtograms"
+
+[units.ATTOGRAM]
+multiplier = "1.0_E-21"
+symbol = "ag"
+singular = "attogram"
+plural = "attograms"
+
+[units.ZEPTOGRAM]
+multiplier = "1.0_E-24"
+symbol = "zg"
+singular = "zeptogram"
+plural = "zeptograms"
+
+[units.YOCTOGRAM]
+multiplier = "1.0_E-27"
+symbol = "yg"
+singular = "yoctogram"
+plural = "yoctograms"
+
+[units.CARAT]
+multiplier = "2.0_E-4"
+symbol = "ct"
+singular = "carat"
+plural = "carats"
+
+[units.DALTON]
+multiplier = "1.660_539_066_60_E-27"
+symbol = "Da"
+singular = "dalton"
+plural = "daltons"
+
+[units.GRAIN]
+multiplier = "6.479_891_E-5"
+symbol = "gr"
+singular = "grain"
+plural = "grains"
+
+[units.HUNDREDWEIGHT_LONG]
+multiplier = "5.080_235_E1"
+symbol = "cwtlong"
+singular = "hundredweight (long)"
+plural = "hundredweight (long)"
+
+[units.HUNDREDWEIGHT_SHORT]
+multiplier = "4.535_924_E1"
+symbol = "cwtshort"
+singular = "hundredweight (short)"
+plural = "hundredweight (short)"
+
+[units.OUNCE]
+multiplier = "2.834_952_E-2"
+symbol = "oz"
+singular = "ounce"
+plural = "ounces"
+
+[units.OUNCE_TROY]
+multiplier = "3.110_348_E-2"
+symbol = "ozt"
+singular = "troy ounce"
+plural = "troy ounces"
+
+[units.PENNYWEIGHT]
+multiplier = "1.555_174_E-3"
+symbol = "dwt"
+singular = "pennyweight"
+plural = "pennyweight"
+
+[units.POUND]
+multiplier = "4.535_924_E-1"
+symbol = "lb"
+singular = "pound"
+plural = "pounds"
+
+[units.POUND_TROY]
+multiplier = "3.732_417_E-1"
+symbol = "lbt"
+singular = "troy pound"
+plural = "troy pounds"
+
+[units.SLUG]
+multiplier = "1.459_390_E1"
+symbol = "slug"
+singular = "slug"
+plural = "slugs"
+
+[units.TON_ASSAY]
+multiplier = "2.916_667_E-2"
+symbol = "AT"
+singular = "assay ton"
+plural = "assay tons"
+
+[units.TON_LONG]
+multiplier = "1.016_047_E3"
+symbol = "2240lb"
+singular = "long ton"
+plural = "long tons"
+
+[units.TON_SHORT]
+multiplier = "9.071_847_E2"
+symbol = "2000lb"
+singular = "short ton"
+plural = "short tons"
+
+[units.TON]
+multiplier = "1.0_E3"
+symbol = "t"
+singular = "ton"
+plural = "tons"
+
+[units.ALPHA_PARTICLE_MASS]
+multiplier = "6.644_657_335_7_E-27"
+symbol = "m(α)"
+singular = "alpha particle mass"
+plural = "alpha particle masses"
+
+[units.DEUTERON_MASS]
+multiplier = "3.343_583_772_4_E-27"
+symbol = "m(deuteron)"
+singular = "deuteron mass"
+plural = "deuteron masses"
+
+[units.ELECTRON_MASS]
+multiplier = "9.109_383_701_5_E-31"
+symbol = "mₑ"
+singular = "electron mass"
+plural = "electron masses"
+
+[units.HELION_MASS]
+multiplier = "5.006_412_779_6_E-27"
+symbol = "m(helion)"
+singular = "helion mass"
+plural = "helion masses"
+
+[units.MUON_MASS]
+multiplier = "1.883_531_627_E-28"
+symbol = "m(muon)"
+singular = "muon mass"
+plural = "muon masses"
+
+[units.NEUTRON_MASS]
+multiplier = "1.674_927_498_04_E-27"
+symbol = "m(neutron)"
+singular = "neutron mass"
+plural = "neutron masses"
+
+[units.PROTON_MASS]
+multiplier = "1.672_621_923_69_E-27"
+symbol = "m(proton)"
+singular = "proton mass"
+plural = "proton masses"
+
+[units.TAU_MASS]
+multiplier = "3.167_54_E-27"
+symbol = "m(τ)"
+singular = "tau mass"
+plural = "tau masses"
+
+[units.TRITON_MASS]
+multiplier = "5.007_356_744_6_E-27"
+symbol = "m(triton)"
+singular = "triton mass"
+plural = "triton masses"
+
+[units.PLANCK_MASS]
+multiplier = "2.176_434_E-8"
+symbol = "m(Planck)"
+singular = "Planck mass"
+plural = "Planck masses"
+

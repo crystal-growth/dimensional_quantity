@@ -1,0 +1,157 @@
+name = "Electric potential"
+symbol = "ElectricPotential"
+snake_case_name = "electric_potential"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-3</sup>⋅I<sup>-1</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-3</sup>⋅Electric current<sup>-1</sup>"
+units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-3</sup>⋅A<sup>-1</sup>"
+
+[dimensions]
+length = 2
+mass = 1
+time = -3
+electric_current = -1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAVOLT]
+multiplier = "1.0_E24"
+symbol = "YV"
+singular = "yottavolt"
+plural = "yottavolts"
+
+[units.ZETTAVOLT]
+multiplier = "1.0_E21"
+symbol = "ZV"
+singular = "zettavolt"
+plural = "zettavolts"
+
+[units.EXAVOLT]
+multiplier = "1.0_E18"
+symbol = "EV"
+singular = "exavolt"
+plural = "exavolts"
+
+[units.PETAVOLT]
+multiplier = "1.0_E15"
+symbol = "PV"
+singular = "petavolt"
+plural = "petavolts"
+
+[units.TERAVOLT]
+multiplier = "1.0_E12"
+symbol = "TV"
+singular = "teravolt"
+plural = "teravolts"
+
+[units.GIGAVOLT]
+multiplier = "1.0_E9"
+symbol = "GV"
+singular = "gigavolt"
+plural = "gigavolts"
+
+[units.MEGAVOLT]
+multiplier = "1.0_E6"
+symbol = "MV"
+singular = "megavolt"
+plural = "megavolts"
+
+[units.KILOVOLT]
+multiplier = "1.0_E3"
+symbol = "kV"
+singular = "kilovolt"
+plural = "kilovolts"
+
+[units.HECTOVOLT]
+multiplier = "1.0_E2"
+symbol = "hV"
+singular = "hectovolt"
+plural = "hectovolts"
+
+[units.DECAVOLT]
+multiplier = "1.0E1"
+symbol = "daV"
+singular = "decavolt"
+plural = "decavolts"
+
+[units.VOLT]
+multiplier = "1.0E0"
+symbol = "V"
+singular = "volt"
+plural = "volts"
+
+[units.DECIVOLT]
+multiplier = "1.0E-1"
+symbol = "dV"
+singular = "decivolt"
+plural = "decivolts"
+
+[units.CENTIVOLT]
+multiplier = "1.0E-2"
+symbol = "cV"
+singular = "centivolt"
+plural = "centivolts"
+
+[units.MILLIVOLT]
+multiplier = "1.0E-3"
+symbol = "mV"
+singular = "millivolt"
+plural = "millivolts"
+
+[units.MICROVOLT]
+multiplier = "1.0E-6"
+symbol = "µV"
+singular = "microvolt"
+plural = "microvolts"
+
+[units.NANOVOLT]
+multiplier = "1.0E-9"
+symbol = "nV"
+singular = "nanovolt"
+plural = "nanovolts"
+
+[units.PICOVOLT]
+multiplier = "1.0E-12"
+symbol = "pV"
+singular = "picovolt"
+plural = "picovolts"
+
+[units.FEMTOVOLT]
+multiplier = "1.0E-15"
+symbol = "fV"
+singular = "femtovolt"
+plural = "femtovolts"
+
+[units.ATTOVOLT]
+multiplier = "1.0E-18"
+symbol = "aV"
+singular = "attovolt"
+plural = "attovolts"
+
+[units.ZEPTOVOLT]
+multiplier = "1.0E-21"
+symbol = "zV"
+singular = "zeptovolt"
+plural = "zeptovolts"
+
+[units.YOCTOVOLT]
+multiplier = "1.0E-24"
+symbol = "yV"
+singular = "yoctovolt"
+plural = "yoctovolts"
+
+[units.ABVOLT]
+multiplier = "1.0_E-8"
+symbol = "abV"
+singular = "abvolt"
+plural = "abvolts"
+
+[units.STATVOLT]
+multiplier = "2.997_925_E2"
+symbol = "statV"
+singular = "statvolt"
+plural = "statvolts"
+

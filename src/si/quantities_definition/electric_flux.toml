@@ -1,0 +1,31 @@
+name = "Electric flux"
+symbol = "ElectricFlux"
+snake_case_name = "electric_flux"
+short_dim_formula = "L<sup>3</sup>⋅M⋅T<sup>-3</sup>⋅I<sup>-1</sup>"
+long_dim_formula = "Length<sup>3</sup>⋅Mass⋅Time<sup>-3</sup>⋅Electric current<sup>-1</sup>"
+units_formula = "m<sup>3</sup>⋅kg⋅s<sup>-3</sup>⋅A<sup>-1</sup>"
+
+[dimensions]
+length = 3
+mass = 1
+time = -3
+electric_current = -1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.VOLT_METER]
+multiplier = "1.0E0"
+symbol = "V⋅m"
+singular = "volt meter"
+plural = "volt meters"
+
+[units.VOLT_CENTIMETER]
+multiplier = "1.0_E-2"
+symbol = "V⋅cm"
+singular = "volt centimeter"
+plural = "volt centimeters"
+

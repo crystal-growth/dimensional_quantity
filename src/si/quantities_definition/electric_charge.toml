@@ -1,0 +1,241 @@
+name = "Electric charge"
+symbol = "ElectricCharge"
+snake_case_name = "electric_charge"
+short_dim_formula = "T⋅I"
+long_dim_formula = "Time⋅Electric current"
+units_formula = "s⋅A"
+
+[dimensions]
+length = 0
+mass = 0
+time = 1
+electric_current = 1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTACOULOMB]
+multiplier = "1.0_E24"
+symbol = "YC"
+singular = "yottacoulomb"
+plural = "yottacoulombs"
+
+[units.ZETTACOULOMB]
+multiplier = "1.0_E21"
+symbol = "ZC"
+singular = "zettacoulomb"
+plural = "zettacoulombs"
+
+[units.EXACOULOMB]
+multiplier = "1.0_E18"
+symbol = "EC"
+singular = "exacoulomb"
+plural = "exacoulombs"
+
+[units.PETACOULOMB]
+multiplier = "1.0_E15"
+symbol = "PC"
+singular = "petacoulomb"
+plural = "petacoulombs"
+
+[units.TERACOULOMB]
+multiplier = "1.0_E12"
+symbol = "TC"
+singular = "teracoulomb"
+plural = "teracoulombs"
+
+[units.GIGACOULOMB]
+multiplier = "1.0_E9"
+symbol = "GC"
+singular = "gigacoulomb"
+plural = "gigacoulombs"
+
+[units.MEGACOULOMB]
+multiplier = "1.0_E6"
+symbol = "MC"
+singular = "megacoulomb"
+plural = "megacoulombs"
+
+[units.KILOCOULOMB]
+multiplier = "1.0_E3"
+symbol = "kC"
+singular = "kilocoulomb"
+plural = "kilocoulombs"
+
+[units.HECTOCOULOMB]
+multiplier = "1.0_E2"
+symbol = "hC"
+singular = "hectocoulomb"
+plural = "hectocoulombs"
+
+[units.DECACOULOMB]
+multiplier = "1.0E1"
+symbol = "daC"
+singular = "decacoulomb"
+plural = "decacoulombs"
+
+[units.COULOMB]
+multiplier = "1.0E0"
+symbol = "C"
+singular = "coulomb"
+plural = "coulombs"
+
+[units.DECICOULOMB]
+multiplier = "1.0E-1"
+symbol = "dC"
+singular = "decicoulomb"
+plural = "decicoulombs"
+
+[units.CENTICOULOMB]
+multiplier = "1.0E-2"
+symbol = "cC"
+singular = "centicoulomb"
+plural = "centicoulombs"
+
+[units.MILLICOULOMB]
+multiplier = "1.0E-3"
+symbol = "mC"
+singular = "millcoulomb"
+plural = "millcoulombs"
+
+[units.MICROCOULOMB]
+multiplier = "1.0E-6"
+symbol = "µC"
+singular = "microcoulomb"
+plural = "microcoulombs"
+
+[units.NANOCOULOMB]
+multiplier = "1.0E-9"
+symbol = "nC"
+singular = "nanocoulomb"
+plural = "nanocoulombs"
+
+[units.PICOCOULOMB]
+multiplier = "1.0E-12"
+symbol = "pC"
+singular = "picocoulomb"
+plural = "picocoulombs"
+
+[units.FEMTOCOULOMB]
+multiplier = "1.0E-15"
+symbol = "fC"
+singular = "femtocoulomb"
+plural = "femtocoulombs"
+
+[units.ATTOCOULOMB]
+multiplier = "1.0E-18"
+symbol = "aC"
+singular = "attocoulomb"
+plural = "attocoulombs"
+
+[units.ZEPTOCOULOMB]
+multiplier = "1.0E-21"
+symbol = "zC"
+singular = "zeptocoulomb"
+plural = "zeptocoulombs"
+
+[units.YOCTOCOULOMB]
+multiplier = "1.0E-24"
+symbol = "yC"
+singular = "yoctocoulomb"
+plural = "yoctocoulombs"
+
+[units.PETAAMPERE_HOUR]
+multiplier = "3.6_E18"
+symbol = "PA·h"
+singular = "petaampere hour"
+plural = "petaampere hours"
+
+[units.TERAAMPERE_HOUR]
+multiplier = "3.6_E15"
+symbol = "TA·h"
+singular = "teraampere hour"
+plural = "teraampere hours"
+
+[units.GIGAAMPERE_HOUR]
+multiplier = "3.6_E12"
+symbol = "GA·h"
+singular = "gigaampere hour"
+plural = "gigaampere hours"
+
+[units.MEGAAMPERE_HOUR]
+multiplier = "3.6_E9"
+symbol = "MA·h"
+singular = "megaampere hour"
+plural = "megaampere hours"
+
+[units.KILOAMPERE_HOUR]
+multiplier = "3.6_E6"
+symbol = "kA·h"
+singular = "kiloampere hour"
+plural = "kiloampere hours"
+
+[units.HECTOAMPERE_HOUR]
+multiplier = "3.6_E5"
+symbol = "hA·h"
+singular = "hectoampere hour"
+plural = "hectoampere hours"
+
+[units.DECAAMPERE_HOUR]
+multiplier = "3.6_E4"
+symbol = "daA·h"
+singular = "decaampere hour"
+plural = "decaampere hours"
+
+[units.AMPERE_HOUR]
+multiplier = "3.6_E3"
+symbol = "A·h"
+singular = "ampere hour"
+plural = "ampere hours"
+
+[units.MILLIAMPERE_HOUR]
+multiplier = "3.6_E0"
+symbol = "mA·h"
+singular = "milliampere hour"
+plural = "milliampere hours"
+
+[units.MICROAMPERE_HOUR]
+multiplier = "3.6_E-3"
+symbol = "µA·h"
+singular = "microampere hour"
+plural = "microampere hours"
+
+[units.ELEMENTARY_CHARGE]
+multiplier = "1.602_176_634_E-19"
+symbol = "e"
+singular = "elementary charge"
+plural = "elementary charges"
+
+[units.ATOMIC_UNIT_OF_CHARGE]
+multiplier = "1.602_176_634_E-19"
+symbol = "a.u.ofcharge"
+singular = "atomic unit of charge"
+plural = "atomic units of charge"
+
+[units.ABCOULOMB]
+multiplier = "1.0_E1"
+symbol = "abC"
+singular = "abcoulomb"
+plural = "abcoulombs"
+
+[units.FARADAY]
+multiplier = "9.648_531_E4"
+symbol = "F"
+singular = "faraday"
+plural = "faradays"
+
+[units.FRANKLIN]
+multiplier = "3.335_641_E-10"
+symbol = "Fr"
+singular = "franklin"
+plural = "franklins"
+
+[units.STATCOULOMB]
+multiplier = "3.335_641_E-10"
+symbol = "statC"
+singular = "statcoulomb"
+plural = "statcoulombs"
+

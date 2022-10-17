@@ -1,0 +1,27 @@
+name = "Electric field gradient"
+symbol = "ElectricFieldGradient"
+snake_case_name = "electric_field_gradient"
+short_dim_formula = "M⋅T<sup>-3</sup>⋅I<sup>-1</sup>"
+long_dim_formula = "Mass⋅Time<sup>-3</sup>⋅Electric current<sup>-1</sup>"
+units_formula = "kg⋅s<sup>-3</sup>⋅A<sup>-1</sup>"
+
+[dimensions]
+length = 0
+mass = 1
+time = -3
+electric_current = -1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.VOLT_PER_SQUARE_METER]
+multiplier = "1.0E0"
+symbol = "V/m<sup>2</sup>"
+singular = "volt per square meter"
+plural = "volts per square meter"
+
+
+

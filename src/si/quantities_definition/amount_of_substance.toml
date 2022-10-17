@@ -1,0 +1,175 @@
+name = "Amount of substance"
+symbol = "AmountOfSubstance"
+snake_case_name = "amount_of_substance"
+short_dim_formula = "N"
+long_dim_formula = "Amount of substance"
+units_formula = "mol"
+
+[dimensions]
+length = 0
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAMOLE]
+multiplier = "1.0_E24"
+symbol = "Ymol"
+singular = "yottamole"
+plural = "yottamoles"
+
+[units.ZETTAMOLE]
+multiplier = "1.0_E21"
+symbol = "Zmol"
+singular = "zettamole"
+plural = "zettamoles"
+
+[units.EXAMOLE]
+multiplier = "1.0_E18"
+symbol = "Emol"
+singular = "examole"
+plural = "examoles"
+
+[units.PETAMOLE]
+multiplier = "1.0_E15"
+symbol = "Pmol"
+singular = "petamole"
+plural = "petamoles"
+
+[units.TERAMOLE]
+multiplier = "1.0_E12"
+symbol = "Tmol"
+singular = "teramole"
+plural = "teramoles"
+
+[units.GIGAMOLE]
+multiplier = "1.0_E9"
+symbol = "Gmol"
+singular = "gigamole"
+plural = "gigamoles"
+
+[units.MEGAMOLE]
+multiplier = "1.0_E6"
+symbol = "Mmol"
+singular = "megamole"
+plural = "megamoles"
+
+[units.KILOMOLE]
+multiplier = "1.0_E3"
+symbol = "kmol"
+singular = "kilomole"
+plural = "kilomoles"
+
+[units.HECTOMOLE]
+multiplier = "1.0_E2"
+symbol = "hmol"
+singular = "hectomole"
+plural = "hectomoles"
+
+[units.DECAMOLE]
+multiplier = "1.0E1"
+symbol = "damol"
+singular = "decamole"
+plural = "decamoles"
+
+[units.MOLE]
+multiplier = "1.0E0"
+symbol = "mol"
+singular = "mole"
+plural = "moles"
+
+[units.DECIMOLE]
+multiplier = "1.0E-1"
+symbol = "dmol"
+singular = "decimole"
+plural = "decimoles"
+
+[units.CENTIMOLE]
+multiplier = "1.0E-2"
+symbol = "cmol"
+singular = "centimole"
+plural = "centimoles"
+
+[units.MILLIMOLE]
+multiplier = "1.0E-3"
+symbol = "mmol"
+singular = "millimole"
+plural = "millimoles"
+
+[units.MICROMOLE]
+multiplier = "1.0E-6"
+symbol = "µmol"
+singular = "micromole"
+plural = "micromoles"
+
+[units.NANOMOLE]
+multiplier = "1.0E-9"
+symbol = "nmol"
+singular = "nanomole"
+plural = "nanomoles"
+
+[units.PICOMOLE]
+multiplier = "1.0E-12"
+symbol = "pmol"
+singular = "picomole"
+plural = "picomoles"
+
+[units.FEMTOMOLE]
+multiplier = "1.0E-15"
+symbol = "fmol"
+singular = "femtomole"
+plural = "femtomoles"
+
+[units.ATTOMOLE]
+multiplier = "1.0E-18"
+symbol = "amol"
+singular = "attomole"
+plural = "attomoles"
+
+[units.ZEPTOMOLE]
+multiplier = "1.0E-21"
+symbol = "zmol"
+singular = "zeptomole"
+plural = "zeptomoles"
+
+[units.YOCTOMOLE]
+multiplier = "1.0E-24"
+symbol = "ymol"
+singular = "yoctomole"
+plural = "yoctomoles"
+
+[units.PARTICLE]
+multiplier = "1.6605390671738_E-24"
+symbol = "particle"
+singular = "particle"
+plural = "particles"
+
+[units.STANDARD_CUBIC_METER]
+multiplier = "4.4031614513982_E+1"
+symbol = "m³(STP)"
+singular = "standard cubic meter"
+plural = "standard cubic meters"
+
+[units.STANDARD_LITER]
+multiplier = "4.4031614513982_E-2"
+symbol = "L(STP)"
+singular = "standard liter"
+plural = "standard liters"
+
+[units.STANDARD_CENTIMETER]
+multiplier = "4.4031614513982_E-5"
+symbol = "cm³(STP)"
+singular = "standard cubic centimeter"
+plural = "standard cubic centimeters"
+
+[units.STANDARD_CUBIC_FOOT]
+multiplier = "1.2468366234503_E+0"
+symbol = "scf"
+singular = "standard cubic foot"
+plural = "standard cubic feet"
+

@@ -1,0 +1,163 @@
+name = "Temperature interval"
+symbol = "TemperatureInterval"
+snake_case_name = "temperature_interval"
+short_dim_formula = "`ΔTh`"
+long_dim_formula = "Temperature interval"
+units_formula = "ΔK"
+
+[dimensions]
+length = 0
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 1
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAKELVIN]
+multiplier = "1.0_E24"
+symbol = "YK"
+singular = "yottakelvin"
+plural = "yottakelvins"
+
+[units.ZETTAKELVIN]
+multiplier = "1.0_E21"
+symbol = "ZK"
+singular = "zettakelvin"
+plural = "zettakelvins"
+
+[units.EXAKELVIN]
+multiplier = "1.0_E18"
+symbol = "EK"
+singular = "exakelvin"
+plural = "exakelvins"
+
+[units.PETAKELVIN]
+multiplier = "1.0_E15"
+symbol = "PK"
+singular = "petakelvin"
+plural = "petakelvins"
+
+[units.TERAKELVIN]
+multiplier = "1.0_E12"
+symbol = "TK"
+singular = "terakelvin"
+plural = "terakelvins"
+
+[units.GIGAKELVIN]
+multiplier = "1.0_E9"
+symbol = "GK"
+singular = "gigakelvin"
+plural = "gigakelvins"
+
+[units.MEGAKELVIN]
+multiplier = "1.0_E6"
+symbol = "MK"
+singular = "megakelvin"
+plural = "megakelvins"
+
+[units.KILOKELVIN]
+multiplier = "1.0_E3"
+symbol = "kK"
+singular = "kilokelvin"
+plural = "kilokelvins"
+
+[units.HECTOKELVIN]
+multiplier = "1.0_E2"
+symbol = "hK"
+singular = "hectokelvin"
+plural = "hectokelvins"
+
+[units.DECAKELVIN]
+multiplier = "1.0E1"
+symbol = "daK"
+singular = "decakelvin"
+plural = "decakelvins"
+
+[units.KELVIN]
+multiplier = "1.0E0"
+symbol = "K"
+singular = "kelvin"
+plural = "kelvins"
+
+[units.DECIKELVIN]
+multiplier = "1.0E-1"
+symbol = "dK"
+singular = "decikelvin"
+plural = "decikelvins"
+
+[units.CENTIKELVIN]
+multiplier = "1.0E-2"
+symbol = "cK"
+singular = "centikelvin"
+plural = "centikelvins"
+
+[units.MILLIKELVIN]
+multiplier = "1.0E-3"
+symbol = "mK"
+singular = "millikelvin"
+plural = "millikelvins"
+
+[units.MICROKELVIN]
+multiplier = "1.0E-6"
+symbol = "µK"
+singular = "microkelvin"
+plural = "microkelvins"
+
+[units.NANOKELVIN]
+multiplier = "1.0E-9"
+symbol = "nK"
+singular = "nanokelvin"
+plural = "nanokelvins"
+
+[units.PICOKELVIN]
+multiplier = "1.0E-12"
+symbol = "pK"
+singular = "picokelvin"
+plural = "picokelvins"
+
+[units.FEMTOKELVIN]
+multiplier = "1.0E-15"
+symbol = "fK"
+singular = "femtokelvin"
+plural = "femtokelvins"
+
+[units.ATTOKELVIN]
+multiplier = "1.0E-18"
+symbol = "aK"
+singular = "attokelvin"
+plural = "attokelvins"
+
+[units.ZEPTOKELVIN]
+multiplier = "1.0E-21"
+symbol = "zK"
+singular = "zeptokelvin"
+plural = "zeptokelvins"
+
+[units.YOCTOKELVIN]
+multiplier = "1.0E-24"
+symbol = "yK"
+singular = "yoctokelvin"
+plural = "yoctokelvins"
+
+[units.DEGREE_CELSIUS]
+multiplier = "1.0_E0"
+symbol = "°C"
+singular = "degree Celsius"
+plural = "degrees Celsius"
+
+[units.DEGREE_FAHRENHEIT]
+multiplier = "5.5555555555556_E-1"
+symbol = "°F"
+singular = "degree Fahrenheit"
+plural = "degrees Fahrenheit"
+
+[units.DEGREE_RANKINE]
+multiplier = "5.5555555555556_E-1"
+symbol = "°R"
+singular = "degree Rankine"
+plural = "degrees Rankine"
+

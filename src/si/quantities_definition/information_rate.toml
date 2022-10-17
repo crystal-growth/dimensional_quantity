@@ -1,0 +1,35 @@
+name = "Information rate"
+symbol = "InformationRate"
+snake_case_name = "information_rate"
+short_dim_formula = "T<sup>-1</sup>⋅In"
+long_dim_formula = "Time<sup>-1</sup>⋅Information"
+units_formula = "s<sup>-1</sup>⋅B"
+
+[dimensions]
+length = 0
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 1
+
+
+
+[units.BIT_PER_SECOND]
+multiplier = "1.0_E-1"
+symbol = "b/s"
+singular = "bit per second"
+plural = "bits per second"
+
+
+
+[units.BYTE_PER_SECOND]
+multiplier = "8.0E0"
+symbol = "B/s"
+singular = "byte per second"
+plural = "bytes per second"
+

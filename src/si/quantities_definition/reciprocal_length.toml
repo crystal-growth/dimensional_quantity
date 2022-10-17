@@ -1,0 +1,79 @@
+name = "Reciprocal length"
+symbol = "ReciprocalLength"
+snake_case_name = "reciprocal_length"
+short_dim_formula = "L<sup>-1</sup>"
+long_dim_formula = "Length<sup>-1</sup>"
+units_formula = "m<sup>-1</sup>"
+
+[dimensions]
+length = -1
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.RECIPROCAL_KILOMETER]
+multiplier = "1.0_E-3"
+symbol = "km⁻¹"
+singular = "reciprocal kilometer"
+plural = "reciprocal kilometers"
+
+[units.RECIPROCAL_METER]
+multiplier = "1.0E0"
+symbol = "m⁻¹"
+singular = "reciprocal meter"
+plural = "reciprocal meters"
+
+[units.RECIPROCAL_DECIMETER]
+multiplier = "1.0_E+1"
+symbol = "dm⁻¹"
+singular = "reciprocal decimeter"
+plural = "reciprocal decimeters"
+
+[units.RECIPROCAL_CENTIMETER]
+multiplier = "1.0_E+2"
+symbol = "cm⁻¹"
+singular = "reciprocal centimeter"
+plural = "reciprocal centimeters"
+
+[units.RECIPROCAL_MILLIMETER]
+multiplier = "1.0_E+3"
+symbol = "mm⁻¹"
+singular = "reciprocal millimeter"
+plural = "reciprocal millimeters"
+
+[units.RECIPROCAL_MICROMETER]
+multiplier = "1.0_E+6"
+symbol = "µm⁻¹"
+singular = "reciprocal micrometer"
+plural = "reciprocal micrometers"
+
+[units.RECIPROCAL_NANOMETER]
+multiplier = "1.0_E+9"
+symbol = "nm⁻¹"
+singular = "reciprocal nanometer"
+plural = "reciprocal nanometers"
+
+[units.RECIPROCAL_ANGSTROM]
+multiplier = "1.0_E+10"
+symbol = "Å⁻¹"
+singular = "reciprocal ångström"
+plural = "reciprocal ångströms"
+
+[units.DIOPTER]
+multiplier = "1.0E0"
+symbol = "dpt"
+singular = "diopter"
+plural = "diopters"
+
+[units.RYDBERG_CONSTANT]
+multiplier = "10_973_731.568_160"
+symbol = "R∞"
+singular = "Rydberg constant"
+plural = "Rydberg constants"
+

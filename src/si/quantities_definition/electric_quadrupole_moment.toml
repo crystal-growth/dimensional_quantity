@@ -1,0 +1,37 @@
+name = "Electric quadrupole moment"
+symbol = "ElectricQuadrupoleMoment"
+snake_case_name = "electric_quadrupole_moment"
+short_dim_formula = "L<sup>2</sup>⋅T⋅I"
+long_dim_formula = "Length<sup>2</sup>⋅Time⋅Electric current"
+units_formula = "m<sup>2</sup>⋅s⋅A"
+
+[dimensions]
+length = 2
+mass = 0
+time = 1
+electric_current = 1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.COULOMB_SQUARE_METER]
+multiplier = "1.0E0"
+symbol = "C·m²"
+singular = "coulomb square meter"
+plural = "coulomb square meters"
+
+[units.ELEMENTARY_CHARGE_BARN]
+multiplier = "1.602176634_E-47"
+symbol = "e·b"
+singular = "elementary charge barn"
+plural = "elementary charge barns"
+
+[units.ATOMIC_UNIT_OF_ELECTRIC_QUADRUPOLE_MOMENT]
+multiplier = "4.486_551_524_613_E-40"
+symbol = "e·a₀²"
+singular = "atomic unit of electric quadrupole moment"
+plural = "atomic units of electric quadrupole moment"
+

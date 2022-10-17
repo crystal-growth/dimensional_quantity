@@ -1,0 +1,91 @@
+name = "Dynamic viscosity"
+symbol = "DynamicViscosity"
+snake_case_name = "dynamic_viscosity"
+short_dim_formula = "L<sup>-1</sup>⋅M⋅T<sup>-1</sup>"
+long_dim_formula = "Length<sup>-1</sup>⋅Mass⋅Time<sup>-1</sup>"
+units_formula = "m<sup>-1</sup>⋅kg⋅s<sup>-1</sup>"
+
+[dimensions]
+length = -1
+mass = 1
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.PASCAL_SECOND]
+multiplier = "1.0E0"
+symbol = "Pa·s"
+singular = "pascal second"
+plural = "pascal seconds"
+
+[units.MILLIPASCAL_SECOND]
+multiplier = "1.0E-3"
+symbol = "mPa·s"
+singular = "millipascal second"
+plural = "millipascal seconds"
+
+[units.MICROPASCAL_SECOND]
+multiplier = "1.0E-6"
+symbol = "µPa·s"
+singular = "micropascal second"
+plural = "micropascal seconds"
+
+[units.POISE]
+multiplier = "1.0_E-1"
+symbol = "P"
+singular = "poise"
+plural = "poises"
+
+[units.CENTIPOISE]
+multiplier = "1.0_E-3"
+symbol = "cP"
+singular = "centipoise"
+plural = "centipoises"
+
+[units.POUND_FORCE_SECOND_PER_SQUARE_FOOT]
+multiplier = "4.7880263121637_E+1"
+symbol = "lbf·s/ft²"
+singular = "pound-force second per square foot"
+plural = "pound-force seconds per square foot"
+
+[units.POUND_FORCE_SECOND_PER_SQUARE_INCH]
+multiplier = "6.8947578895158_E+3"
+symbol = "lbf·s/in²"
+singular = "pound-force second per square inch"
+plural = "pound-force seconds per square inch"
+
+[units.REYN]
+multiplier = "6.8947578895158_E+3"
+symbol = "reyn"
+singular = "reyn"
+plural = "reyns"
+
+[units.POUND_PER_FOOT_SECOND]
+multiplier = "1.4881640419948_E+0"
+symbol = "lb/(ft·s)"
+singular = "pound per foot second"
+plural = "pounds per foot second"
+
+[units.POUND_PER_FOOT_HOUR]
+multiplier = "4.133789005541_E-4"
+symbol = "lb/(ft·h)"
+singular = "pound per foot hour"
+plural = "pounds per foot hour"
+
+[units.SLUG_PER_FOOT_SECOND]
+multiplier = "4.7880249343832_E+1"
+symbol = "slug/(ft·s)"
+singular = "slug per foot second"
+plural = "slugs per foot second"
+
+[units.GRAM_PER_CENTIMETER_SECOND]
+multiplier = "1.0_E-1"
+symbol = "g/(cm·s)"
+singular = "gram per centimeter second"
+plural = "grams per centimeter second"
+

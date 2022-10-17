@@ -1,0 +1,163 @@
+name = "Absement"
+symbol = "Absement"
+snake_case_name = "absement"
+short_dim_formula = "L⋅T"
+long_dim_formula = "Length⋅Time"
+units_formula = "m⋅s"
+
+[dimensions]
+length = 1
+mass = 0
+time = 1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAMETER_SECOND]
+multiplier = "1.0_E24"
+symbol = "Ym·s"
+singular = "yottameter second"
+plural = "yottameter seconds"
+
+[units.ZETTAMETER_SECOND]
+multiplier = "1.0_E21"
+symbol = "Zm·s"
+singular = "zettameter second"
+plural = "zettameter seconds"
+
+[units.EXAMETER_SECOND]
+multiplier = "1.0_E18"
+symbol = "Em·s"
+singular = "exameter second"
+plural = "exameter seconds"
+
+[units.PETAMETER_SECOND]
+multiplier = "1.0_E15"
+symbol = "Pm·s"
+singular = "petameter second"
+plural = "petameter seconds"
+
+[units.TERAMETER_SECOND]
+multiplier = "1.0_E12"
+symbol = "Tm·s"
+singular = "terameter second"
+plural = "terameter seconds"
+
+[units.GIGAMETER_SECOND]
+multiplier = "1.0_E9"
+symbol = "Gm·s"
+singular = "gigameter second"
+plural = "gigameter seconds"
+
+[units.MEGAMETER_SECOND]
+multiplier = "1.0_E6"
+symbol = "Mm·s"
+singular = "megameter second"
+plural = "megameter seconds"
+
+[units.KILOMETER_SECOND]
+multiplier = "1.0_E3"
+symbol = "km·s"
+singular = "kilometer second"
+plural = "kilometer seconds"
+
+[units.HECTOMETER_SECOND]
+multiplier = "1.0_E2"
+symbol = "hm·s"
+singular = "hectometer second"
+plural = "hectometer seconds"
+
+[units.DECAMETER_SECOND]
+multiplier = "1.0E1"
+symbol = "dam·s"
+singular = "decameter second"
+plural = "decameter seconds"
+
+[units.METER_SECOND]
+multiplier = "1.0E0"
+symbol = "m·s"
+singular = "meter second"
+plural = "meter seconds"
+
+[units.DECIMETER_SECOND]
+multiplier = "1.0E-1"
+symbol = "dm·s"
+singular = "decimeter second"
+plural = "decimeter seconds"
+
+[units.CENTIMETER_SECOND]
+multiplier = "1.0E-2"
+symbol = "cm·s"
+singular = "centimeter second"
+plural = "centimeter seconds"
+
+[units.MILLIMETER_SECOND]
+multiplier = "1.0E-3"
+symbol = "mm·s"
+singular = "millimeter second"
+plural = "millimeter seconds"
+
+[units.MICROMETER_SECOND]
+multiplier = "1.0E-6"
+symbol = "µm·s"
+singular = "micrometer second"
+plural = "micrometer seconds"
+
+[units.NANOMETER_SECOND]
+multiplier = "1.0E-9"
+symbol = "nm·s"
+singular = "nanometer second"
+plural = "nanometer seconds"
+
+[units.PICOMETER_SECOND]
+multiplier = "1.0E-12"
+symbol = "pm·s"
+singular = "picometer second"
+plural = "picometer seconds"
+
+[units.FEMTOMETER_SECOND]
+multiplier = "1.0E-15"
+symbol = "fm·s"
+singular = "femtometer second"
+plural = "femtometer seconds"
+
+[units.ATTOMETER_SECOND]
+multiplier = "1.0E-18"
+symbol = "am·s"
+singular = "attometer second"
+plural = "attometer seconds"
+
+[units.ZEPTOMETER_SECOND]
+multiplier = "1.0E-21"
+symbol = "zm·s"
+singular = "zeptometer second"
+plural = "zeptometer seconds"
+
+[units.YOCTOMETER_SECOND]
+multiplier = "1.0E-24"
+symbol = "ym·s"
+singular = "yoctometer second"
+plural = "yoctometer seconds"
+
+[units.FOOT_SECOND]
+multiplier = "3.048_E-1"
+symbol = "ft·s"
+singular = "foot second"
+plural = "foot seconds"
+
+[units.INCH_SECOND]
+multiplier = "2.54_E-2"
+symbol = "in·s"
+singular = "inch second"
+plural = "inch seconds"
+
+[units.KILOMETER_HOUR]
+multiplier = "3.6_E6"
+symbol = "km·h"
+singular = "kilometer hour"
+plural = "kilometer hours"
+

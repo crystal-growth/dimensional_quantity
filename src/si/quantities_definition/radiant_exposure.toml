@@ -1,0 +1,277 @@
+name = "Radiant exposure"
+symbol = "RadiantExposure"
+snake_case_name = "radiant_exposure"
+short_dim_formula = "M⋅T<sup>-2</sup>"
+long_dim_formula = "Mass⋅Time<sup>-2</sup>"
+units_formula = "kg⋅s<sup>-2</sup>"
+
+[dimensions]
+length = 0
+mass = 1
+time = -2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAJOULE_PER_SQUARE_METER]
+multiplier = "1.0_E24"
+symbol = "YJ/m²"
+singular = "yottajoule per square meter"
+plural = "yottajoules per square meter"
+
+[units.ZETTAJOULE_PER_SQUARE_METER]
+multiplier = "1.0_E21"
+symbol = "ZJ/m²"
+singular = "zettajoule per square meter"
+plural = "zettajoules per square meter"
+
+[units.EXAJOULE_PER_SQUARE_METER]
+multiplier = "1.0_E18"
+symbol = "EJ/m²"
+singular = "exajoule per square meter"
+plural = "exajoules per square meter"
+
+[units.PETAJOULE_PER_SQUARE_METER]
+multiplier = "1.0_E15"
+symbol = "PJ/m²"
+singular = "petajoule per square meter"
+plural = "petajoules per square meter"
+
+[units.TERAJOULE_PER_SQUARE_METER]
+multiplier = "1.0_E12"
+symbol = "TJ/m²"
+singular = "terajoule per square meter"
+plural = "terajoules per square meter"
+
+[units.GIGAJOULE_PER_SQUARE_METER]
+multiplier = "1.0_E9"
+symbol = "GJ/m²"
+singular = "gigajoule per square meter"
+plural = "gigajoules per square meter"
+
+[units.MEGAJOULE_PER_SQUARE_METER]
+multiplier = "1.0_E6"
+symbol = "MJ/m²"
+singular = "megajoule per square meter"
+plural = "megajoules per square meter"
+
+[units.KILOJOULE_PER_SQUARE_METER]
+multiplier = "1.0_E3"
+symbol = "kJ/m²"
+singular = "kilojoule per square meter"
+plural = "kilojoules per square meter"
+
+[units.HECTOJOULE_PER_SQUARE_METER]
+multiplier = "1.0_E2"
+symbol = "hJ/m²"
+singular = "hectojoule per square meter"
+plural = "hectojoules per square meter"
+
+[units.DECAJOULE_PER_SQUARE_METER]
+multiplier = "1.0E1"
+symbol = "daJ/m²"
+singular = "decajoule per square meter"
+plural = "decajoules per square meter"
+
+[units.JOULE_PER_SQUARE_METER]
+multiplier = "1.0E0"
+symbol = "J/m²"
+singular = "joule per square meter"
+plural = "joules per square meter"
+
+[units.DECIJOULE_PER_SQUARE_METER]
+multiplier = "1.0E-1"
+symbol = "dJ/m²"
+singular = "decijoule per square meter"
+plural = "decijoules per square meter"
+
+[units.CENTIJOULE_PER_SQUARE_METER]
+multiplier = "1.0E-2"
+symbol = "cJ/m²"
+singular = "centijoule per square meter"
+plural = "centijoules per square meter"
+
+[units.MILLIJOULE_PER_SQUARE_METER]
+multiplier = "1.0E-3"
+symbol = "mJ/m²"
+singular = "millijoule per square meter"
+plural = "millijoules per square meter"
+
+[units.MICROJOULE_PER_SQUARE_METER]
+multiplier = "1.0E-6"
+symbol = "µJ/m²"
+singular = "microjoule per square meter"
+plural = "microjoules per square meter"
+
+[units.NANOJOULE_PER_SQUARE_METER]
+multiplier = "1.0E-9"
+symbol = "nJ/m²"
+singular = "nanojoule per square meter"
+plural = "nanojoules per square meter"
+
+[units.PICOJOULE_PER_SQUARE_METER]
+multiplier = "1.0E-12"
+symbol = "pJ/m²"
+singular = "picojoule per square meter"
+plural = "picojoules per square meter"
+
+[units.FEMTOJOULE_PER_SQUARE_METER]
+multiplier = "1.0E-15"
+symbol = "fJ/m²"
+singular = "femtojoule per square meter"
+plural = "femtojoules per square meter"
+
+[units.ATTOJOULE_PER_SQUARE_METER]
+multiplier = "1.0E-18"
+symbol = "aJ/m²"
+singular = "attojoule per square meter"
+plural = "attojoules per square meter"
+
+[units.ZEPTOJOULE_PER_SQUARE_METER]
+multiplier = "1.0E-21"
+symbol = "zJ/m²"
+singular = "zeptojoule per square meter"
+plural = "zeptojoules per square meter"
+
+[units.YOCTOJOULE_PER_SQUARE_METER]
+multiplier = "1.0E-24"
+symbol = "yJ/m²"
+singular = "yoctojoule per square meter"
+plural = "yoctojoules per square meter"
+
+[units.GIGAJOULE_PER_SQUARE_CENTIMETER]
+multiplier = "1.0E13"
+symbol = "GJ/cm²"
+singular = "gigajoule per square centimeter"
+plural = "gigajoules per square centimeter"
+
+[units.MEGAJOULE_PER_SQUARE_CENTIMETER]
+multiplier = "1.0E10"
+symbol = "MJ/cm²"
+singular = "megajoule per square centimeter"
+plural = "megajoules per square centimeter"
+
+[units.KILOJOULE_PER_SQUARE_CENTIMETER]
+multiplier = "1.0E7"
+symbol = "kJ/cm²"
+singular = "kilojoule per square centimeter"
+plural = "kilojoules per square centimeter"
+
+[units.HECTOJOULE_PER_SQUARE_CENTIMETER]
+multiplier = "1.0E6"
+symbol = "hJ/cm²"
+singular = "hectojoule per square centimeter"
+plural = "hectojoules per square centimeter"
+
+[units.DECAJOULE_PER_SQUARE_CENTIMETER]
+multiplier = "1.0E5"
+symbol = "daJ/cm²"
+singular = "decajoule per square centimeter"
+plural = "decajoules per square centimeter"
+
+[units.JOULE_PER_SQUARE_CENTIMETER]
+multiplier = "1.0E4"
+symbol = "J/cm²"
+singular = "joule per square centimeter"
+plural = "joules per square centimeter"
+
+[units.DECIJOULE_PER_SQUARE_CENTIMETER]
+multiplier = "1.0E3"
+symbol = "dJ/cm²"
+singular = "decijoule per square centimeter"
+plural = "decijoules per square centimeter"
+
+[units.CENTIJOULE_PER_SQUARE_CENTIMETER]
+multiplier = "1.0E2"
+symbol = "cJ/cm²"
+singular = "centijoule per square centimeter"
+plural = "centijoules per square centimeter"
+
+[units.MILLIJOULE_PER_SQUARE_CENTIMETER]
+multiplier = "1.0E1"
+symbol = "mJ/cm²"
+singular = "millijoule per square centimeter"
+plural = "millijoules per square centimeter"
+
+[units.MICROJOULE_PER_SQUARE_CENTIMETER]
+multiplier = "1.0E-2"
+symbol = "µJ/cm²"
+singular = "microjoule per square centimeter"
+plural = "microjoules per square centimeter"
+
+[units.NANOJOULE_PER_SQUARE_CENTIMETER]
+multiplier = "1.0E-5"
+symbol = "nJ/cm²"
+singular = "nanojoule per square centimeter"
+plural = "nanojoules per square centimeter"
+
+[units.GIGAJOULE_PER_SQUARE_MILLIMETER]
+multiplier = "1.0E15"
+symbol = "GJ/mm²"
+singular = "gigajoule per square millimeter"
+plural = "gigajoules per square millimeter"
+
+[units.MEGAJOULE_PER_SQUARE_MILLIMETER]
+multiplier = "1.0E12"
+symbol = "MJ/mm²"
+singular = "megajoule per square millimeter"
+plural = "megajoules per square millimeter"
+
+[units.KILOJOULE_PER_SQUARE_MILLIMETER]
+multiplier = "1.0E9"
+symbol = "kJ/mm²"
+singular = "kilojoule per square millimeter"
+plural = "kilojoules per square millimeter"
+
+[units.HECTOJOULE_PER_SQUARE_MILLIMETER]
+multiplier = "1.0E8"
+symbol = "hJ/mm²"
+singular = "hectojoule per square millimeter"
+plural = "hectojoules per square millimeter"
+
+[units.DECAJOULE_PER_SQUARE_MILLIMETER]
+multiplier = "1.0E7"
+symbol = "daJ/mm²"
+singular = "decajoule per square millimeter"
+plural = "decajoules per square millimeter"
+
+[units.JOULE_PER_SQUARE_MILLIMETER]
+multiplier = "1.0E6"
+symbol = "J/mm²"
+singular = "joule per square millimeter"
+plural = "joules per square millimeter"
+
+[units.DECIJOULE_PER_SQUARE_MILLIMETER]
+multiplier = "1.0E5"
+symbol = "dJ/mm²"
+singular = "decijoule per square millimeter"
+plural = "decijoules per square millimeter"
+
+[units.CENTIJOULE_PER_SQUARE_MILLIMETER]
+multiplier = "1.0E4"
+symbol = "cJ/mm²"
+singular = "centijoule per square millimeter"
+plural = "centijoules per square millimeter"
+
+[units.MILLIJOULE_PER_SQUARE_MILLIMETER]
+multiplier = "1.0E3"
+symbol = "mJ/mm²"
+singular = "millijoule per square millimeter"
+plural = "millijoules per square millimeter"
+
+[units.MICROJOULE_PER_SQUARE_MILLIMETER]
+multiplier = "1.0E0"
+symbol = "µJ/mm²"
+singular = "microjoule per square millimeter"
+plural = "microjoules per square millimeter"
+
+[units.NANOJOULE_PER_SQUARE_MILLIMETER]
+multiplier = "1.0E-3"
+symbol = "nJ/mm²"
+singular = "nanojoule per square millimeter"
+plural = "nanojoules per square millimeter"
+

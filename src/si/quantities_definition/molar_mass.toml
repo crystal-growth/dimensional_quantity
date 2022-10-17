@@ -1,0 +1,223 @@
+name = "Molar mass"
+symbol = "MolarMass"
+snake_case_name = "molar_mass"
+short_dim_formula = "M⋅N<sup>-1</sup>"
+long_dim_formula = "Mass⋅Amount of substance<sup>-1</sup>"
+units_formula = "kg⋅mol<sup>-1</sup>"
+
+[dimensions]
+length = 0
+mass = 1
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = -1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAGRAM_PER_MOLE]
+multiplier = "1.0_E+21"
+symbol = "Yg/mol"
+singular = "yottagram per mole"
+plural = "yottagrams per mole"
+
+[units.ZETTAGRAM_PER_MOLE]
+multiplier = "1.0_E+18"
+symbol = "Zg/mol"
+singular = "zettagram per mole"
+plural = "zettagrams per mole"
+
+[units.EXAGRAM_PER_MOLE]
+multiplier = "1.0_E+15"
+symbol = "Eg/mol"
+singular = "exagram per mole"
+plural = "exagrams per mole"
+
+[units.PETAGRAM_PER_MOLE]
+multiplier = "1.0_E+12"
+symbol = "Pg/mol"
+singular = "petagram per mole"
+plural = "petagrams per mole"
+
+[units.TERAGRAM_PER_MOLE]
+multiplier = "1.0_E+9"
+symbol = "Tg/mol"
+singular = "teragram per mole"
+plural = "teragrams per mole"
+
+[units.GIGAGRAM_PER_MOLE]
+multiplier = "1.0_E+6"
+symbol = "Gg/mol"
+singular = "gigagram per mole"
+plural = "gigagrams per mole"
+
+[units.MEGAGRAM_PER_MOLE]
+multiplier = "1.0_E+3"
+symbol = "Mg/mol"
+singular = "megagram per mole"
+plural = "megagrams per mole"
+
+[units.KILOGRAM_PER_MOLE]
+multiplier = "1.0_E+0"
+symbol = "kg/mol"
+singular = "kilogram per mole"
+plural = "kilograms per mole"
+
+[units.HECTOGRAM_PER_MOLE]
+multiplier = "1.0_E-1"
+symbol = "hg/mol"
+singular = "hectogram per mole"
+plural = "hectograms per mole"
+
+[units.DECAGRAM_PER_MOLE]
+multiplier = "1.0_E-2"
+symbol = "dag/mol"
+singular = "decagram per mole"
+plural = "decagrams per mole"
+
+[units.GRAM_PER_MOLE]
+multiplier = "1.0_E-3"
+symbol = "g/mol"
+singular = "gram per mole"
+plural = "grams per mole"
+
+[units.DECIGRAM_PER_MOLE]
+multiplier = "1.0_E-4"
+symbol = "dg/mol"
+singular = "decigram per mole"
+plural = "decigrams per mole"
+
+[units.CENTIGRAM_PER_MOLE]
+multiplier = "1.0_E-5"
+symbol = "cg/mol"
+singular = "centigram per mole"
+plural = "centigrams per mole"
+
+[units.MILLIGRAM_PER_MOLE]
+multiplier = "1.0_E-6"
+symbol = "mg/mol"
+singular = "milligram per mole"
+plural = "milligrams per mole"
+
+[units.MICROGRAM_PER_MOLE]
+multiplier = "1.0_E-9"
+symbol = "µg/mol"
+singular = "microgram per mole"
+plural = "micrograms per mole"
+
+[units.NANOGRAM_PER_MOLE]
+multiplier = "1.0_E-12"
+symbol = "ng/mol"
+singular = "nanogram per mole"
+plural = "nanograms per mole"
+
+[units.PICOGRAM_PER_MOLE]
+multiplier = "1.0_E-15"
+symbol = "pg/mol"
+singular = "picogram per mole"
+plural = "picograms per mole"
+
+[units.FEMTOGRAM_PER_MOLE]
+multiplier = "1.0_E-18"
+symbol = "fg/mol"
+singular = "femtogram per mole"
+plural = "femtograms per mole"
+
+[units.ATTOGRAM_PER_MOLE]
+multiplier = "1.0_E-21"
+symbol = "ag/mol"
+singular = "attogram per mole"
+plural = "attograms per mole"
+
+[units.ZEPTOGRAM_PER_MOLE]
+multiplier = "1.0_E-24"
+symbol = "zg/mol"
+singular = "zeptogram per mole"
+plural = "zeptograms per mole"
+
+[units.YOCTOGRAM_PER_MOLE]
+multiplier = "1.0_E-27"
+symbol = "yg/mol"
+singular = "yoctogram per mole"
+plural = "yoctograms per mole"
+
+[units.KILOGRAM_PER_PARTICLE]
+multiplier = "6.022_140_76_E23"
+symbol = "kg/particle"
+singular = "kilogram per particle"
+plural = "kilograms_per_particle"
+
+[units.GRAM_PER_PARTICLE]
+multiplier = "6.02214076_E+20"
+symbol = "g/particle"
+singular = "gram per particle"
+plural = "grams_per_particle"
+
+[units.MOLAR_MASS_CONSTANT]
+multiplier = "0.999_999_999_65_E-3"
+symbol = "Mᵤ"
+singular = "molar mass constant"
+plural = "molar mass constants"
+
+[units.MOLAR_MASS_OF_CARBON_12]
+multiplier = "11.999_999_995_8_E-3"
+symbol = "M(¹²C)"
+singular = "molar mass of carbon-12"
+plural = "molar masses of carbon-12"
+
+[units.ALPHA_PARTICLE_MOLAR_MASS]
+multiplier = "4.001_506_177_755_197_E-3"
+symbol = "M(α)"
+singular = "alpha particle molar mass"
+plural = "alpha particle molar masses"
+
+[units.DEUTERON_MOLAR_MASS]
+multiplier = "2.013_553_212_024_460_4_E-3"
+symbol = "M(deuteron)"
+singular = "deuteron molar mass"
+plural = "deuteron molar masses"
+
+[units.ELECTRON_MOLAR_MASS]
+multiplier = "5.485_799_088_728_283_E-7"
+symbol = "Mₑ"
+singular = "electron molar mass"
+plural = "electron molar masses"
+
+[units.HELION_MOLAR_MASS]
+multiplier = "3.014_932_246_141_405_4_E-3"
+symbol = "M(helion)"
+singular = "helion molar mass"
+plural = "helion molar masses"
+
+[units.MUON_MOLAR_MASS]
+multiplier = "1.134_289_258_370_581_7_E-4"
+symbol = "M(muon)"
+singular = "muon molar mass"
+plural = "muon molar masses"
+
+[units.NEUTRON_MOLAR_MASS]
+multiplier = "1.008_664_915_599_150_3_E-3"
+symbol = "M(neutron)"
+singular = "neutron molar mass"
+plural = "neutron molar masses"
+
+[units.PROTON_MOLAR_MASS]
+multiplier = "1.007_276_466_272_316_E-3"
+symbol = "M(proton)"
+singular = "proton molar mass"
+plural = "proton molar masses"
+
+[units.TAU_MOLAR_MASS]
+multiplier = "1.907_537_174_293_039_8_E-3"
+symbol = "M(τ)"
+singular = "tau molar mass"
+plural = "tau molar masses"
+
+[units.TRITON_MOLAR_MASS]
+multiplier = "3.015_500_715_151_657_E-3"
+symbol = "M(triton)"
+singular = "triton molar mass"
+plural = "triton molar masses"
+

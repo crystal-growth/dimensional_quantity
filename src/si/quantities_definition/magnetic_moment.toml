@@ -1,0 +1,127 @@
+name = "Magnetic moment"
+symbol = "MagneticMoment"
+snake_case_name = "magnetic_moment"
+short_dim_formula = "L<sup>2</sup>⋅I"
+long_dim_formula = "Length<sup>2</sup>⋅Electric current"
+units_formula = "m<sup>2</sup>⋅A"
+
+[dimensions]
+length = 2
+mass = 0
+time = 0
+electric_current = 1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.AMPERE_SQUARE_METER]
+multiplier = "1.0E0"
+symbol = "A·m²"
+singular = "ampere square meter"
+plural = "ampere square meters"
+
+[units.JOULE_PER_TESLA]
+multiplier = "1.0E0"
+symbol = "J/T"
+singular = "joule per tesla"
+plural = "joules per tesla"
+
+[units.NEWTON_METER_PER_TESLA]
+multiplier = "1.0E0"
+symbol = "N·m/T"
+singular = "newton meter per tesla"
+plural = "newton meters per tesla"
+
+[units.AMPERE_SQUARE_CENTIMETER]
+multiplier = "1.0_E-4"
+symbol = "A·cm²"
+singular = "ampere square centimeter"
+plural = "ampere square centimeters"
+
+[units.STATAMPERE_SQUARE_CENTIMETER]
+multiplier = "3.335641_E-14"
+symbol = "statA·cm²"
+singular = "statampere square centimeter"
+plural = "statampere square centimeters"
+
+[units.ERG_PER_GAUSS]
+multiplier = "1.0_E-3"
+symbol = "erg/G"
+singular = "erg per gauss"
+plural = "ergs per gauss"
+
+[units.BOHR_MAGNETON]
+multiplier = "9.274_010_0783_E-24"
+symbol = "µ(Bohr)"
+singular = "Bohr magneton"
+plural = "Bohr magnetons"
+
+[units.NUCLEAR_MAGNETON]
+multiplier = "5.050_783_7461_E-27"
+symbol = "μ(Nuclear)"
+singular = "nuclear magneton"
+plural = "nuclear magnetons"
+
+[units.ATOMIC_UNIT_OF_MAGNETIC_DIPOLE_MOMENT]
+multiplier = "1.854_802_015_66_E-23"
+symbol = "ħ·e/mₑ"
+singular = "atomic unit of magnetic dipole moment"
+plural = " atomic units of magnetic dipole moment"
+
+[units.DEUTERON_MAGNETIC_MOMENT]
+multiplier = "4.330_735_094_E-27"
+symbol = "μ(deuteron)"
+singular = "deuteron magnetic moment"
+plural = "deuteron magnetic moments"
+
+[units.ELECTRON_MAGNETIC_MOMENT]
+multiplier = "-9.284_764_704_3_E-24"
+symbol = "μₑ"
+singular = "electron magnetic moment"
+plural = "electron magnetic moments"
+
+[units.HELION_MAGNETIC_MOMENT]
+multiplier = "-1.074_617_532_E-26"
+symbol = "μ(helion)"
+singular = "helion magnetic moment"
+plural = " helion magnetic moments"
+
+[units.MUON_MAGNETIC_MOMENT]
+multiplier = "-4.490_448_30_E-26"
+symbol = "μ(muon)"
+singular = "muon magnetic moment"
+plural = "muon magnetic moments"
+
+[units.NEUTRON_MAGNETIC_MOMENT]
+multiplier = "-9.662_365_1_E-27"
+symbol = "μ(neutron)"
+singular = "neutron magnetic moment"
+plural = "neutron magnetic moments"
+
+[units.PROTON_MAGNETIC_MOMENT]
+multiplier = "1.410_606_797_36_E-26"
+symbol = "μ(proton)"
+singular = "proton magnetic moment"
+plural = "proton magnetic moments"
+
+[units.SHIELDED_HELION_MAGNETIC_MOMENT]
+multiplier = "-1.074_553_090_E-26"
+symbol = "μ’(helion)"
+singular = "shielded helion magnetic moment"
+plural = "shielded helion magnetic moments"
+
+[units.SHIELDED_PROTON_MAGNETIC_MOMENT]
+multiplier = "1.410_570_560_E-26"
+symbol = "μ’(proton)"
+singular = "shielded proton magnetic moment"
+plural = "shielded proton magnetic moments"
+
+[units.TRITON_MAGNETIC_MOMENT]
+multiplier = "1.504_609_520_2_E-26"
+symbol = "μ(triton)"
+singular = "triton magnetic moment"
+plural = "triton magnetic moments"
+

@@ -1,0 +1,37 @@
+name = "Linear power density"
+symbol = "LinearPowerDensity"
+snake_case_name = "linear_power_density"
+short_dim_formula = "L⋅M⋅T<sup>-3</sup>"
+long_dim_formula = "Length⋅Mass⋅Time<sup>-3</sup>"
+units_formula = "m⋅kg⋅s<sup>-3</sup>"
+
+[dimensions]
+length = 1
+mass = 1
+time = -3
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.WATT_PER_METER]
+multiplier = "1.0E0"
+symbol = "W/m"
+singular = "watt per meter"
+plural = "watts per meter"
+
+[units.WATT_PER_CENTIMETER]
+multiplier = "1.0_E+2"
+symbol = "W/cm"
+singular = "watt per centimeter"
+plural = "watts per centimeter"
+
+[units.WATT_PER_MILLIMETER]
+multiplier = "1.0_E+3"
+symbol = "W/mm"
+singular = "watt per millimeter"
+plural = "watts per millimeter"
+

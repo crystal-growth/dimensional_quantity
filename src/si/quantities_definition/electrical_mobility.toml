@@ -1,0 +1,31 @@
+name = "Electrical mobility"
+symbol = "ElectricalMobility"
+snake_case_name = "electrical_mobility"
+short_dim_formula = "M<sup>-1</sup>⋅T<sup>2</sup>⋅I"
+long_dim_formula = "Mass<sup>-1</sup>⋅Time<sup>2</sup>⋅Electric current"
+units_formula = "kg<sup>-1</sup>⋅s<sup>2</sup>⋅A"
+
+[dimensions]
+length = 0
+mass = -1
+time = 2
+electric_current = 1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.SQUARE_METER_PER_VOLT_SECOND]
+multiplier = "1.0E0"
+symbol = "m²/(V·s)"
+singular = "square meter per volt second"
+plural = "square meter per volt seconds"
+
+[units.SQUARE_CENTIMETER_PER_VOLT_SECOND]
+multiplier = "1.0_E-4"
+symbol = "cm²/(V·s)"
+singular = "square centimeter per volt second"
+plural = "square centimeter per volt seconds"
+

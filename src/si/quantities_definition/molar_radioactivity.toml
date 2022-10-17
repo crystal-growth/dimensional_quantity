@@ -1,0 +1,37 @@
+name = "Molar radioactivity"
+symbol = "MolarRadioactivity"
+snake_case_name = "molar_radioactivity"
+short_dim_formula = "T<sup>-1</sup>⋅N<sup>-1</sup>"
+long_dim_formula = "Time<sup>-1</sup>⋅Amount of substance<sup>-1</sup>"
+units_formula = "s<sup>-1</sup>⋅mol<sup>-1</sup>"
+
+[dimensions]
+length = 0
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = -1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.BECQUEREL_PER_MOLE]
+multiplier = "1.0E0"
+symbol = "Bq/mol"
+singular = "becquerel per mole"
+plural = "becquerels per mole"
+
+[units.CURIE_PER_MOLE]
+multiplier = "3.7_E10"
+symbol = "Ci/mol"
+singular = "curie per mole"
+plural = "curie per mole"
+
+[units.DISINTEGRATIONS_PER_MINUTE_PER_MOLE]
+multiplier = "1.6666666666667_E-2"
+symbol = "dpm/mol"
+singular = "disintegration per minute per mole"
+plural = "disintegrations per minute per mole"
+

@@ -1,0 +1,85 @@
+name = "Ratio"
+symbol = "Ratio"
+snake_case_name = "ratio"
+short_dim_formula = "1"
+long_dim_formula = "Dimensionless"
+units_formula = ""
+
+[dimensions]
+length = 0
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.RATIO]
+multiplier = "1.0"
+symbol = ""
+singular = ""
+plural = ""
+
+[units.PART_PER_HUNDRED]
+multiplier = "1.0_E-2"
+symbol = "partsperhundred"
+singular = "part per hundred"
+plural = "parts per hundred"
+
+[units.PERCENT]
+multiplier = "1.0_E-2"
+symbol = "%"
+singular = "percent"
+plural = "percent"
+
+[units.PART_PER_THOUSAND]
+multiplier = "1.0_E-3"
+symbol = "partsperthousand"
+singular = "part per thousand"
+plural = "parts per thousand"
+
+[units.PER_MILLE]
+multiplier = "1.0_E-3"
+symbol = "‰"
+singular = "per mille"
+plural = "per mille"
+
+[units.PART_PER_TEN_THOUSAND]
+multiplier = "1.0_E-4"
+symbol = "partspertenthousand"
+singular = "part per then thousand"
+plural = "parts per ten thousand"
+
+[units.BASIS_POINT]
+multiplier = "1.0_E-4"
+symbol = "bp"
+singular = "basis point"
+plural = "basis points"
+
+[units.PART_PER_MILLION]
+multiplier = "1.0_E-6"
+symbol = "ppm"
+singular = "part per million"
+plural = "parts per million"
+
+[units.PART_PER_BILLION]
+multiplier = "1.0_E-9"
+symbol = "ppb"
+singular = "part per billion"
+plural = "parts per billion"
+
+[units.PART_PER_TRILLION]
+multiplier = "1.0_E-12"
+symbol = "ppt"
+singular = "part per trillion"
+plural = "parts per trillion"
+
+[units.PART_PER_QUADRILLION]
+multiplier = "1.0_E-15"
+symbol = "ppq"
+singular = "part per quadrillion"
+plural = "parts per quadrillion"
+

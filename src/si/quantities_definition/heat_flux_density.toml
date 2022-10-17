@@ -1,0 +1,157 @@
+name = "Heat flux density"
+symbol = "HeatFluxDensity"
+snake_case_name = "heat_flux_density"
+short_dim_formula = "M⋅T<sup>-3</sup>"
+long_dim_formula = "Mass⋅Time<sup>-3</sup>"
+units_formula = "kg⋅s<sup>-3</sup>"
+
+[dimensions]
+length = 0
+mass = 1
+time = -3
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAWATT_PER_SQUARE_METER]
+multiplier = "1.0_E24"
+symbol = "YW/m²"
+singular = "yottawatt per square meter"
+plural = "yottawatts per square meter"
+
+[units.ZETTAWATT_PER_SQUARE_METER]
+multiplier = "1.0_E21"
+symbol = "ZW/m²"
+singular = "zettawatt per square meter"
+plural = "zettawatts per square meter"
+
+[units.EXAWATT_PER_SQUARE_METER]
+multiplier = "1.0_E18"
+symbol = "EW/m²"
+singular = "exawatt per square meter"
+plural = "exawatts per square meter"
+
+[units.PETAWATT_PER_SQUARE_METER]
+multiplier = "1.0_E15"
+symbol = "PW/m²"
+singular = "petawatt per square meter"
+plural = "petawatts per square meter"
+
+[units.TERAWATT_PER_SQUARE_METER]
+multiplier = "1.0_E12"
+symbol = "TW/m²"
+singular = "terawatt per square meter"
+plural = "terawatts per square meter"
+
+[units.GIGAWATT_PER_SQUARE_METER]
+multiplier = "1.0_E9"
+symbol = "GW/m²"
+singular = "gigawatt per square meter"
+plural = "gigawatts per square meter"
+
+[units.MEGAWATT_PER_SQUARE_METER]
+multiplier = "1.0_E6"
+symbol = "MW/m²"
+singular = "megawatt per square meter"
+plural = "megawatts per square meter"
+
+[units.KILOWATT_PER_SQUARE_METER]
+multiplier = "1.0_E3"
+symbol = "kW/m²"
+singular = "kilowatt per square meter"
+plural = "kilowatts per square meter"
+
+[units.HECTOWATT_PER_SQUARE_METER]
+multiplier = "1.0_E2"
+symbol = "hW/m²"
+singular = "hectowatt per square meter"
+plural = "hectowatts per square meter"
+
+[units.DECAWATT_PER_SQUARE_METER]
+multiplier = "1.0E1"
+symbol = "daW/m²"
+singular = "decawatt per square meter"
+plural = "decawatts per square meter"
+
+[units.WATT_PER_SQUARE_METER]
+multiplier = "1.0E0"
+symbol = "W/m²"
+singular = "watt per square meter"
+plural = "watts per square meter"
+
+[units.DECIWATT_PER_SQUARE_METER]
+multiplier = "1.0E-1"
+symbol = "dW/m²"
+singular = "deciwatt per square meter"
+plural = "deciwatts per square meter"
+
+[units.CENTIWATT_PER_SQUARE_METER]
+multiplier = "1.0E-2"
+symbol = "cW/m²"
+singular = "centiwatt per square meter"
+plural = "centiwatts per square meter"
+
+[units.MILLIWATT_PER_SQUARE_METER]
+multiplier = "1.0E-3"
+symbol = "mW/m²"
+singular = "milliwatt per square meter"
+plural = "milliwatts per square meter"
+
+[units.MICROWATT_PER_SQUARE_METER]
+multiplier = "1.0E-6"
+symbol = "µW/m²"
+singular = "microwatt per square meter"
+plural = "microwatts per square meter"
+
+[units.NANOWATT_PER_SQUARE_METER]
+multiplier = "1.0E-9"
+symbol = "nW/m²"
+singular = "nanowatt per square meter"
+plural = "nanowatts per square meter"
+
+[units.PICOWATT_PER_SQUARE_METER]
+multiplier = "1.0E-12"
+symbol = "pW/m²"
+singular = "picowatt per square meter"
+plural = "picowatts per square meter"
+
+[units.FEMTOWATT_PER_SQUARE_METER]
+multiplier = "1.0E-15"
+symbol = "fW/m²"
+singular = "femtowatt per square meter"
+plural = "femtowatts per square meter"
+
+[units.ATTOWATT_PER_SQUARE_METER]
+multiplier = "1.0E-18"
+symbol = "aW/m²"
+singular = "attowatt per square meter"
+plural = "attowatts per square meter"
+
+[units.ZEPTOWATT_PER_SQUARE_METER]
+multiplier = "1.0E-21"
+symbol = "zW/m²"
+singular = "zeptowatt per square meter"
+plural = "zeptowatts per square meter"
+
+[units.YOCTOWATT_PER_SQUARE_METER]
+multiplier = "1.0E-24"
+symbol = "yW/m²"
+singular = "yoctowatt per square meter"
+plural = "yoctowatts per square meter"
+
+[units.WATT_PER_SQUARE_CENTIMETER]
+multiplier = "1.0_E+4"
+symbol = "W/cm²"
+singular = "watt per square centimeter"
+plural = "watts per square centimeter"
+
+[units.WATT_PER_SQUARE_MILLIMETER]
+multiplier = "1.0_E+6"
+symbol = "W/mm²"
+singular = "watt per square millimeter"
+plural = "watts per square millimeter"
+

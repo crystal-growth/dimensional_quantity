@@ -1,0 +1,37 @@
+name = "Linear density of states"
+symbol = "LinearDensityOfStates"
+snake_case_name = "linear_density_of_states"
+short_dim_formula = "L<sup>-3</sup>⋅M<sup>-1</sup>⋅T<sup>2</sup>"
+long_dim_formula = "Length<sup>-3</sup>⋅Mass<sup>-1</sup>⋅Time<sup>2</sup>"
+units_formula = "m<sup>-3</sup>⋅kg<sup>-1</sup>⋅s<sup>2</sup>"
+
+[dimensions]
+length = -3
+mass = -1
+time = 2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.STATE_PER_METER_JOULE]
+multiplier = "1.0E0"
+symbol = "1/(m·J)"
+singular = "state per meter joule"
+plural = "states per meter joule"
+
+[units.STATE_PER_CENTIMETER_JOULE]
+multiplier = "1.0_E+2"
+symbol = "1/(cm·J)"
+singular = "state per centimeter joule"
+plural = "states per centimeter joule"
+
+[units.STATE_PER_CENTIMETER_ELECTRONVOLT]
+multiplier = "6.2415090744608_E+20"
+symbol = "1/(cm·eV)"
+singular = "state per centimeter electronvolt"
+plural = "states per centimeter electronvolt"
+

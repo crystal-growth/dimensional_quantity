@@ -1,0 +1,385 @@
+name = "Energy"
+symbol = "Energy"
+snake_case_name = "energy"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-2</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-2</sup>"
+units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-2</sup>"
+
+[dimensions]
+length = 2
+mass = 1
+time = -2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAJOULE]
+multiplier = "1.0_E24"
+symbol = "YJ"
+singular = "yottajoule"
+plural = "yottajoules"
+
+[units.ZETTAJOULE]
+multiplier = "1.0_E21"
+symbol = "ZJ"
+singular = "zettajoule"
+plural = "zettajoules"
+
+[units.EXAJOULE]
+multiplier = "1.0_E18"
+symbol = "EJ"
+singular = "exajoule"
+plural = "exajoules"
+
+[units.PETAJOULE]
+multiplier = "1.0_E15"
+symbol = "PJ"
+singular = "petajoule"
+plural = "petajoules"
+
+[units.TERAJOULE]
+multiplier = "1.0_E12"
+symbol = "TJ"
+singular = "terajoule"
+plural = "terajoules"
+
+[units.GIGAJOULE]
+multiplier = "1.0_E9"
+symbol = "GJ"
+singular = "gigajoule"
+plural = "gigajoules"
+
+[units.MEGAJOULE]
+multiplier = "1.0_E6"
+symbol = "MJ"
+singular = "megajoule"
+plural = "megajoules"
+
+[units.KILOJOULE]
+multiplier = "1.0_E3"
+symbol = "kJ"
+singular = "kilojoule"
+plural = "kilojoules"
+
+[units.HECTOJOULE]
+multiplier = "1.0_E2"
+symbol = "hJ"
+singular = "hectojoule"
+plural = "hectojoules"
+
+[units.DECAJOULE]
+multiplier = "1.0E1"
+symbol = "daJ"
+singular = "decajoule"
+plural = "decajoules"
+
+[units.JOULE]
+multiplier = "1.0E0"
+symbol = "J"
+singular = "joule"
+plural = "joules"
+
+[units.DECIJOULE]
+multiplier = "1.0E-1"
+symbol = "dJ"
+singular = "decijoule"
+plural = "decijoules"
+
+[units.CENTIJOULE]
+multiplier = "1.0E-2"
+symbol = "cJ"
+singular = "centijoule"
+plural = "centijoules"
+
+[units.MILLIJOULE]
+multiplier = "1.0E-3"
+symbol = "mJ"
+singular = "milljoule"
+plural = "milljoules"
+
+[units.MICROJOULE]
+multiplier = "1.0E-6"
+symbol = "µJ"
+singular = "microjoule"
+plural = "microjoules"
+
+[units.NANOJOULE]
+multiplier = "1.0E-9"
+symbol = "nJ"
+singular = "nanojoule"
+plural = "nanojoules"
+
+[units.PICOJOULE]
+multiplier = "1.0E-12"
+symbol = "pJ"
+singular = "picojoule"
+plural = "picojoules"
+
+[units.FEMTOJOULE]
+multiplier = "1.0E-15"
+symbol = "fJ"
+singular = "femtojoule"
+plural = "femtojoules"
+
+[units.ATTOJOULE]
+multiplier = "1.0E-18"
+symbol = "aJ"
+singular = "attojoule"
+plural = "attojoules"
+
+[units.ZEPTOJOULE]
+multiplier = "1.0E-21"
+symbol = "zJ"
+singular = "zeptojoule"
+plural = "zeptojoules"
+
+[units.YOCTOJOULE]
+multiplier = "1.0E-24"
+symbol = "yJ"
+singular = "yoctojoule"
+plural = "yoctojoules"
+
+[units.PETAWATT_HOUR]
+multiplier = "3.6_E18"
+symbol = "PW·h"
+singular = "petawatt hour"
+plural = "petawatt hours"
+
+[units.TERAWATT_HOUR]
+multiplier = "3.6_E15"
+symbol = "TW·h"
+singular = "terawatt hour"
+plural = "terawatt hours"
+
+[units.GIGAWATT_HOUR]
+multiplier = "3.6_E12"
+symbol = "GW·h"
+singular = "gigawatt hour"
+plural = "gigawatt hours"
+
+[units.MEGAWATT_HOUR]
+multiplier = "3.6_E9"
+symbol = "MW·h"
+singular = "megawatt hour"
+plural = "megawatt hours"
+
+[units.KILOWATT_HOUR]
+multiplier = "3.6_E6"
+symbol = "kW·h"
+singular = "kilowatt hour"
+plural = "kilowatt hours"
+
+[units.HECTOWATT_HOUR]
+multiplier = "3.6_E5"
+symbol = "hW·h"
+singular = "hectowatt hour"
+plural = "hectowatt hours"
+
+[units.DECAWATT_HOUR]
+multiplier = "3.6_E4"
+symbol = "daW·h"
+singular = "decawatt hour"
+plural = "decawatt hours"
+
+[units.WATT_HOUR]
+multiplier = "3.6_E3"
+symbol = "W·h"
+singular = "watt hour"
+plural = "watt hours"
+
+[units.MILLIWATT_HOUR]
+multiplier = "3.6_E0"
+symbol = "mW·h"
+singular = "milliwatt hour"
+plural = "milliwatt hours"
+
+[units.MICROWATT_HOUR]
+multiplier = "3.6_E-3"
+symbol = "µW·h"
+singular = "microwatt hour"
+plural = "microwatt hours"
+
+[units.PETAELECTRONVOLT]
+multiplier = "1.602_176_634_E-4"
+symbol = "PeV"
+singular = "petaelectronvolt"
+plural = "petaelectronvolts"
+
+[units.TERAELECTRONVOLT]
+multiplier = "1.602_176_634_E-7"
+symbol = "TeV"
+singular = "teraelectronvolt"
+plural = "teraelectronvolts"
+
+[units.GIGAELECTRONVOLT]
+multiplier = "1.602_176_634_E-10"
+symbol = "GeV"
+singular = "gigaelectronvolt"
+plural = "gigaelectronvolts"
+
+[units.MEGAELECTRONVOLT]
+multiplier = "1.602_176_634_E-13"
+symbol = "MeV"
+singular = "megaelectronvolt"
+plural = "megaelectronvolts"
+
+[units.KILOELECTRONVOLT]
+multiplier = "1.602_176_634_E-16"
+symbol = "keV"
+singular = "kiloelectronvolt"
+plural = "kiloelectronvolts"
+
+[units.HECTOELECTRONVOLT]
+multiplier = "1.602_176_634_E-17"
+symbol = "heV"
+singular = "hectoelectronvolt"
+plural = "hectoelectronvolts"
+
+[units.DECAELECTRONVOLT]
+multiplier = "1.602_176_634_E-18"
+symbol = "daeV"
+singular = "decaelectronvolt"
+plural = "decaelectronvolts"
+
+[units.ELECTRONVOLT]
+multiplier = "1.602_176_634_E-19"
+symbol = "eV"
+singular = "electronvolt"
+plural = "electronvolts"
+
+[units.HARTREE]
+multiplier = "4.359_744_722_207_1_E-18"
+symbol = "Eₕ"
+singular = "hartree"
+plural = "hartrees"
+
+[units.BTU_IT]
+multiplier = "1.055_056_E3"
+symbol = "Btu(IT)"
+singular = "British thermal unit (IT)"
+plural = "British thermal units (IT)"
+
+[units.BTU]
+multiplier = "1.054_350_E3"
+symbol = "Btu"
+singular = "British thermal unit"
+plural = "British thermal units"
+
+[units.BTU_39]
+multiplier = "1.059_67_E3"
+symbol = "Btu₃₉"
+singular = "British thermal unit (39 °F)"
+plural = "British thermal units (39 °F)"
+
+[units.BTU_59]
+multiplier = "1.054_80_E3"
+symbol = "Btu₅₉"
+singular = "British thermal unit (59 °F)"
+plural = "British thermal units (59 °F)"
+
+[units.BTU_60]
+multiplier = "1.054_68_E3"
+symbol = "Btu₆₀"
+singular = "British thermal unit (60 °F)"
+plural = "British thermal units (60 °F)"
+
+[units.CALORIE_IT]
+multiplier = "4.186_8_E0"
+symbol = "cal(IT)"
+singular = "calorie (IT)"
+plural = "calories (IT)"
+
+[units.CALORIE]
+multiplier = "4.184_E0"
+symbol = "cal"
+singular = "calorie"
+plural = "calories"
+
+[units.CALORIE_15]
+multiplier = "4.185_80_E0"
+symbol = "cal₁₅"
+singular = "calorie (15 °C)"
+plural = "calories (15 °C)"
+
+[units.CALORIE_20]
+multiplier = "4.181_90_E0"
+symbol = "cal₂₀"
+singular = "calorie (20 °C)"
+plural = "calories (20 °C)"
+
+[units.CALORIE_IT_NUTRITION]
+multiplier = "4.186_8_E3"
+symbol = "Cal(IT)"
+singular = "Calorie (IT)"
+plural = "Calories (IT)"
+
+[units.CALORIE_NUTRITION]
+multiplier = "4.184_E3"
+symbol = "Cal"
+singular = "Calorie"
+plural = "Calories"
+
+[units.ERG]
+multiplier = "1.0_E-7"
+symbol = "erg"
+singular = "erg"
+plural = "ergs"
+
+[units.FOOT_POUNDAL]
+multiplier = "4.214_011_E-2"
+symbol = "ft·pdl"
+singular = "foot poundal"
+plural = "foot poundals"
+
+[units.FOOT_POUND]
+multiplier = "1.355_818_E0"
+symbol = "ft·lbf"
+singular = "foot pound-force"
+plural = "foot pounds-force"
+
+[units.KILOCALORIE_IT]
+multiplier = "4.186_8_E3"
+symbol = "kcal(IT)"
+singular = "kilocalorie (IT)"
+plural = "kilocalories (IT)"
+
+[units.KILOCALORIE]
+multiplier = "4.184_E3"
+symbol = "kcal"
+singular = "kilocalorie"
+plural = "kilocalories"
+
+[units.QUAD]
+multiplier = "1.055_056_E18"
+symbol = "10¹⁵Btu(IT)"
+singular = "quad"
+plural = "quads"
+
+[units.THERM_EC]
+multiplier = "1.055_06_E8"
+symbol = "thm(EC)"
+singular = "therm (EC)"
+plural = "therms (EC)"
+
+[units.THERM_US]
+multiplier = "1.054_804_E8"
+symbol = "thm"
+singular = "therm"
+plural = "therms"
+
+[units.TON_TNT]
+multiplier = "4.184_E9"
+symbol = "tofTNT"
+singular = "ton of TNT"
+plural = "tons of TNT"
+
+[units.WATT_SECOND]
+multiplier = "1.0_E0"
+symbol = "W·s"
+singular = "watt second"
+plural = "watt seconds"
+

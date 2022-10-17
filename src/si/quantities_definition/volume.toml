@@ -1,0 +1,415 @@
+name = "Volume"
+symbol = "Volume"
+snake_case_name = "volume"
+short_dim_formula = "L<sup>3</sup>"
+long_dim_formula = "Length<sup>3</sup>"
+units_formula = "m<sup>3</sup>"
+
+[dimensions]
+length = 3
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.CUBIC_YOTTAMETER]
+multiplier = "1.0_E+72"
+symbol = "Ym³"
+singular = "cubic yottameter"
+plural = "cubic yottameters"
+
+[units.CUBIC_ZETTAMETER]
+multiplier = "1.0_E+63"
+symbol = "Zm³"
+singular = "cubic zettameter"
+plural = "cubic zettameters"
+
+[units.CUBIC_EXAMETER]
+multiplier = "1.0_E+54"
+symbol = "Em³"
+singular = "cubic exameter"
+plural = "cubic exameters"
+
+[units.CUBIC_PETAMETER]
+multiplier = "1.0_E+45"
+symbol = "Pm³"
+singular = "cubic petameter"
+plural = "cubic petameters"
+
+[units.CUBIC_TERAMETER]
+multiplier = "1.0_E+36"
+symbol = "Tm³"
+singular = "cubic terameter"
+plural = "cubic terameters"
+
+[units.CUBIC_GIGAMETER]
+multiplier = "1.0_E+27"
+symbol = "Gm³"
+singular = "cubic gigameter"
+plural = "cubic gigameters"
+
+[units.CUBIC_MEGAMETER]
+multiplier = "1.0_E+18"
+symbol = "Mm³"
+singular = "cubic megameter"
+plural = "cubic megameters"
+
+[units.CUBIC_KILOMETER]
+multiplier = "1.0_E+9"
+symbol = "km³"
+singular = "cubic kilometer"
+plural = "cubic kilometers"
+
+[units.CUBIC_HECTOMETER]
+multiplier = "1.0_E+6"
+symbol = "hm³"
+singular = "cubic hectometer"
+plural = "cubic hectometers"
+
+[units.CUBIC_DECAMETER]
+multiplier = "1.0_E+3"
+symbol = "dam³"
+singular = "cubic decameter"
+plural = "cubic decameters"
+
+[units.CUBIC_METER]
+multiplier = "1.0E0"
+symbol = "m³"
+singular = "cubic meter"
+plural = "cubic meters"
+
+[units.CUBIC_DECIMETER]
+multiplier = "1.0_E-3"
+symbol = "dm³"
+singular = "cubic decimeter"
+plural = "cubic decimeters"
+
+[units.CUBIC_CENTIMETER]
+multiplier = "1.0_E-6"
+symbol = "cm³"
+singular = "cubic centimeter"
+plural = "cubic centimeters"
+
+[units.CUBIC_MILLIMETER]
+multiplier = "1.0_E-9"
+symbol = "mm³"
+singular = "cubic millimeter"
+plural = "cubic millimeters"
+
+[units.CUBIC_MICROMETER]
+multiplier = "1.0_E-18"
+symbol = "µm³"
+singular = "cubic micrometer"
+plural = "cubic micrometers"
+
+[units.CUBIC_NANOMETER]
+multiplier = "1.0_E-27"
+symbol = "nm³"
+singular = "cubic nanometer"
+plural = "cubic nanometers"
+
+[units.CUBIC_PICOMETER]
+multiplier = "1.0_E-36"
+symbol = "pm³"
+singular = "cubic picometer"
+plural = "cubic picometers"
+
+[units.CUBIC_FEMTOMETER]
+multiplier = "1.0_E-45"
+symbol = "fm³"
+singular = "cubic femtometer"
+plural = "cubic femtometers"
+
+[units.CUBIC_ATTOMETER]
+multiplier = "1.0_E-54"
+symbol = "am³"
+singular = "cubic attometer"
+plural = "cubic attometers"
+
+[units.CUBIC_ZEPTOMETER]
+multiplier = "1.0_E-63"
+symbol = "zm³"
+singular = "cubic zeptometer"
+plural = "cubic zeptometers"
+
+[units.CUBIC_YOCTOMETER]
+multiplier = "1.0_E-72"
+symbol = "ym³"
+singular = "cubic yoctometer"
+plural = "cubic yoctometers"
+
+[units.ACRE_FOOT]
+multiplier = "1.233_489_E3"
+symbol = "ac·ft"
+singular = "acre-foot"
+plural = "acre-feet"
+
+[units.BARREL]
+multiplier = "1.589_873_E-1"
+symbol = "bbl"
+singular = "barrel"
+plural = "barrels"
+
+[units.BUSHEL]
+multiplier = "3.523_907_E-2"
+symbol = "bu"
+singular = "bushel"
+plural = "bushels"
+
+[units.CORD]
+multiplier = "3.624_556_E0"
+symbol = "cords"
+singular = "cord"
+plural = "cords"
+
+[units.CUBIC_FOOT]
+multiplier = "2.831_685_E-2"
+symbol = "ft³"
+singular = "cubic foot"
+plural = "cubic feet"
+
+[units.CUBIC_INCH]
+multiplier = "1.638_706_E-5"
+symbol = "in³"
+singular = "cubic inch"
+plural = "cubic inches"
+
+[units.CUBIC_MILE]
+multiplier = "4.168_182_E9"
+symbol = "mi³"
+singular = "cubic mile"
+plural = "cubic miles"
+
+[units.CUBIC_YARD]
+multiplier = "7.645_549_E-1"
+symbol = "yd³"
+singular = "cubic yard"
+plural = "cubic yards"
+
+[units.CUP]
+multiplier = "2.365_882_E-4"
+symbol = "cup"
+singular = "cup"
+plural = "cups"
+
+[units.FLUID_OUNCE]
+multiplier = "2.957_353_E-5"
+symbol = "floz"
+singular = "fluid ounce"
+plural = "fluid ounces"
+
+[units.FLUID_OUNCE_IMPERIAL]
+multiplier = "2.841_306_E-5"
+symbol = "floz(UK)"
+singular = "Imperial fluid ounce"
+plural = "Imperial fluid ounces"
+
+[units.GALLON_IMPERIAL]
+multiplier = "4.546_09_E-3"
+symbol = "gal(UK)"
+singular = "Imperial gallon"
+plural = "Imperial gallons"
+
+[units.GALLON]
+multiplier = "3.785_412_E-3"
+symbol = "gal"
+singular = "gallon"
+plural = "gallons"
+
+[units.GILL_IMPERIAL]
+multiplier = "1.420_653_E-4"
+symbol = "gi(UK)"
+singular = "Imperial gill"
+plural = "Imperial gills"
+
+[units.GILL]
+multiplier = "1.182_941_E-4"
+symbol = "gi"
+singular = "gill"
+plural = "gills"
+
+[units.YOTTALITER]
+multiplier = "1.0_E+21"
+symbol = "YL"
+singular = "yottaliter"
+plural = "yottaliters"
+
+[units.ZETTALITER]
+multiplier = "1.0_E+18"
+symbol = "ZL"
+singular = "zettaliter"
+plural = "zettaliters"
+
+[units.EXALITER]
+multiplier = "1.0_E+15"
+symbol = "EL"
+singular = "exaliter"
+plural = "exaliters"
+
+[units.PETALITER]
+multiplier = "1.0_E+12"
+symbol = "PL"
+singular = "petaliter"
+plural = "petaliters"
+
+[units.TERALITER]
+multiplier = "1.0_E+9"
+symbol = "TL"
+singular = "teraliter"
+plural = "teraliters"
+
+[units.GIGALITER]
+multiplier = "1.0_E+6"
+symbol = "GL"
+singular = "gigaliter"
+plural = "gigaliters"
+
+[units.MEGALITER]
+multiplier = "1.0_E+3"
+symbol = "ML"
+singular = "megaliter"
+plural = "megaliters"
+
+[units.KILOLITER]
+multiplier = "1.0_E+0"
+symbol = "kL"
+singular = "kiloliter"
+plural = "kiloliters"
+
+[units.HECTOLITER]
+multiplier = "1.0_E-1"
+symbol = "hL"
+singular = "hectoliter"
+plural = "hectoliters"
+
+[units.DECALITER]
+multiplier = "1.0_E-2"
+symbol = "daL"
+singular = "decaliter"
+plural = "decaliters"
+
+[units.LITER]
+multiplier = "1.0E-3"
+symbol = "L"
+singular = "liter"
+plural = "liters"
+
+[units.DECILITER]
+multiplier = "1.0_E-4"
+symbol = "dL"
+singular = "deciliter"
+plural = "deciliters"
+
+[units.CENTILITER]
+multiplier = "1.0_E-5"
+symbol = "cL"
+singular = "centiliter"
+plural = "centiliters"
+
+[units.MILLILITER]
+multiplier = "1.0_E-6"
+symbol = "mL"
+singular = "milliliter"
+plural = "milliliters"
+
+[units.MICROLITER]
+multiplier = "1.0_E-9"
+symbol = "µL"
+singular = "microliter"
+plural = "microliters"
+
+[units.NANOLITER]
+multiplier = "1.0_E-12"
+symbol = "nL"
+singular = "nanoliter"
+plural = "nanoliters"
+
+[units.PICOLITER]
+multiplier = "1.0_E-15"
+symbol = "pL"
+singular = "picoliter"
+plural = "picoliters"
+
+[units.FEMTOLITER]
+multiplier = "1.0_E-18"
+symbol = "fL"
+singular = "femtoliter"
+plural = "femtoliters"
+
+[units.ATTOLITER]
+multiplier = "1.0_E-21"
+symbol = "aL"
+singular = "attoliter"
+plural = "attoliters"
+
+[units.ZEPTOLITER]
+multiplier = "1.0_E-24"
+symbol = "zL"
+singular = "zeptoliter"
+plural = "zeptoliters"
+
+[units.YOCTOLITER]
+multiplier = "1.0_E-27"
+symbol = "yL"
+singular = "yoctoliter"
+plural = "yoctoliters"
+
+[units.PECK]
+multiplier = "8.809_768_E-3"
+symbol = "pk"
+singular = "peck"
+plural = "pecks"
+
+[units.PINT_DRY]
+multiplier = "5.506_105_E-4"
+symbol = "drypt"
+singular = "dry pint"
+plural = "dry pints"
+
+[units.PINT_LIQUID]
+multiplier = "4.731_765_E-4"
+symbol = "liqpt"
+singular = "liquid pint"
+plural = "liquid pints"
+
+[units.QUART_DRY]
+multiplier = "1.101_221_E-3"
+symbol = "dryqt"
+singular = "dry quart"
+plural = "dry quarts"
+
+[units.QUART_LIQUID]
+multiplier = "9.463_529_E-4"
+symbol = "liqqt"
+singular = "liquid quart"
+plural = "liquid quarts"
+
+[units.STERE]
+multiplier = "1.0_E0"
+symbol = "st"
+singular = "stere"
+plural = "steres"
+
+[units.TABLESPOON]
+multiplier = "1.478_676_E-5"
+symbol = "tbsp"
+singular = "tablespoon"
+plural = "tablespoons"
+
+[units.TEASPOON]
+multiplier = "4.928_922_E-6"
+symbol = "tsp"
+singular = "teaspoon"
+plural = "teaspoons"
+
+[units.REGISTER_TON]
+multiplier = "2.831_685_E0"
+symbol = "RT"
+singular = "register ton"
+plural = "register tons"
+

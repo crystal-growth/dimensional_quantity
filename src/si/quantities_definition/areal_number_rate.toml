@@ -1,0 +1,85 @@
+name = "Areal number rate"
+symbol = "ArealNumberRate"
+snake_case_name = "areal_number_rate"
+short_dim_formula = "L<sup>-2</sup>⋅T<sup>-1</sup>"
+long_dim_formula = "Length<sup>-2</sup>⋅Time<sup>-1</sup>"
+units_formula = "m<sup>-2</sup>⋅s<sup>-1</sup>"
+
+[dimensions]
+length = -2
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.PER_SQUARE_METER_SECOND]
+multiplier = "1.0E0"
+symbol = "m⁻²·s⁻¹"
+singular = "per square meter second"
+plural = "per square meter second"
+
+[units.PER_SQUARE_CENTIMETER_SECOND]
+multiplier = "1.0_E+4"
+symbol = "cm⁻²·s⁻¹"
+singular = "per square centimeter second"
+plural = "per square centimeter second"
+
+[units.PER_ACRE_SECOND]
+multiplier = "2.4710436922533_E-4"
+symbol = "ac⁻¹·s⁻¹"
+singular = "per acre second"
+plural = "per acre second"
+
+[units.PER_ARE_SECOND]
+multiplier = "1.0_E-2"
+symbol = "a⁻¹·s⁻¹"
+singular = "per are second"
+plural = "per are second"
+
+[units.PER_BARN_SECOND]
+multiplier = "1.0_E+28"
+symbol = "b⁻¹·s⁻¹"
+singular = "per barn second"
+plural = "per barn second"
+
+[units.PER_CIRCULAR_MIL_SECOND]
+multiplier = "1.9735251599789_E+9"
+symbol = "cmil⁻¹·s⁻¹"
+singular = "per circular mil second"
+plural = "per circular mil second"
+
+[units.PER_HECTARE_SECOND]
+multiplier = "1.0_E-4"
+symbol = "ha⁻¹·s⁻¹"
+singular = "per hectare second"
+plural = "per hectare second"
+
+[units.PER_SQUARE_FOOT_SECOND]
+multiplier = "1.076391041671_E+1"
+symbol = "ft⁻²·s⁻¹"
+singular = "per square foot second"
+plural = "per square foot second"
+
+[units.PER_SQUARE_INCH_SECOND]
+multiplier = "1.5500031000062_E+3"
+symbol = "in⁻²·s⁻¹"
+singular = "per square inch second"
+plural = "per square inch second"
+
+[units.PER_SQUARE_MILE_SECOND]
+multiplier = "3.8610217499077_E-7"
+symbol = "mi⁻²·s⁻¹"
+singular = "per square mile second"
+plural = "per square mile second"
+
+[units.PER_SQUARE_YARD_SECOND]
+multiplier = "1.1959899890854_E+0"
+symbol = "yd⁻²·s⁻¹"
+singular = "per square yard second"
+plural = "per square yard second"
+

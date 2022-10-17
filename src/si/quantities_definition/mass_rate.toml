@@ -1,0 +1,289 @@
+name = "Mass rate"
+symbol = "MassRate"
+snake_case_name = "mass_rate"
+short_dim_formula = "M⋅T<sup>-1</sup>"
+long_dim_formula = "Mass⋅Time<sup>-1</sup>"
+units_formula = "kg⋅s<sup>-1</sup>"
+
+[dimensions]
+length = 0
+mass = 1
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAGRAM_PER_SECOND]
+multiplier = "1.0_E+21"
+symbol = "Yg/s"
+singular = "yottagram per second"
+plural = "yottagrams per second"
+
+[units.ZETTAGRAM_PER_SECOND]
+multiplier = "1.0_E+18"
+symbol = "Zg/s"
+singular = "zettagram per second"
+plural = "zettagrams per second"
+
+[units.EXAGRAM_PER_SECOND]
+multiplier = "1.0_E+15"
+symbol = "Eg/s"
+singular = "exagram per second"
+plural = "exagrams per second"
+
+[units.PETAGRAM_PER_SECOND]
+multiplier = "1.0_E+12"
+symbol = "Pg/s"
+singular = "petagram per second"
+plural = "petagrams per second"
+
+[units.TERAGRAM_PER_SECOND]
+multiplier = "1.0_E+9"
+symbol = "Tg/s"
+singular = "teragram per second"
+plural = "teragrams per second"
+
+[units.GIGAGRAM_PER_SECOND]
+multiplier = "1.0_E+6"
+symbol = "Gg/s"
+singular = "gigagram per second"
+plural = "gigagrams per second"
+
+[units.MEGAGRAM_PER_SECOND]
+multiplier = "1.0_E+3"
+symbol = "Mg/s"
+singular = "megagram per second"
+plural = "megagrams per second"
+
+[units.KILOGRAM_PER_SECOND]
+multiplier = "1.0_E+0"
+symbol = "kg/s"
+singular = "kilogram per second"
+plural = "kilograms per second"
+
+[units.HECTOGRAM_PER_SECOND]
+multiplier = "1.0_E-1"
+symbol = "hg/s"
+singular = "hectogram per second"
+plural = "hectograms per second"
+
+[units.DECAGRAM_PER_SECOND]
+multiplier = "1.0_E-2"
+symbol = "dag/s"
+singular = "decagram per second"
+plural = "decagrams per second"
+
+[units.GRAM_PER_SECOND]
+multiplier = "1.0_E-3"
+symbol = "g/s"
+singular = "gram per second"
+plural = "grams per second"
+
+[units.DECIGRAM_PER_SECOND]
+multiplier = "1.0_E-4"
+symbol = "dg/s"
+singular = "decigram per second"
+plural = "decigrams per second"
+
+[units.CENTIGRAM_PER_SECOND]
+multiplier = "1.0_E-5"
+symbol = "cg/s"
+singular = "centigram per second"
+plural = "centigrams per second"
+
+[units.MILLIGRAM_PER_SECOND]
+multiplier = "1.0_E-6"
+symbol = "mg/s"
+singular = "milligram per second"
+plural = "milligrams per second"
+
+[units.MICROGRAM_PER_SECOND]
+multiplier = "1.0_E-9"
+symbol = "µg/s"
+singular = "microgram per second"
+plural = "micrograms per second"
+
+[units.NANOGRAM_PER_SECOND]
+multiplier = "1.0_E-12"
+symbol = "ng/s"
+singular = "nanogram per second"
+plural = "nanograms per second"
+
+[units.PICOGRAM_PER_SECOND]
+multiplier = "1.0_E-15"
+symbol = "pg/s"
+singular = "picogram per second"
+plural = "picograms per second"
+
+[units.FEMTOGRAM_PER_SECOND]
+multiplier = "1.0_E-18"
+symbol = "fg/s"
+singular = "femtogram per second"
+plural = "femtograms per second"
+
+[units.ATTOGRAM_PER_SECOND]
+multiplier = "1.0_E-21"
+symbol = "ag/s"
+singular = "attogram per second"
+plural = "attograms per second"
+
+[units.ZEPTOGRAM_PER_SECOND]
+multiplier = "1.0_E-24"
+symbol = "zg/s"
+singular = "zeptogram per second"
+plural = "zeptograms per second"
+
+[units.YOCTOGRAM_PER_SECOND]
+multiplier = "1.0_E-27"
+symbol = "yg/s"
+singular = "yoctogram per second"
+plural = "yoctograms per second"
+
+[units.KILOGRAM_PER_MINUTE]
+multiplier = "1.666_666_666_666_666_6_E-2"
+symbol = "kg/min"
+singular = "kilogram per minute"
+plural = "kilograms per minute"
+
+[units.KILOGRAM_PER_HOUR]
+multiplier = "2.777_777_777_777_777_7_E-4"
+symbol = "kg/h"
+singular = "kilogram per hour"
+plural = "kilograms per hour"
+
+[units.KILOGRAM_PER_DAY]
+multiplier = "1.157_407_407_407_407_4_E-5"
+symbol = "kg/d"
+singular = "kilogram per day"
+plural = "kilograms per day"
+
+[units.GRAM_PER_MINUTE]
+multiplier = "1.666_666_666_666_666_6_E-5"
+symbol = "g/min"
+singular = "gram per minute"
+plural = "grams per minute"
+
+[units.GRAM_PER_HOUR]
+multiplier = "2.777_777_777_777_777_7_E-7"
+symbol = "g/h"
+singular = "gram per hour"
+plural = "grams per hour"
+
+[units.GRAM_PER_DAY]
+multiplier = "1.157_407_407_407_407_4_E-8"
+symbol = "g/d"
+singular = "gram per day"
+plural = "grams per day"
+
+[units.CARAT_PER_SECOND]
+multiplier = "2.0_E-4"
+symbol = "ct/s"
+singular = "carat per second"
+plural = "carats per second"
+
+[units.GRAIN_PER_SECOND]
+multiplier = "6.479_891_E-5"
+symbol = "gr/s"
+singular = "grain per second"
+plural = "grains per second"
+
+[units.HUNDREDWEIGHT_LONG_PER_SECOND]
+multiplier = "5.080_235_E1"
+symbol = "cwtlong/s"
+singular = "hundredweight (long) per second"
+plural = "hundredweight (long) per second"
+
+[units.HUNDREDWEIGHT_SHORT_PER_SECOND]
+multiplier = "4.535_924_E1"
+symbol = "cwtshort/s"
+singular = "hundredweight (short) per second"
+plural = "hundredweight (short) per second"
+
+[units.OUNCE_PER_SECOND]
+multiplier = "2.834_952_E-2"
+symbol = "oz/s"
+singular = "ounce per second"
+plural = "ounces per second"
+
+[units.OUNCE_TROY_PER_SECOND]
+multiplier = "3.110_348_E-2"
+symbol = "ozt/s"
+singular = "troy ounce per second"
+plural = "troy ounces per second"
+
+[units.PENNYWEIGHT_PER_SECOND]
+multiplier = "1.555_174_E-3"
+symbol = "dwt/s"
+singular = "pennyweight per second"
+plural = "pennyweight per second"
+
+[units.POUND_PER_SECOND]
+multiplier = "4.535_924_E-1"
+symbol = "lb/s"
+singular = "pound per second"
+plural = "pounds per second"
+
+[units.POUND_PER_MINUTE]
+multiplier = "7.559_873_333_333_333_E-3"
+symbol = "lb/min"
+singular = "pound per minute"
+plural = "pounds per minute"
+
+[units.POUND_PER_HOUR]
+multiplier = "1.259_978_888_888_888_8_E-4"
+symbol = "lb/h"
+singular = "pound per hour"
+plural = "pounds per hour"
+
+[units.POUND_PER_DAY]
+multiplier = "5.249_912_037_037_037_0_E-6"
+symbol = "lb/d"
+singular = "pound per day"
+plural = "pounds per day"
+
+[units.POUND_TROY_PER_SECOND]
+multiplier = "3.732_417_E-1"
+symbol = "lbt/s"
+singular = "troy pound per second"
+plural = "troy pounds per second"
+
+[units.SLUG_PER_SECOND]
+multiplier = "1.459_390_E1"
+symbol = "slug/s"
+singular = "slug per second"
+plural = "slugs per second"
+
+[units.TON_ASSAY_PER_SECOND]
+multiplier = "2.916_667_E-2"
+symbol = "AT/s"
+singular = "assay ton per second"
+plural = "assay tons per second"
+
+[units.TON_LONG_PER_SECOND]
+multiplier = "1.016_047_E3"
+symbol = "2240lb/s"
+singular = "long ton per second"
+plural = "long tons per second"
+
+[units.TON_SHORT_PER_SECOND]
+multiplier = "9.071_847_E2"
+symbol = "2000lb/s"
+singular = "short ton per second"
+plural = "short tons per second"
+
+[units.TON_SHORT_PER_HOUR]
+multiplier = "2.519_957_5_E-1"
+symbol = "2000lb/h"
+singular = "short ton per hour"
+plural = "short tons per hour"
+
+[units.TON_PER_SECOND]
+multiplier = "1.0_E3"
+symbol = "t/s"
+singular = "ton per second"
+plural = "tons per second"
+

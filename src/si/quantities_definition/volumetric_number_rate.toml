@@ -1,0 +1,115 @@
+name = "Volumetric number rate"
+symbol = "VolumetricNumberRate"
+snake_case_name = "volumetric_number_rate"
+short_dim_formula = "L<sup>-3</sup>⋅T<sup>-1</sup>"
+long_dim_formula = "Length<sup>-3</sup>⋅Time<sup>-1</sup>"
+units_formula = "m<sup>-3</sup>⋅s<sup>-1</sup>"
+
+[dimensions]
+length = -3
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.PER_CUBIC_METER_SECOND]
+multiplier = "1.0E0"
+symbol = "m⁻³·s⁻¹"
+singular = "per cubic meter second"
+plural = "per cubic meter second"
+
+[units.PER_CUBIC_CENTIMETER_SECOND]
+multiplier = "1.0_E+6"
+symbol = "cm⁻³·s⁻¹"
+singular = "per cubic centimeter second"
+plural = "per cubic centimeter second"
+
+[units.PER_CUBIC_MILLIMETER_SECOND]
+multiplier = "1.0_E+9"
+symbol = "mm⁻³·s⁻¹"
+singular = "per cubic millimeter second"
+plural = "per cubic millimeter second"
+
+[units.PER_CUBIC_FOOT_SECOND]
+multiplier = "3.5314662471285_E+1"
+symbol = "ft⁻³·s⁻¹"
+singular = "per cubic foot second"
+plural = "per cubic foot second"
+
+[units.PER_CUBIC_INCH_SECOND]
+multiplier = "6.1023758990325_E+4"
+symbol = "in⁻³·s⁻¹"
+singular = "per cubic inch second"
+plural = "per cubic inch second"
+
+[units.PER_CUBIC_MILE_SECOND]
+multiplier = "2.3991274853161_E-10"
+symbol = "mi⁻³·s⁻¹"
+singular = "per cubic mile second"
+plural = "per cubic mile second"
+
+[units.PER_CUBIC_YARD_SECOND]
+multiplier = "1.3079505474362_E+0"
+symbol = "yd⁻³·s⁻¹"
+singular = "per cubic yard second"
+plural = "per cubic yard second"
+
+[units.PER_FLUID_OUNCE_SECOND]
+multiplier = "3.3814022201611_E+4"
+symbol = "floz⁻¹·s⁻¹"
+singular = "per fluid ounce second"
+plural = "per fluid ounce second"
+
+[units.PER_FLUID_OUNCE_IMPERIAL_SECOND]
+multiplier = "3.5195082824588_E+4"
+symbol = "floz⁻¹(UK)·s⁻¹"
+singular = "per Imperial fluid ounce second"
+plural = "per Imperial fluid ounce second"
+
+[units.PER_GALLON_IMPERIAL_SECOND]
+multiplier = "2.1996924829909_E+2"
+symbol = "gal⁻¹(UK)·s⁻¹"
+singular = "per Imperial gallon second"
+plural = "per Imperial gallon second"
+
+[units.PER_GALLON_SECOND]
+multiplier = "2.6417203728418_E+2"
+symbol = "gal⁻¹·s⁻¹"
+singular = "per gallon second"
+plural = "per gallon second"
+
+[units.PER_LITER_SECOND]
+multiplier = "1.0_E+3"
+symbol = "L⁻¹·s⁻¹"
+singular = "per liter second"
+plural = "per liter second"
+
+[units.PER_MILLILITER_SECOND]
+multiplier = "1.0_E+6"
+symbol = "mL⁻¹·s⁻¹"
+singular = "per milliliter second"
+plural = "per milliliter second"
+
+[units.BECQUEREL_PER_CUBIC_METER]
+multiplier = "1.0E0"
+symbol = "Bq·m⁻³"
+singular = "becquerel per cubic meter"
+plural = "becquerels per cubic meter"
+
+[units.CURIE_PER_CUBIC_METER]
+multiplier = "3.7_E10"
+symbol = "Ci·m⁻³"
+singular = "curie per cubic meter"
+plural = "curie per cubic meter"
+
+[units.DISINTEGRATIONS_PER_MINUTE_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-2"
+symbol = "dpm·m⁻³"
+singular = "disintegration per minute per cubic meter"
+plural = "disintegrations per minute per cubic meter"
+

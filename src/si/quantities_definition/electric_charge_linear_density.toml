@@ -1,0 +1,31 @@
+name = "Electric charge linear density"
+symbol = "ElectricChargeLinearDensity"
+snake_case_name = "electric_charge_linear_density"
+short_dim_formula = "L<sup>-1</sup>⋅T⋅I"
+long_dim_formula = "Length<sup>-1</sup>⋅Time⋅Electric current"
+units_formula = "m<sup>-1</sup>⋅s⋅A"
+
+[dimensions]
+length = -1
+mass = 0
+time = 1
+electric_current = 1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.COULOMB_PER_METER]
+multiplier = "1.0E0"
+symbol = "C/m"
+singular = "coulomb per meter"
+plural = "coulombs per meter"
+
+[units.COULOMB_PER_CENTIMETER]
+multiplier = "1.0_E+2"
+symbol = "C/cm"
+singular = "coulomb per centimeter"
+plural = "coulombs per centimeter"
+

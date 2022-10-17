@@ -1,0 +1,25 @@
+name = "Molality"
+symbol = "Molality"
+snake_case_name = "molality"
+short_dim_formula = "M<sup>-1</sup>⋅N"
+long_dim_formula = "Mass<sup>-1</sup>⋅Amount of substance"
+units_formula = "kg<sup>-1</sup>⋅mol"
+
+[dimensions]
+length = 0
+mass = -1
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.MOLE_PER_KILOGRAM]
+multiplier = "1.0E0"
+symbol = "mol/kg"
+singular = "mole per kilogram"
+plural = "moles per kilogram"
+

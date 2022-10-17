@@ -1,0 +1,157 @@
+name = "Magnetic flux density"
+symbol = "MagneticFluxDensity"
+snake_case_name = "magnetic_flux_density"
+short_dim_formula = "M⋅T<sup>-2</sup>⋅I<sup>-1</sup>"
+long_dim_formula = "Mass⋅Time<sup>-2</sup>⋅Electric current<sup>-1</sup>"
+units_formula = "kg⋅s<sup>-2</sup>⋅A<sup>-1</sup>"
+
+[dimensions]
+length = 0
+mass = 1
+time = -2
+electric_current = -1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTATESLA]
+multiplier = "1.0_E24"
+symbol = "YT"
+singular = "yottatesla"
+plural = "yottateslas"
+
+[units.ZETTATESLA]
+multiplier = "1.0_E21"
+symbol = "ZT"
+singular = "zettatesla"
+plural = "zettateslas"
+
+[units.EXATESLA]
+multiplier = "1.0_E18"
+symbol = "ET"
+singular = "exatesla"
+plural = "exateslas"
+
+[units.PETATESLA]
+multiplier = "1.0_E15"
+symbol = "PT"
+singular = "petatesla"
+plural = "petateslas"
+
+[units.TERATESLA]
+multiplier = "1.0_E12"
+symbol = "TT"
+singular = "teratesla"
+plural = "terateslas"
+
+[units.GIGATESLA]
+multiplier = "1.0_E9"
+symbol = "GT"
+singular = "gigatesla"
+plural = "gigateslas"
+
+[units.MEGATESLA]
+multiplier = "1.0_E6"
+symbol = "MT"
+singular = "megatesla"
+plural = "megateslas"
+
+[units.KILOTESLA]
+multiplier = "1.0_E3"
+symbol = "kT"
+singular = "kilotesla"
+plural = "kiloteslas"
+
+[units.HECTOTESLA]
+multiplier = "1.0_E2"
+symbol = "hT"
+singular = "hectotesla"
+plural = "hectoteslas"
+
+[units.DECATESLA]
+multiplier = "1.0E1"
+symbol = "daT"
+singular = "decatesla"
+plural = "decateslas"
+
+[units.TESLA]
+multiplier = "1.0E0"
+symbol = "T"
+singular = "tesla"
+plural = "teslas"
+
+[units.DECITESLA]
+multiplier = "1.0E-1"
+symbol = "dT"
+singular = "decitesla"
+plural = "deciteslas"
+
+[units.CENTITESLA]
+multiplier = "1.0E-2"
+symbol = "cT"
+singular = "centitesla"
+plural = "centiteslas"
+
+[units.MILLITESLA]
+multiplier = "1.0E-3"
+symbol = "mT"
+singular = "millitesla"
+plural = "milliteslas"
+
+[units.MICROTESLA]
+multiplier = "1.0E-6"
+symbol = "µT"
+singular = "microtesla"
+plural = "microteslas"
+
+[units.NANOTESLA]
+multiplier = "1.0E-9"
+symbol = "nT"
+singular = "nanotesla"
+plural = "nanoteslas"
+
+[units.PICOTESLA]
+multiplier = "1.0E-12"
+symbol = "pT"
+singular = "picotesla"
+plural = "picoteslas"
+
+[units.FEMTOTESLA]
+multiplier = "1.0E-15"
+symbol = "fT"
+singular = "femtotesla"
+plural = "femtoteslas"
+
+[units.ATTOTESLA]
+multiplier = "1.0E-18"
+symbol = "aT"
+singular = "attotesla"
+plural = "attoteslas"
+
+[units.ZEPTOTESLA]
+multiplier = "1.0E-21"
+symbol = "zT"
+singular = "zeptotesla"
+plural = "zeptoteslas"
+
+[units.YOCTOTESLA]
+multiplier = "1.0E-24"
+symbol = "yT"
+singular = "yoctotesla"
+plural = "yoctoteslas"
+
+[units.GAMMA]
+multiplier = "1.0_E-9"
+symbol = "γ"
+singular = "gamma"
+plural = "gammas"
+
+[units.GAUSS]
+multiplier = "1.0_E-4"
+symbol = "G"
+singular = "gauss"
+plural = "gauss"
+

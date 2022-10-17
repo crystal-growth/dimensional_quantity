@@ -1,0 +1,24 @@
+name = "Wien frequency displacement law constant"
+symbol = "WienFrequencyDisplacementLawConstant"
+snake_case_name = "wien_frequency_displacement_law_constant"
+short_dim_formula = "T<sub>-1</sub>⋅Th<sub>-1</sub>"
+long_dim_formula = "Time<sub>-1</sub>⋅Thermodynamic temperature<sub>-1</sub>"
+units_formula = "s<sub>-1</sub>⋅K<sub>-1</sub>"
+
+[dimensions]
+length = 0
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = -1
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.HERTZ_PER_KELVIN]
+multiplier = "1.0E0"
+symbol = "Hz/K"
+singular = "hertz per kelvin"
+plural = "hertz per kelvin"

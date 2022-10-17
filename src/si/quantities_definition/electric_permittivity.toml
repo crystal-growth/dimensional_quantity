@@ -1,0 +1,31 @@
+name = "Electric permittivity"
+symbol = "ElectricPermittivity"
+snake_case_name = "electric_permittivity"
+short_dim_formula = "L<sup>-3</sup>⋅M<sup>-1</sup>⋅T<sup>4</sup>⋅I<sup>2</sup>"
+long_dim_formula = "Length<sup>-3</sup>⋅Mass<sup>-1</sup>⋅Time<sup>4</sup>⋅Electric current<sup>2</sup>"
+units_formula = "m<sup>-3</sup>⋅kg<sup>-1</sup>⋅s<sup>4</sup>⋅A<sup>2</sup>"
+
+[dimensions]
+length = -3
+mass = -1
+time = 4
+electric_current = 2
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.FARAD_PER_METER]
+multiplier = "1.0E0"
+symbol = "F/m"
+singular = "farad per meter"
+plural = "farads per meter"
+
+[units.VACUUM_ELECTRIC_PERMITTIVITY]
+multiplier = "8.854_187_8128_E-12"
+symbol = "ε₀"
+singular = "vacuum electric permittivity"
+plural = "vacuum electric permittivity"
+

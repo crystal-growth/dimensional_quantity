@@ -1,0 +1,79 @@
+name = "Linear number rate"
+symbol = "LinearNumberRate"
+snake_case_name = "linear_number_rate"
+short_dim_formula = "L<sup>-1</sup>⋅T<sup>-1</sup>"
+long_dim_formula = "Length<sup>-1</sup>⋅Time<sup>-1</sup>"
+units_formula = "m<sup>-1</sup>⋅s<sup>-1</sup>"
+
+[dimensions]
+length = -1
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.PER_KILOMETER_SECOND]
+multiplier = "1.0_E-3"
+symbol = "km⁻¹·s⁻¹"
+singular = "per kilometer second"
+plural = "per kilometer second"
+
+[units.PER_METER_SECOND]
+multiplier = "1.0E0"
+symbol = "m⁻¹·s⁻¹"
+singular = "per meter second"
+plural = "per meter second"
+
+[units.PER_CENTIMETER_SECOND]
+multiplier = "1.0_E+2"
+symbol = "cm⁻¹·s⁻¹"
+singular = "per centimeter second"
+plural = "per centimeter second"
+
+[units.PER_MILLIMETER_SECOND]
+multiplier = "1.0_E+3"
+symbol = "mm⁻¹·s⁻¹"
+singular = "per millimeter second"
+plural = "per millimeter second"
+
+[units.PER_FOOT_SECOND]
+multiplier = "3.2808398950131_E+0"
+symbol = "ft⁻¹·s⁻¹"
+singular = "per foot second"
+plural = "per foot second"
+
+[units.PER_FOOT_SURVEY_SECOND]
+multiplier = "3.2808334366796_E+0"
+symbol = "ft⁻¹(U.S.survey)·s⁻¹"
+singular = "per foot (U.S. survey) second"
+plural = "per foot (U.S. survey) second"
+
+[units.PER_INCH_SECOND]
+multiplier = "3.9370078740157_E+1"
+symbol = "in⁻¹·s⁻¹"
+singular = "per inch second"
+plural = "per inch second"
+
+[units.PER_MILE_SECOND]
+multiplier = "6.2137119223733_E-4"
+symbol = "mi⁻¹·s⁻¹"
+singular = "per mile second"
+plural = "per mile second"
+
+[units.PER_MILE_SURVEY_SECOND]
+multiplier = "6.2137003393302_E-4"
+symbol = "mi⁻¹(U.S.survey)·s⁻¹"
+singular = "per mile (U.S. survey) second"
+plural = "per mile (U.S. survey) second"
+
+[units.PER_YARD_SECOND]
+multiplier = "1.0936132983377_E+0"
+symbol = "yd⁻¹·s⁻¹"
+singular = "per yard second"
+plural = "per yard second"
+

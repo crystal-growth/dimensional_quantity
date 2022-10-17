@@ -1,0 +1,259 @@
+name = "Specific heat capacity"
+symbol = "SpecificHeatCapacity"
+snake_case_name = "specific_heat_capacity"
+short_dim_formula = "L<sup>2</sup>⋅T<sup>-2</sup>⋅`ΔTh`<sup>-1</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Time<sup>-2</sup>⋅Temperature interval<sup>-1</sup>"
+units_formula = "m<sup>2</sup>⋅s<sup>-2</sup>⋅ΔK<sup>-1</sup>"
+
+[dimensions]
+length = 2
+mass = 0
+time = -2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = -1
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.SQUARE_KILOMETER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E+6"
+symbol = "km²/(s²·K)"
+singular = "square kilometer per second squared kelvin"
+plural = "square kilometers per second squared kelvin"
+
+[units.SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0E0"
+symbol = "m²/(s²·K)"
+singular = "square meter per second squared kelvin"
+plural = "square meters per second squared kelvin"
+
+[units.SQUARE_CENTIMETER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-4"
+symbol = "cm²/(s²·K)"
+singular = "square centimeter per second squared kelvin"
+plural = "square centimeters per second squared kelvin"
+
+[units.SQUARE_MILLIMETER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-6"
+symbol = "mm²/(s²·K)"
+singular = "square millimeter per second squared kelvin"
+plural = "square millimeters per second squared kelvin"
+
+[units.SQUARE_MICROMETER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-12"
+symbol = "µm²/(s²·K)"
+singular = "square micrometer per second squared kelvin"
+plural = "square micrometers per second squared kelvin"
+
+[units.YOTTAJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0_E24"
+symbol = "YJ/(kg·K)"
+singular = "yottajoule per kilogram kelvin"
+plural = "yottajoules per kilogram kelvin"
+
+[units.ZETTAJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0_E21"
+symbol = "ZJ/(kg·K)"
+singular = "zettajoule per kilogram kelvin"
+plural = "zettajoules per kilogram kelvin"
+
+[units.EXAJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0_E18"
+symbol = "EJ/(kg·K)"
+singular = "exajoule per kilogram kelvin"
+plural = "exajoules per kilogram kelvin"
+
+[units.PETAJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0_E15"
+symbol = "PJ/(kg·K)"
+singular = "petajoule per kilogram kelvin"
+plural = "petajoules per kilogram kelvin"
+
+[units.TERAJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0_E12"
+symbol = "TJ/(kg·K)"
+singular = "terajoule per kilogram kelvin"
+plural = "terajoules per kilogram kelvin"
+
+[units.GIGAJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0_E9"
+symbol = "GJ/(kg·K)"
+singular = "gigajoule per kilogram kelvin"
+plural = "gigajoules per kilogram kelvin"
+
+[units.MEGAJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0_E6"
+symbol = "MJ/(kg·K)"
+singular = "megajoule per kilogram kelvin"
+plural = "megajoules per kilogram kelvin"
+
+[units.KILOJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0_E3"
+symbol = "kJ/(kg·K)"
+singular = "kilojoule per kilogram kelvin"
+plural = "kilojoules per kilogram kelvin"
+
+[units.HECTOJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0_E2"
+symbol = "hJ/(kg·K)"
+singular = "hectojoule per kilogram kelvin"
+plural = "hectojoules per kilogram kelvin"
+
+[units.DECAJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0E1"
+symbol = "daJ/(kg·K)"
+singular = "decajoule per kilogram kelvin"
+plural = "decajoules per kilogram kelvin"
+
+[units.JOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0E0"
+symbol = "J/(kg·K)"
+singular = "joule per kilogram kelvin"
+plural = "joules per kilogram kelvin"
+
+[units.DECIJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0E-1"
+symbol = "dJ/(kg·K)"
+singular = "decijoule per kilogram kelvin"
+plural = "decijoules per kilogram kelvin"
+
+[units.CENTIJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0E-2"
+symbol = "cJ/(kg·K)"
+singular = "centijoule per kilogram kelvin"
+plural = "centijoules per kilogram kelvin"
+
+[units.MILLIJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0E-3"
+symbol = "mJ/(kg·K)"
+singular = "millijoule per kilogram kelvin"
+plural = "millijoules per kilogram kelvin"
+
+[units.MICROJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0E-6"
+symbol = "µJ/(kg·K)"
+singular = "microjoule per kilogram kelvin"
+plural = "microjoules per kilogram kelvin"
+
+[units.NANOJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0E-9"
+symbol = "nJ/(kg·K)"
+singular = "nanojoule per kilogram kelvin"
+plural = "nanojoules per kilogram kelvin"
+
+[units.PICOJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0E-12"
+symbol = "pJ/(kg·K)"
+singular = "picojoule per kilogram kelvin"
+plural = "picojoules per kilogram kelvin"
+
+[units.FEMTOJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0E-15"
+symbol = "fJ/(kg·K)"
+singular = "femtojoule per kilogram kelvin"
+plural = "femtojoules per kilogram kelvin"
+
+[units.ATTOJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0E-18"
+symbol = "aJ/(kg·K)"
+singular = "attojoule per kilogram kelvin"
+plural = "attojoules per kilogram kelvin"
+
+[units.ZEPTOJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0E-21"
+symbol = "zJ/(kg·K)"
+singular = "zeptojoule per kilogram kelvin"
+plural = "zeptojoules per kilogram kelvin"
+
+[units.YOCTOJOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0E-24"
+symbol = "yJ/(kg·K)"
+singular = "yoctojoule per kilogram kelvin"
+plural = "yoctojoules per kilogram kelvin"
+
+[units.KILOJOULE_PER_KILOGRAM_DEGREE_CELSIUS]
+multiplier = "1.0_E3"
+symbol = "kJ/(kg·°C)"
+singular = "kilojoule per kilogram degree celsius"
+plural = "kilojoules per kilogram degree celsius"
+
+[units.KILOJOULE_PER_GRAM_DEGREE_CELSIUS]
+multiplier = "1.0_E6"
+symbol = "kJ/(g·°C)"
+singular = "kilojoule per gram degree celsius"
+plural = "kilojoules per gram degree celsius"
+
+[units.JOULE_PER_KILOGRAM_DEGREE_CELSIUS]
+multiplier = "1.0_E0"
+symbol = "J/(kg·°C)"
+singular = "joule per kilogram degree celsius"
+plural = "joules per kilogram degree celsius"
+
+[units.JOULE_PER_GRAM_DEGREE_CELSIUS]
+multiplier = "1.0_E3"
+symbol = "J/(g·°C)"
+singular = "joule per gram degree celsius"
+plural = "joules per gram degree celsius"
+
+[units.MILLIJOULE_PER_KILOGRAM_DEGREE_CELSIUS]
+multiplier = "1.0_E-3"
+symbol = "mJ/(kg·°C)"
+singular = "millijoule per kilogram degree celsius"
+plural = "millijoules per kilogram degree celsius"
+
+[units.MILLIJOULE_PER_GRAM_DEGREE_CELSIUS]
+multiplier = "1.0_E0"
+symbol = "mJ/(g·°C)"
+singular = "millijoule per gram degree celsius"
+plural = "millijoules per gram degree celsius"
+
+[units.BTU_PER_OUNCE_DEGREE_FAHRENHEIT]
+multiplier = "6.694_399_058_608_398_E4"
+symbol = "Btu/(oz·°F)"
+singular = "British thermal unit per ounce degree Fahrenheit"
+plural = "British thermal units per ounce degree Fahrenheit"
+
+[units.BTU_IT_PER_OUNCE_DEGREE_FAHRENHEIT]
+multiplier = "6.698_881_674_187_076_E4"
+symbol = "Btu(IT)/(oz·°F)"
+singular = "British thermal unit (IT) per ounce degree Fahrenheit"
+plural = "British thermal units (IT) per ounce degree Fahrenheit"
+
+[units.BTU_PER_POUND_DEGREE_FAHRENHEIT]
+multiplier = "4.183_998_673_699_118_E3"
+symbol = "Btu/(lb·°F)"
+singular = "British thermal unit per pound degree Fahrenheit"
+plural = "British thermal units per pound degree Fahrenheit"
+
+[units.BTU_IT_PER_POUND_DEGREE_FAHRENHEIT]
+multiplier = "4.186_800_307_941_667_E3"
+symbol = "Btu(IT)/(lb·°F)"
+singular = "British thermal unit (IT) per pound degree Fahrenheit"
+plural = "British thermal units (IT) per pound degree Fahrenheit"
+
+[units.BTU_PER_TON_DEGREE_FAHRENHEIT]
+multiplier = "1.897_829_999_999_999_999_E0"
+symbol = "Btu/(t·°F)"
+singular = "British thermal unit per ton degree Fahrenheit"
+plural = "British thermal units per ton degree Fahrenheit"
+
+[units.BTU_IT_PER_TON_DEGREE_FAHRENHEIT]
+multiplier = "1.899_100_799_999_999_999_E0"
+symbol = "Btu(IT)/(t·°F)"
+singular = "British thermal unit (IT) per ton degree Fahrenheit"
+plural = "British thermal units (IT) per ton degree Fahrenheit"
+
+[units.CALORIE_PER_KILOGRAM_KELVIN]
+multiplier = "4.184_E0"
+symbol = "cal/(kg·K)"
+singular = "calorie per kilogram kelvin"
+plural = "calories per kilogram kelvin"
+
+[units.CALORIE_PER_GRAM_KELVIN]
+multiplier = "4.184_E+3"
+symbol = "cal/(g·K)"
+singular = "calorie per gram kelvin"
+plural = "calories per gram kelvin"
+

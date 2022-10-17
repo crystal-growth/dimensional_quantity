@@ -1,0 +1,26 @@
+name = "Second hyperpolarizability"
+symbol = "SecondHyperpolarizability"
+snake_case_name = "second_hyperpolarizability"
+short_dim_formula = "L<sup>-2</sup>⋅M<sup>-3</sup>⋅T<sup>10</sup>⋅I<sup>4</sup>"
+long_dim_formula = "Length<sup>-2</sup>⋅Mass<sup>-3</sup>⋅Time<sup>10</sup>⋅Electric current<sup>4</sup>"
+units_formula = "m<sup>-2</sup>⋅kg<sup>-3</sup>⋅s<sup>10</sup>⋅A<sup>4</sup>"
+
+[dimensions]
+length = -2
+mass = -3
+time = 10
+electric_current = 4
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+
+
+[units.COULOMB_FOURTH_POWER_METER_FOURTH_POWER_PER_SQUARE_JOULE]
+multiplier = "1.0_E0"
+symbol = "C<sup>4</sup>⋅m<sup>4</sup>/J<sup>3</sup>"
+singular = "coulomb fourth power meter fourth power per square joule"
+plural = "coulomb fourth power meters fourth power per square joule"

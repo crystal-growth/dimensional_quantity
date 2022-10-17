@@ -1,0 +1,30 @@
+name = "Electric polarizability"
+symbol = "ElectricPolarizability"
+snake_case_name = "electric_polarizability"
+short_dim_formula = "M<sup>-1</sup>⋅T<sup>4</sup>⋅I<sup>2</sup>"
+long_dim_formula = "Mass<sup>-1</sup>⋅Time<sup>4</sup>⋅Electric current<sup>2</sup>"
+units_formula = "kg<sup>-1</sup>⋅s<sup>4</sup>⋅A<sup>2</sup>"
+
+[dimensions]
+length = 0
+mass = -1
+time = 4
+electric_current = 2
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.COULOMB_SQUARE_METER_PER_VOLT]
+multiplier = "1.0E0"
+symbol = "C⋅m<sup>2</sup>/V"
+singular = "coulomb square meter per volt"
+plural = "coulomb square meters per volt"
+
+[units.SQUARE_COULOMB_SQUARE_METER_PER_JOULE]
+multiplier = "1.0E0"
+symbol = "C<sup>2</sup>⋅m<sup>2</sup>/J"
+singular = "square coulomb square meter per joule"
+plural = "square coulomb square meters per joule"

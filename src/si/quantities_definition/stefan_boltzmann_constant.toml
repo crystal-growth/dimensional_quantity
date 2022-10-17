@@ -1,0 +1,31 @@
+name = "Stefan boltzmann constant"
+symbol = "StefanBoltzmannConstant"
+snake_case_name = "stefan_boltzmann_constant"
+short_dim_formula = "M⋅T<sup>-3</sup>⋅`ΔTh`<sup>-4</sup>"
+long_dim_formula = "Mass⋅Time<sup>-3</sup>⋅Temperature interval<sup>-4</sup>"
+units_formula = "kg⋅s<sup>-3</sup>⋅ΔK<sup>-4</sup>"
+
+[dimensions]
+length = 0
+mass = 1
+time = -3
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = -4
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.WATT_PER_SQUARE_METER_KELVIN_TO_THE_FOURTH_POWER]
+multiplier = "1.0E0"
+symbol = "W/(m²·K⁴)"
+singular = "watt per square meter kelvin to the fourth power"
+plural = "watt per square meter kelvin to the fourth power"
+
+[units.STEFAN_BOLTZMANN_CONSTANT]
+multiplier = "5.670_374_419_E-8"
+symbol = "σ"
+singular = "stefan-boltzmann constant"
+plural = "stefan-boltzmann constants"
+

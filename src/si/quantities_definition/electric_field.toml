@@ -1,0 +1,73 @@
+name = "Electric field"
+symbol = "ElectricField"
+snake_case_name = "electric_field"
+short_dim_formula = "L⋅M⋅T<sup>-3</sup>⋅I<sup>-1</sup>"
+long_dim_formula = "Length⋅Mass⋅Time<sup>-3</sup>⋅Electric current<sup>-1</sup>"
+units_formula = "m⋅kg⋅s<sup>-3</sup>⋅A<sup>-1</sup>"
+
+[dimensions]
+length = 1
+mass = 1
+time = -3
+electric_current = -1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.VOLT_PER_METER]
+multiplier = "1.0E0"
+symbol = "V/m"
+singular = "volt per meter"
+plural = "volts per meter"
+
+[units.VOLT_PER_CENTIMETER]
+multiplier = "1.0_E+2"
+symbol = "V/cm"
+singular = "volt per centimeter"
+plural = "volts per centimeter"
+
+[units.VOLT_PER_MILLIMETER]
+multiplier = "1.0_E+3"
+symbol = "V/mm"
+singular = "volt per millimeter"
+plural = "volts per millimeter"
+
+[units.VOLT_PER_MICROMETER]
+multiplier = "1.0_E+6"
+symbol = "V/μm"
+singular = "volt per micrometer"
+plural = "volts per micrometer"
+
+[units.KILOVOLT_PER_MILLIMETER]
+multiplier = "1.0_E+6"
+symbol = "kV/mm"
+singular = "kilovolt per millimeter"
+plural = "kilovolts per millimeter"
+
+[units.MEGAVOLT_PER_METER]
+multiplier = "1.0_E6"
+symbol = "MV/m"
+singular = "megavolt per meter"
+plural = "megavolts per meter"
+
+[units.MEGAVOLT_PER_CENTIMETER]
+multiplier = "1.0_E+8"
+symbol = "MV/cm"
+singular = "megavolt per centimeter"
+plural = "megavolts per centimeter"
+
+[units.VOLT_PER_MIL]
+multiplier = "3.9370078740157_E+4"
+symbol = "V/mil"
+singular = "volt per mil"
+plural = "volts per mil"
+
+[units.ATOMIC_UNIT_OF_ELECTRIC_FIELD]
+multiplier = "5.142_206_747_632_595_E11"
+symbol = "a.u.ofelectricfield"
+singular = "atomic unit of electric field"
+plural = "atomic units of electric field"
+

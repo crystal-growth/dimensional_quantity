@@ -1,0 +1,43 @@
+name = "Areal mass density"
+symbol = "ArealMassDensity"
+snake_case_name = "areal_mass_density"
+short_dim_formula = "L<sup>-2</sup>⋅M"
+long_dim_formula = "Length<sup>-2</sup>⋅Mass"
+units_formula = "m<sup>-2</sup>⋅kg"
+
+[dimensions]
+length = -2
+mass = 1
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.KILOGRAM_PER_SQUARE_METER]
+multiplier = "1.0E0"
+symbol = "kg/m²"
+singular = "kilogram per square meter"
+plural = "kilograms per square meter"
+
+[units.GRAM_PER_SQUARE_METER]
+multiplier = "1.0E-3"
+symbol = "g/m²"
+singular = "gram per square meter"
+plural = "grams per square meter"
+
+[units.GRAM_PER_SQUARE_CENTIMETER]
+multiplier = "1.0_E+1"
+symbol = "g/cm²"
+singular = "gram per square centimeter"
+plural = "grams per square centimeter"
+
+[units.OUNCE_PER_SQUARE_FOOT]
+multiplier = "3.0515169363672_E-1"
+symbol = "oz/ft²"
+singular = "ounce per square foot"
+plural = "ounces per square foot"
+

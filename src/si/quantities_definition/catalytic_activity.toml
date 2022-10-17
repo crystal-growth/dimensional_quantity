@@ -1,0 +1,307 @@
+name = "Catalytic activity"
+symbol = "CatalyticActivity"
+snake_case_name = "catalytic_activity"
+short_dim_formula = "T<sup>-1</sup>⋅N"
+long_dim_formula = "Time<sup>-1</sup>⋅Amount of substance"
+units_formula = "s<sup>-1</sup>⋅mol"
+
+[dimensions]
+length = 0
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAKATAL]
+multiplier = "1.0_E24"
+symbol = "Ykat"
+singular = "yottakatal"
+plural = "yottakatals"
+
+[units.ZETTAKATAL]
+multiplier = "1.0_E21"
+symbol = "Zkat"
+singular = "zettakatal"
+plural = "zettakatals"
+
+[units.EXAKATAL]
+multiplier = "1.0_E18"
+symbol = "Ekat"
+singular = "exakatal"
+plural = "exakatals"
+
+[units.PETAKATAL]
+multiplier = "1.0_E15"
+symbol = "Pkat"
+singular = "petakatal"
+plural = "petakatals"
+
+[units.TERAKATAL]
+multiplier = "1.0_E12"
+symbol = "Tkat"
+singular = "terakatal"
+plural = "terakatals"
+
+[units.GIGAKATAL]
+multiplier = "1.0_E9"
+symbol = "Gkat"
+singular = "gigakatal"
+plural = "gigakatals"
+
+[units.MEGAKATAL]
+multiplier = "1.0_E6"
+symbol = "Mkat"
+singular = "megakatal"
+plural = "megakatals"
+
+[units.KILOKATAL]
+multiplier = "1.0_E3"
+symbol = "kkat"
+singular = "kilokatal"
+plural = "kilokatals"
+
+[units.HECTOKATAL]
+multiplier = "1.0_E2"
+symbol = "hkat"
+singular = "hectokatal"
+plural = "hectokatals"
+
+[units.DECAKATAL]
+multiplier = "1.0E1"
+symbol = "dakat"
+singular = "decakatal"
+plural = "decakatals"
+
+[units.KATAL]
+multiplier = "1.0E0"
+symbol = "kat"
+singular = "katal"
+plural = "katals"
+
+[units.DECIKATAL]
+multiplier = "1.0E-1"
+symbol = "dkat"
+singular = "decikatal"
+plural = "decikatals"
+
+[units.CENTIKATAL]
+multiplier = "1.0E-2"
+symbol = "ckat"
+singular = "centikatal"
+plural = "centikatals"
+
+[units.MILLIKATAL]
+multiplier = "1.0E-3"
+symbol = "mkat"
+singular = "millikatal"
+plural = "millikatals"
+
+[units.MICROKATAL]
+multiplier = "1.0E-6"
+symbol = "µkat"
+singular = "microkatal"
+plural = "microkatals"
+
+[units.NANOKATAL]
+multiplier = "1.0E-9"
+symbol = "nkat"
+singular = "nanokatal"
+plural = "nanokatals"
+
+[units.PICOKATAL]
+multiplier = "1.0E-12"
+symbol = "pkat"
+singular = "picokatal"
+plural = "picokatals"
+
+[units.FEMTOKATAL]
+multiplier = "1.0E-15"
+symbol = "fkat"
+singular = "femtokatal"
+plural = "femtokatals"
+
+[units.ATTOKATAL]
+multiplier = "1.0E-18"
+symbol = "akat"
+singular = "attokatal"
+plural = "attokatals"
+
+[units.ZEPTOKATAL]
+multiplier = "1.0E-21"
+symbol = "zkat"
+singular = "zeptokatal"
+plural = "zeptokatals"
+
+[units.YOCTOKATAL]
+multiplier = "1.0E-24"
+symbol = "ykat"
+singular = "yoctokatal"
+plural = "yoctokatals"
+
+[units.YOTTA_ENZYME_UNIT]
+multiplier = "1.6666666666667_E+16"
+symbol = "YU"
+singular = "yotta enzyme unit"
+plural = "yotta enzyme units"
+
+[units.ZETTA_ENZYME_UNIT]
+multiplier = "1.6666666666667_E+13"
+symbol = "ZU"
+singular = "zetta enzyme unit"
+plural = "zetta enzyme units"
+
+[units.EXA_ENZYME_UNIT]
+multiplier = "1.6666666666667_E+10"
+symbol = "EU"
+singular = "exa enzyme unit"
+plural = "exa enzyme units"
+
+[units.PETA_ENZYME_UNIT]
+multiplier = "1.6666666666667_E+7"
+symbol = "PU"
+singular = "peta enzyme unit"
+plural = "peta enzyme units"
+
+[units.TERA_ENZYME_UNIT]
+multiplier = "1.6666666666667_E+4"
+symbol = "TU"
+singular = "tera enzyme unit"
+plural = "tera enzyme units"
+
+[units.GIGA_ENZYME_UNIT]
+multiplier = "1.6666666666667_E+1"
+symbol = "GU"
+singular = "giga enzyme unit"
+plural = "giga enzyme units"
+
+[units.MEGA_ENZYME_UNIT]
+multiplier = "1.6666666666667_E-2"
+symbol = "MU"
+singular = "mega enzyme unit"
+plural = "mega enzyme units"
+
+[units.KILO_ENZYME_UNIT]
+multiplier = "1.6666666666667_E-5"
+symbol = "kU"
+singular = "kilo enzyme unit"
+plural = "kilo enzyme units"
+
+[units.HECTO_ENZYME_UNIT]
+multiplier = "1.6666666666667_E-6"
+symbol = "hU"
+singular = "hecto enzyme unit"
+plural = "hecto enzyme units"
+
+[units.DECA_ENZYME_UNIT]
+multiplier = "1.6666666666667_E-7"
+symbol = "daU"
+singular = "deca enzyme unit"
+plural = "deca enzyme units"
+
+[units.ENZYME_UNIT]
+multiplier = "1.6666666666667_E-8"
+symbol = "U"
+singular = "enzyme unit"
+plural = "enzyme units"
+
+[units.DECI_ENZYME_UNIT]
+multiplier = "1.6666666666667_E-9"
+symbol = "dU"
+singular = "deci enzyme unit"
+plural = "deci enzyme units"
+
+[units.CENTI_ENZYME_UNIT]
+multiplier = "1.6666666666667_E-10"
+symbol = "cU"
+singular = "centi enzyme unit"
+plural = "centi enzyme units"
+
+[units.MILLI_ENZYME_UNIT]
+multiplier = "1.6666666666667_E-11"
+symbol = "mU"
+singular = "milli enzyme unit"
+plural = "milli enzyme units"
+
+[units.MICRO_ENZYME_UNIT]
+multiplier = "1.6666666666667_E-14"
+symbol = "μU"
+singular = "micro enzyme unit"
+plural = "micro enzyme units"
+
+[units.NANO_ENZYME_UNIT]
+multiplier = "1.6666666666667_E-17"
+symbol = "nU"
+singular = "nano enzyme unit"
+plural = "nano enzyme units"
+
+[units.PICO_ENZYME_UNIT]
+multiplier = "1.6666666666667_E-20"
+symbol = "pU"
+singular = "pico enzyme unit"
+plural = "pico enzyme units"
+
+[units.FEMTO_ENZYME_UNIT]
+multiplier = "1.6666666666667_E-23"
+symbol = "fU"
+singular = "femto enzyme unit"
+plural = "femto enzyme units"
+
+[units.ATTO_ENZYME_UNIT]
+multiplier = "1.6666666666667_E-26"
+symbol = "aU"
+singular = "atto enzyme unit"
+plural = "atto enzyme units"
+
+[units.ZEPTO_ENZYME_UNIT]
+multiplier = "1.6666666666667_E-29"
+symbol = "zU"
+singular = "zepto enzyme unit"
+plural = "zepto enzyme units"
+
+[units.YOCTO_ENZYME_UNIT]
+multiplier = "1.6666666666667_E-32"
+symbol = "yU"
+singular = "yocto enzyme unit"
+plural = "yocto enzyme units"
+
+[units.PARTICLE_PER_SECOND]
+multiplier = "1.6605390671738_E-24"
+symbol = "particle/s"
+singular = "particle per second"
+plural = "particles per second"
+
+[units.MOLE_PER_SECOND]
+multiplier = "1.0E0"
+symbol = "mol/s"
+singular = "mole per second"
+plural = "moles per second"
+
+[units.STANDARD_CENTIMETER_PER_MINUTE]
+multiplier = "7.3386024189971_E-7"
+symbol = "sccm"
+singular = "standard centimeter per minute"
+plural = "standard centimeters per minute"
+
+[units.STANDARD_LITER_PER_MINUTE]
+multiplier = "7.3386024189971_E-4"
+symbol = "slm"
+singular = "standard liter per minute"
+plural = "standard liters per minute"
+
+[units.STANDARD_CUBIC_METER_PER_MINUTE]
+multiplier = "7.3386024189971_E-1"
+symbol = "m³(STP)/min"
+singular = "standard cubic meter per minute"
+plural = "standard cubic meters per minute"
+
+[units.STANDARD_CUBIC_FOOT_PER_MINUTE]
+multiplier = "2.0780610390838_E-2"
+symbol = "scfm"
+singular = "standard cubic foot per hour"
+plural = "standard cubic feet per hour"
+

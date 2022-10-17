@@ -1,0 +1,385 @@
+name = "Heat transfer"
+symbol = "HeatTransfer"
+snake_case_name = "heat_transfer"
+short_dim_formula = "M⋅T<sup>-3</sup>⋅`ΔTh`<sup>-1</sup>"
+long_dim_formula = "Mass⋅Time<sup>-3</sup>⋅Temperature interval<sup>-1</sup>"
+units_formula = "kg⋅s<sup>-3</sup>⋅ΔK<sup>-1</sup>"
+
+[dimensions]
+length = 0
+mass = 1
+time = -3
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = -1
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+21"
+symbol = "Yg/(s³·K)"
+singular = "yottagram per second cubed kelvin"
+plural = "yottagrams per second cubed kelvin"
+
+[units.ZETTAGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+18"
+symbol = "Zg/(s³·K)"
+singular = "zettagram per second cubed kelvin"
+plural = "zettagrams per second cubed kelvin"
+
+[units.EXAGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+15"
+symbol = "Eg/(s³·K)"
+singular = "exagram per second cubed kelvin"
+plural = "exagrams per second cubed kelvin"
+
+[units.PETAGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+12"
+symbol = "Pg/(s³·K)"
+singular = "petagram per second cubed kelvin"
+plural = "petagrams per second cubed kelvin"
+
+[units.TERAGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+9"
+symbol = "Tg/(s³·K)"
+singular = "teragram per second cubed kelvin"
+plural = "teragrams per second cubed kelvin"
+
+[units.GIGAGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+6"
+symbol = "Gg/(s³·K)"
+singular = "gigagram per second cubed kelvin"
+plural = "gigagrams per second cubed kelvin"
+
+[units.MEGAGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+3"
+symbol = "Mg/(s³·K)"
+singular = "megagram per second cubed kelvin"
+plural = "megagrams per second cubed kelvin"
+
+[units.KILOGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E+0"
+symbol = "kg/(s³·K)"
+singular = "kilogram per second cubed kelvin"
+plural = "kilograms per second cubed kelvin"
+
+[units.HECTOGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-1"
+symbol = "hg/(s³·K)"
+singular = "hectogram per second cubed kelvin"
+plural = "hectograms per second cubed kelvin"
+
+[units.DECAGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-2"
+symbol = "dag/(s³·K)"
+singular = "decagram per second cubed kelvin"
+plural = "decagrams per second cubed kelvin"
+
+[units.GRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-3"
+symbol = "g/(s³·K)"
+singular = "gram per second cubed kelvin"
+plural = "grams per second cubed kelvin"
+
+[units.DECIGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-4"
+symbol = "dg/(s³·K)"
+singular = "decigram per second cubed kelvin"
+plural = "decigrams per second cubed kelvin"
+
+[units.CENTIGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-5"
+symbol = "cg/(s³·K)"
+singular = "centigram per second cubed kelvin"
+plural = "centigrams per second cubed kelvin"
+
+[units.MILLIGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-6"
+symbol = "mg/(s³·K)"
+singular = "milligram per second cubed kelvin"
+plural = "milligrams per second cubed kelvin"
+
+[units.MICROGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-9"
+symbol = "µg/(s³·K)"
+singular = "microgram per second cubed kelvin"
+plural = "micrograms per second cubed kelvin"
+
+[units.NANOGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-12"
+symbol = "ng/(s³·K)"
+singular = "nanogram per second cubed kelvin"
+plural = "nanograms per second cubed kelvin"
+
+[units.PICOGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-15"
+symbol = "pg/(s³·K)"
+singular = "picogram per second cubed kelvin"
+plural = "picograms per second cubed kelvin"
+
+[units.FEMTOGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-18"
+symbol = "fg/(s³·K)"
+singular = "femtogram per second cubed kelvin"
+plural = "femtograms per second cubed kelvin"
+
+[units.ATTOGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-21"
+symbol = "ag/(s³·K)"
+singular = "attogram per second cubed kelvin"
+plural = "attograms per second cubed kelvin"
+
+[units.ZEPTOGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-24"
+symbol = "zg/(s³·K)"
+singular = "zeptogram per second cubed kelvin"
+plural = "zeptograms per second cubed kelvin"
+
+[units.YOCTOGRAM_PER_SECOND_CUBED_KELVIN]
+multiplier = "1.0_E-27"
+symbol = "yg/(s³·K)"
+singular = "yoctogram per second cubed kelvin"
+plural = "yoctograms per second cubed kelvin"
+
+[units.KILOGRAM_PER_SECOND_CUBED_DEGREE_CELSIUS]
+multiplier = "1.0_E+0"
+symbol = "kg/(s³·°C)"
+singular = "kilogram per second cubed degree celsius"
+plural = "kilograms per second cubed degree celsius"
+
+[units.YOTTAWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0_E24"
+symbol = "YW/(m²·K)"
+singular = "yottawatt per square meter kelvin"
+plural = "yottawatts per square meter kelvin"
+
+[units.ZETTAWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0_E21"
+symbol = "ZW/(m²·K)"
+singular = "zettawatt per square meter kelvin"
+plural = "zettawatts per square meter kelvin"
+
+[units.EXAWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0_E18"
+symbol = "EW/(m²·K)"
+singular = "exawatt per square meter kelvin"
+plural = "exawatts per square meter kelvin"
+
+[units.PETAWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0_E15"
+symbol = "PW/(m²·K)"
+singular = "petawatt per square meter kelvin"
+plural = "petawatts per square meter kelvin"
+
+[units.TERAWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0_E12"
+symbol = "TW/(m²·K)"
+singular = "terawatt per square meter kelvin"
+plural = "terawatts per square meter kelvin"
+
+[units.GIGAWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0_E9"
+symbol = "GW/(m²·K)"
+singular = "gigawatt per square meter kelvin"
+plural = "gigawatts per square meter kelvin"
+
+[units.MEGAWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0_E6"
+symbol = "MW/(m²·K)"
+singular = "megawatt per square meter kelvin"
+plural = "megawatts per square meter kelvin"
+
+[units.KILOWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0_E3"
+symbol = "kW/(m²·K)"
+singular = "kilowatt per square meter kelvin"
+plural = "kilowatts per square meter kelvin"
+
+[units.HECTOWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0_E2"
+symbol = "hW/(m²·K)"
+singular = "hectowatt per square meter kelvin"
+plural = "hectowatts per square meter kelvin"
+
+[units.DECAWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0E1"
+symbol = "daW/(m²·K)"
+singular = "decawatt per square meter kelvin"
+plural = "decawatts per square meter kelvin"
+
+[units.WATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0E0"
+symbol = "W/(m²·K)"
+singular = "watt per square meter kelvin"
+plural = "watts per square meter kelvin"
+
+[units.DECIWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0E-1"
+symbol = "dW/(m²·K)"
+singular = "deciwatt per square meter kelvin"
+plural = "deciwatts per square meter kelvin"
+
+[units.CENTIWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0E-2"
+symbol = "cW/(m²·K)"
+singular = "centiwatt per square meter kelvin"
+plural = "centiwatts per square meter kelvin"
+
+[units.MILLIWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0E-3"
+symbol = "mW/(m²·K)"
+singular = "milliwatt per square meter kelvin"
+plural = "milliwatts per square meter kelvin"
+
+[units.MICROWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0E-6"
+symbol = "µW/(m²·K)"
+singular = "microwatt per square meter kelvin"
+plural = "microwatts per square meter kelvin"
+
+[units.NANOWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0E-9"
+symbol = "nW/(m²·K)"
+singular = "nanowatt per square meter kelvin"
+plural = "nanowatts per square meter kelvin"
+
+[units.PICOWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0E-12"
+symbol = "pW/(m²·K)"
+singular = "picowatt per square meter kelvin"
+plural = "picowatts per square meter kelvin"
+
+[units.FEMTOWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0E-15"
+symbol = "fW/(m²·K)"
+singular = "femtowatt per square meter kelvin"
+plural = "femtowatts per square meter kelvin"
+
+[units.ATTOWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0E-18"
+symbol = "aW/(m²·K)"
+singular = "attowatt per square meter kelvin"
+plural = "attowatts per square meter kelvin"
+
+[units.ZEPTOWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0E-21"
+symbol = "zW/(m²·K)"
+singular = "zeptowatt per square meter kelvin"
+plural = "zeptowatts per square meter kelvin"
+
+[units.YOCTOWATT_PER_SQUARE_METER_KELVIN]
+multiplier = "1.0E-24"
+symbol = "yW/(m²·K)"
+singular = "yoctowatt per square meter kelvin"
+plural = "yoctowatts per square meter kelvin"
+
+[units.WATT_PER_SQUARE_KILOMETER_DEGREE_CELSIUS]
+multiplier = "1.0_E-6"
+symbol = "W/(km²·°C)"
+singular = "watt per square kilometer degree celsius"
+plural = "watts per square kilometer degree celsius"
+
+[units.WATT_PER_SQUARE_METER_DEGREE_CELSIUS]
+multiplier = "1.0E0"
+symbol = "W/(m²·°C)"
+singular = "watt per square meter degree celsius"
+plural = "watts per square meter degree celsius"
+
+[units.WATT_PER_SQUARE_CENTIMETER_DEGREE_CELSIUS]
+multiplier = "1.0_E+4"
+symbol = "W/(cm²·°C)"
+singular = "watt per square centimeter degree celsius"
+plural = "watts per square centimeter degree celsius"
+
+[units.WATT_PER_SQUARE_MILLIMETER_DEGREE_CELSIUS]
+multiplier = "1.0_E+6"
+symbol = "W/(mm²·°C)"
+singular = "watt per square millimeter degree celsius"
+plural = "watts per square millimeter degree celsius"
+
+[units.JOULE_PER_SECOND_SQUARE_METER_KELVIN]
+multiplier = "1.0E0"
+symbol = "J/(s·m²·K)"
+singular = "joule per second square meter kelvin"
+plural = "joules per second square meter kelvin"
+
+[units.JOULE_PER_SECOND_SQUARE_METER_DEGREE_CELSIUS]
+multiplier = "1.0E0"
+symbol = "J/(s·m²·°C)"
+singular = "joule per second square meter degree celsius"
+plural = "joules per second square meter degree celsius"
+
+[units.BTU_IT_PER_HOUR_SQUARE_FOOT_DEGREE_FAHRENHEIT]
+multiplier = "5.678_264_134_306_046"
+symbol = "Btu(IT)/(hr·ft²·°F)"
+singular = "British thermal unit (IT) per hour square foot degree Fahrenheit"
+plural = "British thermal units (IT) per hour square foot degree Fahrenheit"
+
+[units.BTU_IT_PER_HOUR_SQUARE_INCH_DEGREE_FAHRENHEIT]
+multiplier = "8.176_700_353_400_707_E2"
+symbol = "Btu(IT)/(hr·in²·°F)"
+singular = "British thermal unit (IT) per hour square inch degree Fahrenheit"
+plural = "British thermal units (IT) per hour square inch degree Fahrenheit"
+
+[units.BTU_IT_PER_MINUTE_SQUARE_FOOT_DEGREE_FAHRENHEIT]
+multiplier = "3.406_958_480_583_627_4_E2"
+symbol = "Btu(IT)/(min·ft²·°F)"
+singular = "British thermal unit (IT) per minute square foot degree Fahrenheit"
+plural = "British thermal units (IT) per minute square foot degree Fahrenheit"
+
+[units.BTU_IT_PER_MINUTE_SQUARE_INCH_DEGREE_FAHRENHEIT]
+multiplier = "4.906_020_212_040_425_E4"
+symbol = "Btu(IT)/(min·in²·°F)"
+singular = "British thermal unit (IT) per minute square inch degree Fahrenheit"
+plural = "British thermal units (IT) per minute square inch degree Fahrenheit"
+
+[units.BTU_IT_PER_SECOND_SQUARE_FOOT_DEGREE_FAHRENHEIT]
+multiplier = "2.044_175_088_350_176_5_E4"
+symbol = "Btu(IT)/(s·ft²·°F)"
+singular = "British thermal unit (IT) per second square foot degree Fahrenheit"
+plural = "British thermal units (IT) per second square foot degree Fahrenheit"
+
+[units.BTU_IT_PER_SECOND_SQUARE_INCH_DEGREE_FAHRENHEIT]
+multiplier = "2.943_612_127_224_254_4_E6"
+symbol = "Btu(IT)/(s·in²·°F)"
+singular = "British thermal unit (IT) per second square inch degree Fahrenheit"
+plural = "British thermal units (IT) per second square inch degree Fahrenheit"
+
+[units.BTU_PER_HOUR_SQUARE_FOOT_DEGREE_FAHRENHEIT]
+multiplier = "5.674_464_473_928_946"
+symbol = "Btu/(hr·ft²·°F)"
+singular = "British thermal unit per hour square foot degree Fahrenheit"
+plural = "British thermal units per hour square foot degree Fahrenheit"
+
+[units.BTU_PER_HOUR_SQUARE_INCH_DEGREE_FAHRENHEIT]
+multiplier = "8.171_228_842_457_684_E2"
+symbol = "Btu/(hr·in²·°F)"
+singular = "British thermal unit per hour square inch degree Fahrenheit"
+plural = "British thermal units per hour square inch degree Fahrenheit"
+
+[units.BTU_PER_MINUTE_SQUARE_FOOT_DEGREE_FAHRENHEIT]
+multiplier = "3.404_678_684_357_368_E2"
+symbol = "Btu/(min·ft²·°F)"
+singular = "British thermal unit per minute square foot degree Fahrenheit"
+plural = "British thermal units per minute square foot degree Fahrenheit"
+
+[units.BTU_PER_MINUTE_SQUARE_INCH_DEGREE_FAHRENHEIT]
+multiplier = "4.902_737_305_474_611_E4"
+symbol = "Btu/(min·in²·°F)"
+singular = "British thermal unit per minute square inch degree Fahrenheit"
+plural = "British thermal units per minute square inch degree Fahrenheit"
+
+[units.BTU_PER_SECOND_SQUARE_FOOT_DEGREE_FAHRENHEIT]
+multiplier = "2.042_807_210_614_421_E4"
+symbol = "Btu/(s·ft²·°F)"
+singular = "British thermal unit per second square foot degree Fahrenheit"
+plural = "British thermal units per second square foot degree Fahrenheit"
+
+[units.BTU_PER_SECOND_SQUARE_INCH_DEGREE_FAHRENHEIT]
+multiplier = "2.941_642_383_284_766_E6"
+symbol = "Btu/(s·in²·°F)"
+singular = "British thermal unit per second square inch degree Fahrenheit"
+plural = "British thermal units per second square inch degree Fahrenheit"
+

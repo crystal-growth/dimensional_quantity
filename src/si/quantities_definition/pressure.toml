@@ -1,0 +1,331 @@
+name = "Pressure"
+symbol = "Pressure"
+snake_case_name = "pressure"
+short_dim_formula = "L<sup>-1</sup>⋅M⋅T<sup>-2</sup>"
+long_dim_formula = "Length<sup>-1</sup>⋅Mass⋅Time<sup>-2</sup>"
+units_formula = "m<sup>-1</sup>⋅kg⋅s<sup>-2</sup>"
+
+[dimensions]
+length = -1
+mass = 1
+time = -2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAPASCAL]
+multiplier = "1.0_E24"
+symbol = "YPa"
+singular = "yottapascal"
+plural = "yottapascals"
+
+[units.ZETTAPASCAL]
+multiplier = "1.0_E21"
+symbol = "ZPa"
+singular = "zettapascal"
+plural = "zettapascals"
+
+[units.EXAPASCAL]
+multiplier = "1.0_E18"
+symbol = "EPa"
+singular = "exapascal"
+plural = "exapascals"
+
+[units.PETAPASCAL]
+multiplier = "1.0_E15"
+symbol = "PPa"
+singular = "petapascal"
+plural = "petapascals"
+
+[units.TERAPASCAL]
+multiplier = "1.0_E12"
+symbol = "TPa"
+singular = "terapascal"
+plural = "terapascals"
+
+[units.GIGAPASCAL]
+multiplier = "1.0_E9"
+symbol = "GPa"
+singular = "gigapascal"
+plural = "gigapascals"
+
+[units.MEGAPASCAL]
+multiplier = "1.0_E6"
+symbol = "MPa"
+singular = "megapascal"
+plural = "megapascals"
+
+[units.KILOPASCAL]
+multiplier = "1.0_E3"
+symbol = "kPa"
+singular = "kilopascal"
+plural = "kilopascals"
+
+[units.HECTOPASCAL]
+multiplier = "1.0_E2"
+symbol = "hPa"
+singular = "hectopascal"
+plural = "hectopascals"
+
+[units.DECAPASCAL]
+multiplier = "1.0E1"
+symbol = "daPa"
+singular = "decapascal"
+plural = "decapascals"
+
+[units.PASCAL]
+multiplier = "1.0E0"
+symbol = "Pa"
+singular = "pascal"
+plural = "pascals"
+
+[units.DECIPASCAL]
+multiplier = "1.0E-1"
+symbol = "dPa"
+singular = "decipascal"
+plural = "decipascals"
+
+[units.CENTIPASCAL]
+multiplier = "1.0E-2"
+symbol = "cPa"
+singular = "centipascal"
+plural = "centipascals"
+
+[units.MILLIPASCAL]
+multiplier = "1.0E-3"
+symbol = "mPa"
+singular = "millipascal"
+plural = "millipascals"
+
+[units.MICROPASCAL]
+multiplier = "1.0E-6"
+symbol = "µPa"
+singular = "micropascal"
+plural = "micropascals"
+
+[units.NANOPASCAL]
+multiplier = "1.0E-9"
+symbol = "nPa"
+singular = "nanopascal"
+plural = "nanopascals"
+
+[units.PICOPASCAL]
+multiplier = "1.0E-12"
+symbol = "pPa"
+singular = "picopascal"
+plural = "picopascals"
+
+[units.FEMTOPASCAL]
+multiplier = "1.0E-15"
+symbol = "fPa"
+singular = "femtopascal"
+plural = "femtopascals"
+
+[units.ATTOPASCAL]
+multiplier = "1.0E-18"
+symbol = "aPa"
+singular = "attopascal"
+plural = "attopascals"
+
+[units.ZEPTOPASCAL]
+multiplier = "1.0E-21"
+symbol = "zPa"
+singular = "zeptopascal"
+plural = "zeptopascals"
+
+[units.YOCTOPASCAL]
+multiplier = "1.0E-24"
+symbol = "yPa"
+singular = "yoctopascal"
+plural = "yoctopascals"
+
+[units.ATMOSPHERE]
+multiplier = "1.013_25_E5"
+symbol = "atm"
+singular = "atmosphere"
+plural = "atmospheres"
+
+[units.ATMOSPHERE_TECHNICAL]
+multiplier = "9.806_65_E4"
+symbol = "at"
+singular = "atmosphere (technical)"
+plural = "atmospheres (technical)"
+
+[units.BAR]
+multiplier = "1.0_E5"
+symbol = "bar"
+singular = "bar"
+plural = "bar"
+
+[units.CENTIMETER_OF_MERCURY_0]
+multiplier = "1.333_22_E3"
+symbol = "cmHg(0°C)"
+singular = "centimeter of mercury (0 °C)"
+plural = "centimeters of mercury (0 °C)"
+
+[units.CENTIMETER_OF_MERCURY]
+multiplier = "1.333_224_E3"
+symbol = "cmHg"
+singular = "centimeter of mercury"
+plural = "centimeters of mercury"
+
+[units.CENTIMETER_OF_WATER_4]
+multiplier = "9.806_38_E1"
+symbol = "cmH₂O(4°C)"
+singular = "centimeter of water (4 °C)"
+plural = "centimeters of water (4 °C)"
+
+[units.CENTIMETER_OF_WATER]
+multiplier = "9.806_65_E1"
+symbol = "cmH₂O"
+singular = "centimeter of water"
+plural = "centimeters of water"
+
+[units.DYNE_PER_SQUARE_CENTIMETER]
+multiplier = "1.0_E-1"
+symbol = "dyn/cm²"
+singular = "dyne per square centimeter"
+plural = "dynes per square centimeter"
+
+[units.FOOT_OF_MERCURY]
+multiplier = "4.063_666_E4"
+symbol = "ftHg"
+singular = "foot of mercury"
+plural = "feet of mercury"
+
+[units.FOOT_OF_WATER_39_2]
+multiplier = "2.988_98_E3"
+symbol = "ftH₂O(39.2°F)"
+singular = "foot of water (39.2 °F)"
+plural = "feet of water (39.2 °F)"
+
+[units.FOOT_OF_WATER]
+multiplier = "2.989_067_E3"
+symbol = "ftH₂O"
+singular = "foot of water"
+plural = "feet of water"
+
+[units.GRAM_FORCE_PER_SQUARE_CENTIMETER]
+multiplier = "9.806_65_E1"
+symbol = "gf/cm²"
+singular = "gram-force per square centimeter"
+plural = "grams-force per square centimeter"
+
+[units.INCH_OF_MERCURY_32]
+multiplier = "3.386_38_E3"
+symbol = "inHg(32°F)"
+singular = "inch of mercury (32 °F)"
+plural = "inches of mercury (32 °F)"
+
+[units.INCH_OF_MERCURY_60]
+multiplier = "3.376_85_E3"
+symbol = "inHg(60°F)"
+singular = "inch of mercury (60 °F)"
+plural = "inches of mercury (60 °F)"
+
+[units.INCH_OF_MERCURY]
+multiplier = "3.386_389_E3"
+symbol = "inHg"
+singular = "inch of mercury"
+plural = "inches of mercury"
+
+[units.INCH_OF_WATER_39_2]
+multiplier = "2.490_82_E2"
+symbol = "inH₂O(39.2°F)"
+singular = "inch of water (39.2 °F)"
+plural = "inches of water (39.2 °F)"
+
+[units.INCH_OF_WATER_60]
+multiplier = "2.488_4_E2"
+symbol = "inH₂O(60°F)"
+singular = "inch of water (60 °F)"
+plural = "inches of water (60 °F)"
+
+[units.INCH_OF_WATER]
+multiplier = "2.490_889_E2"
+symbol = "inH₂O"
+singular = "inch of water"
+plural = "inches of water"
+
+[units.KILOGRAM_FORCE_PER_SQUARE_CENTIMETER]
+multiplier = "9.806_65_E4"
+symbol = "kgf/cm²"
+singular = "kilogram-force per square centimeter"
+plural = "kilograms-force per square centimeter"
+
+[units.KILOGRAM_FORCE_PER_SQUARE_METER]
+multiplier = "9.806_65_E0"
+symbol = "kgf/m²"
+singular = "kilogram-force per square meter"
+plural = "kilograms-force per square meter"
+
+[units.KILOGRAM_FORCE_PER_SQUARE_MILLIMETER]
+multiplier = "9.806_65_E6"
+symbol = "kgf/mm²"
+singular = "kilogram-force per square millimeter"
+plural = "kilograms-force per square millimeter"
+
+[units.KIP_PER_SQUARE_INCH]
+multiplier = "6.894_757_889_515_779_E6"
+symbol = "kip/in²"
+singular = "kip per square inch"
+plural = "kips per square inch"
+
+[units.MILLIBAR]
+multiplier = "1.0_E2"
+symbol = "mbar"
+singular = "millibar"
+plural = "millibar"
+
+[units.MILLIMETER_OF_MERCURY]
+multiplier = "1.333_224_E2"
+symbol = "mmHg"
+singular = "millimeter of mercury"
+plural = "millimeters of mercury"
+
+[units.MILLIMETER_OF_WATER]
+multiplier = "9.806_65_E0"
+symbol = "mmH₂O"
+singular = "millimeter of water"
+plural = "millimeters of water"
+
+[units.MILLITORR]
+multiplier = "1.333_224_E-1"
+symbol = "mTorr"
+singular = "millitorr"
+plural = "millitorr"
+
+[units.POUNDAL_PER_SQUARE_FOOT]
+multiplier = "1.488_164_434_662_202_5_E0"
+symbol = "pdl/ft²"
+singular = "poundal per square foot"
+plural = "poundals per square foot"
+
+[units.POUND_FORCE_PER_SQUARE_FOOT]
+multiplier = "4.788_026_312_163_735_6_E1"
+symbol = "lbf/ft²"
+singular = "pound-force per square foot"
+plural = "pounds-force per square foot"
+
+[units.POUND_FORCE_PER_SQUARE_INCH]
+multiplier = "6.894_757_889_515_779_E3"
+symbol = "lbf/in²"
+singular = "pound-force per square inch"
+plural = "pounds-force per square inch"
+
+[units.PSI]
+multiplier = "6.894_757_E3"
+symbol = "psi"
+singular = "pound-force per square inch"
+plural = "pounds-force per square inch"
+
+[units.TORR]
+multiplier = "1.333_224_E2"
+symbol = "Torr"
+singular = "torr"
+plural = "torr"
+

@@ -1,0 +1,24 @@
+name = "First radiation constant"
+symbol = "FirstRadiationConstant"
+snake_case_name = "first_radiation_constant"
+short_dim_formula = "L<sub>4</sub>⋅M<sub>3</sub>⋅T<sub>-1</sub>"
+long_dim_formula = "Length<sub>4</sub>⋅Mass<sub>3</sub>⋅Time<sub>-1</sub>"
+units_formula = "m<sub>4</sub>⋅kg<sub>3</sub>⋅s<sub>-1</sub>"
+
+[dimensions]
+length = 4
+mass = 3
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.WATT_SQUARE_METER]
+multiplier = "1.0E0"
+symbol = "W⋅m<sub>2</sub>"
+singular = "watt square meter"
+plural = "watts square meter"

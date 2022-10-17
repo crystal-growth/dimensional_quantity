@@ -1,0 +1,43 @@
+name = "Curvature"
+symbol = "Curvature"
+snake_case_name = "curvature"
+short_dim_formula = "L<sup>-1</sup>⋅θ"
+long_dim_formula = "Length<sup>-1</sup>⋅Angle"
+units_formula = "m<sup>-1</sup>⋅rad"
+
+[dimensions]
+length = -1
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 1
+information = 0
+
+[units.RADIAN_PER_METER]
+multiplier = "1.0_E0"
+symbol = "rad/m"
+singular = "radian per meter"
+plural = "radians per meter"
+
+[units.DEGREE_PER_METER]
+multiplier = "1.745_329_251_994_329_5_E-2"
+symbol = "°/m"
+singular = "degree per meter"
+plural = "degrees per meter"
+
+[units.RADIAN_PER_MILLIMETER]
+multiplier = "1000.0"
+symbol = "rad/mm"
+singular = "radian per millimeter"
+plural = "radians per millimeter"
+
+[units.DEGREE_PER_MILLIMETER]
+multiplier = "1.745_329_251_994_329_5_E1"
+symbol = "°/mm"
+singular = "degree per millimeter"
+plural = "degrees per millimeter"
+

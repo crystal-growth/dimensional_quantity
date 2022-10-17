@@ -1,0 +1,31 @@
+name = "Angular acceleration"
+symbol = "AngularAcceleration"
+snake_case_name = "angular_acceleration"
+short_dim_formula = "T<sup>-2</sup>⋅θ"
+long_dim_formula = "Time<sup>-2</sup>⋅Angle"
+units_formula = "s<sup>-2</sup>⋅rad"
+
+[dimensions]
+length = 0
+mass = 0
+time = -2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 1
+information = 0
+
+[units.RADIAN_PER_SECOND_SQUARED]
+multiplier = "1.0"
+symbol = "rad/s²"
+singular = "radian per second squared"
+plural = "radians per second squared"
+
+[units.DEGREE_PER_SECOND_SQUARED]
+multiplier = "1.745_329_251_994_329_5_E-2"
+symbol = "°/s²"
+singular = "degree per second squared"
+plural = "degrees per second squared"
+

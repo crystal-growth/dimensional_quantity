@@ -1,0 +1,259 @@
+name = "Available energy"
+symbol = "AvailableEnergy"
+snake_case_name = "available_energy"
+short_dim_formula = "L<sup>2</sup>⋅T<sup>-2</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Time<sup>-2</sup>"
+units_formula = "m<sup>2</sup>⋅s<sup>-2</sup>"
+
+[dimensions]
+length = 2
+mass = 0
+time = -2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAJOULE_PER_KILOGRAM]
+multiplier = "1.0_E24"
+symbol = "YJ/kg"
+singular = "yottajoule per kilogram"
+plural = "yottajoules per kilogram"
+
+[units.ZETTAJOULE_PER_KILOGRAM]
+multiplier = "1.0_E21"
+symbol = "ZJ/kg"
+singular = "zettajoule per kilogram"
+plural = "zettajoules per kilogram"
+
+[units.EXAJOULE_PER_KILOGRAM]
+multiplier = "1.0_E18"
+symbol = "EJ/kg"
+singular = "exajoule per kilogram"
+plural = "exajoules per kilogram"
+
+[units.PETAJOULE_PER_KILOGRAM]
+multiplier = "1.0_E15"
+symbol = "PJ/kg"
+singular = "petajoule per kilogram"
+plural = "petajoules per kilogram"
+
+[units.TERAJOULE_PER_KILOGRAM]
+multiplier = "1.0_E12"
+symbol = "TJ/kg"
+singular = "terajoule per kilogram"
+plural = "terajoules per kilogram"
+
+[units.GIGAJOULE_PER_KILOGRAM]
+multiplier = "1.0_E9"
+symbol = "GJ/kg"
+singular = "gigajoule per kilogram"
+plural = "gigajoules per kilogram"
+
+[units.MEGAJOULE_PER_KILOGRAM]
+multiplier = "1.0_E6"
+symbol = "MJ/kg"
+singular = "megajoule per kilogram"
+plural = "megajoules per kilogram"
+
+[units.KILOJOULE_PER_KILOGRAM]
+multiplier = "1.0_E3"
+symbol = "kJ/kg"
+singular = "kilojoule per kilogram"
+plural = "kilojoules per kilogram"
+
+[units.HECTOJOULE_PER_KILOGRAM]
+multiplier = "1.0_E2"
+symbol = "hJ/kg"
+singular = "hectojoule per kilogram"
+plural = "hectojoules per kilogram"
+
+[units.DECAJOULE_PER_KILOGRAM]
+multiplier = "1.0E1"
+symbol = "daJ/kg"
+singular = "decajoule per kilogram"
+plural = "decajoules per kilogram"
+
+[units.JOULE_PER_KILOGRAM]
+multiplier = "1.0E0"
+symbol = "J/kg"
+singular = "joule per kilogram"
+plural = "joules per kilogram"
+
+[units.DECIJOULE_PER_KILOGRAM]
+multiplier = "1.0E-1"
+symbol = "dJ/kg"
+singular = "decijoule per kilogram"
+plural = "decijoules per kilogram"
+
+[units.CENTIJOULE_PER_KILOGRAM]
+multiplier = "1.0E-2"
+symbol = "cJ/kg"
+singular = "centijoule per kilogram"
+plural = "centijoules per kilogram"
+
+[units.MILLIJOULE_PER_KILOGRAM]
+multiplier = "1.0E-3"
+symbol = "mJ/kg"
+singular = "millijoule per kilogram"
+plural = "millijoules per kilogram"
+
+[units.MICROJOULE_PER_KILOGRAM]
+multiplier = "1.0E-6"
+symbol = "µJ/kg"
+singular = "microjoule per kilogram"
+plural = "microjoules per kilogram"
+
+[units.NANOJOULE_PER_KILOGRAM]
+multiplier = "1.0E-9"
+symbol = "nJ/kg"
+singular = "nanojoule per kilogram"
+plural = "nanojoules per kilogram"
+
+[units.PICOJOULE_PER_KILOGRAM]
+multiplier = "1.0E-12"
+symbol = "pJ/kg"
+singular = "picojoule per kilogram"
+plural = "picojoules per kilogram"
+
+[units.FEMTOJOULE_PER_KILOGRAM]
+multiplier = "1.0E-15"
+symbol = "fJ/kg"
+singular = "femtojoule per kilogram"
+plural = "femtojoules per kilogram"
+
+[units.ATTOJOULE_PER_KILOGRAM]
+multiplier = "1.0E-18"
+symbol = "aJ/kg"
+singular = "attojoule per kilogram"
+plural = "attojoules per kilogram"
+
+[units.ZEPTOJOULE_PER_KILOGRAM]
+multiplier = "1.0E-21"
+symbol = "zJ/kg"
+singular = "zeptojoule per kilogram"
+plural = "zeptojoules per kilogram"
+
+[units.YOCTOJOULE_PER_KILOGRAM]
+multiplier = "1.0E-24"
+symbol = "yJ/kg"
+singular = "yoctojoule per kilogram"
+plural = "yoctojoules per kilogram"
+
+[units.JOULE_PER_ZEPTOGRAM]
+multiplier = "1.0_E24"
+symbol = "J/zg"
+singular = "joule per zeptogram"
+plural = "joules per zeptogram"
+
+[units.JOULE_PER_ATTOGRAM]
+multiplier = "1.0_E21"
+symbol = "J/ag"
+singular = "joule per attogram"
+plural = "joules per attogram"
+
+[units.JOULE_PER_FEMTOGRAM]
+multiplier = "1.0_E18"
+symbol = "J/fg"
+singular = "joule per femtogram"
+plural = "joules per femtogram"
+
+[units.JOULE_PER_PICOGRAM]
+multiplier = "1.0_E15"
+symbol = "J/pg"
+singular = "joule per picogram"
+plural = "joules per picogram"
+
+[units.JOULE_PER_NANOGRAM]
+multiplier = "1.0_E12"
+symbol = "J/ng"
+singular = "joule per nanogram"
+plural = "joules per nanogram"
+
+[units.JOULE_PER_MICROGRAM]
+multiplier = "1.0_E9"
+symbol = "J/µg"
+singular = "joule per microgram"
+plural = "joules per microgram"
+
+[units.JOULE_PER_MILLIGRAM]
+multiplier = "1.0_E6"
+symbol = "J/mg"
+singular = "joule per milligram"
+plural = "joules per milligram"
+
+[units.JOULE_PER_GRAM]
+multiplier = "1.0_E3"
+symbol = "J/g"
+singular = "joule per gram"
+plural = "joules per gram"
+
+[units.JOULE_PER_MEGAGRAM]
+multiplier = "1.0E-3"
+symbol = "J/Mg"
+singular = "joule per megagram"
+plural = "joules per megagram"
+
+[units.JOULE_PER_GIGAGRAM]
+multiplier = "1.0E-6"
+symbol = "J/Gg"
+singular = "joule per gigagram"
+plural = "joules per gigagram"
+
+[units.JOULE_PER_TERAGRAM]
+multiplier = "1.0E-9"
+symbol = "J/Tg"
+singular = "joule per teragram"
+plural = "joules per teragram"
+
+[units.JOULE_PER_PETAGRAM]
+multiplier = "1.0E-12"
+symbol = "J/Pg"
+singular = "joule per petagram"
+plural = "joules per petagram"
+
+[units.JOULE_PER_EXAGRAM]
+multiplier = "1.0E-15"
+symbol = "J/Eg"
+singular = "joule per exagram"
+plural = "joules per exagram"
+
+[units.JOULE_PER_ZETTAGRAM]
+multiplier = "1.0E-18"
+symbol = "J/Zg"
+singular = "joule per zettagram"
+plural = "joules per zettagram"
+
+[units.JOULE_PER_YOTTAGRAM]
+multiplier = "1.0E-21"
+symbol = "J/Yg"
+singular = "joule per yottagram"
+plural = "joules per yottagram"
+
+[units.BTU_IT_PER_POUND]
+multiplier = "2.326_000_171_078_704_E3"
+symbol = "Btu(IT)/lb"
+singular = "British thermal unit (IT) per pound"
+plural = "British thermal units (IT) per pound"
+
+[units.BTU_PER_POUND]
+multiplier = "2.324_443_707_610_621_E3"
+symbol = "Btu/lb"
+singular = "British thermal unit per pound"
+plural = "British thermal units per pound"
+
+[units.CALORIE_IT_PER_GRAM]
+multiplier = "4.186_8_E3"
+symbol = "cal(IT)/lb"
+singular = "calorie (IT) per gram"
+plural = "calories (IT) per gram"
+
+[units.CALORIE_PER_GRAM]
+multiplier = "4.184_E3"
+symbol = "cal/lb"
+singular = "calorie per gram"
+plural = "calories per gram"
+

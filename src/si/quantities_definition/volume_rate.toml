@@ -1,0 +1,445 @@
+name = "Volume rate"
+symbol = "VolumeRate"
+snake_case_name = "volume_rate"
+short_dim_formula = "L<sup>3</sup>⋅T<sup>-1</sup>"
+long_dim_formula = "Length<sup>3</sup>⋅Time<sup>-1</sup>"
+units_formula = "m<sup>3</sup>⋅s<sup>-1</sup>"
+
+[dimensions]
+length = 3
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.CUBIC_YOTTAMETER_PER_SECOND]
+multiplier = "1.0_E+72"
+symbol = "Ym³/s"
+singular = "cubic yottameter per second"
+plural = "cubic yottameters per second"
+
+[units.CUBIC_ZETTAMETER_PER_SECOND]
+multiplier = "1.0_E+63"
+symbol = "Zm³/s"
+singular = "cubic zettameter per second"
+plural = "cubic zettameters per second"
+
+[units.CUBIC_EXAMETER_PER_SECOND]
+multiplier = "1.0_E+54"
+symbol = "Em³/s"
+singular = "cubic exameter per second"
+plural = "cubic exameters per second"
+
+[units.CUBIC_PETAMETER_PER_SECOND]
+multiplier = "1.0_E+45"
+symbol = "Pm³/s"
+singular = "cubic petameter per second"
+plural = "cubic petameters per second"
+
+[units.CUBIC_TERAMETER_PER_SECOND]
+multiplier = "1.0_E+36"
+symbol = "Tm³/s"
+singular = "cubic terameter per second"
+plural = "cubic terameters per second"
+
+[units.CUBIC_GIGAMETER_PER_SECOND]
+multiplier = "1.0_E+27"
+symbol = "Gm³/s"
+singular = "cubic gigameter per second"
+plural = "cubic gigameters per second"
+
+[units.CUBIC_MEGAMETER_PER_SECOND]
+multiplier = "1.0_E+18"
+symbol = "Mm³/s"
+singular = "cubic megameter per second"
+plural = "cubic megameters per second"
+
+[units.CUBIC_KILOMETER_PER_SECOND]
+multiplier = "1.0_E+9"
+symbol = "km³/s"
+singular = "cubic kilometer per second"
+plural = "cubic kilometers per second"
+
+[units.CUBIC_HECTOMETER_PER_SECOND]
+multiplier = "1.0_E+6"
+symbol = "hm³/s"
+singular = "cubic hectometer per second"
+plural = "cubic hectometers per second"
+
+[units.CUBIC_DECAMETER_PER_SECOND]
+multiplier = "1.0_E+3"
+symbol = "dam³/s"
+singular = "cubic decameter per second"
+plural = "cubic decameters per second"
+
+[units.CUBIC_METER_PER_SECOND]
+multiplier = "1.0E0"
+symbol = "m³/s"
+singular = "cubic meter per second"
+plural = "cubic meters per second"
+
+[units.CUBIC_DECIMETER_PER_SECOND]
+multiplier = "1.0_E-3"
+symbol = "dm³/s"
+singular = "cubic decimeter per second"
+plural = "cubic decimeters per second"
+
+[units.CUBIC_CENTIMETER_PER_SECOND]
+multiplier = "1.0_E-6"
+symbol = "cm³/s"
+singular = "cubic centimeter per second"
+plural = "cubic centimeters per second"
+
+[units.CUBIC_MILLIMETER_PER_SECOND]
+multiplier = "1.0_E-9"
+symbol = "mm³/s"
+singular = "cubic millimeter per second"
+plural = "cubic millimeters per second"
+
+[units.CUBIC_MICROMETER_PER_SECOND]
+multiplier = "1.0_E-18"
+symbol = "µm³/s"
+singular = "cubic micrometer per second"
+plural = "cubic micrometers per second"
+
+[units.CUBIC_NANOMETER_PER_SECOND]
+multiplier = "1.0_E-27"
+symbol = "nm³/s"
+singular = "cubic nanometer per second"
+plural = "cubic nanometers per second"
+
+[units.CUBIC_PICOMETER_PER_SECOND]
+multiplier = "1.0_E-36"
+symbol = "pm³/s"
+singular = "cubic picometer per second"
+plural = "cubic picometers per second"
+
+[units.CUBIC_FEMTOMETER_PER_SECOND]
+multiplier = "1.0_E-45"
+symbol = "fm³/s"
+singular = "cubic femtometer per second"
+plural = "cubic femtometers per second"
+
+[units.CUBIC_ATTOMETER_PER_SECOND]
+multiplier = "1.0_E-54"
+symbol = "am³/s"
+singular = "cubic attometer per second"
+plural = "cubic attometers per second"
+
+[units.CUBIC_ZEPTOMETER_PER_SECOND]
+multiplier = "1.0_E-63"
+symbol = "zm³/s"
+singular = "cubic zeptometer per second"
+plural = "cubic zeptometers per second"
+
+[units.CUBIC_YOCTOMETER_PER_SECOND]
+multiplier = "1.0_E-72"
+symbol = "ym³/s"
+singular = "cubic yoctometer per second"
+plural = "cubic yoctometers per second"
+
+[units.YOTTALITER_PER_SECOND]
+multiplier = "1.0_E+21"
+symbol = "YL/s"
+singular = "yottaliter per second"
+plural = "yottaliters per second"
+
+[units.ZETTALITER_PER_SECOND]
+multiplier = "1.0_E+18"
+symbol = "ZL/s"
+singular = "zettaliter per second"
+plural = "zettaliters per second"
+
+[units.EXALITER_PER_SECOND]
+multiplier = "1.0_E+15"
+symbol = "EL/s"
+singular = "exaliter per second"
+plural = "exaliters per second"
+
+[units.PETALITER_PER_SECOND]
+multiplier = "1.0_E+12"
+symbol = "PL/s"
+singular = "petaliter per second"
+plural = "petaliters per second"
+
+[units.TERALITER_PER_SECOND]
+multiplier = "1.0_E+9"
+symbol = "TL/s"
+singular = "teraliter per second"
+plural = "teraliters per second"
+
+[units.GIGALITER_PER_SECOND]
+multiplier = "1.0_E+6"
+symbol = "GL/s"
+singular = "gigaliter per second"
+plural = "gigaliters per second"
+
+[units.MEGALITER_PER_SECOND]
+multiplier = "1.0_E+3"
+symbol = "ML/s"
+singular = "megaliter per second"
+plural = "megaliters per second"
+
+[units.KILOLITER_PER_SECOND]
+multiplier = "1.0_E+0"
+symbol = "kL/s"
+singular = "kiloliter per second"
+plural = "kiloliters per second"
+
+[units.HECTOLITER_PER_SECOND]
+multiplier = "1.0_E-1"
+symbol = "hL/s"
+singular = "hectoliter per second"
+plural = "hectoliters per second"
+
+[units.DECALITER_PER_SECOND]
+multiplier = "1.0_E-2"
+symbol = "daL/s"
+singular = "decaliter per second"
+plural = "decaliters per second"
+
+[units.LITER_PER_SECOND]
+multiplier = "1.0E-3"
+symbol = "L/s"
+singular = "liter per second"
+plural = "liters per second"
+
+[units.DECILITER_PER_SECOND]
+multiplier = "1.0_E-4"
+symbol = "dL/s"
+singular = "deciliter per second"
+plural = "deciliters per second"
+
+[units.CENTILITER_PER_SECOND]
+multiplier = "1.0_E-5"
+symbol = "cL/s"
+singular = "centiliter per second"
+plural = "centiliters per second"
+
+[units.MILLILITER_PER_SECOND]
+multiplier = "1.0_E-6"
+symbol = "mL/s"
+singular = "milliliter per second"
+plural = "milliliters per second"
+
+[units.MICROLITER_PER_SECOND]
+multiplier = "1.0_E-9"
+symbol = "µL/s"
+singular = "microliter per second"
+plural = "microliters per second"
+
+[units.NANOLITER_PER_SECOND]
+multiplier = "1.0_E-12"
+symbol = "nL/s"
+singular = "nanoliter per second"
+plural = "nanoliters per second"
+
+[units.PICOLITER_PER_SECOND]
+multiplier = "1.0_E-15"
+symbol = "pL/s"
+singular = "picoliter per second"
+plural = "picoliters per second"
+
+[units.FEMTOLITER_PER_SECOND]
+multiplier = "1.0_E-18"
+symbol = "fL/s"
+singular = "femtoliter per second"
+plural = "femtoliters per second"
+
+[units.ATTOLITER_PER_SECOND]
+multiplier = "1.0_E-21"
+symbol = "aL/s"
+singular = "attoliter per second"
+plural = "attoliters per second"
+
+[units.ZEPTOLITER_PER_SECOND]
+multiplier = "1.0_E-24"
+symbol = "zL/s"
+singular = "zeptoliter per second"
+plural = "zeptoliters per second"
+
+[units.YOCTOLITER_PER_SECOND]
+multiplier = "1.0_E-27"
+symbol = "yL/s"
+singular = "yoctoliter per second"
+plural = "yoctoliters per second"
+
+[units.ACRE_FOOT_PER_SECOND]
+multiplier = "1.233_489_E3"
+symbol = "ac·ft/s"
+singular = "acre-foot per second"
+plural = "acre-feet per second"
+
+[units.BARREL_PER_SECOND]
+multiplier = "1.589_873_E-1"
+symbol = "bbl/s"
+singular = "barrel per second"
+plural = "barrels per second"
+
+[units.BUSHEL_PER_SECOND]
+multiplier = "3.523_907_E-2"
+symbol = "bu/s"
+singular = "bushel per second"
+plural = "bushels per second"
+
+[units.CORD_PER_SECOND]
+multiplier = "3.624_556_E0"
+symbol = "cords/s"
+singular = "cord per second"
+plural = "cords per second"
+
+[units.CUBIC_FOOT_PER_SECOND]
+multiplier = "2.831_685_E-2"
+symbol = "ft³/s"
+singular = "cubic foot per second"
+plural = "cubic feet per second"
+
+[units.CUBIC_FOOT_PER_MINUTE]
+multiplier = "4.719_474_E-4"
+symbol = "ft³/min"
+singular = "cubic foot per minute"
+plural = "cubic feet per minute"
+
+[units.CUBIC_INCH_PER_SECOND]
+multiplier = "1.638_706_E-5"
+symbol = "in³/s"
+singular = "cubic inch per second"
+plural = "cubic inches per second"
+
+[units.CUBIC_INCH_PER_MINUTE]
+multiplier = "2.731_177_E-7"
+symbol = "in³/min"
+singular = "cubic inch per minute"
+plural = "cubic inches per minute"
+
+[units.CUBIC_MILE_PER_SECOND]
+multiplier = "4.168_182_E9"
+symbol = "mi³/s"
+singular = "cubic mile per second"
+plural = "cubic miles per second"
+
+[units.CUBIC_YARD_PER_SECOND]
+multiplier = "7.645_549_E-1"
+symbol = "yd³/s"
+singular = "cubic yard per second"
+plural = "cubic yards per second"
+
+[units.CUBIC_YARD_PER_MINUTE]
+multiplier = "1.274_258E-2"
+symbol = "yd³/min"
+singular = "cubic yard per minute"
+plural = "cubic yards per minute"
+
+[units.CUP_PER_SECOND]
+multiplier = "2.365_882_E-4"
+symbol = "cup/s"
+singular = "cup per second"
+plural = "cups per second"
+
+[units.FLUID_OUNCE_PER_SECOND]
+multiplier = "2.957_353_E-5"
+symbol = "floz/s"
+singular = "fluid ounce per second"
+plural = "fluid ounces per second"
+
+[units.FLUID_OUNCE_IMPERIAL_PER_SECOND]
+multiplier = "2.841_306_E-5"
+symbol = "floz(UK)/s"
+singular = "Imperial fluid ounce per second"
+plural = "Imperial fluid ounces per second"
+
+[units.GALLON_IMPERIAL_PER_SECOND]
+multiplier = "4.546_09_E-3"
+symbol = "gal(UK)/s"
+singular = "Imperial gallon per second"
+plural = "Imperial gallons per second"
+
+[units.GALLON_PER_SECOND]
+multiplier = "3.785_412_E-3"
+symbol = "gal/s"
+singular = "gallon per second"
+plural = "gallons per second"
+
+[units.GALLON_PER_MINUTE]
+multiplier = "6.309_020_E-5"
+symbol = "gal/min"
+singular = "gallon per minute"
+plural = "gallons per minute"
+
+[units.GALLON_PER_DAY]
+multiplier = "4.381_264_E-8"
+symbol = "gal/d"
+singular = "gallon per day"
+plural = "gallons per day"
+
+[units.GILL_IMPERIAL_PER_SECOND]
+multiplier = "1.420_653_E-4"
+symbol = "gi(UK)/s"
+singular = "Imperial gill per second"
+plural = "Imperial gills per second"
+
+[units.GILL_PER_SECOND]
+multiplier = "1.182_941_E-4"
+symbol = "gi/s"
+singular = "gill per second"
+plural = "gills per second"
+
+[units.PECK_PER_SECOND]
+multiplier = "8.809_768_E-3"
+symbol = "pk/s"
+singular = "peck per second"
+plural = "pecks per second"
+
+[units.PINT_DRY_PER_SECOND]
+multiplier = "5.506_105_E-4"
+symbol = "drypt/s"
+singular = "dry pint per second"
+plural = "dry pints per second"
+
+[units.PINT_LIQUID_PER_SECOND]
+multiplier = "4.731_765_E-4"
+symbol = "liqpt/s"
+singular = "liquid pint per second"
+plural = "liquid pints per second"
+
+[units.QUART_DRY_PER_SECOND]
+multiplier = "1.101_221_E-3"
+symbol = "dryqt/s"
+singular = "dry quart per second"
+plural = "dry quarts per second"
+
+[units.QUART_LIQUID_PER_SECOND]
+multiplier = "9.463_529_E-4"
+symbol = "liqqt/s"
+singular = "liquid quart per second"
+plural = "liquid quarts per second"
+
+[units.STERE_PER_SECOND]
+multiplier = "1.0_E0"
+symbol = "st/s"
+singular = "stere per second"
+plural = "steres per second"
+
+[units.TABLESPOON_PER_SECOND]
+multiplier = "1.478_676_E-5"
+symbol = "tbsp/s"
+singular = "tablespoon per second"
+plural = "tablespoons per second"
+
+[units.TEASPOON_PER_SECOND]
+multiplier = "4.928_922_E-6"
+symbol = "tsp/s"
+singular = "teaspoon per second"
+plural = "teaspoons per second"
+
+[units.REGISTER_TON_PER_SECOND]
+multiplier = "2.831_685_E0"
+symbol = "RT/s"
+singular = "register ton per second"
+plural = "register tons per second"
+

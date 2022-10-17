@@ -1,0 +1,67 @@
+name = "Linear mass density"
+symbol = "LinearMassDensity"
+snake_case_name = "linear_mass_density"
+short_dim_formula = "L<sup>-1</sup>⋅M"
+long_dim_formula = "Length<sup>-1</sup>⋅Mass"
+units_formula = "m<sup>-1</sup>⋅kg"
+
+[dimensions]
+length = -1
+mass = 1
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.KILOGRAM_PER_METER]
+multiplier = "1.0E0"
+symbol = "kg/m"
+singular = "kilogram per meter"
+plural = "kilograms per meter"
+
+[units.GRAM_PER_KILOMETER]
+multiplier = "1.0_E-6"
+symbol = "g/km"
+singular = "gram per kilometer"
+plural = "grams per kilometer"
+
+[units.GRAM_PER_CENTIMETER]
+multiplier = "1.0_E-1"
+symbol = "g/cm"
+singular = "gram per centimeter"
+plural = "grams per centimeter"
+
+[units.OUNCE_PER_FOOT]
+multiplier = "9.3010236220472_E-2"
+symbol = "oz/ft"
+singular = "ounce per foot"
+plural = "ounces per foot"
+
+[units.OUNCE_PER_INCH]
+multiplier = "1.1161228346457_E+0"
+symbol = "oz/in"
+singular = "ounce per inch"
+plural = "ounces per inch"
+
+[units.POUND_PER_YARD]
+multiplier = "4.9605468066492_E-1"
+symbol = "lb/yd"
+singular = "pound per yard"
+plural = "pounds per yard"
+
+[units.POUND_PER_FOOT]
+multiplier = "1.4881640419948_E+0"
+symbol = "lb/ft"
+singular = "pound per foot"
+plural = "pounds per foot"
+
+[units.POUND_PER_INCH]
+multiplier = "1.7857968503937_E+1"
+symbol = "lb/in"
+singular = "pound per inch"
+plural = "pounds per inch"
+

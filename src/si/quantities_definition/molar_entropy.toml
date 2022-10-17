@@ -1,0 +1,241 @@
+name = "Molar entropy"
+symbol = "MolarEntropy"
+snake_case_name = "molar_entropy"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-2</sup>⋅N<sup>-1</sup>⋅Th<sup>-1</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-2</sup>⋅Amount of substance<sup>-1</sup>⋅Thermodynamic temperature<sup>-1</sup>"
+units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-2</sup>⋅mol<sup>-1</sup>⋅K<sup>-1</sup>"
+
+[dimensions]
+length = 2
+mass = 1
+time = -2
+electric_current = 0
+thermodynamic_temperature = -1
+temperature_interval = 0
+amount_of_substance = -1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0_E24"
+symbol = "YJ/(K·mol)"
+singular = "yottajoule per kelvin mole"
+plural = "yottajoules per kelvin mole"
+
+[units.ZETTAJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0_E21"
+symbol = "ZJ/(K·mol)"
+singular = "zettajoule per kelvin mole"
+plural = "zettajoules per kelvin mole"
+
+[units.EXAJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0_E18"
+symbol = "EJ/(K·mol)"
+singular = "exajoule per kelvin mole"
+plural = "exajoules per kelvin mole"
+
+[units.PETAJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0_E15"
+symbol = "PJ/(K·mol)"
+singular = "petajoule per kelvin mole"
+plural = "petajoules per kelvin mole"
+
+[units.TERAJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0_E12"
+symbol = "TJ/(K·mol)"
+singular = "terajoule per kelvin mole"
+plural = "terajoules per kelvin mole"
+
+[units.GIGAJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0_E9"
+symbol = "GJ/(K·mol)"
+singular = "gigajoule per kelvin mole"
+plural = "gigajoules per kelvin mole"
+
+[units.MEGAJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0_E6"
+symbol = "MJ/(K·mol)"
+singular = "megajoule per kelvin mole"
+plural = "megajoules per kelvin mole"
+
+[units.KILOJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0_E3"
+symbol = "kJ/(K·mol)"
+singular = "kilojoule per kelvin mole"
+plural = "kilojoules per kelvin mole"
+
+[units.HECTOJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0_E2"
+symbol = "hJ/(K·mol)"
+singular = "hectojoule per kelvin mole"
+plural = "hectojoules per kelvin mole"
+
+[units.DECAJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0E1"
+symbol = "daJ/(K·mol)"
+singular = "decajoule per kelvin mole"
+plural = "decajoules per kelvin mole"
+
+[units.JOULE_PER_KELVIN_MOLE]
+multiplier = "1.0E0"
+symbol = "J/(K·mol)"
+singular = "joule per kelvin mole"
+plural = "joules per kelvin mole"
+
+[units.DECIJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0E-1"
+symbol = "dJ/(K·mol)"
+singular = "decijoule per kelvin mole"
+plural = "decijoules per kelvin mole"
+
+[units.CENTIJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0E-2"
+symbol = "cJ/(K·mol)"
+singular = "centijoule per kelvin mole"
+plural = "centijoules per kelvin mole"
+
+[units.MILLIJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0E-3"
+symbol = "mJ/(K·mol)"
+singular = "millijoule per kelvin mole"
+plural = "millijoules per kelvin mole"
+
+[units.MICROJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0E-6"
+symbol = "µJ/(K·mol)"
+singular = "microjoule per kelvin mole"
+plural = "microjoules per kelvin mole"
+
+[units.NANOJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0E-9"
+symbol = "nJ/(K·mol)"
+singular = "nanojoule per kelvin mole"
+plural = "nanojoules per kelvin mole"
+
+[units.PICOJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0E-12"
+symbol = "pJ/(K·mol)"
+singular = "picojoule per kelvin mole"
+plural = "picojoules per kelvin mole"
+
+[units.FEMTOJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0E-15"
+symbol = "fJ/(K·mol)"
+singular = "femtojoule per kelvin mole"
+plural = "femtojoules per kelvin mole"
+
+[units.ATTOJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0E-18"
+symbol = "aJ/(K·mol)"
+singular = "attojoule per kelvin mole"
+plural = "attojoules per kelvin mole"
+
+[units.ZEPTOJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0E-21"
+symbol = "zJ/(K·mol)"
+singular = "zeptojoule per kelvin mole"
+plural = "zeptojoules per kelvin mole"
+
+[units.YOCTOJOULE_PER_KELVIN_MOLE]
+multiplier = "1.0E-24"
+symbol = "yJ/(K·mol)"
+singular = "yoctojoule per kelvin mole"
+plural = "yoctojoules per kelvin mole"
+
+[units.BTU_IT_PER_KELVIN_MOLE]
+multiplier = "1.055_056_E3"
+symbol = "Btu(IT)/(K·mol)"
+singular = "British thermal unit (IT) per kelvin mole"
+plural = "British thermal units (IT) per kelvin mole"
+
+[units.BTU_PER_KELVIN_MOLE]
+multiplier = "1.054_350_E3"
+symbol = "Btu/(K·mol)"
+singular = "British thermal unit per kelvin mole"
+plural = "British thermal units per kelvin mole"
+
+[units.BTU_39_PER_KELVIN_MOLE]
+multiplier = "1.059_67_E3"
+symbol = "Btu₃₉/(K·mol)"
+singular = "British thermal unit (39 °F) per kelvin mole"
+plural = "British thermal units (39 °F) per kelvin mole"
+
+[units.BTU_59_PER_KELVIN_MOLE]
+multiplier = "1.054_80_E3"
+symbol = "Btu₅₉/(K·mol)"
+singular = "British thermal unit (59 °F) per kelvin mole"
+plural = "British thermal units (59 °F) per kelvin mole"
+
+[units.BTU_60_PER_KELVIN_MOLE]
+multiplier = "1.054_68_E3"
+symbol = "Btu₆₀/(K·mol)"
+singular = "British thermal unit (60 °F) per kelvin mole"
+plural = "British thermal units (60 °F) per kelvin mole"
+
+[units.CALORIE_IT_PER_KELVIN_MOLE]
+multiplier = "4.186_8_E0"
+symbol = "cal(IT)/(K·mol)"
+singular = "calorie (IT) per kelvin mole"
+plural = "calories (IT) per kelvin mole"
+
+[units.CALORIE_PER_KELVIN_MOLE]
+multiplier = "4.184_E0"
+symbol = "cal/(K·mol)"
+singular = "calorie per kelvin mole"
+plural = "calories per kelvin mole"
+
+[units.CALORIE_15_PER_KELVIN_MOLE]
+multiplier = "4.185_80_E0"
+symbol = "cal₁₅/(K·mol)"
+singular = "calorie (15 °C) per kelvin mole"
+plural = "calories (15 °C) per kelvin mole"
+
+[units.CALORIE_20_PER_KELVIN_MOLE]
+multiplier = "4.181_90_E0"
+symbol = "cal₂₀/(K·mol)"
+singular = "calorie (20 °C) per kelvin mole"
+plural = "calories (20 °C) per kelvin mole"
+
+[units.CALORIE_IT_NUTRITION_PER_KELVIN_MOLE]
+multiplier = "4.186_8_E3"
+symbol = "Cal(IT)/(K·mol)"
+singular = "Calorie (IT) per kelvin mole"
+plural = "Calories (IT) per kelvin mole"
+
+[units.CALORIE_NUTRITION_PER_KELVIN_MOLE]
+multiplier = "4.184_E3"
+symbol = "Cal/(K·mol)"
+singular = "Calorie per kelvin mole"
+plural = "Calories per kelvin mole"
+
+[units.KILOCALORIE_IT_PER_KELVIN_MOLE]
+multiplier = "4.186_8_E3"
+symbol = "kcal(IT)/(K·mol)"
+singular = "kilocalorie (IT) per kelvin mole"
+plural = "kilocalories (IT) per kelvin mole"
+
+[units.KILOCALORIE_PER_KELVIN_MOLE]
+multiplier = "4.184_E3"
+symbol = "kcal/(K·mol)"
+singular = "kilocalorie per kelvin mole"
+plural = "kilocalories per kelvin mole"
+
+[units.JOULE_PER_KELVIN_PARTICLE]
+multiplier = "6.022_140_76_E23"
+symbol = "J/(K·particle)"
+singular = "joule per kelvin particle"
+plural = "joules per kelvin particle"
+
+[units.ELECTRONVOLT_PER_KELVIN_PARTICLE]
+multiplier = "9.648533212331_E+4"
+symbol = "eV/(K·particle)"
+singular = "electronvolt per kelvin particle"
+plural = "electronvolts per kelvin particle"
+
+[units.MOLAR_GAS_CONSTANT]
+multiplier = "8.314_462_618_E0"
+symbol = "R"
+singular = "molar gas constant"
+plural = "molar gas constants"
+

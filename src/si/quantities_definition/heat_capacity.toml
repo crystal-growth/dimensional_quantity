@@ -1,0 +1,313 @@
+name = "Heat capacity"
+symbol = "HeatCapacity"
+snake_case_name = "heat_capacity"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-2</sup>⋅`ΔTh`<sup>-1</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-2</sup>⋅Temperature interval<sup>-1</sup>"
+units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-2</sup>⋅ΔK<sup>-1</sup>"
+
+[dimensions]
+length = 2
+mass = 1
+time = -2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = -1
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E+21"
+symbol = "Yg·m²/(s²·K)"
+singular = "yottagram square meter per second squared kelvin"
+plural = "yottagram square meters per second squared kelvin"
+
+[units.ZETTAGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E+18"
+symbol = "Zg·m²/(s²·K)"
+singular = "zettagram square meter per second squared kelvin"
+plural = "zettagram square meters per second squared kelvin"
+
+[units.EXAGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E+15"
+symbol = "Eg·m²/(s²·K)"
+singular = "exagram square meter per second squared kelvin"
+plural = "exagram square meters per second squared kelvin"
+
+[units.PETAGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E+12"
+symbol = "Pg·m²/(s²·K)"
+singular = "petagram square meter per second squared kelvin"
+plural = "petagram square meters per second squared kelvin"
+
+[units.TERAGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E+9"
+symbol = "Tg·m²/(s²·K)"
+singular = "teragram square meter per second squared kelvin"
+plural = "teragram square meters per second squared kelvin"
+
+[units.GIGAGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E+6"
+symbol = "Gg·m²/(s²·K)"
+singular = "gigagram square meter per second squared kelvin"
+plural = "gigagram square meters per second squared kelvin"
+
+[units.MEGAGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E+3"
+symbol = "Mg·m²/(s²·K)"
+singular = "megagram square meter per second squared kelvin"
+plural = "megagram square meters per second squared kelvin"
+
+[units.KILOGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E+0"
+symbol = "kg·m²/(s²·K)"
+singular = "kilogram square meter per second squared kelvin"
+plural = "kilogram square meters per second squared kelvin"
+
+[units.HECTOGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-1"
+symbol = "hg·m²/(s²·K)"
+singular = "hectogram square meter per second squared kelvin"
+plural = "hectogram square meters per second squared kelvin"
+
+[units.DECAGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-2"
+symbol = "dag·m²/(s²·K)"
+singular = "decagram square meter per second squared kelvin"
+plural = "decagram square meters per second squared kelvin"
+
+[units.GRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-3"
+symbol = "g·m²/(s²·K)"
+singular = "gram square meter per second squared kelvin"
+plural = "gram square meters per second squared kelvin"
+
+[units.DECIGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-4"
+symbol = "dg·m²/(s²·K)"
+singular = "decigram square meter per second squared kelvin"
+plural = "decigram square meters per second squared kelvin"
+
+[units.CENTIGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-5"
+symbol = "cg·m²/(s²·K)"
+singular = "centigram square meter per second squared kelvin"
+plural = "centigram square meters per second squared kelvin"
+
+[units.MILLIGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-6"
+symbol = "mg·m²/(s²·K)"
+singular = "milligram square meter per second squared kelvin"
+plural = "milligram square meters per second squared kelvin"
+
+[units.MICROGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-9"
+symbol = "µg·m²/(s²·K)"
+singular = "microgram square meter per second squared kelvin"
+plural = "microgram square meters per second squared kelvin"
+
+[units.NANOGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-12"
+symbol = "ng·m²/(s²·K)"
+singular = "nanogram square meter per second squared kelvin"
+plural = "nanogram square meters per second squared kelvin"
+
+[units.PICOGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-15"
+symbol = "pg·m²/(s²·K)"
+singular = "picogram square meter per second squared kelvin"
+plural = "picogram square meters per second squared kelvin"
+
+[units.FEMTOGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-18"
+symbol = "fg·m²/(s²·K)"
+singular = "femtogram square meter per second squared kelvin"
+plural = "femtogram square meters per second squared kelvin"
+
+[units.ATTOGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-21"
+symbol = "ag·m²/(s²·K)"
+singular = "attogram square meter per second squared kelvin"
+plural = "attogram square meters per second squared kelvin"
+
+[units.ZEPTOGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-24"
+symbol = "zg·m²/(s²·K)"
+singular = "zeptogram square meter per second squared kelvin"
+plural = "zeptogram square meters per second squared kelvin"
+
+[units.YOCTOGRAM_SQUARE_METER_PER_SECOND_SQUARED_KELVIN]
+multiplier = "1.0_E-27"
+symbol = "yg·m²/(s²·K)"
+singular = "yoctogram square meter per second squared kelvin"
+plural = "yoctogram square meters per second squared kelvin"
+
+[units.YOTTAJOULE_PER_KELVIN]
+multiplier = "1.0_E24"
+symbol = "YJ/K"
+singular = "yottajoule per kelvin"
+plural = "yottajoules per kelvin"
+
+[units.ZETTAJOULE_PER_KELVIN]
+multiplier = "1.0_E21"
+symbol = "ZJ/K"
+singular = "zettajoule per kelvin"
+plural = "zettajoules per kelvin"
+
+[units.EXAJOULE_PER_KELVIN]
+multiplier = "1.0_E18"
+symbol = "EJ/K"
+singular = "exajoule per kelvin"
+plural = "exajoules per kelvin"
+
+[units.PETAJOULE_PER_KELVIN]
+multiplier = "1.0_E15"
+symbol = "PJ/K"
+singular = "petajoule per kelvin"
+plural = "petajoules per kelvin"
+
+[units.TERAJOULE_PER_KELVIN]
+multiplier = "1.0_E12"
+symbol = "TJ/K"
+singular = "terajoule per kelvin"
+plural = "terajoules per kelvin"
+
+[units.GIGAJOULE_PER_KELVIN]
+multiplier = "1.0_E9"
+symbol = "GJ/K"
+singular = "gigajoule per kelvin"
+plural = "gigajoules per kelvin"
+
+[units.MEGAJOULE_PER_KELVIN]
+multiplier = "1.0_E6"
+symbol = "MJ/K"
+singular = "megajoule per kelvin"
+plural = "megajoules per kelvin"
+
+[units.KILOJOULE_PER_KELVIN]
+multiplier = "1.0_E3"
+symbol = "kJ/K"
+singular = "kilojoule per kelvin"
+plural = "kilojoules per kelvin"
+
+[units.HECTOJOULE_PER_KELVIN]
+multiplier = "1.0_E2"
+symbol = "hJ/K"
+singular = "hectojoule per kelvin"
+plural = "hectojoules per kelvin"
+
+[units.DECAJOULE_PER_KELVIN]
+multiplier = "1.0E1"
+symbol = "daJ/K"
+singular = "decajoule per kelvin"
+plural = "decajoules per kelvin"
+
+[units.JOULE_PER_KELVIN]
+multiplier = "1.0E0"
+symbol = "J/K"
+singular = "joule per kelvin"
+plural = "joules per kelvin"
+
+[units.DECIJOULE_PER_KELVIN]
+multiplier = "1.0E-1"
+symbol = "dJ/K"
+singular = "decijoule per kelvin"
+plural = "decijoules per kelvin"
+
+[units.CENTIJOULE_PER_KELVIN]
+multiplier = "1.0E-2"
+symbol = "cJ/K"
+singular = "centijoule per kelvin"
+plural = "centijoules per kelvin"
+
+[units.MILLIJOULE_PER_KELVIN]
+multiplier = "1.0E-3"
+symbol = "mJ/K"
+singular = "millijoule per kelvin"
+plural = "millijoules per kelvin"
+
+[units.MICROJOULE_PER_KELVIN]
+multiplier = "1.0E-6"
+symbol = "µJ/K"
+singular = "microjoule per kelvin"
+plural = "microjoules per kelvin"
+
+[units.NANOJOULE_PER_KELVIN]
+multiplier = "1.0E-9"
+symbol = "nJ/K"
+singular = "nanojoule per kelvin"
+plural = "nanojoules per kelvin"
+
+[units.PICOJOULE_PER_KELVIN]
+multiplier = "1.0E-12"
+symbol = "pJ/K"
+singular = "picojoule per kelvin"
+plural = "picojoules per kelvin"
+
+[units.FEMTOJOULE_PER_KELVIN]
+multiplier = "1.0E-15"
+symbol = "fJ/K"
+singular = "femtojoule per kelvin"
+plural = "femtojoules per kelvin"
+
+[units.ATTOJOULE_PER_KELVIN]
+multiplier = "1.0E-18"
+symbol = "aJ/K"
+singular = "attojoule per kelvin"
+plural = "attojoules per kelvin"
+
+[units.ZEPTOJOULE_PER_KELVIN]
+multiplier = "1.0E-21"
+symbol = "zJ/K"
+singular = "zeptojoule per kelvin"
+plural = "zeptojoules per kelvin"
+
+[units.YOCTOJOULE_PER_KELVIN]
+multiplier = "1.0E-24"
+symbol = "yJ/K"
+singular = "yoctojoule per kelvin"
+plural = "yoctojoules per kelvin"
+
+[units.KILOJOULE_PER_DEGREE_CELSIUS]
+multiplier = "1.0_E3"
+symbol = "kJ/°C"
+singular = "kilojoule per degree celsius"
+plural = "kilojoules per degree celsius"
+
+[units.JOULE_PER_DEGREE_CELSIUS]
+multiplier = "1.0_E0"
+symbol = "J/°C"
+singular = "joule per degree celsius"
+plural = "joules per degree celsius"
+
+[units.MILLIJOULE_PER_DEGREE_CELSIUS]
+multiplier = "1.0_E-3"
+symbol = "mJ/°C"
+singular = "millijoule per degree celsius"
+plural = "millijoules per degree celsius"
+
+[units.BTU_PER_DEGREE_FAHRENHEIT]
+multiplier = "1.897_830_E3"
+symbol = "Btu/°F"
+singular = "British thermal unit per degree Fahrenheit"
+plural = "British thermal units per degree Fahrenheit"
+
+[units.BTU_IT_PER_DEGREE_FAHRENHEIT]
+multiplier = "1.899_100_8_E3"
+symbol = "Btu(IT)/°F"
+singular = "British thermal unit (IT) per degree Fahrenheit"
+plural = "British thermal units (IT) per degree Fahrenheit"
+
+[units.BOLTZMANN_CONSTANT]
+multiplier = "1.380_649_E-23"
+symbol = "k"
+singular = "Boltzmann constant"
+plural = "Boltzmann constants"
+
+[units.CALORIE_PER_KELVIN]
+multiplier = "4.184_E0"
+symbol = "cal/K"
+singular = "calorie per kelvin"
+plural = "calories per kelvin"
+

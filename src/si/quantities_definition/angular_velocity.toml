@@ -1,0 +1,49 @@
+name = "Angular velocity"
+symbol = "AngularVelocity"
+snake_case_name = "angular_velocity"
+short_dim_formula = "T<sup>-1</sup>⋅θ"
+long_dim_formula = "Time<sup>-1</sup>⋅Angle"
+units_formula = "s<sup>-1</sup>⋅rad"
+
+[dimensions]
+length = 0
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 1
+information = 0
+
+[units.RADIAN_PER_SECOND]
+multiplier = "1.0_E0"
+symbol = "rad/s"
+singular = "radian per second"
+plural = "radians per second"
+
+[units.DEGREE_PER_SECOND]
+multiplier = "1.745_329_251_994_329_5_E-2"
+symbol = "°/s"
+singular = "degree per second"
+plural = "degrees per second"
+
+[units.REVOLUTION_PER_SECOND]
+multiplier = "6.283_185_307_179_586_E0"
+symbol = "rps"
+singular = "revolution per second"
+plural = "revolutions per second"
+
+[units.REVOLUTION_PER_MINUTE]
+multiplier = "1.047_197_551_196_597_7_E-1"
+symbol = "rpm"
+singular = "revolution per minute"
+plural = "revolutions per minute"
+
+[units.REVOLUTION_PER_HOUR]
+multiplier = "1.745_329_251_994_329_6_E-3"
+symbol = "rph"
+singular = "revolution per hour"
+plural = "revolutions per hour"
+

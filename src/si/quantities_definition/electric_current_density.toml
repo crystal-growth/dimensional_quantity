@@ -1,0 +1,37 @@
+name = "Electric current density"
+symbol = "ElectricCurrentDensity"
+snake_case_name = "electric_current_density"
+short_dim_formula = "L<sup>-2</sup>⋅I"
+long_dim_formula = "Length<sup>-2</sup>⋅Electric current"
+units_formula = "m<sup>-2</sup>⋅A"
+
+[dimensions]
+length = -2
+mass = 0
+time = 0
+electric_current = 1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.AMPERE_PER_SQUARE_METER]
+multiplier = "1.0E0"
+symbol = "A/m²"
+singular = "ampere per square meter"
+plural = "amperes per square meter"
+
+[units.AMPERE_PER_SQUARE_CENTIMETER]
+multiplier = "1.0_E+4"
+symbol = "A/cm²"
+singular = "ampere per square centimeter"
+plural = "amperes per square centimeter"
+
+[units.AMPERE_PER_SQUARE_MILLIMETER]
+multiplier = "1.0_E+6"
+symbol = "A/mm²"
+singular = "ampere per square millimeter"
+plural = "amperes per square millimeter"
+

@@ -1,0 +1,37 @@
+name = "Volumetric power density"
+symbol = "VolumetricPowerDensity"
+snake_case_name = "volumetric_power_density"
+short_dim_formula = "L<sup>-1</sup>⋅M⋅T<sup>-3</sup>"
+long_dim_formula = "Length<sup>-1</sup>⋅Mass⋅Time<sup>-3</sup>"
+units_formula = "m<sup>-1</sup>⋅kg⋅s<sup>-3</sup>"
+
+[dimensions]
+length = -1
+mass = 1
+time = -3
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.WATT_PER_CUBIC_METER]
+multiplier = "1.0E0"
+symbol = "W/m³"
+singular = "watt per cubic meter"
+plural = "watts per cubic meter"
+
+[units.WATT_PER_CUBIC_CENTIMETER]
+multiplier = "1.0_E+6"
+symbol = "W/cm³"
+singular = "watt per cubic centimeter"
+plural = "watts per cubic centimeter"
+
+[units.WATT_PER_CUBIC_MILLIMETER]
+multiplier = "1.0_E+9"
+symbol = "W/mm³"
+singular = "watt per cubic millimeter"
+plural = "watts per cubic millimeter"
+

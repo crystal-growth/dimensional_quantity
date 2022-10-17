@@ -1,0 +1,49 @@
+name = "Solid angle"
+symbol = "SolidAngle"
+snake_case_name = "solid_angle"
+short_dim_formula = "θ<sup>2</sup>"
+long_dim_formula = "Angle<sup>2</sup>"
+units_formula = "rad<sup>2</sup>"
+
+[dimensions]
+length = 0
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 2
+information = 0
+
+[units.STERADIAN]
+multiplier = "1.0_E0"
+symbol = "sr"
+singular = "steradian"
+plural = "steradians"
+
+[units.SPAT]
+multiplier = "1.256_637_061_435_917_3_E1"
+symbol = "sp"
+singular = "spat"
+plural = "spats"
+
+[units.SQUARE_DEGREE]
+multiplier = "3.046_174_197_867_086_E-4"
+symbol = "°²"
+singular = "square degree"
+plural = "square degrees"
+
+[units.SQUARE_MINUTE]
+multiplier = "8.461_594_994_075_238_9_E-8"
+symbol = "′²"
+singular = "square minute"
+plural = "square minutes"
+
+[units.SQUARE_SECOND]
+multiplier = "2.350_443_053_909_788_6_E-11"
+symbol = "″²"
+singular = "square second"
+plural = "square seconds"
+

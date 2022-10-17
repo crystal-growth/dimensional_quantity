@@ -1,0 +1,157 @@
+name = "Inductance"
+symbol = "Inductance"
+snake_case_name = "inductance"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-2</sup>⋅I<sup>-2</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-2</sup>⋅Electric current<sup>-2</sup>"
+units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-2</sup>⋅A<sup>-2</sup>"
+
+[dimensions]
+length = 2
+mass = 1
+time = -2
+electric_current = -2
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAHENRY]
+multiplier = "1.0_E24"
+symbol = "YH"
+singular = "yottahenry"
+plural = "yottahenries"
+
+[units.ZETTAHENRY]
+multiplier = "1.0_E21"
+symbol = "ZH"
+singular = "zettahenry"
+plural = "zettahenries"
+
+[units.EXAHENRY]
+multiplier = "1.0_E18"
+symbol = "EH"
+singular = "exahenry"
+plural = "exahenries"
+
+[units.PETAHENRY]
+multiplier = "1.0_E15"
+symbol = "PH"
+singular = "petahenry"
+plural = "petahenries"
+
+[units.TERAHENRY]
+multiplier = "1.0_E12"
+symbol = "TH"
+singular = "terahenry"
+plural = "terahenries"
+
+[units.GIGAHENRY]
+multiplier = "1.0_E9"
+symbol = "GH"
+singular = "gigahenry"
+plural = "gigahenries"
+
+[units.MEGAHENRY]
+multiplier = "1.0_E6"
+symbol = "MH"
+singular = "megahenry"
+plural = "megahenries"
+
+[units.KILOHENRY]
+multiplier = "1.0_E3"
+symbol = "kH"
+singular = "kilohenry"
+plural = "kilohenries"
+
+[units.HECTOHENRY]
+multiplier = "1.0_E2"
+symbol = "hH"
+singular = "hectohenry"
+plural = "hectohenries"
+
+[units.DECAHENRY]
+multiplier = "1.0E1"
+symbol = "daH"
+singular = "decahenry"
+plural = "decahenries"
+
+[units.HENRY]
+multiplier = "1.0E0"
+symbol = "H"
+singular = "henry"
+plural = "henries"
+
+[units.DECIHENRY]
+multiplier = "1.0E-1"
+symbol = "dH"
+singular = "decihenry"
+plural = "decihenries"
+
+[units.CENTIHENRY]
+multiplier = "1.0E-2"
+symbol = "cH"
+singular = "centihenry"
+plural = "centihenries"
+
+[units.MILLIHENRY]
+multiplier = "1.0E-3"
+symbol = "mH"
+singular = "millihenry"
+plural = "millihenries"
+
+[units.MICROHENRY]
+multiplier = "1.0E-6"
+symbol = "µH"
+singular = "microhenry"
+plural = "microhenries"
+
+[units.NANOHENRY]
+multiplier = "1.0E-9"
+symbol = "nH"
+singular = "nanohenry"
+plural = "nanohenries"
+
+[units.PICOHENRY]
+multiplier = "1.0E-12"
+symbol = "pH"
+singular = "picohenry"
+plural = "picohenries"
+
+[units.FEMTOHENRY]
+multiplier = "1.0E-15"
+symbol = "fH"
+singular = "femtohenry"
+plural = "femtohenries"
+
+[units.ATTOHENRY]
+multiplier = "1.0E-18"
+symbol = "aH"
+singular = "attohenry"
+plural = "attohenries"
+
+[units.ZEPTOHENRY]
+multiplier = "1.0E-21"
+symbol = "zH"
+singular = "zeptohenry"
+plural = "zeptohenries"
+
+[units.YOCTOHENRY]
+multiplier = "1.0E-24"
+symbol = "yH"
+singular = "yoctohenry"
+plural = "yoctohenries"
+
+[units.ABHENRY]
+multiplier = "1.0_E-9"
+symbol = "abH"
+singular = "abhenry"
+plural = "abhenries"
+
+[units.STATHENRY]
+multiplier = "8.987_552_917_115_481_E11"
+symbol = "statH"
+singular = "stathenry"
+plural = "stathenries"
+

@@ -1,0 +1,49 @@
+name = "Electric dipole moment"
+symbol = "ElectricDipoleMoment"
+snake_case_name = "electric_dipole_moment"
+short_dim_formula = "L⋅T⋅I"
+long_dim_formula = "Length⋅Time⋅Electric current"
+units_formula = "m⋅s⋅A"
+
+[dimensions]
+length = 1
+mass = 0
+time = 1
+electric_current = 1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.COULOMB_METER]
+multiplier = "1.0E0"
+symbol = "C·m"
+singular = "coulomb meter"
+plural = "coulomb meters"
+
+[units.ATOMIC_UNIT_OF_CHARGE_CENTIMETER]
+multiplier = "1.602176634_E-21"
+symbol = "a.u.ofcharge·cm"
+singular = "atomic unit of charge centimeter"
+plural = "atomic unit of charge centimeters"
+
+[units.ELEMENTARY_CHARGE_CENTIMETER]
+multiplier = "1.602176634_E-21"
+symbol = "e·cm"
+singular = "elementary charge centimeter"
+plural = "elementary charge centimeters"
+
+[units.DEBYE]
+multiplier = "3.3356409519815_E-30"
+symbol = "D"
+singular = "debye"
+plural = "debyes"
+
+[units.ATOMIC_UNIT_OF_ELECTRIC_DIPOLE_MOMENT]
+multiplier = "8.478_353_625_540_766_E-30"
+symbol = "e·a₀"
+singular = "atomic unit of electric dipole moment"
+plural = "atomic units of electric dipole moment"
+

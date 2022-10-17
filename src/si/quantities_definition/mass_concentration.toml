@@ -1,0 +1,313 @@
+name = "Mass concentration"
+symbol = "MassConcentration"
+snake_case_name = "mass_concentration"
+short_dim_formula = "L<sup>-3</sup>⋅M"
+long_dim_formula = "Length<sup>-3</sup>⋅Mass"
+units_formula = "m<sup>-3</sup>⋅kg"
+
+[dimensions]
+length = -3
+mass = 1
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+21"
+symbol = "Yg/m³"
+singular = "yottagram per cubic meter"
+plural = "yottagrams per cubic meter"
+
+[units.ZETTAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+18"
+symbol = "Zg/m³"
+singular = "zettagram per cubic meter"
+plural = "zettagrams per cubic meter"
+
+[units.EXAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+15"
+symbol = "Eg/m³"
+singular = "exagram per cubic meter"
+plural = "exagrams per cubic meter"
+
+[units.PETAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+12"
+symbol = "Pg/m³"
+singular = "petagram per cubic meter"
+plural = "petagrams per cubic meter"
+
+[units.TERAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+9"
+symbol = "Tg/m³"
+singular = "teragram per cubic meter"
+plural = "teragrams per cubic meter"
+
+[units.GIGAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+6"
+symbol = "Gg/m³"
+singular = "gigagram per cubic meter"
+plural = "gigagrams per cubic meter"
+
+[units.MEGAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+3"
+symbol = "Mg/m³"
+singular = "megagram per cubic meter"
+plural = "megagrams per cubic meter"
+
+[units.KILOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+0"
+symbol = "kg/m³"
+singular = "kilogram per cubic meter"
+plural = "kilograms per cubic meter"
+
+[units.HECTOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-1"
+symbol = "hg/m³"
+singular = "hectogram per cubic meter"
+plural = "hectograms per cubic meter"
+
+[units.DECAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-2"
+symbol = "dag/m³"
+singular = "decagram per cubic meter"
+plural = "decagrams per cubic meter"
+
+[units.GRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-3"
+symbol = "g/m³"
+singular = "gram per cubic meter"
+plural = "grams per cubic meter"
+
+[units.DECIGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-4"
+symbol = "dg/m³"
+singular = "decigram per cubic meter"
+plural = "decigrams per cubic meter"
+
+[units.CENTIGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-5"
+symbol = "cg/m³"
+singular = "centigram per cubic meter"
+plural = "centigrams per cubic meter"
+
+[units.MILLIGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-6"
+symbol = "mg/m³"
+singular = "milligram per cubic meter"
+plural = "milligrams per cubic meter"
+
+[units.MICROGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-9"
+symbol = "µg/m³"
+singular = "microgram per cubic meter"
+plural = "micrograms per cubic meter"
+
+[units.NANOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-12"
+symbol = "ng/m³"
+singular = "nanogram per cubic meter"
+plural = "nanograms per cubic meter"
+
+[units.PICOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-15"
+symbol = "pg/m³"
+singular = "picogram per cubic meter"
+plural = "picograms per cubic meter"
+
+[units.FEMTOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-18"
+symbol = "fg/m³"
+singular = "femtogram per cubic meter"
+plural = "femtograms per cubic meter"
+
+[units.ATTOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-21"
+symbol = "ag/m³"
+singular = "attogram per cubic meter"
+plural = "attograms per cubic meter"
+
+[units.ZEPTOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-24"
+symbol = "zg/m³"
+singular = "zeptogram per cubic meter"
+plural = "zeptograms per cubic meter"
+
+[units.YOCTOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-27"
+symbol = "yg/m³"
+singular = "yoctogram per cubic meter"
+plural = "yoctograms per cubic meter"
+
+[units.KILOGRAM_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E+3"
+symbol = "kg/dm³"
+singular = "kilogram per cubic decimeter"
+plural = "kilograms per cubic decimeter"
+
+[units.KILOGRAM_PER_LITER]
+multiplier = "1.0_E+3"
+symbol = "kg/L"
+singular = "kilogram per liter"
+plural = "kilograms per liter"
+
+[units.GRAM_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E+0"
+symbol = "g/dm³"
+singular = "gram per cubic decimeter"
+plural = "grams per cubic decimeter"
+
+[units.GRAM_PER_LITER]
+multiplier = "1.0_E+0"
+symbol = "g/L"
+singular = "gram per liter"
+plural = "grams per liter"
+
+[units.MILLIGRAM_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E-3"
+symbol = "mg/dm³"
+singular = "milligram per cubic decimeter"
+plural = "milligrams per cubic decimeter"
+
+[units.MILLIGRAM_PER_LITER]
+multiplier = "1.0_E-3"
+symbol = "mg/L"
+singular = "milligram per liter"
+plural = "milligrams per liter"
+
+[units.MICROGRAM_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E-6"
+symbol = "μg/dm³"
+singular = "microgram per cubic decimeter"
+plural = "micrograms per cubic decimeter"
+
+[units.MICROGRAM_PER_LITER]
+multiplier = "1.0_E-6"
+symbol = "μg/L"
+singular = "microgram per liter"
+plural = "micrograms per liter"
+
+[units.NANOGRAM_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E-9"
+symbol = "ng/dm³"
+singular = "nanogram per cubic decimeter"
+plural = "nanograms per cubic decimeter"
+
+[units.NANOGRAM_PER_LITER]
+multiplier = "1.0_E-9"
+symbol = "ng/L"
+singular = "nanogram per liter"
+plural = "nanograms per liter"
+
+[units.PICOGRAM_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E-12"
+symbol = "pg/dm³"
+singular = "picogram per cubic decimeter"
+plural = "picograms per cubic decimeter"
+
+[units.PICOGRAM_PER_LITER]
+multiplier = "1.0_E-12"
+symbol = "pg/L"
+singular = "picogram per liter"
+plural = "picograms per liter"
+
+[units.FEMTOGRAM_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E-15"
+symbol = "fg/dm³"
+singular = "femtogram per cubic decimeter"
+plural = "femtograms per cubic decimeter"
+
+[units.FEMTOGRAM_PER_LITER]
+multiplier = "1.0_E-15"
+symbol = "fg/L"
+singular = "femtogram per liter"
+plural = "femtograms per liter"
+
+[units.KILOGRAM_PER_DECILITER]
+multiplier = "1.0_E+4"
+symbol = "kg/dL"
+singular = "kilogram per deciliter"
+plural = "kilograms per deciliter"
+
+[units.GRAM_PER_DECILITER]
+multiplier = "1.0_E+1"
+symbol = "g/dL"
+singular = "gram per deciliter"
+plural = "grams per deciliter"
+
+[units.MILLIGRAM_PER_DECILITER]
+multiplier = "1.0_E-2"
+symbol = "mg/dL"
+singular = "milligram per deciliter"
+plural = "milligrams per deciliter"
+
+[units.MICROGRAM_PER_DECILITER]
+multiplier = "1.0_E-5"
+symbol = "μg/dL"
+singular = "microgram per deciliter"
+plural = "micrograms per deciliter"
+
+[units.NANOGRAM_PER_DECILITER]
+multiplier = "1.0_E-8"
+symbol = "ng/dL"
+singular = "nanogram per deciliter"
+plural = "nanograms per deciliter"
+
+[units.PICOGRAM_PER_DECILITER]
+multiplier = "1.0_E-11"
+symbol = "pg/dL"
+singular = "picogram per deciliter"
+plural = "picograms per deciliter"
+
+[units.FEMTOGRAM_PER_DECILITER]
+multiplier = "1.0_E-14"
+symbol = "fg/dL"
+singular = "femtogram per deciliter"
+plural = "femtograms per deciliter"
+
+[units.KILOGRAM_PER_MILLILITER]
+multiplier = "1.0_E+6"
+symbol = "kg/mL"
+singular = "kilogram per milliliter"
+plural = "kilograms per milliliter"
+
+[units.GRAM_PER_MILLILITER]
+multiplier = "1.0_E+3"
+symbol = "g/mL"
+singular = "gram per milliliter"
+plural = "grams per milliliter"
+
+[units.MILLIGRAM_PER_MILLILITER]
+multiplier = "1.0_E+0"
+symbol = "mg/mL"
+singular = "milligram per milliliter"
+plural = "milligrams per milliliter"
+
+[units.MICROGRAM_PER_MILLILITER]
+multiplier = "1.0_E-3"
+symbol = "μg/mL"
+singular = "microgram per milliliter"
+plural = "micrograms per milliliter"
+
+[units.NANOGRAM_PER_MILLILITER]
+multiplier = "1.0_E-6"
+symbol = "ng/mL"
+singular = "nanogram per milliliter"
+plural = "nanograms per milliliter"
+
+[units.PICOGRAM_PER_MILLILITER]
+multiplier = "1.0_E-9"
+symbol = "pg/mL"
+singular = "picogram per milliliter"
+plural = "picograms per milliliter"
+
+[units.FEMTOGRAM_PER_MILLILITER]
+multiplier = "1.0_E-12"
+symbol = "fg/mL"
+singular = "femtogram per milliliter"
+plural = "femtograms per milliliter"
+

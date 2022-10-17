@@ -1,0 +1,37 @@
+name = "Coulomb constant"
+symbol = "CoulombConstant"
+snake_case_name = "coulomb_constant"
+short_dim_formula = "L<sup>3</sup>⋅M⋅T<sup>-4</sup>⋅I<sup>-2</sup>"
+long_dim_formula = "Length<sup>3</sup>⋅Mass⋅Time<sup>-4</sup>⋅Electric current<sup>-2</sup>"
+units_formula = "m<sup>3</sup>⋅kg⋅s<sup>-4</sup>⋅A<sup>-2</sup>"
+
+[dimensions]
+length = 3
+mass = 1
+time = -4
+electric_current = -2
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.KILOGRAM_CUBIC_METER_PER_SECOND_TO_THE_FOURTH_POWER_SQUARE_AMPERE]
+multiplier = "1.0E0"
+symbol = "kg·m³·s⁻⁴·A⁻²"
+singular = "kilogram cubic meter per second to the fourth power square ampere"
+plural = "kilograms cubic meter per second to the fourth power square ampere"
+
+[units.METER_PER_FARAD]
+multiplier = "1.0E0"
+symbol = "m/F"
+singular = "meter per farad"
+plural = "meters_per_farad"
+
+[units.COULOMB_CONSTANT]
+multiplier = "8.987_551_792_261_172_E9"
+symbol = "kₑ"
+singular = "coulomb constant"
+plural = "coulomb constants"
+

@@ -1,0 +1,289 @@
+name = "Length"
+symbol = "Length"
+snake_case_name = "length"
+short_dim_formula = "L"
+long_dim_formula = "Length"
+units_formula = "m"
+
+[dimensions]
+length = 1
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAMETER]
+multiplier = "1.0_E24"
+symbol = "Ym"
+singular = "yottameter"
+plural = "yottameters"
+
+[units.ZETTAMETER]
+multiplier = "1.0_E21"
+symbol = "Zm"
+singular = "zettameter"
+plural = "zettameters"
+
+[units.EXAMETER]
+multiplier = "1.0_E18"
+symbol = "Em"
+singular = "exameter"
+plural = "exameters"
+
+[units.PETAMETER]
+multiplier = "1.0_E15"
+symbol = "Pm"
+singular = "petameter"
+plural = "petameters"
+
+[units.TERAMETER]
+multiplier = "1.0_E12"
+symbol = "Tm"
+singular = "terameter"
+plural = "terameters"
+
+[units.GIGAMETER]
+multiplier = "1.0_E9"
+symbol = "Gm"
+singular = "gigameter"
+plural = "gigameters"
+
+[units.MEGAMETER]
+multiplier = "1.0_E6"
+symbol = "Mm"
+singular = "megameter"
+plural = "megameters"
+
+[units.KILOMETER]
+multiplier = "1.0_E3"
+symbol = "km"
+singular = "kilometer"
+plural = "kilometers"
+
+[units.HECTOMETER]
+multiplier = "1.0_E2"
+symbol = "hm"
+singular = "hectometer"
+plural = "hectometers"
+
+[units.DECAMETER]
+multiplier = "1.0E1"
+symbol = "dam"
+singular = "decameter"
+plural = "decameters"
+
+[units.METER]
+multiplier = "1.0E0"
+symbol = "m"
+singular = "meter"
+plural = "meters"
+
+[units.DECIMETER]
+multiplier = "1.0E-1"
+symbol = "dm"
+singular = "decimeter"
+plural = "decimeters"
+
+[units.CENTIMETER]
+multiplier = "1.0E-2"
+symbol = "cm"
+singular = "centimeter"
+plural = "centimeters"
+
+[units.MILLIMETER]
+multiplier = "1.0E-3"
+symbol = "mm"
+singular = "millimeter"
+plural = "millimeters"
+
+[units.MICROMETER]
+multiplier = "1.0E-6"
+symbol = "µm"
+singular = "micrometer"
+plural = "micrometers"
+
+[units.NANOMETER]
+multiplier = "1.0E-9"
+symbol = "nm"
+singular = "nanometer"
+plural = "nanometers"
+
+[units.PICOMETER]
+multiplier = "1.0E-12"
+symbol = "pm"
+singular = "picometer"
+plural = "picometers"
+
+[units.FEMTOMETER]
+multiplier = "1.0E-15"
+symbol = "fm"
+singular = "femtometer"
+plural = "femtometers"
+
+[units.ATTOMETER]
+multiplier = "1.0E-18"
+symbol = "am"
+singular = "attometer"
+plural = "attometers"
+
+[units.ZEPTOMETER]
+multiplier = "1.0E-21"
+symbol = "zm"
+singular = "zeptometer"
+plural = "zeptometers"
+
+[units.YOCTOMETER]
+multiplier = "1.0E-24"
+symbol = "ym"
+singular = "yoctometer"
+plural = "yoctometers"
+
+[units.ANGSTROM]
+multiplier = "1.0_E-10"
+symbol = "Å"
+singular = "ångström"
+plural = "ångströms"
+
+[units.BOHR_RADIUS]
+multiplier = "5.291_772_109_03_E-11"
+symbol = "a₀"
+singular = "bohr radius"
+plural = "bohr radiuses"
+
+[units.ATOMIC_UNIT_OF_LENGTH]
+multiplier = "5.291_772_109_03_E-11"
+symbol = "a.u.oflength"
+singular = "atomic unit of length"
+plural = "atomic units of length"
+
+[units.ASTRONOMICAL_UNIT]
+multiplier = "1.495_979_E11"
+symbol = "ua"
+singular = "astronomical unit"
+plural = "astronomical units"
+
+[units.CHAIN]
+multiplier = "2.011_684_E1"
+symbol = "ch"
+singular = "chain"
+plural = "chains"
+
+[units.FATHOM]
+multiplier = "1.828_804_E0"
+symbol = "fathom"
+singular = "fathom"
+plural = "fathoms"
+
+[units.FERMI]
+multiplier = "1.0_E-15"
+symbol = "fermi"
+singular = "fermi"
+plural = "fermis"
+
+[units.FOOT]
+multiplier = "3.048_E-1"
+symbol = "ft"
+singular = "foot"
+plural = "feet"
+
+[units.FOOT_SURVEY]
+multiplier = "3.048_006_E-1"
+symbol = "ft(U.S.survey)"
+singular = "foot (U.S. survey)"
+plural = "feet (U.S. survey)"
+
+[units.INCH]
+multiplier = "2.54_E-2"
+symbol = "in"
+singular = "inch"
+plural = "inches"
+
+[units.LIGHT_YEAR]
+multiplier = "9.460_73_E15"
+symbol = "l.y."
+singular = "light year"
+plural = "light years"
+
+[units.MICROINCH]
+multiplier = "2.54_E-8"
+symbol = "μin"
+singular = "microinch"
+plural = "microinches"
+
+[units.MICRON]
+multiplier = "1.0_E-6"
+symbol = "μ"
+singular = "micron"
+plural = "microns"
+
+[units.MIL]
+multiplier = "2.54_E-5"
+symbol = "0.001in"
+singular = "mil"
+plural = "mils"
+
+[units.MILE]
+multiplier = "1.609_344_E3"
+symbol = "mi"
+singular = "mile"
+plural = "miles"
+
+[units.MILE_SURVEY]
+multiplier = "1.609_347_E3"
+symbol = "mi(U.S.survey)"
+singular = "mile (U.S. survey)"
+plural = "miles (U.S. survey)"
+
+[units.NAUTICAL_MILE]
+multiplier = "1.852_E3"
+symbol = "M"
+singular = "nautical mile"
+plural = "nautical miles"
+
+[units.PARSEC]
+multiplier = "3.085_678_E16"
+symbol = "pc"
+singular = "parsec"
+plural = "parsecs"
+
+[units.PICA_COMPUTER]
+multiplier = "4.233_333_333_333_333_E-3"
+symbol = "1/6in(computer)"
+singular = "pica (computer)"
+plural = "picas (computer)"
+
+[units.PICA_PRINTERS]
+multiplier = "4.217_518_E-3"
+symbol = "1/6in"
+singular = "pica (printer's)"
+plural = "picas (printer's)"
+
+[units.POINT_COMPUTER]
+multiplier = "3.527_778_E-4"
+symbol = "1/72in(computer)"
+singular = "point (computer)"
+plural = "points (computer)"
+
+[units.POINT_PRINTERS]
+multiplier = "3.514_598_E-4"
+symbol = "1/72in"
+singular = "point (printer's)"
+plural = "points (printer's)"
+
+[units.ROD]
+multiplier = "5.029_21_E0"
+symbol = "rd"
+singular = "rod"
+plural = "rods"
+
+[units.YARD]
+multiplier = "9.144_E-1"
+symbol = "yd"
+singular = "yard"
+plural = "yards"
+

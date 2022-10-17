@@ -1,0 +1,175 @@
+name = "Acceleration"
+symbol = "Acceleration"
+snake_case_name = "acceleration"
+short_dim_formula = "L⋅T<sup>-2</sup>"
+long_dim_formula = "Length⋅Time<sup>-2</sup>"
+units_formula = "m⋅s<sup>-2</sup>"
+
+[dimensions]
+length = 1
+mass = 0
+time = -2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAMETER_PER_SECOND_SQUARED]
+multiplier = "1.0_E24"
+symbol = "Ym/s²"
+singular = "yottameter per second squared"
+plural = "yottameters per second squared"
+
+[units.ZETTAMETER_PER_SECOND_SQUARED]
+multiplier = "1.0_E21"
+symbol = "Zm/s²"
+singular = "zettameter per second squared"
+plural = "zettameters per second squared"
+
+[units.EXAMETER_PER_SECOND_SQUARED]
+multiplier = "1.0_E18"
+symbol = "Em/s²"
+singular = "exameter per second squared"
+plural = "exameters per second squared"
+
+[units.PETAMETER_PER_SECOND_SQUARED]
+multiplier = "1.0_E15"
+symbol = "Pm/s²"
+singular = "petameter per second squared"
+plural = "petameters per second squared"
+
+[units.TERAMETER_PER_SECOND_SQUARED]
+multiplier = "1.0_E12"
+symbol = "Tm/s²"
+singular = "terameter per second squared"
+plural = "terameters per second squared"
+
+[units.GIGAMETER_PER_SECOND_SQUARED]
+multiplier = "1.0_E9"
+symbol = "Gm/s²"
+singular = "gigameter per second squared"
+plural = "gigameters per second squared"
+
+[units.MEGAMETER_PER_SECOND_SQUARED]
+multiplier = "1.0_E6"
+symbol = "Mm/s²"
+singular = "megameter per second squared"
+plural = "megameters per second squared"
+
+[units.KILOMETER_PER_SECOND_SQUARED]
+multiplier = "1.0_E3"
+symbol = "km/s²"
+singular = "kilometer per second squared"
+plural = "kilometers per second squared"
+
+[units.HECTOMETER_PER_SECOND_SQUARED]
+multiplier = "1.0_E2"
+symbol = "hm/s²"
+singular = "hectometer per second squared"
+plural = "hectometers per second squared"
+
+[units.DECAMETER_PER_SECOND_SQUARED]
+multiplier = "1.0E1"
+symbol = "dam/s²"
+singular = "decameter per second squared"
+plural = "decameters per second squared"
+
+[units.METER_PER_SECOND_SQUARED]
+multiplier = "1.0E0"
+symbol = "m/s²"
+singular = "meter per second squared"
+plural = "meters per second squared"
+
+[units.DECIMETER_PER_SECOND_SQUARED]
+multiplier = "1.0E-1"
+symbol = "dm/s²"
+singular = "decimeter per second squared"
+plural = "decimeters per second squared"
+
+[units.CENTIMETER_PER_SECOND_SQUARED]
+multiplier = "1.0E-2"
+symbol = "cm/s²"
+singular = "centimeter per second squared"
+plural = "centimeters per second squared"
+
+[units.MILLIMETER_PER_SECOND_SQUARED]
+multiplier = "1.0E-3"
+symbol = "mm/s²"
+singular = "millimeter per second squared"
+plural = "millimeters per second squared"
+
+[units.MICROMETER_PER_SECOND_SQUARED]
+multiplier = "1.0E-6"
+symbol = "µm/s²"
+singular = "micrometer per second squared"
+plural = "micrometers per second squared"
+
+[units.NANOMETER_PER_SECOND_SQUARED]
+multiplier = "1.0E-9"
+symbol = "nm/s²"
+singular = "nanometer per second squared"
+plural = "nanometers per second squared"
+
+[units.PICOMETER_PER_SECOND_SQUARED]
+multiplier = "1.0E-12"
+symbol = "pm/s²"
+singular = "picometer per second squared"
+plural = "picometers per second squared"
+
+[units.FEMTOMETER_PER_SECOND_SQUARED]
+multiplier = "1.0E-15"
+symbol = "fm/s²"
+singular = "femtometer per second squared"
+plural = "femtometers per second squared"
+
+[units.ATTOMETER_PER_SECOND_SQUARED]
+multiplier = "1.0E-18"
+symbol = "am/s²"
+singular = "attometer per second squared"
+plural = "attometers per second squared"
+
+[units.ZEPTOMETER_PER_SECOND_SQUARED]
+multiplier = "1.0E-21"
+symbol = "zm/s²"
+singular = "zeptometer per second squared"
+plural = "zeptometers per second squared"
+
+[units.YOCTOMETER_PER_SECOND_SQUARED]
+multiplier = "1.0E-24"
+symbol = "ym/s²"
+singular = "yoctometer per second squared"
+plural = "yoctometers per second squared"
+
+[units.FOOT_PER_SECOND_SQUARED]
+multiplier = "3.048_E-1"
+symbol = "ft/s²"
+singular = "foot per second squared"
+plural = "feet per second squared"
+
+[units.GALILEO]
+multiplier = "1.0_E-2"
+symbol = "Gal"
+singular = "galileo"
+plural = "galileos"
+
+[units.INCH_PER_SECOND_SQUARED]
+multiplier = "2.54_E-2"
+symbol = "in/s²"
+singular = "inch per second squared"
+plural = "inches per second squared"
+
+[units.MILLIMETER_PER_MINUTE_SQUARED]
+multiplier = "2.777_777_777_777_777_8_E-7"
+symbol = "mm/min²"
+singular = "millimeter per minute squared"
+plural = "millimeters per minute squared"
+
+[units.STANDARD_GRAVITY]
+multiplier = "9.806_65_E0"
+symbol = "g₀"
+singular = "standard acceleration of gravity"
+plural = "standard accelerations of gravity"
+

@@ -1,0 +1,175 @@
+name = "Frequency"
+symbol = "Frequency"
+snake_case_name = "frequency"
+short_dim_formula = "T<sup>-1</sup>"
+long_dim_formula = "Time<sup>-1</sup>"
+units_formula = "s<sup>-1</sup>"
+
+[dimensions]
+length = 0
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAHERTZ]
+multiplier = "1.0_E24"
+symbol = "YHz"
+singular = "yottahertz"
+plural = "yottahertz"
+
+[units.ZETTAHERTZ]
+multiplier = "1.0_E21"
+symbol = "ZHz"
+singular = "zettahertz"
+plural = "zettahertz"
+
+[units.EXAHERTZ]
+multiplier = "1.0_E18"
+symbol = "EHz"
+singular = "exahertz"
+plural = "exahertz"
+
+[units.PETAHERTZ]
+multiplier = "1.0_E15"
+symbol = "PHz"
+singular = "petahertz"
+plural = "petahertz"
+
+[units.TERAHERTZ]
+multiplier = "1.0_E12"
+symbol = "THz"
+singular = "terahertz"
+plural = "terahertz"
+
+[units.GIGAHERTZ]
+multiplier = "1.0_E9"
+symbol = "GHz"
+singular = "gigahertz"
+plural = "gigahertz"
+
+[units.MEGAHERTZ]
+multiplier = "1.0_E6"
+symbol = "MHz"
+singular = "megahertz"
+plural = "megahertz"
+
+[units.KILOHERTZ]
+multiplier = "1.0_E3"
+symbol = "kHz"
+singular = "kilohertz"
+plural = "kilohertz"
+
+[units.HECTOHERTZ]
+multiplier = "1.0_E2"
+symbol = "hHz"
+singular = "hectohertz"
+plural = "hectohertz"
+
+[units.DECAHERTZ]
+multiplier = "1.0E1"
+symbol = "daHz"
+singular = "decahertz"
+plural = "decahertz"
+
+[units.HERTZ]
+multiplier = "1.0E0"
+symbol = "Hz"
+singular = "hertz"
+plural = "hertz"
+
+[units.DECIHERTZ]
+multiplier = "1.0E-1"
+symbol = "dHz"
+singular = "decihertz"
+plural = "decihertz"
+
+[units.CENTIHERTZ]
+multiplier = "1.0E-2"
+symbol = "cHz"
+singular = "centihertz"
+plural = "centihertz"
+
+[units.MILLIHERTZ]
+multiplier = "1.0E-3"
+symbol = "mHz"
+singular = "millihertz"
+plural = "millihertz"
+
+[units.MICROHERTZ]
+multiplier = "1.0E-6"
+symbol = "µHz"
+singular = "microhertz"
+plural = "microhertz"
+
+[units.NANOHERTZ]
+multiplier = "1.0E-9"
+symbol = "nHz"
+singular = "nanohertz"
+plural = "nanohertz"
+
+[units.PICOHERTZ]
+multiplier = "1.0E-12"
+symbol = "pHz"
+singular = "picohertz"
+plural = "picohertz"
+
+[units.FEMTOHERTZ]
+multiplier = "1.0E-15"
+symbol = "fHz"
+singular = "femtohertz"
+plural = "femtohertz"
+
+[units.ATTOHERTZ]
+multiplier = "1.0E-18"
+symbol = "aHz"
+singular = "attohertz"
+plural = "attohertz"
+
+[units.ZEPTOHERTZ]
+multiplier = "1.0E-21"
+symbol = "zHz"
+singular = "zeptohertz"
+plural = "zeptohertz"
+
+[units.YOCTOHERTZ]
+multiplier = "1.0E-24"
+symbol = "yHz"
+singular = "yoctohertz"
+plural = "yoctohertz"
+
+[units.CYCLE_PER_DAY]
+multiplier = "1.157_407_407_407_407_4_E-5"
+symbol = "1/d"
+singular = "cycle per day"
+plural = "cycles per day"
+
+[units.CYCLE_PER_HOUR]
+multiplier = "2.777_777_777_777_777_E-4"
+symbol = "1/h"
+singular = "cycle per hour"
+plural = "cycles per hour"
+
+[units.CYCLE_PER_MINUTE]
+multiplier = "1.666_666_666_666_666_6E-2"
+symbol = "1/min"
+singular = "cycle per minute"
+plural = "cycles per minute"
+
+[units.CYCLE_PER_SHAKE]
+multiplier = "1.0_E8"
+symbol = "100MHz"
+singular = "cycle per shake"
+plural = "cycles per shake"
+
+[units.CYCLE_PER_YEAR]
+multiplier = "3.170_979_198_376_458_E-8"
+symbol = "1/a"
+singular = "cycle per year"
+plural = "cycles per year"
+

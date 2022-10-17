@@ -1,0 +1,31 @@
+name = "Electric charge volumetric density"
+symbol = "ElectricChargeVolumetricDensity"
+snake_case_name = "electric_charge_volumetric_density"
+short_dim_formula = "L<sup>-3</sup>⋅T⋅I"
+long_dim_formula = "Length<sup>-3</sup>⋅Time⋅Electric current"
+units_formula = "m<sup>-3</sup>⋅s⋅A"
+
+[dimensions]
+length = -3
+mass = 0
+time = 1
+electric_current = 1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.COULOMB_PER_CUBIC_METER]
+multiplier = "1.0E0"
+symbol = "C/m³"
+singular = "coulomb per cubic meter"
+plural = "coulombs per cubic meter"
+
+[units.COULOMB_PER_CUBIC_CENTIMETER]
+multiplier = "1.0_E+6"
+symbol = "C/cm³"
+singular = "coulomb per cubic centimeter"
+plural = "coulombs per cubic centimeter"
+

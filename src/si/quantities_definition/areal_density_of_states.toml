@@ -1,0 +1,37 @@
+name = "Areal density of states"
+symbol = "ArealDensityOfStates"
+snake_case_name = "areal_density_of_states"
+short_dim_formula = "L<sup>-4</sup>⋅M<sup>-1</sup>⋅T<sup>2</sup>"
+long_dim_formula = "Length<sup>-4</sup>⋅Mass<sup>-1</sup>⋅Time<sup>2</sup>"
+units_formula = "m<sup>-4</sup>⋅kg<sup>-1</sup>⋅s<sup>2</sup>"
+
+[dimensions]
+length = -4
+mass = -1
+time = 2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.STATE_PER_SQUARE_METER_JOULE]
+multiplier = "1.0E0"
+symbol = "1/(m²·J)"
+singular = "state per square meter joule"
+plural = "states per square meter joule"
+
+[units.STATE_PER_SQUARE_CENTIMETER_JOULE]
+multiplier = "1.0_E+4"
+symbol = "1/(cm²·J)"
+singular = "state per square centimeter joule"
+plural = "states per square centimeter joule"
+
+[units.STATE_PER_SQUARE_CENTIMETER_ELECTRONVOLT]
+multiplier = "6.2415090744608_E+22"
+symbol = "1/(cm²·eV)"
+singular = "state per square centimeter electronvolt"
+plural = "states per square centimeter electronvolt"
+

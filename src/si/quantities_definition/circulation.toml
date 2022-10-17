@@ -1,0 +1,61 @@
+name = "Circulation"
+symbol = "Circulation"
+snake_case_name = "circulation"
+short_dim_formula = "L<sup>2</sup>⋅T<sup>-1</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Time<sup>-1</sup>"
+units_formula = "m<sup>2</sup>⋅s<sup>-1</sup>"
+
+[dimensions]
+length = 2
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.SQUARE_METER_PER_SECOND]
+multiplier = "1.0E0"
+symbol = "m²/s"
+singular = "square meter per second"
+plural = "square meters per second"
+
+[units.SQUARE_CENTIMETER_PER_SECOND]
+multiplier = "1.0_E-4"
+symbol = "cm²/s"
+singular = "square centimeter per second"
+plural = "square centimeters per second"
+
+[units.SQUARE_MILLIMETER_PER_SECOND]
+multiplier = "1.0_E-6"
+symbol = "mm²/s"
+singular = "square millimeter per second"
+plural = "square millimeters per second"
+
+[units.SQUARE_MICROMETER_PER_SECOND]
+multiplier = "1.0_E-12"
+symbol = "µm²/s"
+singular = "square micrometer per second"
+plural = "square micrometers per second"
+
+[units.SQUARE_NANOMETER_PER_SECOND]
+multiplier = "1.0_E-18"
+symbol = "nm²/s"
+singular = "square nanometer per second"
+plural = "square nanometers per second"
+
+[units.STOKES]
+multiplier = "1.0_E-4"
+symbol = "St"
+singular = "Stokes"
+plural = "Stokes"
+
+[units.CENTISTOKES]
+multiplier = "1.0_E-6"
+symbol = "cSt"
+singular = "centistokes"
+plural = "centistokes"
+

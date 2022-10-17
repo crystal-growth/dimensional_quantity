@@ -1,0 +1,613 @@
+name = "Catalytic activity concentration"
+symbol = "CatalyticActivityConcentration"
+snake_case_name = "catalytic_activity_concentration"
+short_dim_formula = "L<sup>-3</sup>⋅T<sup>-1</sup>⋅N"
+long_dim_formula = "Length<sup>-3</sup>⋅Time<sup>-1</sup>⋅Amount of substance"
+units_formula = "m<sup>-3</sup>⋅s<sup>-1</sup>⋅mol"
+
+[dimensions]
+length = -3
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAKATAL_PER_CUBIC_METER]
+multiplier = "1.0_E24"
+symbol = "Ykat/m³"
+singular = "yottakatal per cubic meter"
+plural = "yottakatals per cubic meter"
+
+[units.ZETTAKATAL_PER_CUBIC_METER]
+multiplier = "1.0_E21"
+symbol = "Zkat/m³"
+singular = "zettakatal per cubic meter"
+plural = "zettakatals per cubic meter"
+
+[units.EXAKATAL_PER_CUBIC_METER]
+multiplier = "1.0_E18"
+symbol = "Ekat/m³"
+singular = "exakatal per cubic meter"
+plural = "exakatals per cubic meter"
+
+[units.PETAKATAL_PER_CUBIC_METER]
+multiplier = "1.0_E15"
+symbol = "Pkat/m³"
+singular = "petakatal per cubic meter"
+plural = "petakatals per cubic meter"
+
+[units.TERAKATAL_PER_CUBIC_METER]
+multiplier = "1.0_E12"
+symbol = "Tkat/m³"
+singular = "terakatal per cubic meter"
+plural = "terakatals per cubic meter"
+
+[units.GIGAKATAL_PER_CUBIC_METER]
+multiplier = "1.0_E9"
+symbol = "Gkat/m³"
+singular = "gigakatal per cubic meter"
+plural = "gigakatals per cubic meter"
+
+[units.MEGAKATAL_PER_CUBIC_METER]
+multiplier = "1.0_E6"
+symbol = "Mkat/m³"
+singular = "megakatal per cubic meter"
+plural = "megakatals per cubic meter"
+
+[units.KILOKATAL_PER_CUBIC_METER]
+multiplier = "1.0_E3"
+symbol = "kkat/m³"
+singular = "kilokatal per cubic meter"
+plural = "kilokatals per cubic meter"
+
+[units.HECTOKATAL_PER_CUBIC_METER]
+multiplier = "1.0_E2"
+symbol = "hkat/m³"
+singular = "hectokatal per cubic meter"
+plural = "hectokatals per cubic meter"
+
+[units.DECAKATAL_PER_CUBIC_METER]
+multiplier = "1.0E1"
+symbol = "dakat/m³"
+singular = "decakatal per cubic meter"
+plural = "decakatals per cubic meter"
+
+[units.KATAL_PER_CUBIC_METER]
+multiplier = "1.0E0"
+symbol = "kat/m³"
+singular = "katal per cubic meter"
+plural = "katals per cubic meter"
+
+[units.DECIKATAL_PER_CUBIC_METER]
+multiplier = "1.0E-1"
+symbol = "dkat/m³"
+singular = "decikatal per cubic meter"
+plural = "decikatals per cubic meter"
+
+[units.CENTIKATAL_PER_CUBIC_METER]
+multiplier = "1.0E-2"
+symbol = "ckat/m³"
+singular = "centikatal per cubic meter"
+plural = "centikatals per cubic meter"
+
+[units.MILLIKATAL_PER_CUBIC_METER]
+multiplier = "1.0E-3"
+symbol = "mkat/m³"
+singular = "millikatal per cubic meter"
+plural = "millikatals per cubic meter"
+
+[units.MICROKATAL_PER_CUBIC_METER]
+multiplier = "1.0E-6"
+symbol = "µkat/m³"
+singular = "microkatal per cubic meter"
+plural = "microkatals per cubic meter"
+
+[units.NANOKATAL_PER_CUBIC_METER]
+multiplier = "1.0E-9"
+symbol = "nkat/m³"
+singular = "nanokatal per cubic meter"
+plural = "nanokatals per cubic meter"
+
+[units.PICOKATAL_PER_CUBIC_METER]
+multiplier = "1.0E-12"
+symbol = "pkat/m³"
+singular = "picokatal per cubic meter"
+plural = "picokatals per cubic meter"
+
+[units.FEMTOKATAL_PER_CUBIC_METER]
+multiplier = "1.0E-15"
+symbol = "fkat/m³"
+singular = "femtokatal per cubic meter"
+plural = "femtokatals per cubic meter"
+
+[units.ATTOKATAL_PER_CUBIC_METER]
+multiplier = "1.0E-18"
+symbol = "akat/m³"
+singular = "attokatal per cubic meter"
+plural = "attokatals per cubic meter"
+
+[units.ZEPTOKATAL_PER_CUBIC_METER]
+multiplier = "1.0E-21"
+symbol = "zkat/m³"
+singular = "zeptokatal per cubic meter"
+plural = "zeptokatals per cubic meter"
+
+[units.YOCTOKATAL_PER_CUBIC_METER]
+multiplier = "1.0E-24"
+symbol = "ykat/m³"
+singular = "yoctokatal per cubic meter"
+plural = "yoctokatals per cubic meter"
+
+[units.KILOKATAL_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E+6"
+symbol = "kkat/dm³"
+singular = "kilokatal per cubic decimeter"
+plural = "kilokatals per cubic decimeter"
+
+[units.KILOKATAL_PER_LITER]
+multiplier = "1.0_E+6"
+symbol = "kkat/L"
+singular = "kilokatal per liter"
+plural = "kilokatals per liter"
+
+[units.KATAL_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E+3"
+symbol = "kat/dm³"
+singular = "katal per cubic decimeter"
+plural = "katals per cubic decimeter"
+
+[units.KATAL_PER_LITER]
+multiplier = "1.0_E+3"
+symbol = "kat/L"
+singular = "katal per liter"
+plural = "katals per liter"
+
+[units.MILLIKATAL_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E+0"
+symbol = "mkat/dm³"
+singular = "millikatal per cubic decimeter"
+plural = "millikatals per cubic decimeter"
+
+[units.MILLIKATAL_PER_LITER]
+multiplier = "1.0_E+0"
+symbol = "mkat/L"
+singular = "millikatal per liter"
+plural = "millikatals per liter"
+
+[units.MICROKATAL_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E-3"
+symbol = "μkat/dm³"
+singular = "microkatal per cubic decimeter"
+plural = "microkatals per cubic decimeter"
+
+[units.MICROKATAL_PER_LITER]
+multiplier = "1.0_E-3"
+symbol = "μkat/L"
+singular = "microkatal per liter"
+plural = "microkatals per liter"
+
+[units.NANOKATAL_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E-6"
+symbol = "nkat/dm³"
+singular = "nanokatal per cubic decimeter"
+plural = "nanokatals per cubic decimeter"
+
+[units.NANOKATAL_PER_LITER]
+multiplier = "1.0_E-6"
+symbol = "nkat/L"
+singular = "nanokatal per liter"
+plural = "nanokatals per liter"
+
+[units.PICOKATAL_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E-9"
+symbol = "pkat/dm³"
+singular = "picokatal per cubic decimeter"
+plural = "picokatals per cubic decimeter"
+
+[units.PICOKATAL_PER_LITER]
+multiplier = "1.0_E-9"
+symbol = "pkat/L"
+singular = "picokatal per liter"
+plural = "picokatals per liter"
+
+[units.FEMTOKATAL_PER_CUBIC_DECIMETER]
+multiplier = "1.0_E-12"
+symbol = "fkat/dm³"
+singular = "femtokatal per cubic decimeter"
+plural = "femtokatals per cubic decimeter"
+
+[units.FEMTOKATAL_PER_LITER]
+multiplier = "1.0_E-12"
+symbol = "fkat/L"
+singular = "femtokatal per liter"
+plural = "femtokatals per liter"
+
+[units.KILOKATAL_PER_DECILITER]
+multiplier = "1.0_E+7"
+symbol = "kkat/dL"
+singular = "kilokatal per deciliter"
+plural = "kilokatals per deciliter"
+
+[units.KATAL_PER_DECILITER]
+multiplier = "1.0_E+4"
+symbol = "kat/dL"
+singular = "katal per deciliter"
+plural = "katals per deciliter"
+
+[units.MILLIKATAL_PER_DECILITER]
+multiplier = "1.0_E+1"
+symbol = "mkat/dL"
+singular = "millikatal per deciliter"
+plural = "millikatals per deciliter"
+
+[units.MICROKATAL_PER_DECILITER]
+multiplier = "1.0_E-2"
+symbol = "μkat/dL"
+singular = "microkatal per deciliter"
+plural = "microkatals per deciliter"
+
+[units.NANOKATAL_PER_DECILITER]
+multiplier = "1.0_E-5"
+symbol = "nkat/dL"
+singular = "nanokatal per deciliter"
+plural = "nanokatals per deciliter"
+
+[units.PICOKATAL_PER_DECILITER]
+multiplier = "1.0_E-8"
+symbol = "pkat/dL"
+singular = "picokatal per deciliter"
+plural = "picokatals per deciliter"
+
+[units.FEMTOKATAL_PER_DECILITER]
+multiplier = "1.0_E-11"
+symbol = "fkat/dL"
+singular = "femtokatal per deciliter"
+plural = "femtokatals per deciliter"
+
+[units.KILOKATAL_PER_MILLILITER]
+multiplier = "1.0_E+9"
+symbol = "kkat/mL"
+singular = "kilokatal per milliliter"
+plural = "kilokatals per milliliter"
+
+[units.KATAL_PER_MILLILITER]
+multiplier = "1.0_E+6"
+symbol = "kat/mL"
+singular = "katal per milliliter"
+plural = "katals per milliliter"
+
+[units.MILLIKATAL_PER_MILLILITER]
+multiplier = "1.0_E+3"
+symbol = "mkat/mL"
+singular = "millikatal per milliliter"
+plural = "millikatals per milliliter"
+
+[units.MICROKATAL_PER_MILLILITER]
+multiplier = "1.0_E+0"
+symbol = "μkat/mL"
+singular = "microkatal per milliliter"
+plural = "microkatals per milliliter"
+
+[units.NANOKATAL_PER_MILLILITER]
+multiplier = "1.0_E-3"
+symbol = "nkat/mL"
+singular = "nanokatal per milliliter"
+plural = "nanokatals per milliliter"
+
+[units.PICOKATAL_PER_MILLILITER]
+multiplier = "1.0_E-6"
+symbol = "pkat/mL"
+singular = "picokatal per milliliter"
+plural = "picokatals per milliliter"
+
+[units.FEMTOKATAL_PER_MILLILITER]
+multiplier = "1.0_E-9"
+symbol = "fkat/mL"
+singular = "femtokatal per milliliter"
+plural = "femtokatals per milliliter"
+
+[units.YOTTA_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E+16"
+symbol = "YU/m³"
+singular = "yotta enzyme unit per cubic meter"
+plural = "yotta enzyme units per cubic meter"
+
+[units.ZETTA_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E+13"
+symbol = "ZU/m³"
+singular = "zetta enzyme unit per cubic meter"
+plural = "zetta enzyme units per cubic meter"
+
+[units.EXA_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E+10"
+symbol = "EU/m³"
+singular = "exa enzyme unit per cubic meter"
+plural = "exa enzyme units per cubic meter"
+
+[units.PETA_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E+7"
+symbol = "PU/m³"
+singular = "peta enzyme unit per cubic meter"
+plural = "peta enzyme units per cubic meter"
+
+[units.TERA_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E+4"
+symbol = "TU/m³"
+singular = "tera enzyme unit per cubic meter"
+plural = "tera enzyme units per cubic meter"
+
+[units.GIGA_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E+1"
+symbol = "GU/m³"
+singular = "giga enzyme unit per cubic meter"
+plural = "giga enzyme units per cubic meter"
+
+[units.MEGA_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-2"
+symbol = "MU/m³"
+singular = "mega enzyme unit per cubic meter"
+plural = "mega enzyme units per cubic meter"
+
+[units.KILO_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-5"
+symbol = "kU/m³"
+singular = "kilo enzyme unit per cubic meter"
+plural = "kilo enzyme units per cubic meter"
+
+[units.HECTO_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-6"
+symbol = "hU/m³"
+singular = "hecto enzyme unit per cubic meter"
+plural = "hecto enzyme units per cubic meter"
+
+[units.DECA_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-7"
+symbol = "daU/m³"
+singular = "deca enzyme unit per cubic meter"
+plural = "deca enzyme units per cubic meter"
+
+[units.ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-8"
+symbol = "U/m³"
+singular = "enzyme unit per cubic meter"
+plural = "enzyme units per cubic meter"
+
+[units.DECI_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-9"
+symbol = "dU/m³"
+singular = "deci enzyme unit per cubic meter"
+plural = "deci enzyme units per cubic meter"
+
+[units.CENTI_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-10"
+symbol = "cU/m³"
+singular = "centi enzyme unit per cubic meter"
+plural = "centi enzyme units per cubic meter"
+
+[units.MILLI_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-11"
+symbol = "mU/m³"
+singular = "milli enzyme unit per cubic meter"
+plural = "milli enzyme units per cubic meter"
+
+[units.MICRO_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-14"
+symbol = "µU/m³"
+singular = "micro enzyme unit per cubic meter"
+plural = "micro enzyme units per cubic meter"
+
+[units.NANO_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-17"
+symbol = "nU/m³"
+singular = "nano enzyme unit per cubic meter"
+plural = "nano enzyme units per cubic meter"
+
+[units.PICO_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-20"
+symbol = "pU/m³"
+singular = "pico enzyme unit per cubic meter"
+plural = "pico enzyme units per cubic meter"
+
+[units.FEMTO_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-23"
+symbol = "fU/m³"
+singular = "femto enzyme unit per cubic meter"
+plural = "femto enzyme units per cubic meter"
+
+[units.ATTO_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-26"
+symbol = "aU/m³"
+singular = "atto enzyme unit per cubic meter"
+plural = "atto enzyme units per cubic meter"
+
+[units.ZEPTO_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-29"
+symbol = "zU/m³"
+singular = "zepto enzyme unit per cubic meter"
+plural = "zepto enzyme units per cubic meter"
+
+[units.YOCTO_ENZYME_UNIT_PER_CUBIC_METER]
+multiplier = "1.6666666666667_E-32"
+symbol = "yU/m³"
+singular = "yocto enzyme unit per cubic meter"
+plural = "yocto enzyme units per cubic meter"
+
+[units.KILO_ENZYME_UNIT_PER_CUBIC_DECIMETER]
+multiplier = "1.6666666666667_E-2"
+symbol = "kU/dm³"
+singular = "kilo enzyme unit per cubic decimeter"
+plural = "kilo enzyme units per cubic decimeter"
+
+[units.KILO_ENZYME_UNIT_PER_LITER]
+multiplier = "1.6666666666667_E-2"
+symbol = "kU/L"
+singular = "kilo enzyme unit per liter"
+plural = "kilo enzyme units per liter"
+
+[units.ENZYME_UNIT_PER_CUBIC_DECIMETER]
+multiplier = "1.6666666666667_E-5"
+symbol = "U/dm³"
+singular = "enzyme unit per cubic decimeter"
+plural = "enzyme units per cubic decimeter"
+
+[units.ENZYME_UNIT_PER_LITER]
+multiplier = "1.6666666666667_E-5"
+symbol = "U/L"
+singular = "enzyme unit per liter"
+plural = "enzyme units per liter"
+
+[units.MILLI_ENZYME_UNIT_PER_CUBIC_DECIMETER]
+multiplier = "1.6666666666667_E-8"
+symbol = "mU/dm³"
+singular = "milli enzyme unit per cubic decimeter"
+plural = "milli enzyme units per cubic decimeter"
+
+[units.MILLI_ENZYME_UNIT_PER_LITER]
+multiplier = "1.6666666666667_E-8"
+symbol = "mU/L"
+singular = "milli enzyme unit per liter"
+plural = "milli enzyme units per liter"
+
+[units.MICRO_ENZYME_UNIT_PER_CUBIC_DECIMETER]
+multiplier = "1.6666666666667_E-11"
+symbol = "μU/dm³"
+singular = "micro enzyme unit per cubic decimeter"
+plural = "micro enzyme units per cubic decimeter"
+
+[units.MICRO_ENZYME_UNIT_PER_LITER]
+multiplier = "1.6666666666667_E-11"
+symbol = "μU/L"
+singular = "micro enzyme unit per liter"
+plural = "micro enzyme units per liter"
+
+[units.NANO_ENZYME_UNIT_PER_CUBIC_DECIMETER]
+multiplier = "1.6666666666667_E-14"
+symbol = "nU/dm³"
+singular = "nano enzyme unit per cubic decimeter"
+plural = "nano enzyme units per cubic decimeter"
+
+[units.NANO_ENZYME_UNIT_PER_LITER]
+multiplier = "1.6666666666667_E-14"
+symbol = "nU/L"
+singular = "nano enzyme unit per liter"
+plural = "nano enzyme units per liter"
+
+[units.PICO_ENZYME_UNIT_PER_CUBIC_DECIMETER]
+multiplier = "1.6666666666667_E-17"
+symbol = "pU/dm³"
+singular = "pico enzyme unit per cubic decimeter"
+plural = "pico enzyme units per cubic decimeter"
+
+[units.PICO_ENZYME_UNIT_PER_LITER]
+multiplier = "1.6666666666667_E-17"
+symbol = "pU/L"
+singular = "pico enzyme unit per liter"
+plural = "pico enzyme units per liter"
+
+[units.FEMTO_ENZYME_UNIT_PER_CUBIC_DECIMETER]
+multiplier = "1.6666666666667_E-20"
+symbol = "fU/dm³"
+singular = "femto enzyme unit per cubic decimeter"
+plural = "femto enzyme units per cubic decimeter"
+
+[units.FEMTO_ENZYME_UNIT_PER_LITER]
+multiplier = "1.6666666666667_E-20"
+symbol = "fU/L"
+singular = "femto enzyme unit per liter"
+plural = "femto enzyme units per liter"
+
+[units.KILO_ENZYME_UNIT_PER_DECILITER]
+multiplier = "1.6666666666667_E-1"
+symbol = "kU/dL"
+singular = "kilo enzyme unit per deciliter"
+plural = "kilo enzyme units per deciliter"
+
+[units.ENZYME_UNIT_PER_DECILITER]
+multiplier = "1.6666666666667_E-4"
+symbol = "U/dL"
+singular = "enzyme unit per deciliter"
+plural = "enzyme units per deciliter"
+
+[units.MILLI_ENZYME_UNIT_PER_DECILITER]
+multiplier = "1.6666666666667_E-7"
+symbol = "mU/dL"
+singular = "milli enzyme unit per deciliter"
+plural = "milli enzyme units per deciliter"
+
+[units.MICRO_ENZYME_UNIT_PER_DECILITER]
+multiplier = "1.6666666666667_E-10"
+symbol = "μU/dL"
+singular = "micro enzyme unit per deciliter"
+plural = "micro enzyme units per deciliter"
+
+[units.NANO_ENZYME_UNIT_PER_DECILITER]
+multiplier = "1.6666666666667_E-13"
+symbol = "nU/dL"
+singular = "nano enzyme unit per deciliter"
+plural = "nano enzyme units per deciliter"
+
+[units.PICO_ENZYME_UNIT_PER_DECILITER]
+multiplier = "1.6666666666667_E-16"
+symbol = "pU/dL"
+singular = "pico enzyme unit per deciliter"
+plural = "pico enzyme units per deciliter"
+
+[units.FEMTO_ENZYME_UNIT_PER_DECILITER]
+multiplier = "1.6666666666667_E-19"
+symbol = "fU/dL"
+singular = "femto enzyme unit per deciliter"
+plural = "femto enzyme units per deciliter"
+
+[units.KILO_ENZYME_UNIT_PER_MILLILITER]
+multiplier = "1.6666666666667_E+1"
+symbol = "kU/mL"
+singular = "kilo enzyme unit per milliliter"
+plural = "kilo enzyme units per milliliter"
+
+[units.ENZYME_UNIT_PER_MILLILITER]
+multiplier = "1.6666666666667_E-2"
+symbol = "U/mL"
+singular = "enzyme unit per milliliter"
+plural = "enzyme units per milliliter"
+
+[units.MILLI_ENZYME_UNIT_PER_MILLILITER]
+multiplier = "1.6666666666667_E-5"
+symbol = "mU/mL"
+singular = "milli enzyme unit per milliliter"
+plural = "milli enzyme units per milliliter"
+
+[units.MICRO_ENZYME_UNIT_PER_MILLILITER]
+multiplier = "1.6666666666667_E-8"
+symbol = "μU/mL"
+singular = "micro enzyme unit per milliliter"
+plural = "micro enzyme units per milliliter"
+
+[units.NANO_ENZYME_UNIT_PER_MILLILITER]
+multiplier = "1.6666666666667_E-11"
+symbol = "nU/mL"
+singular = "nano enzyme unit per milliliter"
+plural = "nano enzyme units per milliliter"
+
+[units.PICO_ENZYME_UNIT_PER_MILLILITER]
+multiplier = "1.6666666666667_E-14"
+symbol = "pU/mL"
+singular = "pico enzyme unit per milliliter"
+plural = "pico enzyme units per milliliter"
+
+[units.FEMTO_ENZYME_UNIT_PER_MILLILITER]
+multiplier = "1.6666666666667_E-17"
+symbol = "fU/mL"
+singular = "femto enzyme unit per milliliter"
+plural = "femto enzyme units per milliliter"
+
+[units.PARTICLE_PER_SECOND_CUBIC_METER]
+multiplier = "1.6605390671738_E-24"
+symbol = "particle·s⁻¹·m⁻³"
+singular = "particle per second cubic meter"
+plural = "particles per second cubic meter"
+

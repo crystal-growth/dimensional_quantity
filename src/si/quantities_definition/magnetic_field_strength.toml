@@ -1,0 +1,49 @@
+name = "Magnetic field strength"
+symbol = "MagneticFieldStrength"
+snake_case_name = "magnetic_field_strength"
+short_dim_formula = "L<sup>-1</sup>⋅I"
+long_dim_formula = "Length<sup>-1</sup>⋅Electric current"
+units_formula = "m<sup>-1</sup>⋅A"
+
+[dimensions]
+length = -1
+mass = 0
+time = 0
+electric_current = 1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.AMPERE_PER_METER]
+multiplier = "1.0E0"
+symbol = "A/m"
+singular = "ampere per meter"
+plural = "amperes per meter"
+
+[units.AMPERE_PER_CENTIMETER]
+multiplier = "1.0_E+2"
+symbol = "A/cm"
+singular = "ampere per centimeter"
+plural = "amperes per centimeter"
+
+[units.AMPERE_PER_MILLIMETER]
+multiplier = "1.0_E+3"
+symbol = "A/mm"
+singular = "ampere per millimeter"
+plural = "amperes per millimeter"
+
+[units.AMPERE_PER_MICROMETER]
+multiplier = "1.0_E+6"
+symbol = "A/μm"
+singular = "ampere per micrometer"
+plural = "amperes per micrometer"
+
+[units.OERSTED]
+multiplier = "79.577_471_545_947_67"
+symbol = "Oe"
+singular = "oersted"
+plural = "oersteds"
+

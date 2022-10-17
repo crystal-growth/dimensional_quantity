@@ -1,0 +1,205 @@
+name = "Power"
+symbol = "Power"
+snake_case_name = "power"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-3</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-3</sup>"
+units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-3</sup>"
+
+[dimensions]
+length = 2
+mass = 1
+time = -3
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAWATT]
+multiplier = "1.0_E24"
+symbol = "YW"
+singular = "yottawatt"
+plural = "yottawatts"
+
+[units.ZETTAWATT]
+multiplier = "1.0_E21"
+symbol = "ZW"
+singular = "zettawatt"
+plural = "zettawatts"
+
+[units.EXAWATT]
+multiplier = "1.0_E18"
+symbol = "EW"
+singular = "exawatt"
+plural = "exawatts"
+
+[units.PETAWATT]
+multiplier = "1.0_E15"
+symbol = "PW"
+singular = "petawatt"
+plural = "petawatts"
+
+[units.TERAWATT]
+multiplier = "1.0_E12"
+symbol = "TW"
+singular = "terawatt"
+plural = "terawatts"
+
+[units.GIGAWATT]
+multiplier = "1.0_E9"
+symbol = "GW"
+singular = "gigawatt"
+plural = "gigawatts"
+
+[units.MEGAWATT]
+multiplier = "1.0_E6"
+symbol = "MW"
+singular = "megawatt"
+plural = "megawatts"
+
+[units.KILOWATT]
+multiplier = "1.0_E3"
+symbol = "kW"
+singular = "kilowatt"
+plural = "kilowatts"
+
+[units.HECTOWATT]
+multiplier = "1.0_E2"
+symbol = "hW"
+singular = "hectowatt"
+plural = "hectowatts"
+
+[units.DECAWATT]
+multiplier = "1.0E1"
+symbol = "daW"
+singular = "decawatt"
+plural = "decawatts"
+
+[units.WATT]
+multiplier = "1.0E0"
+symbol = "W"
+singular = "watt"
+plural = "watts"
+
+[units.DECIWATT]
+multiplier = "1.0E-1"
+symbol = "dW"
+singular = "deciwatt"
+plural = "deciwatts"
+
+[units.CENTIWATT]
+multiplier = "1.0E-2"
+symbol = "cW"
+singular = "centiwatt"
+plural = "centiwatts"
+
+[units.MILLIWATT]
+multiplier = "1.0E-3"
+symbol = "mW"
+singular = "milliwatt"
+plural = "milliwatts"
+
+[units.MICROWATT]
+multiplier = "1.0E-6"
+symbol = "µW"
+singular = "microwatt"
+plural = "microwatts"
+
+[units.NANOWATT]
+multiplier = "1.0E-9"
+symbol = "nW"
+singular = "nanowatt"
+plural = "nanowatts"
+
+[units.PICOWATT]
+multiplier = "1.0E-12"
+symbol = "pW"
+singular = "picowatt"
+plural = "picowatts"
+
+[units.FEMTOWATT]
+multiplier = "1.0E-15"
+symbol = "fW"
+singular = "femtowatt"
+plural = "femtowatts"
+
+[units.ATTOWATT]
+multiplier = "1.0E-18"
+symbol = "aW"
+singular = "attowatt"
+plural = "attowatts"
+
+[units.ZEPTOWATT]
+multiplier = "1.0E-21"
+symbol = "zW"
+singular = "zeptowatt"
+plural = "zeptowatts"
+
+[units.YOCTOWATT]
+multiplier = "1.0E-24"
+symbol = "yW"
+singular = "yoctowatt"
+plural = "yoctowatts"
+
+[units.ERG_PER_SECOND]
+multiplier = "1.0_E-7"
+symbol = "erg/s"
+singular = "erg per second"
+plural = "ergs per second"
+
+[units.FOOT_POUND_PER_HOUR]
+multiplier = "3.766_161_111_111_111_E-4"
+symbol = "ft·lbf/h"
+singular = "foot pound-force per hour"
+plural = "foot pounds-force per hour"
+
+[units.FOOT_POUND_PER_MINUTE]
+multiplier = "2.259_696_666_666_666_6_E-2"
+symbol = "ft·lbf/min"
+singular = "foot pound-force per minute"
+plural = "foot pounds-force per minute"
+
+[units.FOOT_POUND_PER_SECOND]
+multiplier = "1.355_818"
+symbol = "ft·lbf/s"
+singular = "foot pound-force per second"
+plural = "foot pounds-force per second"
+
+[units.HORSEPOWER]
+multiplier = "7.456_999_E2"
+symbol = "hp"
+singular = "horsepower"
+plural = "horsepower"
+
+[units.HORSEPOWER_BOILER]
+multiplier = "9.809_50_E3"
+symbol = "hp(S)"
+singular = "horsepower (boiler)"
+plural = "horsepower (boiler)"
+
+[units.HORSEPOWER_ELECTRIC]
+multiplier = "7.46_E2"
+symbol = "hp(E)"
+singular = "horsepower (electric)"
+plural = "horsepower (electric)"
+
+[units.HORSEPOWER_METRIC]
+multiplier = "7.354_988_E2"
+symbol = "hp(M)"
+singular = "metric horsepower"
+plural = "metric horsepower"
+
+[units.HORSEPOWER_IMPERIAL]
+multiplier = "7.457_0_E2"
+symbol = "hp(I)"
+singular = "horsepower (Imperial)"
+plural = "horsepower (Imperial)"
+
+[units.HYDRAULIC_HORSEPOWER]
+multiplier = "7.460_43_E2"
+symbol = "hp(hydraulic)"
+singular = "hydraulic horsepower"
+plural = "hydraulic horsepower"
+

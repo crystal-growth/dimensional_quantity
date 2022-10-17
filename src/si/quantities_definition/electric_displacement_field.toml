@@ -1,0 +1,31 @@
+name = "Electric displacement field"
+symbol = "ElectricDisplacementField"
+snake_case_name = "electric_displacement_field"
+short_dim_formula = "L<sup>-2</sup>⋅T⋅I"
+long_dim_formula = "Length<sup>-2</sup>⋅Time⋅Electric current"
+units_formula = "m<sup>-2</sup>⋅s⋅A"
+
+[dimensions]
+length = -2
+mass = 0
+time = 1
+electric_current = 1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.COULOMB_PER_SQUARE_METER]
+multiplier = "1.0E0"
+symbol = "C/m²"
+singular = "coulomb per square meter"
+plural = "coulombs per square meter"
+
+[units.COULOMB_PER_SQUARE_CENTIMETER]
+multiplier = "1.0_E+4"
+symbol = "C/cm²"
+singular = "coulomb per square centimeter"
+plural = "coulombs per square centimeter"
+

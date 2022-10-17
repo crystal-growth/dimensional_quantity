@@ -1,0 +1,61 @@
+name = "Angle"
+symbol = "Angle"
+snake_case_name = "angle"
+short_dim_formula = "θ"
+long_dim_formula = "Angle"
+units_formula = "rad"
+
+[dimensions]
+length = 0
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 1
+information = 0
+
+[units.RADIAN]
+multiplier = "1.0_E0"
+symbol = "rad"
+singular = "radian"
+plural = "radians"
+
+[units.REVOLUTION]
+multiplier = "6.283_185_307_179_586_E0"
+symbol = "r"
+singular = "revolution"
+plural = "revolutions"
+
+[units.DEGREE]
+multiplier = "1.745_329_251_994_329_5_E-2"
+symbol = "°"
+singular = "degree"
+plural = "degrees"
+
+[units.GON]
+multiplier = "1.570_796_326_794_896_7_E-2"
+symbol = "gon"
+singular = "gon"
+plural = "gons"
+
+[units.MIL]
+multiplier = "9.817_477_E-4"
+symbol = "mil"
+singular = "mil"
+plural = "mils"
+
+[units.MINUTE]
+multiplier = "2.908_882_086_657_216_E-4"
+symbol = "′"
+singular = "minute"
+plural = "minutes"
+
+[units.SECOND]
+multiplier = "4.848_136_811_095_36_E-6"
+symbol = "″"
+singular = "second"
+plural = "seconds"
+

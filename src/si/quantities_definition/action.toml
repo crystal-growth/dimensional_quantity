@@ -1,0 +1,55 @@
+name = "Action"
+symbol = "Action"
+snake_case_name = "action"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-1</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-1</sup>"
+units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-1</sup>"
+
+[dimensions]
+length = 2
+mass = 1
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.JOULE_SECOND]
+multiplier = "1.0E0"
+symbol = "J·s"
+singular = "joule second"
+plural = "joule seconds"
+
+[units.ATOMIC_UNIT_OF_ACTION]
+multiplier = "1.054_571_817_E-34"
+symbol = "ħ"
+singular = "atomic unit of action"
+plural = "atomic units of action"
+
+[units.REDUCED_PLANCK_CONSTANT]
+multiplier = "1.054_571_817_E-34"
+symbol = "ħ"
+singular = "reduced planck constant"
+plural = "reduced planck constants"
+
+[units.PLANCK_CONSTANT]
+multiplier = "6.626_070_15_E-34"
+symbol = "h"
+singular = "planck constant"
+plural = "planck constants"
+
+[units.ERG_SECOND]
+multiplier = "1.0_E-7"
+symbol = "erg·s"
+singular = "erg second"
+plural = "erg seconds"
+
+[units.ELECTRONVOLT_SECOND]
+multiplier = "1.602_176_634_E-19"
+symbol = "eV·s"
+singular = "electronvolt second"
+plural = "electronvolt seconds"
+

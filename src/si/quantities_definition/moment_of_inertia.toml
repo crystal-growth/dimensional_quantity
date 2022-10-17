@@ -1,0 +1,31 @@
+name = "Moment of inertia"
+symbol = "MomentOfInertia"
+snake_case_name = "moment_of_inertia"
+short_dim_formula = "L<sup>2</sup>⋅M"
+long_dim_formula = "Length<sup>2</sup>⋅Mass"
+units_formula = "m<sup>2</sup>⋅kg"
+
+[dimensions]
+length = 2
+mass = 1
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.KILOGRAM_SQUARE_METER]
+multiplier = "1.0E0"
+symbol = "kg·m²"
+singular = "kilogram square meter"
+plural = "kilogram square meters"
+
+[units.DALTON_SQUARE_ANGSTROM]
+multiplier = "1.6605390666_E-47"
+symbol = "Da·Å²"
+singular = "dalton square ångström"
+plural = "dalton square ångströms"
+

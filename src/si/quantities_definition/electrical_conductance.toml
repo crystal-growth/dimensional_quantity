@@ -1,0 +1,175 @@
+name = "Electrical conductance"
+symbol = "ElectricalConductance"
+snake_case_name = "electrical_conductance"
+short_dim_formula = "L<sup>-2</sup>⋅M<sup>-1</sup>⋅T<sup>3</sup>⋅I<sup>2</sup>"
+long_dim_formula = "Length<sup>-2</sup>⋅Mass<sup>-1</sup>⋅Time<sup>3</sup>⋅Electric current<sup>2</sup>"
+units_formula = "m<sup>-2</sup>⋅kg<sup>-1</sup>⋅s<sup>3</sup>⋅A<sup>2</sup>"
+
+[dimensions]
+length = -2
+mass = -1
+time = 3
+electric_current = 2
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTASIEMENS]
+multiplier = "1.0_E24"
+symbol = "YS"
+singular = "yottasiemens"
+plural = "yottasiemens"
+
+[units.ZETTASIEMENS]
+multiplier = "1.0_E21"
+symbol = "ZS"
+singular = "zettasiemens"
+plural = "zettasiemens"
+
+[units.EXASIEMENS]
+multiplier = "1.0_E18"
+symbol = "ES"
+singular = "exasiemens"
+plural = "exasiemens"
+
+[units.PETASIEMENS]
+multiplier = "1.0_E15"
+symbol = "PS"
+singular = "petasiemens"
+plural = "petasiemens"
+
+[units.TERASIEMENS]
+multiplier = "1.0_E12"
+symbol = "TS"
+singular = "terasiemens"
+plural = "terasiemens"
+
+[units.GIGASIEMENS]
+multiplier = "1.0_E9"
+symbol = "GS"
+singular = "gigasiemens"
+plural = "gigasiemens"
+
+[units.MEGASIEMENS]
+multiplier = "1.0_E6"
+symbol = "MS"
+singular = "megasiemens"
+plural = "megasiemens"
+
+[units.KILOSIEMENS]
+multiplier = "1.0_E3"
+symbol = "kS"
+singular = "kilosiemens"
+plural = "kilosiemens"
+
+[units.HECTOSIEMENS]
+multiplier = "1.0_E2"
+symbol = "hS"
+singular = "hectosiemens"
+plural = "hectosiemens"
+
+[units.DECASIEMENS]
+multiplier = "1.0E1"
+symbol = "daS"
+singular = "decasiemens"
+plural = "decasiemens"
+
+[units.SIEMENS]
+multiplier = "1.0E0"
+symbol = "S"
+singular = "siemens"
+plural = "siemens"
+
+[units.MHO]
+multiplier = "1.0E0"
+symbol = "℧"
+singular = "mho"
+plural = "mhos"
+
+[units.DECISIEMENS]
+multiplier = "1.0E-1"
+symbol = "dS"
+singular = "decisiemens"
+plural = "decisiemens"
+
+[units.CENTISIEMENS]
+multiplier = "1.0E-2"
+symbol = "cS"
+singular = "centisiemens"
+plural = "centisiemens"
+
+[units.MILLISIEMENS]
+multiplier = "1.0E-3"
+symbol = "mS"
+singular = "millisiemens"
+plural = "millisiemens"
+
+[units.MICROSIEMENS]
+multiplier = "1.0E-6"
+symbol = "µS"
+singular = "microsiemens"
+plural = "microsiemens"
+
+[units.NANOSIEMENS]
+multiplier = "1.0E-9"
+symbol = "nS"
+singular = "nanosiemens"
+plural = "nanosiemens"
+
+[units.PICOSIEMENS]
+multiplier = "1.0E-12"
+symbol = "pS"
+singular = "picosiemens"
+plural = "picosiemens"
+
+[units.FEMTOSIEMENS]
+multiplier = "1.0E-15"
+symbol = "fS"
+singular = "femtosiemens"
+plural = "femtosiemens"
+
+[units.ATTOSIEMENS]
+multiplier = "1.0E-18"
+symbol = "aS"
+singular = "attosiemens"
+plural = "attosiemens"
+
+[units.ZEPTOSIEMENS]
+multiplier = "1.0E-21"
+symbol = "zS"
+singular = "zeptosiemens"
+plural = "zeptosiemens"
+
+[units.YOCTOSIEMENS]
+multiplier = "1.0E-24"
+symbol = "yS"
+singular = "yoctosiemens"
+plural = "yoctosiemens"
+
+[units.ABMHO]
+multiplier = "1.0_E9"
+symbol = "abmho"
+singular = "abmho"
+plural = "abmhos"
+
+[units.ABSIEMENS]
+multiplier = "1.0_E9"
+symbol = "abS"
+singular = "abmsiemens"
+plural = "abmsiemens"
+
+[units.STATSIEMENS]
+multiplier = "1.112_650_E-12"
+symbol = "statS"
+singular = "statsiemens"
+plural = "statsiemens"
+
+[units.STATMHO]
+multiplier = "1.112_650_E-12"
+symbol = "statmho"
+singular = "statmho"
+plural = "statmhos"
+

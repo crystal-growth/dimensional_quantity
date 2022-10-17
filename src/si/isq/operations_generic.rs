@@ -1,0 +1,380 @@
+#![allow(clippy::suspicious_arithmetic_impl)]
+
+//! Dimensional quantity type with generic underlying storage
+use std::ops::{Add, Div, Mul, Sub};
+
+use num_traits::{Float, Num};
+
+/// Dimensional quantity
+#[derive(Debug, Copy, Clone, PartialEq, Eq)]
+pub struct QuantityGeneric<
+    const L: i64,
+    const M: i64,
+    const T: i64,
+    const I: i64,
+    const TH: i64,
+    const N: i64,
+    const LUM: i64,
+    Storage: Num,
+>(Storage);
+
+impl<
+        const L1: i64,
+        const M1: i64,
+        const T1: i64,
+        const I1: i64,
+        const TH1: i64,
+        const N1: i64,
+        const LUM1: i64,
+        const L2: i64,
+        const M2: i64,
+        const T2: i64,
+        const I2: i64,
+        const TH2: i64,
+        const N2: i64,
+        const LUM2: i64,
+        Storage: Num,
+    > Mul<QuantityGeneric<L2, M2, T2, I2, TH2, N2, LUM2, Storage>>
+    for QuantityGeneric<L1, M1, T1, I1, TH1, N1, LUM1, Storage>
+where
+    QuantityGeneric<
+        { L1 + L2 },
+        { M1 + M2 },
+        { T1 + T2 },
+        { I1 + I2 },
+        { TH1 + TH2 },
+        { N1 + N2 },
+        { LUM1 + LUM2 },
+        Storage,
+    >: Sized,
+    Storage: Num,
+{
+    type Output = QuantityGeneric<
+        { L1 + L2 },
+        { M1 + M2 },
+        { T1 + T2 },
+        { I1 + I2 },
+        { TH1 + TH2 },
+        { N1 + N2 },
+        { LUM1 + LUM2 },
+        Storage,
+    >;
+    /// Multiply two dimensional quantities
+    fn mul(
+        self,
+        rhs: QuantityGeneric<L2, M2, T2, I2, TH2, N2, LUM2, Storage>,
+    ) -> QuantityGeneric<
+        { L1 + L2 },
+        { M1 + M2 },
+        { T1 + T2 },
+        { I1 + I2 },
+        { TH1 + TH2 },
+        { N1 + N2 },
+        { LUM1 + LUM2 },
+        Storage,
+    > {
+        let x = self.0;
+        let y = rhs.0;
+        QuantityGeneric::<
+            { L1 + L2 },
+            { M1 + M2 },
+            { T1 + T2 },
+            { I1 + I2 },
+            { TH1 + TH2 },
+            { N1 + N2 },
+            { LUM1 + LUM2 },
+            Storage,
+        >(x * y)
+    }
+}
+
+impl<
+        const L1: i64,
+        const M1: i64,
+        const T1: i64,
+        const I1: i64,
+        const TH1: i64,
+        const N1: i64,
+        const LUM1: i64,
+        const L2: i64,
+        const M2: i64,
+        const T2: i64,
+        const I2: i64,
+        const TH2: i64,
+        const N2: i64,
+        const LUM2: i64,
+        Storage: Num,
+    > Div<QuantityGeneric<L2, M2, T2, I2, TH2, N2, LUM2, Storage>>
+    for QuantityGeneric<L1, M1, T1, I1, TH1, N1, LUM1, Storage>
+where
+    QuantityGeneric<
+        { L1 - L2 },
+        { M1 - M2 },
+        { T1 - T2 },
+        { I1 - I2 },
+        { TH1 - TH2 },
+        { N1 - N2 },
+        { LUM1 - LUM2 },
+        Storage,
+    >: Sized,
+{
+    type Output = QuantityGeneric<
+        { L1 - L2 },
+        { M1 - M2 },
+        { T1 - T2 },
+        { I1 - I2 },
+        { TH1 - TH2 },
+        { N1 - N2 },
+        { LUM1 - LUM2 },
+        Storage,
+    >;
+
+    fn div(
+        self,
+        rhs: QuantityGeneric<L2, M2, T2, I2, TH2, N2, LUM2, Storage>,
+    ) -> QuantityGeneric<
+        { L1 - L2 },
+        { M1 - M2 },
+        { T1 - T2 },
+        { I1 - I2 },
+        { TH1 - TH2 },
+        { N1 - N2 },
+        { LUM1 - LUM2 },
+        Storage,
+    > {
+        let x = self.0;
+        let y = rhs.0;
+        QuantityGeneric::<
+            { L1 - L2 },
+            { M1 - M2 },
+            { T1 - T2 },
+            { I1 - I2 },
+            { TH1 - TH2 },
+            { N1 - N2 },
+            { LUM1 - LUM2 },
+            Storage,
+        >(x / y)
+    }
+}
+
+/// Multiply dimensional quantity by dimensionless number
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        Storage: Num,
+    > Mul<Storage> for QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>
+{
+    type Output = QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>;
+
+    fn mul(self, rhs: Storage) -> QuantityGeneric<L, M, T, I, TH, N, LUM, Storage> {
+        let x = self.0;
+        QuantityGeneric::<L, M, T, I, TH, N, LUM, Storage>(x * rhs)
+    }
+}
+
+/// Divide dimensional quantity by dimensionless number
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        Storage: Num,
+    > Div<Storage> for QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>
+{
+    type Output = QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>;
+
+    fn div(self, rhs: Storage) -> QuantityGeneric<L, M, T, I, TH, N, LUM, Storage> {
+        let q = self.0;
+        QuantityGeneric::<L, M, T, I, TH, N, LUM, Storage>(q / rhs)
+    }
+}
+
+/// Addition of dimensional quantities with equal dimension formula
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        Storage: Num,
+    > Add<QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>>
+    for QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>
+where
+    QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>: Sized,
+{
+    type Output = QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>;
+
+    fn add(
+        self,
+        rhs: QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>,
+    ) -> QuantityGeneric<L, M, T, I, TH, N, LUM, Storage> {
+        let x = self.0;
+        let y = rhs.0;
+        QuantityGeneric::<L, M, T, I, TH, N, LUM, Storage>(x + y)
+    }
+}
+
+/// Subtraction of dimensional quantities with equal dimension formula
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        Storage: Num,
+    > Sub<QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>>
+    for QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>
+where
+    QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>: Sized,
+{
+    type Output = QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>;
+
+    fn sub(
+        self,
+        rhs: QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>,
+    ) -> QuantityGeneric<L, M, T, I, TH, N, LUM, Storage> {
+        let x = self.0;
+        let y = rhs.0;
+        QuantityGeneric::<L, M, T, I, TH, N, LUM, Storage>(x - y)
+    }
+}
+
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        Storage: Num + Copy,
+    > QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>
+where
+    QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>: Sized,
+{
+    /// Create a new dimensional quantity with generic storage type.
+    /// x -- amount in default (SI) unit
+    pub const fn new(x: Storage) -> QuantityGeneric<L, M, T, I, TH, N, LUM, Storage> {
+        QuantityGeneric::<L, M, T, I, TH, N, LUM, Storage>(x)
+    }
+    /// Create a new dimensional quantity with generic storage type from the given value and measurement unit.
+    pub fn new_with_unit(
+        x: Storage,
+        unit: QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>,
+    ) -> QuantityGeneric<L, M, T, I, TH, N, LUM, Storage> {
+        QuantityGeneric::<L, M, T, I, TH, N, LUM, Storage>(x * unit.0)
+    }
+    /// Returns dimensional formula of a quantity
+    pub const fn dim(&self) -> [i64; 7] {
+        [L, M, T, I, TH, N, LUM]
+    }
+
+    /// Retrieve the value of the dimensional quantity in the default \[SI\] measurement unit.
+    pub const fn get_with_si_unit(&self) -> Storage {
+        self.0
+    }
+    /// Retrieve the value of the dimensional quantity in the given measurement unit.
+    pub fn get_with_unit(&self, unit: QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>) -> Storage {
+        self.0 / unit.0
+    }
+}
+
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        Storage: Num,
+    > QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>
+where
+    QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>: Sized,
+    Storage: Float,
+{
+    /// Raises a dimensional quantity to an integer power.
+    pub fn powi<const POWER: i64>(
+        &self,
+    ) -> QuantityGeneric<
+        { L * POWER },
+        { M * POWER },
+        { T * POWER },
+        { I * POWER },
+        { TH * POWER },
+        { N * POWER },
+        { LUM * POWER },
+        Storage,
+    > {
+        QuantityGeneric::<
+            { L * POWER },
+            { M * POWER },
+            { T * POWER },
+            { I * POWER },
+            { TH * POWER },
+            { N * POWER },
+            { LUM * POWER },
+            Storage,
+        >(self.0.powi(POWER as i32))
+    }
+}
+
+/// Divide f64 by QuantityGeneric
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+    > Div<QuantityGeneric<L, M, T, I, TH, N, LUM, f64>> for f64
+where
+    QuantityGeneric<{ -L }, { -M }, { -T }, { -I }, { -TH }, { -N }, { -LUM }, f64>: Sized,
+{
+    type Output = QuantityGeneric<{ -L }, { -M }, { -T }, { -I }, { -TH }, { -N }, { -LUM }, f64>;
+
+    fn div(
+        self,
+        rhs: QuantityGeneric<L, M, T, I, TH, N, LUM, f64>,
+    ) -> QuantityGeneric<{ -L }, { -M }, { -T }, { -I }, { -TH }, { -N }, { -LUM }, f64> {
+        let rhs = rhs.0;
+        QuantityGeneric::<{ -L }, { -M }, { -T }, { -I }, { -TH }, { -N }, { -LUM }, f64>(
+            self / rhs,
+        )
+    }
+}
+
+/// Multiply f64 by QuantityGeneric
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+    > Mul<QuantityGeneric<L, M, T, I, TH, N, LUM, f64>> for f64
+{
+    type Output = QuantityGeneric<L, M, T, I, TH, N, LUM, f64>;
+
+    fn mul(
+        self,
+        rhs: QuantityGeneric<L, M, T, I, TH, N, LUM, f64>,
+    ) -> QuantityGeneric<L, M, T, I, TH, N, LUM, f64> {
+        let x = rhs.0;
+        QuantityGeneric::<L, M, T, I, TH, N, LUM, f64>(self * x)
+    }
+}

@@ -1,0 +1,31 @@
+name = "Electrical conductivity"
+symbol = "ElectricalConductivity"
+snake_case_name = "electrical_conductivity"
+short_dim_formula = "L<sup>-3</sup>⋅M<sup>-1</sup>⋅T<sup>3</sup>⋅I<sup>2</sup>"
+long_dim_formula = "Length<sup>-3</sup>⋅Mass<sup>-1</sup>⋅Time<sup>3</sup>⋅Electric current<sup>2</sup>"
+units_formula = "m<sup>-3</sup>⋅kg<sup>-1</sup>⋅s<sup>3</sup>⋅A<sup>2</sup>"
+
+[dimensions]
+length = -3
+mass = -1
+time = 3
+electric_current = 2
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.SIEMENS_PER_METER]
+multiplier = "1.0E0"
+symbol = "S/m"
+singular = "siemens per meter"
+plural = "siemens per meter"
+
+[units.SIEMENS_PER_CENTIMETER]
+multiplier = "1.0_E+2"
+symbol = "S/cm"
+singular = "siemens per centimeter"
+plural = "siemens per centimeter"
+

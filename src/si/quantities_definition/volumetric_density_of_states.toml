@@ -1,0 +1,37 @@
+name = "Volumetric density of states"
+symbol = "VolumetricDensityOfStates"
+snake_case_name = "volumetric_density_of_states"
+short_dim_formula = "L<sup>-5</sup>⋅M<sup>-1</sup>⋅T<sup>2</sup>"
+long_dim_formula = "Length<sup>-5</sup>⋅Mass<sup>-1</sup>⋅Time<sup>2</sup>"
+units_formula = "m<sup>-5</sup>⋅kg<sup>-1</sup>⋅s<sup>2</sup>"
+
+[dimensions]
+length = -5
+mass = -1
+time = 2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.STATE_PER_CUBIC_METER_JOULE]
+multiplier = "1.0E0"
+symbol = "1/(m³·J)"
+singular = "state per cubic meter joule"
+plural = "states per cubic meter joule"
+
+[units.STATE_PER_CUBIC_CENTIMETER_JOULE]
+multiplier = "1.0_E+6"
+symbol = "1/(cm³·J)"
+singular = "state per cubic centimeter joule"
+plural = "states per cubic centimeter joule"
+
+[units.STATE_PER_CUBIC_CENTIMETER_ELECTRONVOLT]
+multiplier = "6.2415090744608_E+24"
+symbol = "1/(cm³·eV)"
+singular = "state per cubic centimeter electronvolt"
+plural = "states per cubic centimeter electronvolt"
+

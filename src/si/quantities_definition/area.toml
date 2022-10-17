@@ -1,0 +1,199 @@
+name = "Area"
+symbol = "Area"
+snake_case_name = "area"
+short_dim_formula = "L<sup>2</sup>"
+long_dim_formula = "Length<sup>2</sup>"
+units_formula = "m<sup>2</sup>"
+
+[dimensions]
+length = 2
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.SQUARE_YOTTAMETER]
+multiplier = "1.0_E+48"
+symbol = "Ym²"
+singular = "square yottameter"
+plural = "square yottameters"
+
+[units.SQUARE_ZETTAMETER]
+multiplier = "1.0_E+42"
+symbol = "Zm²"
+singular = "square zettameter"
+plural = "square zettameters"
+
+[units.SQUARE_EXAMETER]
+multiplier = "1.0_E+36"
+symbol = "Em²"
+singular = "square exameter"
+plural = "square exameters"
+
+[units.SQUARE_PETAMETER]
+multiplier = "1.0_E+30"
+symbol = "Pm²"
+singular = "square petameter"
+plural = "square petameters"
+
+[units.SQUARE_TERAMETER]
+multiplier = "1.0_E+24"
+symbol = "Tm²"
+singular = "square terameter"
+plural = "square terameters"
+
+[units.SQUARE_GIGAMETER]
+multiplier = "1.0_E+18"
+symbol = "Gm²"
+singular = "square gigameter"
+plural = "square gigameters"
+
+[units.SQUARE_MEGAMETER]
+multiplier = "1.0_E+12"
+symbol = "Mm²"
+singular = "square megameter"
+plural = "square megameters"
+
+[units.SQUARE_KILOMETER]
+multiplier = "1.0_E+6"
+symbol = "km²"
+singular = "square kilometer"
+plural = "square kilometers"
+
+[units.SQUARE_HECTOMETER]
+multiplier = "1.0_E+4"
+symbol = "hm²"
+singular = "square hectometer"
+plural = "square hectometers"
+
+[units.SQUARE_DECAMETER]
+multiplier = "1.0_E+2"
+symbol = "dam²"
+singular = "square decameter"
+plural = "square decameters"
+
+[units.SQUARE_METER]
+multiplier = "1.0E0"
+symbol = "m²"
+singular = "square meter"
+plural = "square meters"
+
+[units.SQUARE_DECIMETER]
+multiplier = "1.0_E-2"
+symbol = "dm²"
+singular = "square decimeter"
+plural = "square decimeters"
+
+[units.SQUARE_CENTIMETER]
+multiplier = "1.0_E-4"
+symbol = "cm²"
+singular = "square centimeter"
+plural = "square centimeters"
+
+[units.SQUARE_MILLIMETER]
+multiplier = "1.0_E-6"
+symbol = "mm²"
+singular = "square millimeter"
+plural = "square millimeters"
+
+[units.SQUARE_MICROMETER]
+multiplier = "1.0_E-12"
+symbol = "µm²"
+singular = "square micrometer"
+plural = "square micrometers"
+
+[units.SQUARE_NANOMETER]
+multiplier = "1.0_E-18"
+symbol = "nm²"
+singular = "square nanometer"
+plural = "square nanometers"
+
+[units.SQUARE_PICOMETER]
+multiplier = "1.0_E-24"
+symbol = "pm²"
+singular = "square picometer"
+plural = "square picometers"
+
+[units.SQUARE_FEMTOMETER]
+multiplier = "1.0_E-30"
+symbol = "fm²"
+singular = "square femtometer"
+plural = "square femtometers"
+
+[units.SQUARE_ATTOMETER]
+multiplier = "1.0_E-36"
+symbol = "am²"
+singular = "square attometer"
+plural = "square attometers"
+
+[units.SQUARE_ZEPTOMETER]
+multiplier = "1.0_E-42"
+symbol = "zm²"
+singular = "square zeptometer"
+plural = "square zeptometers"
+
+[units.SQUARE_YOCTOMETER]
+multiplier = "1.0_E-48"
+symbol = "ym²"
+singular = "square yoctometer"
+plural = "square yoctometers"
+
+[units.ACRE]
+multiplier = "4.046_873_E3"
+symbol = "ac"
+singular = "acre"
+plural = "acres"
+
+[units.ARE]
+multiplier = "1.0_E2"
+symbol = "a"
+singular = "are"
+plural = "ares"
+
+[units.BARN]
+multiplier = "1.0_E-28"
+symbol = "b"
+singular = "barn"
+plural = "barns"
+
+[units.CIRCULAR_MIL]
+multiplier = "5.067_075_E-10"
+symbol = "cmil"
+singular = "circular mil"
+plural = "circular mils"
+
+[units.HECTARE]
+multiplier = "1.0_E4"
+symbol = "ha"
+singular = "hectare"
+plural = "hectares"
+
+[units.SQUARE_FOOT]
+multiplier = "9.290_304_E-2"
+symbol = "ft²"
+singular = "square foot"
+plural = "square feet"
+
+[units.SQUARE_INCH]
+multiplier = "6.451_6_E-4"
+symbol = "in²"
+singular = "square inch"
+plural = "square inches"
+
+[units.SQUARE_MILE]
+multiplier = "2.589_988_E6"
+symbol = "mi²"
+singular = "square mile"
+plural = "square miles"
+
+[units.SQUARE_YARD]
+multiplier = "8.361_274_E-1"
+symbol = "yd²"
+singular = "square yard"
+plural = "square yards"
+

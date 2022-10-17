@@ -1,0 +1,187 @@
+name = "Force"
+symbol = "Force"
+snake_case_name = "force"
+short_dim_formula = "L⋅M⋅T<sup>-2</sup>"
+long_dim_formula = "Length⋅Mass⋅Time<sup>-2</sup>"
+units_formula = "m⋅kg⋅s<sup>-2</sup>"
+
+[dimensions]
+length = 1
+mass = 1
+time = -2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTANEWTON]
+multiplier = "1.0_E24"
+symbol = "YN"
+singular = "yottanewton"
+plural = "yottanewtons"
+
+[units.ZETTANEWTON]
+multiplier = "1.0_E21"
+symbol = "ZN"
+singular = "zettanewton"
+plural = "zettanewtons"
+
+[units.EXANEWTON]
+multiplier = "1.0_E18"
+symbol = "EN"
+singular = "exanewton"
+plural = "exanewtons"
+
+[units.PETANEWTON]
+multiplier = "1.0_E15"
+symbol = "PN"
+singular = "petanewton"
+plural = "petanewtons"
+
+[units.TERANEWTON]
+multiplier = "1.0_E12"
+symbol = "TN"
+singular = "teranewton"
+plural = "teranewtons"
+
+[units.GIGANEWTON]
+multiplier = "1.0_E9"
+symbol = "GN"
+singular = "giganewton"
+plural = "giganewtons"
+
+[units.MEGANEWTON]
+multiplier = "1.0_E6"
+symbol = "MN"
+singular = "meganewton"
+plural = "meganewtons"
+
+[units.KILONEWTON]
+multiplier = "1.0_E3"
+symbol = "kN"
+singular = "kilonewton"
+plural = "kilonewtons"
+
+[units.HECTONEWTON]
+multiplier = "1.0_E2"
+symbol = "hN"
+singular = "hectonewton"
+plural = "hectonewtons"
+
+[units.DECANEWTON]
+multiplier = "1.0E1"
+symbol = "daN"
+singular = "decanewton"
+plural = "decanewtons"
+
+[units.NEWTON]
+multiplier = "1.0E0"
+symbol = "N"
+singular = "newton"
+plural = "newtons"
+
+[units.DECINEWTON]
+multiplier = "1.0E-1"
+symbol = "dN"
+singular = "decinewton"
+plural = "decinewtons"
+
+[units.CENTINEWTON]
+multiplier = "1.0E-2"
+symbol = "cN"
+singular = "centinewton"
+plural = "centinewtons"
+
+[units.MILLINEWTON]
+multiplier = "1.0E-3"
+symbol = "mN"
+singular = "millinewton"
+plural = "millinewtons"
+
+[units.MICRONEWTON]
+multiplier = "1.0E-6"
+symbol = "µN"
+singular = "micronewton"
+plural = "micronewtons"
+
+[units.NANONEWTON]
+multiplier = "1.0E-9"
+symbol = "nN"
+singular = "nanonewton"
+plural = "nanonewtons"
+
+[units.PICONEWTON]
+multiplier = "1.0E-12"
+symbol = "pN"
+singular = "piconewton"
+plural = "piconewtons"
+
+[units.FEMTONEWTON]
+multiplier = "1.0E-15"
+symbol = "fN"
+singular = "femtonewton"
+plural = "femtonewtons"
+
+[units.ATTONEWTON]
+multiplier = "1.0E-18"
+symbol = "aN"
+singular = "attonewton"
+plural = "attonewtons"
+
+[units.ZEPTONEWTON]
+multiplier = "1.0E-21"
+symbol = "zN"
+singular = "zeptonewton"
+plural = "zeptonewtons"
+
+[units.YOCTONEWTON]
+multiplier = "1.0E-24"
+symbol = "yN"
+singular = "yoctonewton"
+plural = "yoctonewtons"
+
+[units.DYNE]
+multiplier = "1.0_E-5"
+symbol = "dyn"
+singular = "dyne"
+plural = "dynes"
+
+[units.KILOGRAM_FORCE]
+multiplier = "9.806_65_E0"
+symbol = "kgf"
+singular = "kilogram-force"
+plural = "kilograms-force"
+
+[units.KIP]
+multiplier = "4.448_222_E3"
+symbol = "kip"
+singular = "kip"
+plural = "kips"
+
+[units.OUNCE_FORCE]
+multiplier = "2.780_139_E-1"
+symbol = "ozf"
+singular = "ounce-force"
+plural = "ounces-force"
+
+[units.POUNDAL]
+multiplier = "1.382_550_E-1"
+symbol = "pdl"
+singular = "poundal"
+plural = "poundals"
+
+[units.POUND_FORCE]
+multiplier = "4.448_222_E0"
+symbol = "lbf"
+singular = "pound-force"
+plural = "pounds-force"
+
+[units.TON_FORCE]
+multiplier = "8.896_443_E3"
+symbol = "2000lbf"
+singular = "ton-force"
+plural = "tons-force"
+

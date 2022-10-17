@@ -1,0 +1,43 @@
+name = "Specific area"
+symbol = "SpecificArea"
+snake_case_name = "specific_area"
+short_dim_formula = "L<sup>2</sup>⋅M<sup>-1</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Mass<sup>-1</sup>"
+units_formula = "m<sup>2</sup>⋅kg<sup>-1</sup>"
+
+[dimensions]
+length = 2
+mass = -1
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.SQUARE_METER_PER_KILOGRAM]
+multiplier = "1.0E0"
+symbol = "m²/kg"
+singular = "square meter per kilogram"
+plural = "square meters per kilogram"
+
+[units.SQUARE_CENTIMETER_PER_KILOGRAM]
+multiplier = "1.0_E-4"
+symbol = "cm²/kg"
+singular = "square centimeter per kilogram"
+plural = "square centimeters per kilogram"
+
+[units.SQUARE_METER_PER_GRAM]
+multiplier = "1.0_E+3"
+symbol = "m²/g"
+singular = "square meter per gram"
+plural = "square meters per gram"
+
+[units.SQUARE_CENTIMETER_PER_GRAM]
+multiplier = "1.0_E-1"
+symbol = "cm²/g"
+singular = "square centimeter per gram"
+plural = "square centimeters per gram"
+

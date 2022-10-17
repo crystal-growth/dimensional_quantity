@@ -1,0 +1,55 @@
+name = "Temperature gradient"
+symbol = "TemperatureGradient"
+snake_case_name = "temperature_gradient"
+short_dim_formula = "L<sup>-1</sup>⋅`ΔTh`"
+long_dim_formula = "Length<sup>-1</sup>⋅Temperature interval"
+units_formula = "m<sup>-1</sup>⋅ΔK"
+
+[dimensions]
+length = -1
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 1
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.KELVIN_PER_KILOMETER]
+multiplier = "1.0_E-3"
+symbol = "K/km"
+singular = "kelvin per kilometer"
+plural = "kelvins per kilometer"
+
+[units.KELVIN_PER_HECTOMETER]
+multiplier = "1.0_E-2"
+symbol = "K/hm"
+singular = "kelvin per hectometer"
+plural = "kelvins per hectometer"
+
+[units.KELVIN_PER_METER]
+multiplier = "1.0E0"
+symbol = "K/m"
+singular = "kelvin per meter"
+plural = "kelvins per meter"
+
+[units.KELVIN_PER_CENTIMETER]
+multiplier = "1.0_E+2"
+symbol = "K/cm"
+singular = "kelvin per centimeter"
+plural = "kelvins per centimeter"
+
+[units.KELVIN_PER_MILLIMETER]
+multiplier = "1.0_E+3"
+symbol = "K/mm"
+singular = "kelvin per millimeter"
+plural = "kelvins per millimeter"
+
+[units.KELVIN_PER_MICROMETER]
+multiplier = "1.0_E+6"
+symbol = "K/µm"
+singular = "kelvin per micrometer"
+plural = "kelvins per micrometer"
+

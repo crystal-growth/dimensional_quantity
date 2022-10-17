@@ -1,0 +1,55 @@
+name = "Molar volume"
+symbol = "MolarVolume"
+snake_case_name = "molar_volume"
+short_dim_formula = "L<sup>3</sup>⋅N<sup>-1</sup>"
+long_dim_formula = "Length<sup>3</sup>⋅Amount of substance<sup>-1</sup>"
+units_formula = "m<sup>3</sup>⋅mol<sup>-1</sup>"
+
+[dimensions]
+length = 3
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = -1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.CUBIC_METER_PER_MOLE]
+multiplier = "1.0E0"
+symbol = "m³/mol"
+singular = "cubic meter per mole"
+plural = "cubic meters per mole"
+
+[units.CUBIC_DECIMETER_PER_MOLE]
+multiplier = "1.0_E-3"
+symbol = "dm³/mol"
+singular = "cubic decimeter per mole"
+plural = "cubic decimeters per mole"
+
+[units.CUBIC_CENTIMETER_PER_MOLE]
+multiplier = "1.0_E-6"
+symbol = "cm³/mol"
+singular = "cubic centimeter per mole"
+plural = "cubic centimeters per mole"
+
+[units.CUBIC_METER_PER_PARTICLE]
+multiplier = "6.022_140_76_E23"
+symbol = "m³/particle"
+singular = "cubic meter per particle"
+plural = "cubic meters per particle"
+
+[units.CUBIC_MICROMETER_PER_PARTICLE]
+multiplier = "6.02214076_E+5"
+symbol = "µm³/particle"
+singular = "cubic micrometer per particle"
+plural = "cubic micrometers per particle"
+
+[units.CUBIC_NANOMETER_PER_PARTICLE]
+multiplier = "6.02214076_E-4"
+symbol = "nm³/particle"
+singular = "cubic nanometer per particle"
+plural = "cubic nanometers per particle"
+

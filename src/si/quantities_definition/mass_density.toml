@@ -1,0 +1,307 @@
+name = "Mass density"
+symbol = "MassDensity"
+snake_case_name = "mass_density"
+short_dim_formula = "L<sup>-3</sup>⋅M"
+long_dim_formula = "Length<sup>-3</sup>⋅Mass"
+units_formula = "m<sup>-3</sup>⋅kg"
+
+[dimensions]
+length = -3
+mass = 1
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+21"
+symbol = "Yg/m³"
+singular = "yottagram per cubic meter"
+plural = "yottagrams per cubic meter"
+
+[units.ZETTAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+18"
+symbol = "Zg/m³"
+singular = "zettagram per cubic meter"
+plural = "zettagrams per cubic meter"
+
+[units.EXAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+15"
+symbol = "Eg/m³"
+singular = "exagram per cubic meter"
+plural = "exagrams per cubic meter"
+
+[units.PETAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+12"
+symbol = "Pg/m³"
+singular = "petagram per cubic meter"
+plural = "petagrams per cubic meter"
+
+[units.TERAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+9"
+symbol = "Tg/m³"
+singular = "teragram per cubic meter"
+plural = "teragrams per cubic meter"
+
+[units.GIGAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+6"
+symbol = "Gg/m³"
+singular = "gigagram per cubic meter"
+plural = "gigagrams per cubic meter"
+
+[units.MEGAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+3"
+symbol = "Mg/m³"
+singular = "megagram per cubic meter"
+plural = "megagrams per cubic meter"
+
+[units.KILOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E+0"
+symbol = "kg/m³"
+singular = "kilogram per cubic meter"
+plural = "kilograms per cubic meter"
+
+[units.HECTOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-1"
+symbol = "hg/m³"
+singular = "hectogram per cubic meter"
+plural = "hectograms per cubic meter"
+
+[units.DECAGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-2"
+symbol = "dag/m³"
+singular = "decagram per cubic meter"
+plural = "decagrams per cubic meter"
+
+[units.GRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-3"
+symbol = "g/m³"
+singular = "gram per cubic meter"
+plural = "grams per cubic meter"
+
+[units.DECIGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-4"
+symbol = "dg/m³"
+singular = "decigram per cubic meter"
+plural = "decigrams per cubic meter"
+
+[units.CENTIGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-5"
+symbol = "cg/m³"
+singular = "centigram per cubic meter"
+plural = "centigrams per cubic meter"
+
+[units.MILLIGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-6"
+symbol = "mg/m³"
+singular = "milligram per cubic meter"
+plural = "milligrams per cubic meter"
+
+[units.MICROGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-9"
+symbol = "µg/m³"
+singular = "microgram per cubic meter"
+plural = "micrograms per cubic meter"
+
+[units.NANOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-12"
+symbol = "ng/m³"
+singular = "nanogram per cubic meter"
+plural = "nanograms per cubic meter"
+
+[units.PICOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-15"
+symbol = "pg/m³"
+singular = "picogram per cubic meter"
+plural = "picograms per cubic meter"
+
+[units.FEMTOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-18"
+symbol = "fg/m³"
+singular = "femtogram per cubic meter"
+plural = "femtograms per cubic meter"
+
+[units.ATTOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-21"
+symbol = "ag/m³"
+singular = "attogram per cubic meter"
+plural = "attograms per cubic meter"
+
+[units.ZEPTOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-24"
+symbol = "zg/m³"
+singular = "zeptogram per cubic meter"
+plural = "zeptograms per cubic meter"
+
+[units.YOCTOGRAM_PER_CUBIC_METER]
+multiplier = "1.0_E-27"
+symbol = "yg/m³"
+singular = "yoctogram per cubic meter"
+plural = "yoctograms per cubic meter"
+
+[units.CARAT_PER_CUBIC_METER]
+multiplier = "2.0_E-4"
+symbol = "ct/m³"
+singular = "carat per cubic meter"
+plural = "carats per cubic meter"
+
+[units.GRAIN_PER_CUBIC_METER]
+multiplier = "6.479_891_E-5"
+symbol = "gr/m³"
+singular = "grain per cubic meter"
+plural = "grains per cubic meter"
+
+[units.HUNDREDWEIGHT_LONG_PER_CUBIC_METER]
+multiplier = "5.080_235_E1"
+symbol = "cwtlong/m³"
+singular = "hundredweight (long) per cubic meter"
+plural = "hundredweight (long) per cubic meter"
+
+[units.HUNDREDWEIGHT_SHORT_PER_CUBIC_METER]
+multiplier = "4.535_924_E1"
+symbol = "cwtshort/m³"
+singular = "hundredweight (short) per cubic meter"
+plural = "hundredweight (short) per cubic meter"
+
+[units.OUNCE_PER_CUBIC_METER]
+multiplier = "2.834_952_E-2"
+symbol = "oz/m³"
+singular = "ounce per cubic meter"
+plural = "ounces per cubic meter"
+
+[units.OUNCE_TROY_PER_CUBIC_METER]
+multiplier = "3.110_348_E-2"
+symbol = "ozt/m³"
+singular = "troy ounce per cubic meter"
+plural = "troy ounces per cubic meter"
+
+[units.PENNYWEIGHT_PER_CUBIC_METER]
+multiplier = "1.555_174_E-3"
+symbol = "dwt/m³"
+singular = "pennyweight per cubic meter"
+plural = "pennyweight per cubic meter"
+
+[units.POUND_PER_CUBIC_METER]
+multiplier = "4.535_924_E-1"
+symbol = "lb/m³"
+singular = "pound per cubic meter"
+plural = "pounds per cubic meter"
+
+[units.POUND_TROY_PER_CUBIC_METER]
+multiplier = "3.732_417_E-1"
+symbol = "lbt/m³"
+singular = "troy pound per cubic meter"
+plural = "troy pounds per cubic meter"
+
+[units.SLUG_PER_CUBIC_METER]
+multiplier = "1.459_390_E1"
+symbol = "slug/m³"
+singular = "slug per cubic meter"
+plural = "slugs per cubic meter"
+
+[units.TON_ASSAY_PER_CUBIC_METER]
+multiplier = "2.916_667_E-2"
+symbol = "AT/m³"
+singular = "assay ton per cubic meter"
+plural = "assay tons per cubic meter"
+
+[units.TON_LONG_PER_CUBIC_METER]
+multiplier = "1.016_047_E3"
+symbol = "2240lb/m³"
+singular = "long ton per cubic meter"
+plural = "long tons per cubic meter"
+
+[units.TON_SHORT_PER_CUBIC_METER]
+multiplier = "9.071_847_E2"
+symbol = "2000lb/m³"
+singular = "short ton per cubic meter"
+plural = "short tons per cubic meter"
+
+[units.TON_PER_CUBIC_METER]
+multiplier = "1.0_E3"
+symbol = "t/m³"
+singular = "ton per cubic meter"
+plural = "tons per cubic meter"
+
+[units.GRAIN_PER_GALLON]
+multiplier = "1.711_806_006_849_452_E-2"
+symbol = "gr/gal"
+singular = "grain per gallon"
+plural = "grains per gallon"
+
+[units.GRAM_PER_CUBIC_CENTIMETER]
+multiplier = "1.0_E3"
+symbol = "g/cm³"
+singular = "gram per cubic centimeter"
+plural = "grams per cubic centimeter"
+
+[units.OUNCE_PER_CUBIC_INCH]
+multiplier = "1.729_994_275_971_406_5_E3"
+symbol = "oz/in³"
+singular = "ounce per cubic inch"
+plural = "ounces per cubic inch"
+
+[units.OUNCE_PER_GALLON_IMPERIAL]
+multiplier = "6.236_022_604_039_955_E0"
+symbol = "oz/gal(UK)"
+singular = "ounce per Imperial gallon"
+plural = "ounces per Imperial gallon"
+
+[units.OUNCE_PER_GALLON]
+multiplier = "7.489_150_454_428_738_E0"
+symbol = "oz/gal"
+singular = "ounce per gallon"
+plural = "ounces per gallon"
+
+[units.POUND_PER_CUBIC_FOOT]
+multiplier = "1.601_846_250_553_998_6_E1"
+symbol = "lb/ft³"
+singular = "pound per cubic foot"
+plural = "pounds per cubic foot"
+
+[units.POUND_PER_CUBIC_INCH]
+multiplier = "2.767_991_329_744_322_5_E4"
+symbol = "lb/in³"
+singular = "pound per cubic inch"
+plural = "pounds per cubic inch"
+
+[units.POUND_PER_CUBIC_YARD]
+multiplier = "5.932_764_278_928_825_E-1"
+symbol = "lb/yd³"
+singular = "pound per cubic yard"
+plural = "pounds per cubic yard"
+
+[units.POUND_PER_GALLON_IMPERIAL]
+multiplier = "9.977_637_926_217_915_E1"
+symbol = "lb/gal(UK)"
+singular = "pound per Imperial gallon"
+plural = "pounds per Imperial gallon"
+
+[units.POUND_PER_GALLON]
+multiplier = "1.198_264_284_046_228_E2"
+symbol = "lb/gal"
+singular = "pound per gallon"
+plural = "pounds per gallon"
+
+[units.SLUG_PER_CUBIC_FOOT]
+multiplier = "5.153_786_526_396_827_E2"
+symbol = "slug/ft³"
+singular = "slug per cubic foot"
+plural = "slugs per cubic foot"
+
+[units.TON_LONG_PER_CUBIC_YARD]
+multiplier = "1.328_939_229_870_87_E3"
+symbol = "2240lb/yd³"
+singular = "long ton per cubic yard"
+plural = "long tons per cubic yard"
+
+[units.TON_SHORT_PER_CUBIC_YARD]
+multiplier = "1.186_552_724_990_710_2_E3"
+symbol = "2000lb/yd³"
+singular = "short ton per cubic yard"
+plural = "short tons per cubic yard"
+

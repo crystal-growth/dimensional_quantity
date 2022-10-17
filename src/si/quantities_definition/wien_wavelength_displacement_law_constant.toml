@@ -1,0 +1,24 @@
+name = "Wien wavelength displacement law constant"
+symbol = "WienWavelengthDisplacementLawConstant"
+snake_case_name = "wien_wavelength_displacement_law_constant"
+short_dim_formula = "L⋅Th"
+long_dim_formula = "Length⋅Thermodynamic temperature"
+units_formula = "m⋅K"
+
+[dimensions]
+length = 1
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 1
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.METER_KELVIN]
+multiplier = "1.0E0"
+symbol = "m⋅K"
+singular = "meter kelvin"
+plural = "meters kelvin"

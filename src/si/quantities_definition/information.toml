@@ -1,0 +1,38 @@
+name = "Information"
+symbol = "Information"
+snake_case_name = "information"
+short_dim_formula = "In"
+long_dim_formula = "Information"
+units_formula = "B"
+
+[dimensions]
+length = 0
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 1
+
+
+
+[units.BIT]
+multiplier = "1.0"
+symbol = "b"
+singular = "bit"
+plural = "bits"
+
+
+
+[units.BYTE]
+multiplier = "8.0E0"
+symbol = "B"
+singular = "byte"
+plural = "bytes"
+
+
+
+

@@ -1,0 +1,355 @@
+name = "Molar energy"
+symbol = "MolarEnergy"
+snake_case_name = "molar_energy"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-2</sup>⋅N<sup>-1</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-2</sup>⋅Amount of substance<sup>-1</sup>"
+units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-2</sup>⋅mol<sup>-1</sup>"
+
+[dimensions]
+length = 2
+mass = 1
+time = -2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = -1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.KILOGRAM_SQUARE_METER_PER_SECOND_SQUARED_MOLE]
+multiplier = "1.0_E+0"
+symbol = "kg·m²/(s²·mol)"
+singular = "kilogram square meter per second squared mole"
+plural = "kilograms square meter per second squared mole"
+
+[units.YOTTAJOULE_PER_MOLE]
+multiplier = "1.0_E24"
+symbol = "YJ/mol"
+singular = "yottajoule per mole"
+plural = "yottajoules per mole"
+
+[units.ZETTAJOULE_PER_MOLE]
+multiplier = "1.0_E21"
+symbol = "ZJ/mol"
+singular = "zettajoule per mole"
+plural = "zettajoules per mole"
+
+[units.EXAJOULE_PER_MOLE]
+multiplier = "1.0_E18"
+symbol = "EJ/mol"
+singular = "exajoule per mole"
+plural = "exajoules per mole"
+
+[units.PETAJOULE_PER_MOLE]
+multiplier = "1.0_E15"
+symbol = "PJ/mol"
+singular = "petajoule per mole"
+plural = "petajoules per mole"
+
+[units.TERAJOULE_PER_MOLE]
+multiplier = "1.0_E12"
+symbol = "TJ/mol"
+singular = "terajoule per mole"
+plural = "terajoules per mole"
+
+[units.GIGAJOULE_PER_MOLE]
+multiplier = "1.0_E9"
+symbol = "GJ/mol"
+singular = "gigajoule per mole"
+plural = "gigajoules per mole"
+
+[units.MEGAJOULE_PER_MOLE]
+multiplier = "1.0_E6"
+symbol = "MJ/mol"
+singular = "megajoule per mole"
+plural = "megajoules per mole"
+
+[units.KILOJOULE_PER_MOLE]
+multiplier = "1.0_E3"
+symbol = "kJ/mol"
+singular = "kilojoule per mole"
+plural = "kilojoules per mole"
+
+[units.HECTOJOULE_PER_MOLE]
+multiplier = "1.0_E2"
+symbol = "hJ/mol"
+singular = "hectojoule per mole"
+plural = "hectojoules per mole"
+
+[units.DECAJOULE_PER_MOLE]
+multiplier = "1.0E1"
+symbol = "daJ/mol"
+singular = "decajoule per mole"
+plural = "decajoules per mole"
+
+[units.JOULE_PER_MOLE]
+multiplier = "1.0E0"
+symbol = "J/mol"
+singular = "joule per mole"
+plural = "joules per mole"
+
+[units.DECIJOULE_PER_MOLE]
+multiplier = "1.0E-1"
+symbol = "dJ/mol"
+singular = "decijoule per mole"
+plural = "decijoules per mole"
+
+[units.CENTIJOULE_PER_MOLE]
+multiplier = "1.0E-2"
+symbol = "cJ/mol"
+singular = "centijoule per mole"
+plural = "centijoules per mole"
+
+[units.MILLIJOULE_PER_MOLE]
+multiplier = "1.0E-3"
+symbol = "mJ/mol"
+singular = "millijoule per mole"
+plural = "millijoules per mole"
+
+[units.MICROJOULE_PER_MOLE]
+multiplier = "1.0E-6"
+symbol = "µJ/mol"
+singular = "microjoule per mole"
+plural = "microjoules per mole"
+
+[units.NANOJOULE_PER_MOLE]
+multiplier = "1.0E-9"
+symbol = "nJ/mol"
+singular = "nanojoule per mole"
+plural = "nanojoules per mole"
+
+[units.PICOJOULE_PER_MOLE]
+multiplier = "1.0E-12"
+symbol = "pJ/mol"
+singular = "picojoule per mole"
+plural = "picojoules per mole"
+
+[units.FEMTOJOULE_PER_MOLE]
+multiplier = "1.0E-15"
+symbol = "fJ/mol"
+singular = "femtojoule per mole"
+plural = "femtojoules per mole"
+
+[units.ATTOJOULE_PER_MOLE]
+multiplier = "1.0E-18"
+symbol = "aJ/mol"
+singular = "attojoule per mole"
+plural = "attojoules per mole"
+
+[units.ZEPTOJOULE_PER_MOLE]
+multiplier = "1.0E-21"
+symbol = "zJ/mol"
+singular = "zeptojoule per mole"
+plural = "zeptojoules per mole"
+
+[units.YOCTOJOULE_PER_MOLE]
+multiplier = "1.0E-24"
+symbol = "yJ/mol"
+singular = "yoctojoule per mole"
+plural = "yoctojoules per mole"
+
+[units.PETAWATT_HOUR_PER_MOLE]
+multiplier = "3.6_E18"
+symbol = "PW·h/mol"
+singular = "petawatt hour per mole"
+plural = "petawatt hours per mole"
+
+[units.TERAWATT_HOUR_PER_MOLE]
+multiplier = "3.6_E15"
+symbol = "TW·h/mol"
+singular = "terawatt hour per mole"
+plural = "terawatt hours per mole"
+
+[units.GIGAWATT_HOUR_PER_MOLE]
+multiplier = "3.6_E12"
+symbol = "GW·h/mol"
+singular = "gigawatt hour per mole"
+plural = "gigawatt hours per mole"
+
+[units.MEGAWATT_HOUR_PER_MOLE]
+multiplier = "3.6_E9"
+symbol = "MW·h/mol"
+singular = "megawatt hour per mole"
+plural = "megawatt hours per mole"
+
+[units.KILOWATT_HOUR_PER_MOLE]
+multiplier = "3.6_E6"
+symbol = "kW·h/mol"
+singular = "kilowatt hour per mole"
+plural = "kilowatt hours per mole"
+
+[units.HECTOWATT_HOUR_PER_MOLE]
+multiplier = "3.6_E5"
+symbol = "hW·h/mol"
+singular = "hectowatt hour per mole"
+plural = "hectowatt hours per mole"
+
+[units.DECAWATT_HOUR_PER_MOLE]
+multiplier = "3.6_E4"
+symbol = "daW·h/mol"
+singular = "decawatt hour per mole"
+plural = "decawatt hours per mole"
+
+[units.WATT_HOUR_PER_MOLE]
+multiplier = "3.6_E3"
+symbol = "W·h/mol"
+singular = "watt hour per mole"
+plural = "watt hours per mole"
+
+[units.MILLIWATT_HOUR_PER_MOLE]
+multiplier = "3.6_E0"
+symbol = "mW·h/mol"
+singular = "milliwatt hour per mole"
+plural = "milliwatt hours per mole"
+
+[units.MICROWATT_HOUR_PER_MOLE]
+multiplier = "3.6_E-3"
+symbol = "µW·h/mol"
+singular = "microwatt hour per mole"
+plural = "microwatt hours per mole"
+
+[units.BTU_IT_PER_MOLE]
+multiplier = "1.055_056_E3"
+symbol = "Btu(IT)/mol"
+singular = "British thermal unit (IT) per mole"
+plural = "British thermal units (IT) per mole"
+
+[units.BTU_PER_MOLE]
+multiplier = "1.054_350_E3"
+symbol = "Btu/mol"
+singular = "British thermal unit per mole"
+plural = "British thermal units per mole"
+
+[units.BTU_39_PER_MOLE]
+multiplier = "1.059_67_E3"
+symbol = "Btu₃₉/mol"
+singular = "British thermal unit (39 °F) per mole"
+plural = "British thermal units (39 °F) per mole"
+
+[units.BTU_59_PER_MOLE]
+multiplier = "1.054_80_E3"
+symbol = "Btu₅₉/mol"
+singular = "British thermal unit (59 °F) per mole"
+plural = "British thermal units (59 °F) per mole"
+
+[units.BTU_60_PER_MOLE]
+multiplier = "1.054_68_E3"
+symbol = "Btu₆₀/mol"
+singular = "British thermal unit (60 °F) per mole"
+plural = "British thermal units (60 °F) per mole"
+
+[units.CALORIE_IT_PER_MOLE]
+multiplier = "4.186_8_E0"
+symbol = "cal(IT)/mol"
+singular = "calorie (IT) per mole"
+plural = "calories (IT) per mole"
+
+[units.CALORIE_PER_MOLE]
+multiplier = "4.184_E0"
+symbol = "cal/mol"
+singular = "calorie per mole"
+plural = "calories per mole"
+
+[units.CALORIE_15_PER_MOLE]
+multiplier = "4.185_80_E0"
+symbol = "cal₁₅/mol"
+singular = "calorie (15 °C) per mole"
+plural = "calories (15 °C) per mole"
+
+[units.CALORIE_20_PER_MOLE]
+multiplier = "4.181_90_E0"
+symbol = "cal₂₀/mol"
+singular = "calorie (20 °C) per mole"
+plural = "calories (20 °C) per mole"
+
+[units.CALORIE_IT_NUTRITION_PER_MOLE]
+multiplier = "4.186_8_E3"
+symbol = "Cal(IT)/mol"
+singular = "Calorie (IT) per mole"
+plural = "Calories (IT) per mole"
+
+[units.CALORIE_NUTRITION_PER_MOLE]
+multiplier = "4.184_E3"
+symbol = "Cal/mol"
+singular = "Calorie per mole"
+plural = "Calories per mole"
+
+[units.ELECTRONVOLT_PER_MOLE]
+multiplier = "1.602_176_634_E-19"
+symbol = "eV/mol"
+singular = "electronvolt per mole"
+plural = "electronvolts per mole"
+
+[units.ERG_PER_MOLE]
+multiplier = "1.0_E-7"
+symbol = "erg/mol"
+singular = "erg per mole"
+plural = "ergs per mole"
+
+[units.FOOT_POUNDAL_PER_MOLE]
+multiplier = "4.214_011_E-2"
+symbol = "ft·pdl/mol"
+singular = "foot poundal per mole"
+plural = "foot poundals per mole"
+
+[units.FOOT_POUND_FORCE_PER_MOLE]
+multiplier = "1.355_818_E0"
+symbol = "ft·lbf/mol"
+singular = "foot pound-force per mole"
+plural = "foot pounds-force per mole"
+
+[units.KILOCALORIE_IT_PER_MOLE]
+multiplier = "4.186_8_E3"
+symbol = "kcal(IT)/mol"
+singular = "kilocalorie (IT) per mole"
+plural = "kilocalories (IT) per mole"
+
+[units.KILOCALORIE_PER_MOLE]
+multiplier = "4.184_E3"
+symbol = "kcal/mol"
+singular = "kilocalorie per mole"
+plural = "kilocalories per mole"
+
+[units.QUAD_PER_MOLE]
+multiplier = "1.055_056_E18"
+symbol = "10¹⁵Btu(IT)/mol"
+singular = "quad per mole"
+plural = "quads per mole"
+
+[units.THERM_EC_PER_MOLE]
+multiplier = "1.055_06_E8"
+symbol = "thm(EC)/mol"
+singular = "therm (EC) per mole"
+plural = "therms (EC) per mole"
+
+[units.THERM_US_PER_MOLE]
+multiplier = "1.054_804_E8"
+symbol = "thm/mol"
+singular = "therm per mole"
+plural = "therms per mole"
+
+[units.TON_TNT_PER_MOLE]
+multiplier = "4.184_E9"
+symbol = "tofTNT/mol"
+singular = "ton of TNT per mole"
+plural = "tons of TNT per mole"
+
+[units.WATT_SECOND_PER_MOLE]
+multiplier = "1.0_E0"
+symbol = "W·s/mol"
+singular = "watt second per mole"
+plural = "watt seconds per mole"
+
+[units.JOULE_PER_PARTICLE]
+multiplier = "6.022_140_76_E23"
+symbol = "J/particle"
+singular = "joule per particle"
+plural = "joules per particle"
+
+[units.ELECTRONVOLT_PER_PARTICLE]
+multiplier = "9.648533212331_E+4"
+symbol = "eV/particle"
+singular = "electronvolt per particle"
+plural = "electronvolts per particle"
+

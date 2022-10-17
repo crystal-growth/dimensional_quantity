@@ -1,0 +1,157 @@
+name = "Electrical resistance"
+symbol = "ElectricalResistance"
+snake_case_name = "electrical_resistance"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-3</sup>⋅I<sup>-2</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-3</sup>⋅Electric current<sup>-2</sup>"
+units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-3</sup>⋅A<sup>-2</sup>"
+
+[dimensions]
+length = 2
+mass = 1
+time = -3
+electric_current = -2
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAOHM]
+multiplier = "1.0_E24"
+symbol = "YΩ"
+singular = "yottaohm"
+plural = "yottaohms"
+
+[units.ZETTAOHM]
+multiplier = "1.0_E21"
+symbol = "ZΩ"
+singular = "zettaohm"
+plural = "zettaohms"
+
+[units.EXAOHM]
+multiplier = "1.0_E18"
+symbol = "EΩ"
+singular = "exaohm"
+plural = "exaohms"
+
+[units.PETAOHM]
+multiplier = "1.0_E15"
+symbol = "PΩ"
+singular = "petaohm"
+plural = "petaohms"
+
+[units.TERAOHM]
+multiplier = "1.0_E12"
+symbol = "TΩ"
+singular = "teraohm"
+plural = "teraohms"
+
+[units.GIGAOHM]
+multiplier = "1.0_E9"
+symbol = "GΩ"
+singular = "gigaohm"
+plural = "gigaohms"
+
+[units.MEGAOHM]
+multiplier = "1.0_E6"
+symbol = "MΩ"
+singular = "megaohm"
+plural = "megaohms"
+
+[units.KILOOHM]
+multiplier = "1.0_E3"
+symbol = "kΩ"
+singular = "kiloohm"
+plural = "kiloohms"
+
+[units.HECTOOHM]
+multiplier = "1.0_E2"
+symbol = "hΩ"
+singular = "hectoohm"
+plural = "hectoohms"
+
+[units.DECAOHM]
+multiplier = "1.0E1"
+symbol = "daΩ"
+singular = "decaohm"
+plural = "decaohms"
+
+[units.OHM]
+multiplier = "1.0E0"
+symbol = "Ω"
+singular = "ohm"
+plural = "ohms"
+
+[units.DECIOHM]
+multiplier = "1.0E-1"
+symbol = "dΩ"
+singular = "deciohm"
+plural = "deciohms"
+
+[units.CENTIOHM]
+multiplier = "1.0E-2"
+symbol = "cΩ"
+singular = "centiohm"
+plural = "centiohms"
+
+[units.MILLIOHM]
+multiplier = "1.0E-3"
+symbol = "mΩ"
+singular = "milliohm"
+plural = "milliohms"
+
+[units.MICROOHM]
+multiplier = "1.0E-6"
+symbol = "µΩ"
+singular = "microohm"
+plural = "microohms"
+
+[units.NANOOHM]
+multiplier = "1.0E-9"
+symbol = "nΩ"
+singular = "nanoohm"
+plural = "nanoohms"
+
+[units.PICOOHM]
+multiplier = "1.0E-12"
+symbol = "pΩ"
+singular = "picoohm"
+plural = "picoohms"
+
+[units.FEMTOOHM]
+multiplier = "1.0E-15"
+symbol = "fΩ"
+singular = "femtoohm"
+plural = "femtoohms"
+
+[units.ATTOOHM]
+multiplier = "1.0E-18"
+symbol = "aΩ"
+singular = "attoohm"
+plural = "attoohms"
+
+[units.ZEPTOOHM]
+multiplier = "1.0E-21"
+symbol = "zΩ"
+singular = "zeptoohm"
+plural = "zeptoohms"
+
+[units.YOCTOOHM]
+multiplier = "1.0E-24"
+symbol = "yΩ"
+singular = "yoctoohm"
+plural = "yoctoohms"
+
+[units.ABOHM]
+multiplier = "1.0_E-9"
+symbol = "abΩ"
+singular = "abohm"
+plural = "abohms"
+
+[units.STATOHM]
+multiplier = "8.987_552_917_115_481_E11"
+symbol = "statΩ"
+singular = "statohm"
+plural = "statohms"
+

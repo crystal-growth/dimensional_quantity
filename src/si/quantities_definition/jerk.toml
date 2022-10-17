@@ -1,0 +1,163 @@
+name = "Jerk"
+symbol = "Jerk"
+snake_case_name = "jerk"
+short_dim_formula = "L⋅T<sup>-3</sup>"
+long_dim_formula = "Length⋅Time<sup>-3</sup>"
+units_formula = "m⋅s<sup>-3</sup>"
+
+[dimensions]
+length = 1
+mass = 0
+time = -3
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAMETER_PER_SECOND_CUBED]
+multiplier = "1.0_E24"
+symbol = "Ym/s³"
+singular = "yottameter per second cubed"
+plural = "yottameters per second cubed"
+
+[units.ZETTAMETER_PER_SECOND_CUBED]
+multiplier = "1.0_E21"
+symbol = "Zm/s³"
+singular = "zettameter per second cubed"
+plural = "zettameters per second cubed"
+
+[units.EXAMETER_PER_SECOND_CUBED]
+multiplier = "1.0_E18"
+symbol = "Em/s³"
+singular = "exameter per second cubed"
+plural = "exameters per second cubed"
+
+[units.PETAMETER_PER_SECOND_CUBED]
+multiplier = "1.0_E15"
+symbol = "Pm/s³"
+singular = "petameter per second cubed"
+plural = "petameters per second cubed"
+
+[units.TERAMETER_PER_SECOND_CUBED]
+multiplier = "1.0_E12"
+symbol = "Tm/s³"
+singular = "terameter per second cubed"
+plural = "terameters per second cubed"
+
+[units.GIGAMETER_PER_SECOND_CUBED]
+multiplier = "1.0_E9"
+symbol = "Gm/s³"
+singular = "gigameter per second cubed"
+plural = "gigameters per second cubed"
+
+[units.MEGAMETER_PER_SECOND_CUBED]
+multiplier = "1.0_E6"
+symbol = "Mm/s³"
+singular = "megameter per second cubed"
+plural = "megameters per second cubed"
+
+[units.KILOMETER_PER_SECOND_CUBED]
+multiplier = "1.0_E3"
+symbol = "km/s³"
+singular = "kilometer per second cubed"
+plural = "kilometers per second cubed"
+
+[units.HECTOMETER_PER_SECOND_CUBED]
+multiplier = "1.0_E2"
+symbol = "hm/s³"
+singular = "hectometer per second cubed"
+plural = "hectometers per second cubed"
+
+[units.DECAMETER_PER_SECOND_CUBED]
+multiplier = "1.0E1"
+symbol = "dam/s³"
+singular = "decameter per second cubed"
+plural = "decameters per second cubed"
+
+[units.METER_PER_SECOND_CUBED]
+multiplier = "1.0E0"
+symbol = "m/s³"
+singular = "meter per second cubed"
+plural = "meters per second cubed"
+
+[units.DECIMETER_PER_SECOND_CUBED]
+multiplier = "1.0E-1"
+symbol = "dm/s³"
+singular = "decimeter per second cubed"
+plural = "decimeters per second cubed"
+
+[units.CENTIMETER_PER_SECOND_CUBED]
+multiplier = "1.0E-2"
+symbol = "cm/s³"
+singular = "centimeter per second cubed"
+plural = "centimeters per second cubed"
+
+[units.MILLIMETER_PER_SECOND_CUBED]
+multiplier = "1.0E-3"
+symbol = "mm/s³"
+singular = "millimeter per second cubed"
+plural = "millimeters per second cubed"
+
+[units.MICROMETER_PER_SECOND_CUBED]
+multiplier = "1.0E-6"
+symbol = "µm/s³"
+singular = "micrometer per second cubed"
+plural = "micrometers per second cubed"
+
+[units.NANOMETER_PER_SECOND_CUBED]
+multiplier = "1.0E-9"
+symbol = "nm/s³"
+singular = "nanometer per second cubed"
+plural = "nanometers per second cubed"
+
+[units.PICOMETER_PER_SECOND_CUBED]
+multiplier = "1.0E-12"
+symbol = "pm/s³"
+singular = "picometer per second cubed"
+plural = "picometers per second cubed"
+
+[units.FEMTOMETER_PER_SECOND_CUBED]
+multiplier = "1.0E-15"
+symbol = "fm/s³"
+singular = "femtometer per second cubed"
+plural = "femtometers per second cubed"
+
+[units.ATTOMETER_PER_SECOND_CUBED]
+multiplier = "1.0E-18"
+symbol = "am/s³"
+singular = "attometer per second cubed"
+plural = "attometers per second cubed"
+
+[units.ZEPTOMETER_PER_SECOND_CUBED]
+multiplier = "1.0E-21"
+symbol = "zm/s³"
+singular = "zeptometer per second cubed"
+plural = "zeptometers per second cubed"
+
+[units.YOCTOMETER_PER_SECOND_CUBED]
+multiplier = "1.0E-24"
+symbol = "ym/s³"
+singular = "yoctometer per second cubed"
+plural = "yoctometers per second cubed"
+
+[units.FOOT_PER_SECOND_CUBED]
+multiplier = "3.048_E-1"
+symbol = "ft/s³"
+singular = "foot per second cubed"
+plural = "feet per second cubed"
+
+[units.INCH_PER_SECOND_CUBED]
+multiplier = "2.54_E-2"
+symbol = "in/s³"
+singular = "inch per second cubed"
+plural = "inches per second cubed"
+
+[units.KILOMETER_PER_MINUTE_CUBED]
+multiplier = "4.629_629_629_629_629_E-3"
+symbol = "km/min³"
+singular = "kilometer per minute cubed"
+plural = "kilometers per minute cubed"
+

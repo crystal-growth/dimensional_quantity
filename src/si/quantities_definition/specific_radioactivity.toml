@@ -1,0 +1,37 @@
+name = "Specific radioactivity"
+symbol = "SpecificRadioactivity"
+snake_case_name = "specific_radioactivity"
+short_dim_formula = "M<sup>-1</sup>⋅T<sup>-1</sup>"
+long_dim_formula = "Mass<sup>-1</sup>⋅Time<sup>-1</sup>"
+units_formula = "kg<sup>-1</sup>⋅s<sup>-1</sup>"
+
+[dimensions]
+length = 0
+mass = -1
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.BECQUEREL_PER_KILOGRAM]
+multiplier = "1.0E0"
+symbol = "Bq/kg"
+singular = "becquerel per kilogram"
+plural = "becquerels per kilogram"
+
+[units.CURIE_PER_KILOGRAM]
+multiplier = "3.7_E10"
+symbol = "Ci/kg"
+singular = "curie per kilogram"
+plural = "curie per kilogram"
+
+[units.DISINTEGRATIONS_PER_MINUTE_PER_KILOGRAM]
+multiplier = "1.6666666666667_E-2"
+symbol = "dpm/kg"
+singular = "disintegration per minute per kilogram"
+plural = "disintegrations per minute per kilogram"
+

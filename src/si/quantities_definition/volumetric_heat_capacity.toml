@@ -1,0 +1,31 @@
+name = "Volumetric heat capacity"
+symbol = "VolumetricHeatCapacity"
+snake_case_name = "volumetric_heat_capacity"
+short_dim_formula = "L<sup>-1</sup>⋅M⋅T<sup>-2</sup>⋅`ΔTh`<sup>-1</sup>"
+long_dim_formula = "Length<sup>-1</sup>⋅Mass⋅Time<sup>-2</sup>⋅Temperature interval<sup>-1</sup>"
+units_formula = "m<sup>-1</sup>⋅kg⋅s<sup>-2</sup>⋅ΔK<sup>-1</sup>"
+
+[dimensions]
+length = -1
+mass = 1
+time = -2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = -1
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.JOULE_PER_CUBIC_METER_KELVIN]
+multiplier = "1.0E0"
+symbol = "J/(m³·K)"
+singular = "joule per cubic meter kelvin"
+plural = "joules per cubic meter kelvin"
+
+[units.CALORIE_PER_CUBIC_METER_KELVIN]
+multiplier = "4.184_E0"
+symbol = "cal/(m³·K)"
+singular = "calorie per cubic meter kelvin"
+plural = "calories per cubic meter kelvin"
+

@@ -1,0 +1,31 @@
+name = "Molar electric charge"
+symbol = "MolarElectricCharge"
+snake_case_name = "molar_electric_charge"
+short_dim_formula = "T⋅I⋅N<sup>-1</sup>"
+long_dim_formula = "Time⋅Electric current⋅Amount of substance<sup>-1</sup>"
+units_formula = "s⋅A⋅mol<sup>-1</sup>"
+
+[dimensions]
+length = 0
+mass = 0
+time = 1
+electric_current = 1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = -1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.COULOMB_PER_MOLE]
+multiplier = "1.0E0"
+symbol = "C/mol"
+singular = "coulomb per mole"
+plural = "coulombs per mole"
+
+[units.FARADAY_CONSTANT]
+multiplier = "96_485.332_123_310_03"
+symbol = "F"
+singular = "faraday constant"
+plural = "faraday constants"
+

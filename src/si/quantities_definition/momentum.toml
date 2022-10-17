@@ -1,0 +1,313 @@
+name = "Momentum"
+symbol = "Momentum"
+snake_case_name = "momentum"
+short_dim_formula = "L⋅M⋅T<sup>-1</sup>"
+long_dim_formula = "Length⋅Mass⋅Time<sup>-1</sup>"
+units_formula = "m⋅kg⋅s<sup>-1</sup>"
+
+[dimensions]
+length = 1
+mass = 1
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAGRAM_METER_PER_SECOND]
+multiplier = "1.0_E+21"
+symbol = "Yg·m/s"
+singular = "yottagram meter per second"
+plural = "yottagram meters per second"
+
+[units.ZETTAGRAM_METER_PER_SECOND]
+multiplier = "1.0_E+18"
+symbol = "Zg·m/s"
+singular = "zettagram meter per second"
+plural = "zettagram meters per second"
+
+[units.EXAGRAM_METER_PER_SECOND]
+multiplier = "1.0_E+15"
+symbol = "Eg·m/s"
+singular = "exagram meter per second"
+plural = "exagram meters per second"
+
+[units.PETAGRAM_METER_PER_SECOND]
+multiplier = "1.0_E+12"
+symbol = "Pg·m/s"
+singular = "petagram meter per second"
+plural = "petagram meters per second"
+
+[units.TERAGRAM_METER_PER_SECOND]
+multiplier = "1.0_E+9"
+symbol = "Tg·m/s"
+singular = "teragram meter per second"
+plural = "teragram meters per second"
+
+[units.GIGAGRAM_METER_PER_SECOND]
+multiplier = "1.0_E+6"
+symbol = "Gg·m/s"
+singular = "gigagram meter per second"
+plural = "gigagram meters per second"
+
+[units.MEGAGRAM_METER_PER_SECOND]
+multiplier = "1.0_E+3"
+symbol = "Mg·m/s"
+singular = "megagram meter per second"
+plural = "megagram meters per second"
+
+[units.KILOGRAM_METER_PER_SECOND]
+multiplier = "1.0_E+0"
+symbol = "kg·m/s"
+singular = "kilogram meter per second"
+plural = "kilogram meters per second"
+
+[units.HECTOGRAM_METER_PER_SECOND]
+multiplier = "1.0_E-1"
+symbol = "hg·m/s"
+singular = "hectogram meter per second"
+plural = "hectogram meters per second"
+
+[units.DECAGRAM_METER_PER_SECOND]
+multiplier = "1.0_E-2"
+symbol = "dag·m/s"
+singular = "decagram meter per second"
+plural = "decagram meters per second"
+
+[units.GRAM_METER_PER_SECOND]
+multiplier = "1.0_E-3"
+symbol = "g·m/s"
+singular = "gram meter per second"
+plural = "gram meters per second"
+
+[units.DECIGRAM_METER_PER_SECOND]
+multiplier = "1.0_E-4"
+symbol = "dg·m/s"
+singular = "decigram meter per second"
+plural = "decigram meters per second"
+
+[units.CENTIGRAM_METER_PER_SECOND]
+multiplier = "1.0_E-5"
+symbol = "cg·m/s"
+singular = "centigram meter per second"
+plural = "centigram meters per second"
+
+[units.MILLIGRAM_METER_PER_SECOND]
+multiplier = "1.0_E-6"
+symbol = "mg·m/s"
+singular = "milligram meter per second"
+plural = "milligram meters per second"
+
+[units.MICROGRAM_METER_PER_SECOND]
+multiplier = "1.0_E-9"
+symbol = "µg·m/s"
+singular = "microgram meter per second"
+plural = "microgram meters per second"
+
+[units.NANOGRAM_METER_PER_SECOND]
+multiplier = "1.0_E-12"
+symbol = "ng·m/s"
+singular = "nanogram meter per second"
+plural = "nanogram meters per second"
+
+[units.PICOGRAM_METER_PER_SECOND]
+multiplier = "1.0_E-15"
+symbol = "pg·m/s"
+singular = "picogram meter per second"
+plural = "picogram meters per second"
+
+[units.FEMTOGRAM_METER_PER_SECOND]
+multiplier = "1.0_E-18"
+symbol = "fg·m/s"
+singular = "femtogram meter per second"
+plural = "femtogram meters per second"
+
+[units.ATTOGRAM_METER_PER_SECOND]
+multiplier = "1.0_E-21"
+symbol = "ag·m/s"
+singular = "attogram meter per second"
+plural = "attogram meters per second"
+
+[units.ZEPTOGRAM_METER_PER_SECOND]
+multiplier = "1.0_E-24"
+symbol = "zg·m/s"
+singular = "zeptogram meter per second"
+plural = "zeptogram meters per second"
+
+[units.YOCTOGRAM_METER_PER_SECOND]
+multiplier = "1.0_E-27"
+symbol = "yg·m/s"
+singular = "yoctogram meter per second"
+plural = "yoctogram meters per second"
+
+[units.KILOGRAM_YOTTAMETER_PER_SECOND]
+multiplier = "1.0_E24"
+symbol = "kg·Ym/s"
+singular = "kilogram yottameter per second"
+plural = "kilogram yottameters per second"
+
+[units.KILOGRAM_ZETTAMETER_PER_SECOND]
+multiplier = "1.0_E21"
+symbol = "kg·Zm/s"
+singular = "kilogram zettameter per second"
+plural = "kilogram zettameters per second"
+
+[units.KILOGRAM_EXAMETER_PER_SECOND]
+multiplier = "1.0_E18"
+symbol = "kg·Em/s"
+singular = "kilogram exameter per second"
+plural = "kilogram exameters per second"
+
+[units.KILOGRAM_PETAMETER_PER_SECOND]
+multiplier = "1.0_E15"
+symbol = "kg·Pm/s"
+singular = "kilogram petameter per second"
+plural = "kilogram petameters per second"
+
+[units.KILOGRAM_TERAMETER_PER_SECOND]
+multiplier = "1.0_E12"
+symbol = "kg·Tm/s"
+singular = "kilogram terameter per second"
+plural = "kilogram terameters per second"
+
+[units.KILOGRAM_GIGAMETER_PER_SECOND]
+multiplier = "1.0_E9"
+symbol = "kg·Gm/s"
+singular = "kilogram gigameter per second"
+plural = "kilogram gigameters per second"
+
+[units.KILOGRAM_MEGAMETER_PER_SECOND]
+multiplier = "1.0_E6"
+symbol = "kg·Mm/s"
+singular = "kilogram megameter per second"
+plural = "kilogram megameters per second"
+
+[units.KILOGRAM_KILOMETER_PER_SECOND]
+multiplier = "1.0_E3"
+symbol = "kg·km/s"
+singular = "kilogram kilometer per second"
+plural = "kilogram kilometers per second"
+
+[units.KILOGRAM_HECTOMETER_PER_SECOND]
+multiplier = "1.0_E2"
+symbol = "kg·hm/s"
+singular = "kilogram hectometer per second"
+plural = "kilogram hectometers per second"
+
+[units.KILOGRAM_DECAMETER_PER_SECOND]
+multiplier = "1.0E1"
+symbol = "kg·dam/s"
+singular = "kilogram decameter per second"
+plural = "kilogram decameters per second"
+
+[units.KILOGRAM_DECIMETER_PER_SECOND]
+multiplier = "1.0E-1"
+symbol = "kg·dm/s"
+singular = "kilogram decimeter per second"
+plural = "kilogram decimeters per second"
+
+[units.KILOGRAM_CENTIMETER_PER_SECOND]
+multiplier = "1.0E-2"
+symbol = "kg·cm/s"
+singular = "kilogram centimeter per second"
+plural = "kilogram centimeters per second"
+
+[units.KILOGRAM_MILLIMETER_PER_SECOND]
+multiplier = "1.0E-3"
+symbol = "kg·mm/s"
+singular = "kilogram millimeter per second"
+plural = "kilogram millimeters per second"
+
+[units.KILOGRAM_MICROMETER_PER_SECOND]
+multiplier = "1.0E-6"
+symbol = "kg·µm/s"
+singular = "kilogram micrometer per second"
+plural = "kilogram micrometers per second"
+
+[units.KILOGRAM_NANOMETER_PER_SECOND]
+multiplier = "1.0E-9"
+symbol = "kg·nm/s"
+singular = "kilogram nanometer per second"
+plural = "kilogram nanometers per second"
+
+[units.KILOGRAM_PICOMETER_PER_SECOND]
+multiplier = "1.0E-12"
+symbol = "kg·pm/s"
+singular = "kilogram picometer per second"
+plural = "kilogram picometers per second"
+
+[units.KILOGRAM_FEMTOMETER_PER_SECOND]
+multiplier = "1.0E-15"
+symbol = "kg·fm/s"
+singular = "kilogram femtometer per second"
+plural = "kilogram femtometers per second"
+
+[units.KILOGRAM_ATTOMETER_PER_SECOND]
+multiplier = "1.0E-18"
+symbol = "kg·am/s"
+singular = "kilogram attometer per second"
+plural = "kilogram attometers per second"
+
+[units.KILOGRAM_ZEPTOMETER_PER_SECOND]
+multiplier = "1.0E-21"
+symbol = "kg·zm/s"
+singular = "kilogram zeptometer per second"
+plural = "kilogram zeptometers per second"
+
+[units.KILOGRAM_YOCTOMETER_PER_SECOND]
+multiplier = "1.0E-24"
+symbol = "kg·ym/s"
+singular = "kilogram yoctometer per second"
+plural = "kilogram yoctometers per second"
+
+[units.TON_METER_PER_SECOND]
+multiplier = "1.0_E+3"
+symbol = "t·m/s"
+singular = "ton meter per second"
+plural = "ton meters per second"
+
+[units.KILOGRAM_METER_PER_MINUTE]
+multiplier = "1.666_666_666_666_666_6_E-2"
+symbol = "kg·m/min"
+singular = "kilogram meter per minute"
+plural = "kilogram meters per minute"
+
+[units.KILOGRAM_METER_PER_HOUR]
+multiplier = "2.777_777_777_777_777_7_E-4"
+symbol = "kg·m/h"
+singular = "kilogram meter per hour"
+plural = "kilogram meters per hour"
+
+[units.KILOGRAM_METER_PER_DAY]
+multiplier = "1.157_407_407_407_407_4_E-5"
+symbol = "kg·m/d"
+singular = "kilogram meter per day"
+plural = "kilogram meters per day"
+
+[units.SLUG_FOOT_PER_SECOND]
+multiplier = "4.448_220_72_E0"
+symbol = "slug·ft/s"
+singular = "slug foot per second"
+plural = "slug feet per second"
+
+[units.SLUG_INCH_PER_SECOND]
+multiplier = "3.706_850_6_E-1"
+symbol = "slug·in/s"
+singular = "slug inch per second"
+plural = "slug inches per second"
+
+[units.POUND_FOOT_PER_SECOND]
+multiplier = "1.382_549_635_2_E-1"
+symbol = "lb·ft/s"
+singular = "pound foot per second"
+plural = "pound feet per second"
+
+[units.POUND_INCH_PER_SECOND]
+multiplier = "1.152_124_696_E-2"
+symbol = "lb·in/s"
+singular = "pound inch per second"
+plural = "pound inches per second"
+

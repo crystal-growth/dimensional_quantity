@@ -1,0 +1,223 @@
+name = "Velocity"
+symbol = "Velocity"
+snake_case_name = "velocity"
+short_dim_formula = "L⋅T<sup>-1</sup>"
+long_dim_formula = "Length⋅Time<sup>-1</sup>"
+units_formula = "m⋅s<sup>-1</sup>"
+
+[dimensions]
+length = 1
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAMETER_PER_SECOND]
+multiplier = "1.0_E24"
+symbol = "Ym/s"
+singular = "yottameter per second"
+plural = "yottameters per second"
+
+[units.ZETTAMETER_PER_SECOND]
+multiplier = "1.0_E21"
+symbol = "Zm/s"
+singular = "zettameter per second"
+plural = "zettameters per second"
+
+[units.EXAMETER_PER_SECOND]
+multiplier = "1.0_E18"
+symbol = "Em/s"
+singular = "exameter per second"
+plural = "exameters per second"
+
+[units.PETAMETER_PER_SECOND]
+multiplier = "1.0_E15"
+symbol = "Pm/s"
+singular = "petameter per second"
+plural = "petameters per second"
+
+[units.TERAMETER_PER_SECOND]
+multiplier = "1.0_E12"
+symbol = "Tm/s"
+singular = "terameter per second"
+plural = "terameters per second"
+
+[units.GIGAMETER_PER_SECOND]
+multiplier = "1.0_E9"
+symbol = "Gm/s"
+singular = "gigameter per second"
+plural = "gigameters per second"
+
+[units.MEGAMETER_PER_SECOND]
+multiplier = "1.0_E6"
+symbol = "Mm/s"
+singular = "megameter per second"
+plural = "megameters per second"
+
+[units.KILOMETER_PER_SECOND]
+multiplier = "1.0_E3"
+symbol = "km/s"
+singular = "kilometer per second"
+plural = "kilometers per second"
+
+[units.HECTOMETER_PER_SECOND]
+multiplier = "1.0_E2"
+symbol = "hm/s"
+singular = "hectometer per second"
+plural = "hectometers per second"
+
+[units.DECAMETER_PER_SECOND]
+multiplier = "1.0E1"
+symbol = "dam/s"
+singular = "decameter per second"
+plural = "decameters per second"
+
+[units.METER_PER_SECOND]
+multiplier = "1.0E0"
+symbol = "m/s"
+singular = "meter per second"
+plural = "meters per second"
+
+[units.DECIMETER_PER_SECOND]
+multiplier = "1.0E-1"
+symbol = "dm/s"
+singular = "decimeter per second"
+plural = "decimeters per second"
+
+[units.CENTIMETER_PER_SECOND]
+multiplier = "1.0E-2"
+symbol = "cm/s"
+singular = "centimeter per second"
+plural = "centimeters per second"
+
+[units.MILLIMETER_PER_SECOND]
+multiplier = "1.0E-3"
+symbol = "mm/s"
+singular = "millimeter per second"
+plural = "millimeters per second"
+
+[units.MICROMETER_PER_SECOND]
+multiplier = "1.0E-6"
+symbol = "µm/s"
+singular = "micrometer per second"
+plural = "micrometers per second"
+
+[units.NANOMETER_PER_SECOND]
+multiplier = "1.0E-9"
+symbol = "nm/s"
+singular = "nanometer per second"
+plural = "nanometers per second"
+
+[units.PICOMETER_PER_SECOND]
+multiplier = "1.0E-12"
+symbol = "pm/s"
+singular = "picometer per second"
+plural = "picometers per second"
+
+[units.FEMTOMETER_PER_SECOND]
+multiplier = "1.0E-15"
+symbol = "fm/s"
+singular = "femtometer per second"
+plural = "femtometers per second"
+
+[units.ATTOMETER_PER_SECOND]
+multiplier = "1.0E-18"
+symbol = "am/s"
+singular = "attometer per second"
+plural = "attometers per second"
+
+[units.ZEPTOMETER_PER_SECOND]
+multiplier = "1.0E-21"
+symbol = "zm/s"
+singular = "zeptometer per second"
+plural = "zeptometers per second"
+
+[units.YOCTOMETER_PER_SECOND]
+multiplier = "1.0E-24"
+symbol = "ym/s"
+singular = "yoctometer per second"
+plural = "yoctometers per second"
+
+[units.FOOT_PER_HOUR]
+multiplier = "8.466_666_666_666_667_E-5"
+symbol = "ft/h"
+singular = "foot per hour"
+plural = "feet per hour"
+
+[units.FOOT_PER_MINUTE]
+multiplier = "5.08_E-3"
+symbol = "ft/min"
+singular = "foot per minute"
+plural = "feet per minute"
+
+[units.FOOT_PER_SECOND]
+multiplier = "3.048_E-1"
+symbol = "ft/s"
+singular = "foot per second"
+plural = "feet per second"
+
+[units.INCH_PER_SECOND]
+multiplier = "2.54_E-2"
+symbol = "in/s"
+singular = "inch per second"
+plural = "inches per second"
+
+[units.KILOMETER_PER_HOUR]
+multiplier = "2.777_777_777_777_778_E-1"
+symbol = "km/h"
+singular = "kilometer per hour"
+plural = "kilometers per hour"
+
+[units.KNOT]
+multiplier = "5.144_444_444_444_445_E-1"
+symbol = "kn"
+singular = "knot"
+plural = "knots"
+
+[units.MILE_PER_HOUR]
+multiplier = "4.470_4_E-1"
+symbol = "mi/h"
+singular = "mile per hour"
+plural = "miles per hour"
+
+[units.MILE_PER_MINUTE]
+multiplier = "2.682_24_E1"
+symbol = "mi/min"
+singular = "mile per minute"
+plural = "miles per minute"
+
+[units.MILE_PER_SECOND]
+multiplier = "1.609_344_E3"
+symbol = "mi/s"
+singular = "mile per second"
+plural = "miles per second"
+
+[units.MILLIMETER_PER_MINUTE]
+multiplier = "1.666_666_666_666_666_667_E-5"
+symbol = "mm/min"
+singular = "millimeter per minute"
+plural = "millimeters per minute"
+
+[units.ATOMIC_UNIT_OF_VELOCITY]
+multiplier = "2.187_691_263_64_E6"
+symbol = "a₀·Eₕ/ħ"
+singular = "atomic unit of velocity"
+plural = "atomic units of velocity"
+
+[units.NATURAL_UNIT_OF_VELOCITY]
+multiplier = "299_792_458.0"
+symbol = "c"
+singular = "natural unit of velocity"
+plural = "natural units of velocity"
+
+[units.SPEED_OF_LIGHT_IN_VACUUM]
+multiplier = "299_792_458.0"
+symbol = "c"
+singular = "speed of light in vacuum"
+plural = "speeds of light in vacuum"
+

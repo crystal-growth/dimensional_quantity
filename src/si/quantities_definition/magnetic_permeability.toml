@@ -1,0 +1,31 @@
+name = "Magnetic permeability"
+symbol = "MagneticPermeability"
+snake_case_name = "magnetic_permeability"
+short_dim_formula = "L⋅M⋅T<sup>-2</sup>⋅I<sup>-2</sup>"
+long_dim_formula = "Length⋅Mass⋅Time<sup>-2</sup>⋅Electric current<sup>-2</sup>"
+units_formula = "m⋅kg⋅s<sup>-2</sup>⋅A<sup>-2</sup>"
+
+[dimensions]
+length = 1
+mass = 1
+time = -2
+electric_current = -2
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.HENRY_PER_METER]
+multiplier = "1.0E0"
+symbol = "H/m"
+singular = "henry per meter"
+plural = "henrys per meter"
+
+[units.VACUUM_MAGNETIC_PERMEABILITY]
+multiplier = "1.256_637_062_12_E-6"
+symbol = "µ₀"
+singular = "vacuum magnetic permeability"
+plural = "vacuum magnetic permeability"
+

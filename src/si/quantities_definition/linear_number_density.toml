@@ -1,0 +1,91 @@
+name = "Linear number density"
+symbol = "LinearNumberDensity"
+snake_case_name = "linear_number_density"
+short_dim_formula = "L<sup>-1</sup>"
+long_dim_formula = "Length<sup>-1</sup>"
+units_formula = "m<sup>-1</sup>"
+
+[dimensions]
+length = -1
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.PER_KILOMETER]
+multiplier = "1.0_E-3"
+symbol = "km⁻¹"
+singular = "per kilometer"
+plural = "per kilometer"
+
+[units.PER_METER]
+multiplier = "1.0E0"
+symbol = "m⁻¹"
+singular = "per meter"
+plural = "per meter"
+
+[units.PER_DECIMETER]
+multiplier = "1.0_E+1"
+symbol = "dm⁻¹"
+singular = "per decimeter"
+plural = "per decimeter"
+
+[units.PER_CENTIMETER]
+multiplier = "1.0_E+2"
+symbol = "cm⁻¹"
+singular = "per centimeter"
+plural = "per centimeter"
+
+[units.PER_MILLIMETER]
+multiplier = "1.0_E+3"
+symbol = "mm⁻¹"
+singular = "per millimeter"
+plural = "per millimeter"
+
+[units.PER_FOOT]
+multiplier = "3.2808398950131_E+0"
+symbol = "ft⁻¹"
+singular = "per foot"
+plural = "per foot"
+
+[units.PER_FOOT_SURVEY]
+multiplier = "3.2808334366796_E+0"
+symbol = "ft(U.S.survey)"
+singular = "foot (U.S. survey)"
+plural = "foot (U.S. survey)"
+
+[units.PER_INCH]
+multiplier = "3.9370078740157_E+1"
+symbol = "in⁻¹"
+singular = "per inch"
+plural = "per inch"
+
+[units.PER_MILE]
+multiplier = "6.2137119223733_E-4"
+symbol = "mi⁻¹"
+singular = "per mile"
+plural = "per mile"
+
+[units.PER_MILE_SURVEY]
+multiplier = "6.2137003393302_E-4"
+symbol = "mi⁻¹(U.S.survey)"
+singular = "per mile (U.S. survey)"
+plural = "per mile (U.S. survey)"
+
+[units.PER_NAUTICAL_MILE]
+multiplier = "5.3995680345572_E-4"
+symbol = "M⁻¹"
+singular = "per nautical mile"
+plural = "per nautical mile"
+
+[units.PER_YARD]
+multiplier = "1.0936132983377_E+0"
+symbol = "yd⁻¹"
+singular = "per yard"
+plural = "per yard"
+

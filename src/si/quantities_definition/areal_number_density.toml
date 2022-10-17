@@ -1,0 +1,109 @@
+name = "Areal number density"
+symbol = "ArealNumberDensity"
+snake_case_name = "areal_number_density"
+short_dim_formula = "L<sup>-2</sup>"
+long_dim_formula = "Length<sup>-2</sup>"
+units_formula = "m<sup>-2</sup>"
+
+[dimensions]
+length = -2
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.PER_SQUARE_KILOMETER]
+multiplier = "1.0_E-6"
+symbol = "km⁻²"
+singular = "per square kilometer"
+plural = "per square kilometer"
+
+[units.PER_SQUARE_METER]
+multiplier = "1.0E0"
+symbol = "m⁻²"
+singular = "per square meter"
+plural = "per square meter"
+
+[units.PER_SQUARE_DECIMETER]
+multiplier = "1.0_E+2"
+symbol = "dm⁻²"
+singular = "per square decimeter"
+plural = "per square decimeter"
+
+[units.PER_SQUARE_CENTIMETER]
+multiplier = "1.0_E+4"
+symbol = "cm⁻²"
+singular = "per square centimeter"
+plural = "per square centimeter"
+
+[units.PER_SQUARE_MILLIMETER]
+multiplier = "1.0_E+6"
+symbol = "mm⁻²"
+singular = "per square millimeter"
+plural = "per square millimeter"
+
+[units.PER_SQUARE_MICROMETER]
+multiplier = "1.0_E+12"
+symbol = "µm⁻²"
+singular = "per square micrometer"
+plural = "per square micrometer"
+
+[units.PER_ACRE]
+multiplier = "2.4710436922533_E-4"
+symbol = "ac⁻²"
+singular = "per acre"
+plural = "per acre"
+
+[units.PER_ARE]
+multiplier = "1.0_E-2"
+symbol = "a⁻²"
+singular = "per are"
+plural = "per are"
+
+[units.PER_BARN]
+multiplier = "1.0_E+28"
+symbol = "b⁻²"
+singular = "per barn"
+plural = "per barn"
+
+[units.PER_CIRCULAR_MIL]
+multiplier = "1.9735251599789_E+9"
+symbol = "cmil⁻²"
+singular = "per circular mil"
+plural = "per circular mil"
+
+[units.PER_HECTARE]
+multiplier = "1.0_E-4"
+symbol = "ha⁻²"
+singular = "per hectare"
+plural = "per hectare"
+
+[units.PER_SQUARE_FOOT]
+multiplier = "1.076391041671_E+1"
+symbol = "ft⁻²"
+singular = "per square foot"
+plural = "per square foot"
+
+[units.PER_SQUARE_INCH]
+multiplier = "1.5500031000062_E+3"
+symbol = "in⁻²"
+singular = "per square inch"
+plural = "per square inch"
+
+[units.PER_SQUARE_MILE]
+multiplier = "3.8610217499077_E-7"
+symbol = "mi⁻²"
+singular = "per square mile"
+plural = "per square mile"
+
+[units.PER_SQUARE_YARD]
+multiplier = "1.1959899890854_E+0"
+symbol = "yd⁻²"
+singular = "per square yard"
+plural = "per square yard"
+

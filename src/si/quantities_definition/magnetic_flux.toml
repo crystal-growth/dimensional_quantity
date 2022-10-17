@@ -1,0 +1,151 @@
+name = "Magnetic flux"
+symbol = "MagneticFlux"
+snake_case_name = "magnetic_flux"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-2</sup>⋅I<sup>-1</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-2</sup>⋅Electric current<sup>-1</sup>"
+units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-2</sup>⋅A<sup>-1</sup>"
+
+[dimensions]
+length = 2
+mass = 1
+time = -2
+electric_current = -1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTAWEBER]
+multiplier = "1.0_E24"
+symbol = "YWb"
+singular = "yottaweber"
+plural = "yottawebers"
+
+[units.ZETTAWEBER]
+multiplier = "1.0_E21"
+symbol = "ZWb"
+singular = "zettaweber"
+plural = "zettawebers"
+
+[units.EXAWEBER]
+multiplier = "1.0_E18"
+symbol = "EWb"
+singular = "exaweber"
+plural = "exawebers"
+
+[units.PETAWEBER]
+multiplier = "1.0_E15"
+symbol = "PWb"
+singular = "petaweber"
+plural = "petawebers"
+
+[units.TERAWEBER]
+multiplier = "1.0_E12"
+symbol = "TWb"
+singular = "teraweber"
+plural = "terawebers"
+
+[units.GIGAWEBER]
+multiplier = "1.0_E9"
+symbol = "GWb"
+singular = "gigaweber"
+plural = "gigawebers"
+
+[units.MEGAWEBER]
+multiplier = "1.0_E6"
+symbol = "MWb"
+singular = "megaweber"
+plural = "megawebers"
+
+[units.KILOWEBER]
+multiplier = "1.0_E3"
+symbol = "kWb"
+singular = "kiloweber"
+plural = "kilowebers"
+
+[units.HECTOWEBER]
+multiplier = "1.0_E2"
+symbol = "hWb"
+singular = "hectoweber"
+plural = "hectowebers"
+
+[units.DECAWEBER]
+multiplier = "1.0E1"
+symbol = "daWb"
+singular = "decaweber"
+plural = "decawebers"
+
+[units.WEBER]
+multiplier = "1.0E0"
+symbol = "Wb"
+singular = "weber"
+plural = "webers"
+
+[units.DECIWEBER]
+multiplier = "1.0E-1"
+symbol = "dWb"
+singular = "deciweber"
+plural = "deciwebers"
+
+[units.CENTIWEBER]
+multiplier = "1.0E-2"
+symbol = "cWb"
+singular = "centiweber"
+plural = "centiwebers"
+
+[units.MILLIWEBER]
+multiplier = "1.0E-3"
+symbol = "mWb"
+singular = "milliweber"
+plural = "milliwebers"
+
+[units.MICROWEBER]
+multiplier = "1.0E-6"
+symbol = "µWb"
+singular = "microweber"
+plural = "microwebers"
+
+[units.NANOWEBER]
+multiplier = "1.0E-9"
+symbol = "nWb"
+singular = "nanoweber"
+plural = "nanowebers"
+
+[units.PICOWEBER]
+multiplier = "1.0E-12"
+symbol = "pWb"
+singular = "picoweber"
+plural = "picowebers"
+
+[units.FEMTOWEBER]
+multiplier = "1.0E-15"
+symbol = "fWb"
+singular = "femtoweber"
+plural = "femtowebers"
+
+[units.ATTOWEBER]
+multiplier = "1.0E-18"
+symbol = "aWb"
+singular = "attoweber"
+plural = "attowebers"
+
+[units.ZEPTOWEBER]
+multiplier = "1.0E-21"
+symbol = "zWb"
+singular = "zeptoweber"
+plural = "zeptowebers"
+
+[units.YOCTOWEBER]
+multiplier = "1.0E-24"
+symbol = "yWb"
+singular = "yoctoweber"
+plural = "yoctowebers"
+
+[units.MAXWELL]
+multiplier = "1.0_E-8"
+symbol = "Mx"
+singular = "maxwell"
+plural = "maxwells"
+

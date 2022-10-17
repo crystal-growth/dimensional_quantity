@@ -1,0 +1,13 @@
+[package]
+name = "dimensional_quantity"
+version = "0.0.1"
+edition = "2021"
+
+
+[dependencies]
+num-traits = "0.2.15"
+
+[build-dependencies]
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.5.9"
+num-traits = "0.2.15"

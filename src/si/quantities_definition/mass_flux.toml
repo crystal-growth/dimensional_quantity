@@ -1,0 +1,31 @@
+name = "Mass flux"
+symbol = "MassFlux"
+snake_case_name = "mass_flux"
+short_dim_formula = "L<sup>-2</sup>⋅M⋅T<sup>-1</sup>"
+long_dim_formula = "Length<sup>-2</sup>⋅Mass⋅Time<sup>-1</sup>"
+units_formula = "m<sup>-2</sup>⋅kg⋅s<sup>-1</sup>"
+
+[dimensions]
+length = -2
+mass = 1
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.KILOGRAM_PER_SQUARE_METER_SECOND]
+multiplier = "1.0E0"
+symbol = "kg/(m²·s)"
+singular = "kilogram per square meter second"
+plural = "kilograms per square meter second"
+
+[units.GRAM_PER_SQUARE_CENTIMETER_SECOND]
+multiplier = "1.0_E+1"
+symbol = "g/(cm²·s)"
+singular = "gram per square centimeter second"
+plural = "grams per square centimeter second"
+

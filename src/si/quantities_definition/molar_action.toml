@@ -1,0 +1,55 @@
+name = "Molar action"
+symbol = "MolarAction"
+snake_case_name = "molar_action"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-1</sup>⋅N<sup>-1</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-1</sup>⋅Amount of substance<sup>-1</sup>"
+units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-1</sup>⋅mol<sup>-1</sup>"
+
+[dimensions]
+length = 2
+mass = 1
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = -1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.JOULE_SECOND_PER_MOLE]
+multiplier = "1.0E0"
+symbol = "J·s/mol"
+singular = "joule second per mole"
+plural = "joules second per mole"
+
+[units.ATOMIC_UNIT_OF_ACTION_PER_MOLE]
+multiplier = "1.054_571_817_E-34"
+symbol = "ħ/mol"
+singular = "atomic unit of action per mole"
+plural = "atomic units of action per mole"
+
+[units.REDUCED_PLANCK_CONSTANT_PER_MOLE]
+multiplier = "1.054_571_817_E-34"
+symbol = "ħ/mol"
+singular = "reduced planck constant per mole"
+plural = "reduced planck constants per mole"
+
+[units.PLANCK_CONSTANT_PER_MOLE]
+multiplier = "6.626_070_15_E-34"
+symbol = "h/mol"
+singular = "planck constant per mole"
+plural = "planck constants per mole"
+
+[units.ERG_SECOND_PER_MOLE]
+multiplier = "1.0_E-7"
+symbol = "erg⋅s/mol"
+singular = "erg second per mole"
+plural = "erg seconds per mole"
+
+[units.ELECTRONVOLT_SECOND_PER_MOLE]
+multiplier = "1.602_176_634_E-19"
+symbol = "eV⋅s/mol"
+singular = "electronvolt second"
+plural = "electronvolt seconds"
+

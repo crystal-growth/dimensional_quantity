@@ -1,0 +1,145 @@
+name = "Luminous intensity"
+symbol = "LuminousIntensity"
+snake_case_name = "luminous_intensity"
+short_dim_formula = "J"
+long_dim_formula = "Luminous intensity"
+units_formula = "cd"
+
+[dimensions]
+length = 0
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 1
+angle = 0
+information = 0
+
+[units.YOTTACANDELA]
+multiplier = "1.0_E24"
+symbol = "Ycd"
+singular = "yottacandela"
+plural = "yottacandelas"
+
+[units.ZETTACANDELA]
+multiplier = "1.0_E21"
+symbol = "Zcd"
+singular = "zettacandela"
+plural = "zettacandelas"
+
+[units.EXACANDELA]
+multiplier = "1.0_E18"
+symbol = "Ecd"
+singular = "exacandela"
+plural = "exacandelas"
+
+[units.PETACANDELA]
+multiplier = "1.0_E15"
+symbol = "Pcd"
+singular = "petacandela"
+plural = "petacandelas"
+
+[units.TERACANDELA]
+multiplier = "1.0_E12"
+symbol = "Tcd"
+singular = "teracandela"
+plural = "teracandelas"
+
+[units.GIGACANDELA]
+multiplier = "1.0_E9"
+symbol = "Gcd"
+singular = "gigacandela"
+plural = "gigacandelas"
+
+[units.MEGACANDELA]
+multiplier = "1.0_E6"
+symbol = "Mcd"
+singular = "megacandela"
+plural = "megacandelas"
+
+[units.KILOCANDELA]
+multiplier = "1.0_E3"
+symbol = "kcd"
+singular = "kilocandela"
+plural = "kilocandelas"
+
+[units.HECTOCANDELA]
+multiplier = "1.0_E2"
+symbol = "hcd"
+singular = "hectocandela"
+plural = "hectocandelas"
+
+[units.DECACANDELA]
+multiplier = "1.0E1"
+symbol = "dacd"
+singular = "decacandela"
+plural = "decacandelas"
+
+[units.CANDELA]
+multiplier = "1.0E0"
+symbol = "cd"
+singular = "candela"
+plural = "candelas"
+
+[units.DECICANDELA]
+multiplier = "1.0E-1"
+symbol = "dcd"
+singular = "decicandela"
+plural = "decicandelas"
+
+[units.CENTICANDELA]
+multiplier = "1.0E-2"
+symbol = "ccd"
+singular = "centicandela"
+plural = "centicandelas"
+
+[units.MILLICANDELA]
+multiplier = "1.0E-3"
+symbol = "mcd"
+singular = "millicandela"
+plural = "millicandelas"
+
+[units.MICROCANDELA]
+multiplier = "1.0E-6"
+symbol = "µcd"
+singular = "microcandela"
+plural = "microcandelas"
+
+[units.NANOCANDELA]
+multiplier = "1.0E-9"
+symbol = "ncd"
+singular = "nanocandela"
+plural = "nanocandelas"
+
+[units.PICOCANDELA]
+multiplier = "1.0E-12"
+symbol = "pcd"
+singular = "picocandela"
+plural = "picocandelas"
+
+[units.FEMTOCANDELA]
+multiplier = "1.0E-15"
+symbol = "fcd"
+singular = "femtocandela"
+plural = "femtocandelas"
+
+[units.ATTOCANDELA]
+multiplier = "1.0E-18"
+symbol = "acd"
+singular = "attocandela"
+plural = "attocandelas"
+
+[units.ZEPTOCANDELA]
+multiplier = "1.0E-21"
+symbol = "zcd"
+singular = "zeptocandela"
+plural = "zeptocandelas"
+
+[units.YOCTOCANDELA]
+multiplier = "1.0E-24"
+symbol = "ycd"
+singular = "yoctocandela"
+plural = "yoctocandelas"
+

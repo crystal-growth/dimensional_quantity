@@ -1,0 +1,24 @@
+name = "Josephson constant"
+symbol = "JosephsonConstant"
+snake_case_name = "josephson_constant"
+short_dim_formula = "L<sup>-2</sup>⋅M<sup>-1</sup>⋅T<sup>2</sup>⋅I"
+long_dim_formula = "Length<sup>-2</sup>⋅Mass<sup>-1</sup>⋅Time<sup>2</sup>⋅Electric current"
+units_formula = "m<sup>-2</sup>⋅kg<sup>-1</sup>⋅s<sup>2</sup>⋅A"
+
+[dimensions]
+length = -2
+mass = -1
+time = 2
+electric_current = 1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.HERTZ_PER_VOLT]
+multiplier = "1.0E0"
+symbol = "Hz/V"
+singular = "hertz per volt"
+plural = "hertz per volt"

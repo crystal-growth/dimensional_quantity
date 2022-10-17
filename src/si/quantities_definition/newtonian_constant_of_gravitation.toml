@@ -1,0 +1,31 @@
+name = "Newtonian constant of gravitation"
+symbol = "NewtonianConstantOfGravitation"
+snake_case_name = "newtonian_constant_of_gravitation"
+short_dim_formula = "L<sup>3</sup>⋅M<sup>-1</sup>⋅T<sup>-2</sup>"
+long_dim_formula = "Length<sup>3</sup>⋅Mass<sup>-1</sup>⋅Time<sup>-2</sup>"
+units_formula = "m<sup>3</sup>⋅kg<sup>-1</sup>⋅s<sup>-2</sup>"
+
+[dimensions]
+length = 3
+mass = -1
+time = -2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.CUBIC_METER_PER_KILOGRAM_SQUARE_SECOND]
+multiplier = "1.0E0"
+symbol = "m³·kg⁻¹·s⁻²"
+singular = "cubic meter per kilogram square second"
+plural = "cubic meters per kilogram square second"
+
+[units.NEWTONIAN_CONSTANT_OF_GRAVITATION]
+multiplier = "6.674_30_E-11"
+symbol = "G"
+singular = "newtonian constant of gravitation"
+plural = "newtonian constants of gravitation"
+

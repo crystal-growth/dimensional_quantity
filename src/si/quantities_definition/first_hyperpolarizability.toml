@@ -1,0 +1,26 @@
+name = "First hyperpolarizability"
+symbol = "FirstHyperpolarizability"
+snake_case_name = "first_hyperpolarizability"
+short_dim_formula = "L<sup>-1</sup>⋅M<sup>-2</sup>⋅T<sup>7</sup>⋅I<sup>3</sup>"
+long_dim_formula = "Length<sup>-1</sup>⋅Mass<sup>-2</sup>⋅Time<sup>7</sup>⋅Electric current<sup>3</sup>"
+units_formula = "m<sup>-1</sup>⋅kg<sup>-2</sup>⋅s<sup>7</sup>⋅A<sup>3</sup>"
+
+[dimensions]
+length = -1
+mass = -2
+time = 7
+electric_current = 3
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+
+
+[units.CUBIC_COULOMB_CUBIC_METER_PER_SQUARE_JOULE]
+multiplier = "1.0_E0"
+symbol = "C<sup>3</sup>⋅m<sup>3</sup>/J<sup>2</sup>"
+singular = "cubic coulomb cubic meter per square joule"
+plural = "cubic coulomb cubic meters per square joule"

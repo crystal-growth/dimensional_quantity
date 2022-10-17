@@ -1,0 +1,24 @@
+name = "Luminous efficacy"
+symbol = "LuminousEfficacy"
+snake_case_name = "luminous_efficacy"
+short_dim_formula = "L<sup>-2</sup>⋅M<sup>-1</sup>⋅T<sup>3</sup>⋅J⋅θ<sup>2</sup>"
+long_dim_formula = "Length<sup>-2</sup>⋅Mass<sup>-1</sup>⋅Time<sup>3</sup>⋅Luminous intensity⋅Angle<sup>2</sup>"
+units_formula = "m<sup>-2</sup>⋅kg<sup>-1</sup>⋅s<sup>3</sup>⋅cd⋅rad<sup>2</sup>"
+
+[dimensions]
+length = -2
+mass = -1
+time = 3
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 1
+angle = 2
+information = 0
+
+[units.LUMEN_PER_WATT]
+multiplier = "1.0E0"
+symbol = "lm/W"
+singular = "lumen per watt"
+plural = "lumens per watt"

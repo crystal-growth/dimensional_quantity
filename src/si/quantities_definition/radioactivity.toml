@@ -1,0 +1,151 @@
+name = "Radioactivity"
+symbol = "Radioactivity"
+snake_case_name = "radioactivity"
+short_dim_formula = "T<sup>-1</sup>"
+long_dim_formula = "Time<sup>-1</sup>"
+units_formula = "s<sup>-1</sup>"
+
+[dimensions]
+length = 0
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.YOTTABECQUEREL]
+multiplier = "1.0_E24"
+symbol = "YBq"
+singular = "yottabecquerel"
+plural = "yottabecquerels"
+
+[units.ZETTABECQUEREL]
+multiplier = "1.0_E21"
+symbol = "ZBq"
+singular = "zettabecquerel"
+plural = "zettabecquerels"
+
+[units.EXABECQUEREL]
+multiplier = "1.0_E18"
+symbol = "EBq"
+singular = "exabecquerel"
+plural = "exabecquerels"
+
+[units.PETABECQUEREL]
+multiplier = "1.0_E15"
+symbol = "PBq"
+singular = "petabecquerel"
+plural = "petabecquerels"
+
+[units.TERABECQUEREL]
+multiplier = "1.0_E12"
+symbol = "TBq"
+singular = "terabecquerel"
+plural = "terabecquerels"
+
+[units.GIGABECQUEREL]
+multiplier = "1.0_E9"
+symbol = "GBq"
+singular = "gigabecquerel"
+plural = "gigabecquerels"
+
+[units.MEGABECQUEREL]
+multiplier = "1.0_E6"
+symbol = "MBq"
+singular = "megabecquerel"
+plural = "megabecquerels"
+
+[units.KILOBECQUEREL]
+multiplier = "1.0_E3"
+symbol = "kBq"
+singular = "kilobecquerel"
+plural = "kilobecquerels"
+
+[units.HECTOBECQUEREL]
+multiplier = "1.0_E2"
+symbol = "hBq"
+singular = "hectobecquerel"
+plural = "hectobecquerels"
+
+[units.DECABECQUEREL]
+multiplier = "1.0E1"
+symbol = "daBq"
+singular = "decabecquerel"
+plural = "decabecquerels"
+
+[units.BECQUEREL]
+multiplier = "1.0E0"
+symbol = "Bq"
+singular = "becquerel"
+plural = "becquerels"
+
+[units.MILLIBECQUEREL]
+multiplier = "1.0E-3"
+symbol = "mBq"
+singular = "millibecquerel"
+plural = "millibecquerels"
+
+[units.MICROBECQUEREL]
+multiplier = "1.0E-6"
+symbol = "µBq"
+singular = "microbecquerel"
+plural = "microbecquerels"
+
+[units.NANOBECQUEREL]
+multiplier = "1.0E-9"
+symbol = "nBq"
+singular = "nanobecquerel"
+plural = "nanobecquerels"
+
+[units.GIGACURIE]
+multiplier = "3.7_E+19"
+symbol = "GCi"
+singular = "gigacurie"
+plural = "gigacurie"
+
+[units.MEGACURIE]
+multiplier = "3.7_E+16"
+symbol = "MCi"
+singular = "megacurie"
+plural = "megacurie"
+
+[units.KILOCURIE]
+multiplier = "3.7_E+13"
+symbol = "kCi"
+singular = "kilocurie"
+plural = "kilocurie"
+
+[units.CURIE]
+multiplier = "3.7_E10"
+symbol = "Ci"
+singular = "curie"
+plural = "curie"
+
+[units.MILLICURIE]
+multiplier = "3.7_E+7"
+symbol = "mCi"
+singular = "millicurie"
+plural = "millicurie"
+
+[units.MICROCURIE]
+multiplier = "3.7_E+4"
+symbol = "µCi"
+singular = "microcurie"
+plural = "microcurie"
+
+[units.NANOCURIE]
+multiplier = "3.7_E+1"
+symbol = "nCi"
+singular = "nanocurie"
+plural = "nanocurie"
+
+[units.DISINTEGRATIONS_PER_MINUTE]
+multiplier = "1.6666666666667_E-2"
+symbol = "dpm"
+singular = "disintegration per minute"
+plural = "disintegrations per minute"
+
