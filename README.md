@@ -218,4 +218,6 @@ plural = "square centimeters"
 
 
 ## Licence
-Licensed under either of Apache License, Version 2.0 or MIT license (LICENSE-MIT or https://opensource.org/licenses/MIT) at your option.
+Licensed under either of Apache License, Version 2.0 or MIT license (LICENSE-MIT or <https://opensource.org/licenses/MIT>) at your option.
+
+License: MIT OR Apache-2.0

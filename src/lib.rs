@@ -222,7 +222,7 @@
 //! 
 //! 
 //! # Licence
-//! Licensed under either of Apache License, Version 2.0 or MIT license (LICENSE-MIT or https://opensource.org/licenses/MIT) at your option. 
+//! Licensed under either of Apache License, Version 2.0 or MIT license (LICENSE-MIT or <https://opensource.org/licenses/MIT>) at your option. 
 
 #![allow(clippy::excessive_precision)]
 
