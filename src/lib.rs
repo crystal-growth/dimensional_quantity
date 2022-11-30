@@ -216,7 +216,7 @@
 //! [units.SQUARE_CENTIMETER]
 //! multiplier = "1.0_E-4"
 //! symbol = "cm²"
-//! singular = "square centimeter
+//! singular = "square centimeter"
 //! plural = "square centimeters"
 //! ```
 //! 
