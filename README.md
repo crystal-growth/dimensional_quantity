@@ -17,12 +17,22 @@ and build it with nightly by using ```cargo +nightly```:
 cargo +nightly build
 ```
 
-or by adding ```rust-toolchain.toml``` file with the following content to your project
+or by adding `rust-toolchain.toml` file with the following content to your project
 ```toml
 [toolchain]
 channel = "nightly"
 ```
+
+and add this to your `Cargo.toml`
+
+```toml
+[dependencies]
+dimensional_quantity = "0.0.1-alpha.4"
+```
+
+
 Here you will find:
+
 * [Predefined dimensional quantities for International System of Units (SI)](si::extended::f64).
 * [Dimensional units of measure](si::extended::f64::units_of_measure).
 
