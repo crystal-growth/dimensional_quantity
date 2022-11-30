@@ -2,7 +2,12 @@
 name = "dimensional_quantity"
 version = "0.0.1-alpha.1"
 edition = "2021"
-
+license = "MIT OR Apache-2.0"
+description = "Check units of measure at compile time using generic const expressions"
+repository = "https://github.com/crystal-growth/dimensional_quantity"
+homepage = "https://github.com/crystal-growth/dimensional_quantity"
+documentation = "https://docs.rs/dimensional_quantity"
+readme = "README.md"
 
 [dependencies]
 num-traits = "0.2.*"
