@@ -162,7 +162,7 @@
 //! #![feature(generic_const_exprs)]
 //! use dimensional_quantity::si::extended::f64::quantities::{Information, Volume};
 //! use dimensional_quantity::si::extended::f64::Quantity;
-//! // New quantity: amount of information per unit of volume, standard unit of measure: Byte per cubic meter, B ⋅ m<sup>-3</sup>:
+//! // New quantity: amount of information per unit of volume, standard unit of measure: Bit per cubic meter, B ⋅ m<sup>-3</sup>:
 //! pub type VolumetricInformationDensity = Quantity<
 //!                                                 -3, // Length
 //!                                                  0, // Mass
@@ -176,13 +176,54 @@
 //!                                                  1, // Information
 //!                                                   >;
 //!
-//! pub const GIGABYTE_PER_CUBIC_METER: VolumetricInformationDensity = VolumetricInformationDensity::new(1.0_E9);
-//! let information_density_1: VolumetricInformationDensity  = 5.0 * GIGABYTE_PER_CUBIC_METER;
+//! pub const GIGABIT_PER_CUBIC_METER: VolumetricInformationDensity = VolumetricInformationDensity::new(1.0_E9);
+//! let information_density_1: VolumetricInformationDensity  = 5.0 * GIGABIT_PER_CUBIC_METER;
 //! let information_density_2: VolumetricInformationDensity = Information::new(5.0_E9) / Volume::new(1.0);
 //! assert_eq!(information_density_1, information_density_2);
 //! ```
 //!
-//!
+//! 
+//! # Definition of quantities and units of measure
+//! 
+//! Quantities and corresponding units are defined at `src/si/quantities_definition/*toml` files.
+//! 
+//! For example, definition of Area quantity is:
+//! ```toml
+//! name = "Area"
+//! symbol = "Area"
+//! snake_case_name = "area"
+//! short_dim_formula = "L<sup>2</sup>"
+//! long_dim_formula = "Length<sup>2</sup>"
+//! units_formula = "m<sup>2</sup>"
+//! [dimensions]
+//! length = 2
+//! mass = 0
+//! time = 0
+//! electric_current = 0
+//! thermodynamic_temperature = 0
+//! temperature_interval = 0
+//! amount_of_substance = 0
+//! luminous_intensity = 0
+//! angle = 0
+//! information = 0
+//! 
+//! [units.SQUARE_METER]
+//! multiplier = "1.0E0"
+//! symbol = "m²"
+//! singular = "square meter"
+//! plural = "square meters"
+//! 
+//! [units.SQUARE_CENTIMETER]
+//! multiplier = "1.0_E-4"
+//! symbol = "cm²"
+//! singular = "square centimeter
+//! plural = "square centimeters"
+//! ```
+//! 
+//! 
+//! # Licence
+//! Licensed under either of Apache License, Version 2.0 or MIT license (LICENSE-MIT or https://opensource.org/licenses/MIT) at your option. 
+
 #![allow(clippy::excessive_precision)]
 
 pub mod prefix;
