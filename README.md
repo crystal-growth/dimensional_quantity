@@ -2,6 +2,8 @@
 
 Dimensional quantity: checking dimensions of physical quantities in compile time using generic const expressions
 
+[Documentation](https://docs.rs/dimensional_quantity/)
+
 * This crate is **experimental** and uses **unstable** [`generic_const_exprs`](https://github.com/rust-lang/rust/issues/76560)
   feature and can only be compiled with **nightly** toolchain.
 * If you need a **stable** solution, please check excellent [dimensioned](https://github.com/paholg/dimensioned) and [uom](https://github.com/iliekturtles/uom) crates.
