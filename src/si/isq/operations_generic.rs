@@ -1,7 +1,7 @@
 #![allow(clippy::suspicious_arithmetic_impl)]
 
 //! Dimensional quantity type with generic underlying storage
-use std::ops::{Add, Div, Mul, Sub};
+use std::ops::{Add, AddAssign, Div, Mul, Sub, SubAssign};
 
 use num_traits::{Float, Num};
 
@@ -224,6 +224,27 @@ where
     }
 }
 
+/// Implement += operator for dimensional quantities with equal dimension formula
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        Storage: Num,
+    > AddAssign<QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>>
+    for QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>
+where
+    QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>: Sized,
+    Storage: AddAssign,
+{
+    fn add_assign(&mut self, rhs: QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>) {
+        self.0 += rhs.0;
+    }
+}
+
 /// Subtraction of dimensional quantities with equal dimension formula
 impl<
         const L: i64,
@@ -248,6 +269,27 @@ where
         let x = self.0;
         let y = rhs.0;
         QuantityGeneric::<L, M, T, I, TH, N, LUM, Storage>(x - y)
+    }
+}
+
+/// Implement -= operator for dimensional quantities with equal dimension formula
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        Storage: Num,
+    > SubAssign<QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>>
+    for QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>
+where
+    QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>: Sized,
+    Storage: SubAssign,
+{
+    fn sub_assign(&mut self, rhs: QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>) {
+        self.0 -= rhs.0;
     }
 }
 

@@ -2,7 +2,7 @@
 
 //! Dimensional quantity type with generic underlying storage
 //!
-use std::ops::{Add, Div, Mul, Sub};
+use std::ops::{Add, Div, Mul, Sub, AddAssign, SubAssign};
 
 use num_traits::{Float, Num};
 
@@ -243,7 +243,16 @@ impl<
     }
 }
 
-/// Addition of dimensional quantities with equal dimension formula
+///  Assert for generic const parameters
+pub enum Assert<const COND: bool> {}
+///  Assert for generic const parameters
+
+pub trait IsTrue {}
+
+impl IsTrue for Assert<true> {}
+
+
+/// Addition of dimensional quantities with equal dimension formula, except ones containing absolute temperature
 impl<
         const L: i64,
         const M: i64,
@@ -260,6 +269,8 @@ impl<
     for QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>
 where
     QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>: Sized,
+    Assert<{ TH != 1 }>: IsTrue,
+
 {
     type Output = QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>;
 
@@ -272,13 +283,40 @@ where
         QuantityGeneric::<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>(x + y)
     }
 }
-///  Assert for generic const parameters
-pub enum Assert<const COND: bool> {}
-///  Assert for generic const parameters
 
-pub trait IsTrue {}
 
-impl IsTrue for Assert<true> {}
+/// Perform += operation for dimensional quantities with equal dimension formula, except ones containing absolute temperature
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        const D_TH: i64,
+        const A: i64,
+        const INFO: i64,
+        Storage: Num,
+    > AddAssign<QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>>
+    for QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>
+where
+    QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>: Sized,
+    Storage: AddAssign,
+    Assert<{ TH != 1 }>: IsTrue,
+
+{
+
+    fn add_assign(
+        &mut self,
+        rhs: Self,
+    )  {
+        self.0 += rhs.0;
+        
+    }
+}
+
+
 /// Subtraction of dimensional quantities with equal dimension formula, except ones containing absolute temperature
 impl<
         const L: i64,
@@ -309,6 +347,188 @@ where
         QuantityGeneric::<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>(x - y)
     }
 }
+
+
+
+/// Perform -= operation for dimensional quantities with equal dimension formula, except ones containing absolute temperature
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        const D_TH: i64,
+        const A: i64,
+        const INFO: i64,
+        Storage: Num,
+    > SubAssign<QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>>
+    for QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>
+where
+    QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>: Sized,
+    Storage: SubAssign,
+    Assert<{ TH != 1 }>: IsTrue,
+{
+
+    fn sub_assign(
+        &mut self,
+        rhs: QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>,
+    ) {
+        self.0 -= rhs.0
+    }
+}
+
+/// Addition of absolute temperature T with temperature interval ΔT, result is absolute temperature
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        // const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        const A: i64,
+        const INFO: i64,
+        // const D_TH: i64,
+        Storage: Num,
+    > Add<QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>>
+    for QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>
+where
+    QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>: Sized,
+{
+    type Output = QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>;
+
+    fn add(
+        self,
+        rhs: QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>,
+    ) -> QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage> {
+        let x = self.0;
+        let y = rhs.0;
+        QuantityGeneric::<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>(x + y)
+    }
+}
+
+/// Implement += operation for absolute temperature T and temperature interval ΔT
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        // const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        const A: i64,
+        const INFO: i64,
+        // const D_TH: i64,
+        Storage: Num,
+    > AddAssign<QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>>
+    for QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>
+where
+    QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>: Sized,
+    Storage: AddAssign,
+{
+
+    fn add_assign(
+        &mut self,
+        rhs: QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>,
+    )  {
+         self.0 += rhs.0
+       
+    }
+}
+
+
+/// Subtraction of temperature interval ΔT from absolute temperature T, result is absolute temperature
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        // const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        const A: i64,
+        const INFO: i64,
+        // const D_TH: i64,
+        Storage: Num,
+    > Sub<QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>>
+    for QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>
+where
+    QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>: Sized,
+{
+    type Output = QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>;
+
+    fn sub(
+        self,
+        rhs: QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>,
+    ) -> QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage> {
+        let x = self.0;
+        let y = rhs.0;
+        QuantityGeneric::<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>(x - y)
+    }
+}
+
+/// Implement -= operator for absolute temperature T and temperature interval ΔT.
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        // const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        const A: i64,
+        const INFO: i64,
+        // const D_TH: i64,
+        Storage: Num,
+    > SubAssign<QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>>
+    for QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>
+where
+    QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>: Sized,
+    Storage: SubAssign,
+{
+
+    fn sub_assign(
+        &mut self,
+        rhs: QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>,
+    )  {
+        self.0 -= rhs.0
+    }
+}
+
+
+/// Subtracting two absolute temperatures T, result is temperature interval ΔT
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        // const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        const A: i64,
+        const INFO: i64,
+        // const D_TH: i64,
+        Storage: Num,
+    > Sub<QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>>
+    for QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>
+where
+    QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>: Sized,
+{
+    type Output = QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>;
+
+    fn sub(
+        self,
+        rhs: QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>,
+    ) -> QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage> {
+        let x = self.0;
+        let y = rhs.0;
+        QuantityGeneric::<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>(x - y)
+    }
+}
+
+
 
 impl<
         const L: i64,
@@ -558,95 +778,6 @@ where
     }
 }
 
-/// Addition of absolute temperature T with temperature interval ΔT, result is absolute temperature
-impl<
-        const L: i64,
-        const M: i64,
-        const T: i64,
-        const I: i64,
-        // const TH: i64,
-        const N: i64,
-        const LUM: i64,
-        const A: i64,
-        const INFO: i64,
-        // const D_TH: i64,
-        Storage: Num,
-    > Add<QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>>
-    for QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>
-where
-    QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>: Sized,
-{
-    type Output = QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>;
-
-    fn add(
-        self,
-        rhs: QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>,
-    ) -> QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage> {
-        let x = self.0;
-        let y = rhs.0;
-        QuantityGeneric::<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>(x + y)
-    }
-}
-
-/// Subtraction of temperature interval ΔT from absolute temperature T, result is absolute temperature
-impl<
-        const L: i64,
-        const M: i64,
-        const T: i64,
-        const I: i64,
-        // const TH: i64,
-        const N: i64,
-        const LUM: i64,
-        const A: i64,
-        const INFO: i64,
-        // const D_TH: i64,
-        Storage: Num,
-    > Sub<QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>>
-    for QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>
-where
-    QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>: Sized,
-{
-    type Output = QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>;
-
-    fn sub(
-        self,
-        rhs: QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>,
-    ) -> QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage> {
-        let x = self.0;
-        let y = rhs.0;
-        QuantityGeneric::<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>(x - y)
-    }
-}
-
-/// Subtracting two absolute temperatures T, result is temperature interval ΔT
-impl<
-        const L: i64,
-        const M: i64,
-        const T: i64,
-        const I: i64,
-        // const TH: i64,
-        const N: i64,
-        const LUM: i64,
-        const A: i64,
-        const INFO: i64,
-        // const D_TH: i64,
-        Storage: Num,
-    > Sub<QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>>
-    for QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>
-where
-    QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>: Sized,
-{
-    type Output = QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>;
-
-    fn sub(
-        self,
-        rhs: QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>,
-    ) -> QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage> {
-        let x = self.0;
-        let y = rhs.0;
-        QuantityGeneric::<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>(x - y)
-    }
-}
 
 /// Divide f64 by QuantityGeneric
 impl<

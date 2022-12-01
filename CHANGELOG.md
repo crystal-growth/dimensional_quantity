@@ -1,2 +1,5 @@
-# [0.0.1-alpha.5] 01.12.2022
+## [0.0.1-alpha.6] 01.12.2022
+Implemented += and -= operators for SI-extended and SI-isq systems.
+
+## [0.0.1-alpha.5] 01.12.2022
 Square root (sqrt) and cubic root (cbrt) implemented for SI-extended and SI-isq systems.

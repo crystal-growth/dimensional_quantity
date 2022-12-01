@@ -29,7 +29,7 @@ and add this to your `Cargo.toml`
 
 ```toml
 [dependencies]
-dimensional_quantity = "0.0.1-alpha.5"
+dimensional_quantity = "0.0.1-alpha.6"
 ```
 
 
@@ -129,6 +129,11 @@ assert_eq!(red_light_k_in_reciprocal_cm, 966_64.389_341_224_39);
 // that will be discussed below) can be added or subtracted:
 
 let perimeter: Length = 2.0 * (width + height);
+// AddAssign and SubAssign operators are supported
+let mut width_minus_height = Length::new(0.0);
+width_minus_height += width;
+width_minus_height -= height;
+
 assert_eq!(perimeter, Length::new(26.0));
 
 // Dimensional quantities can be multiplied and divided:
@@ -140,7 +145,7 @@ assert_eq!(height_1, height);
 
 // Dimensional quantities can also be raised to an integer power during compile time
 let v: Velocity = Velocity::new(10.0);
-let m: Mass = Mass::new(5.0); // 1 kg
+let m: Mass = Mass::new(5.0); // 5 kg
 let e: Energy = m * v.powi::<2>() / 2.0;
 assert_eq!(e, Energy::new(250.0));
 ```
