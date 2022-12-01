@@ -331,6 +331,140 @@ where
     }
 }
 
+///  Assert for generic const parameters
+pub enum Assert<const COND: bool> {}
+///  Assert for generic const parameters
+
+pub trait IsTrue {}
+
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        Storage: Num,
+    > QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>
+where
+    QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>: Sized,
+    Storage: Float,
+    Assert<{ L % 2 == 0 }>: IsTrue,
+    Assert<{ M % 2 == 0 }>: IsTrue,
+    Assert<{ T % 2 == 0 }>: IsTrue,
+    Assert<{ I % 2 == 0 }>: IsTrue,
+    Assert<{ TH % 2 == 0 }>: IsTrue,
+    Assert<{ N % 2 == 0 }>: IsTrue,
+    Assert<{ LUM % 2 == 0 }>: IsTrue,
+{
+    /// Square root.
+    /// ```
+    /// #![feature(generic_const_exprs)]
+    /// use dimensional_quantity::si::extended::f64::quantities::{Area, Length};
+    /// let a:Area = Area::new(100.0);
+    /// let l: Length = a.sqrt();
+    ///
+    /// assert_eq!(l, Length::new(10.0));
+    /// ```
+    ///
+    /// ```compile_fail
+    /// #![feature(generic_const_exprs)]
+    /// use dimensional_quantity::si::extended::f64::quantities::{Volume, Length};
+    /// let v: Volume = Volume::new(100.0);
+    /// let x = v.sqrt();
+    ///
+    ///
+    /// ```
+    pub fn sqrt(
+        &self,
+    ) -> QuantityGeneric<
+        { L / 2 },
+        { M / 2 },
+        { T / 2 },
+        { I / 2 },
+        { TH / 2 },
+        { N / 2 },
+        { LUM / 2 },
+        Storage,
+    > {
+        QuantityGeneric::<
+            { L / 2 },
+            { M / 2 },
+            { T / 2 },
+            { I / 2 },
+            { TH / 2 },
+            { N / 2 },
+            { LUM / 2 },
+            Storage,
+        >(self.0.sqrt())
+    }
+}
+
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        Storage: Num,
+    > QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>
+where
+    QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>: Sized,
+    Storage: Float,
+    Assert<{ L % 3 == 0 }>: IsTrue,
+    Assert<{ M % 3 == 0 }>: IsTrue,
+    Assert<{ T % 3 == 0 }>: IsTrue,
+    Assert<{ I % 3 == 0 }>: IsTrue,
+    Assert<{ TH % 3 == 0 }>: IsTrue,
+    Assert<{ N % 3 == 0 }>: IsTrue,
+    Assert<{ LUM % 3 == 0 }>: IsTrue,
+{
+    /// Cubic root.
+    /// ```
+    /// #![feature(generic_const_exprs)]
+    /// use dimensional_quantity::si::extended::f64::quantities::{Volume, Length};
+    /// let v: Volume = Volume::new(1000.0);
+    /// let l: Length = v.cbrt();
+    ///
+    /// assert_eq!(l, Length::new(10.0));
+    /// ```
+    ///
+    /// ```compile_fail
+    /// #![feature(generic_const_exprs)]
+    /// use dimensional_quantity::si::extended::f64::quantities::{Area, Length};
+    /// let a: Area = Area::new(100.0);
+    /// let x = a.cbrt();
+    ///
+    ///
+    /// ```
+    pub fn cbrt(
+        &self,
+    ) -> QuantityGeneric<
+        { L / 3 },
+        { M / 3 },
+        { T / 3 },
+        { I / 3 },
+        { TH / 3 },
+        { N / 3 },
+        { LUM / 3 },
+        Storage,
+    > {
+        QuantityGeneric::<
+            { L / 3 },
+            { M / 3 },
+            { T / 3 },
+            { I / 3 },
+            { TH / 3 },
+            { N / 3 },
+            { LUM / 3 },
+            Storage,
+        >(self.0.cbrt())
+    }
+}
+
 /// Divide f64 by QuantityGeneric
 impl<
         const L: i64,

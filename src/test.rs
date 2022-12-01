@@ -47,6 +47,30 @@ mod test_dimensions {
     }
 }
 
+
+#[cfg(test)]
+mod tests_operations_si_extended_f64 {
+    use crate::si::extended::f64::quantities::{Volume, Area, Length};
+    #[test]
+
+    fn powi_3() {
+        let v = Volume::new(1000.0);
+        let l: Length = Length::new(10.0);
+        let v_2:Volume = l.powi::<3>();
+        assert_eq!(v, v_2)
+    }
+    #[test]
+
+    fn sqrt() {
+        let a:Area = Area::new(100.0);
+        let l = Length::new(10.0);
+        let l_2:Length = a.sqrt();
+        assert_eq!(l, l_2);
+    } 
+
+}
+
+
 #[cfg(test)]
 mod tests_si_extended_f64 {
     use crate::prefix::metric::f64::MILLI;
