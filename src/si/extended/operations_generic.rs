@@ -2,7 +2,7 @@
 
 //! Dimensional quantity type with generic underlying storage
 //!
-use std::ops::{Add, Div, Mul, Sub, AddAssign, SubAssign};
+use core::ops::{Add, Div, Mul, Sub, AddAssign, SubAssign};
 
 use num_traits::{Float, Num};
 

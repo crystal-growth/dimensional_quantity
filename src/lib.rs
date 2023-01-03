@@ -3,7 +3,7 @@
 #![deny(missing_docs)]
 #![allow(clippy::inconsistent_digit_grouping)]
 #![deny(unsafe_code)]
-
+#![no_std] 
 //! Dimensional quantity: checking dimensions of physical quantities in compile time using generic const expressions
 //! 
 //! [Documentation](https://docs.rs/dimensional_quantity/)
@@ -112,7 +112,7 @@
 //! use dimensional_quantity::si::extended::f64::quantities::{Area, Energy, Length, Mass, ReciprocalLength, Velocity};
 //! use dimensional_quantity::si::extended::f64::units_of_measure::length::{METER, MICROMETER};
 //! use dimensional_quantity::si::extended::f64::units_of_measure::reciprocal_length::{RECIPROCAL_CENTIMETER};
-//! use std::f64::consts::PI;
+//! use core::f64::consts::PI;
 //! let width: Length = 5.0 * METER;
 //! let height: Length = 8.0 * METER;
 //! // Quantities can be multiplied or divided by f64 floating numbers,

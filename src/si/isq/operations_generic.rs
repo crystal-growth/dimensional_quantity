@@ -1,7 +1,7 @@
 #![allow(clippy::suspicious_arithmetic_impl)]
 
 //! Dimensional quantity type with generic underlying storage
-use std::ops::{Add, AddAssign, Div, Mul, Sub, SubAssign};
+use core::ops::{Add, AddAssign, Div, Mul, Sub, SubAssign};
 
 use num_traits::{Float, Num};
 

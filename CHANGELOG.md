@@ -1,3 +1,6 @@
+## [0.0.2] XX.XX.2023
+Removed std dependencies. Crate is now no_std
+
 ## [0.0.1] 03.01.2023
 New SI metric prefixes: QUETTA (10^30), RONNA (10^27), RONTO (19^-27), QUECTO (10^-30)
 

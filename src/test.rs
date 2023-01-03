@@ -327,7 +327,7 @@ mod tests_si_isq_f64 {
     use crate::prefix::metric::f64::MILLI;
     use crate::si::isq::f64::quantities::{
         Acceleration, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity,
-        ElectricPotential, Energy, Entropy, Force, Frequency, HeatCapacity, Length, Mass, Power,
+        ElectricPotential, Energy, Force, Frequency, HeatCapacity, Length, Mass, Power,
         TemperatureInterval, ThermodynamicTemperature, Velocity,
     };
     use crate::si::isq::f64::{
@@ -338,20 +338,7 @@ mod tests_si_isq_f64 {
         },
     };
 
-    #[test]
-    fn it_works() {
-        let cp = HeatCapacity::new(3.1);
-        let dth = TemperatureInterval::new(100.0);
-        let dq: Energy = cp * dth;
-        dbg!(dq);
-        let ds = Entropy::new(1.3);
-        let t = ThermodynamicTemperature::new(500.0);
-        let dq1 = t * ds;
-        dbg!(dq1);
-        let l = 3.0 * METER;
-        println!("{:#?}", l / MILLIMETER);
-    }
-
+ 
     #[test]
     fn test_new_with_unit() {
         let meter = Length::new_with_unit(1.0, METER);
