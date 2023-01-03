@@ -4,8 +4,12 @@
 pub mod metric {
     pub mod f64 {
         //! Constants for metric prefixes, f64 precision
-
-        /// 10<sup>24</sup>
+        
+        /// 10<sup>30</sup> 
+        pub const QUETTA: f64 = 1.0_E30;
+        /// 10<sup>27</sup> 
+        pub const RONNA: f64 = 1.0_E27;
+        /// 10<sup>24</sup> 
         pub const YOTTA: f64 = 1.0_E24;
         /// 10<sup>21</sup>
         pub const ZETTA: f64 = 1.0_E21;
@@ -46,10 +50,17 @@ pub mod metric {
         pub const ZEPTO: f64 = 1.0_E-21;
         /// 10<sup>-24</sup>
         pub const YOCTO: f64 = 1.0_E-24;
+        /// 10<sup>-24</sup>
+        pub const RONTO: f64 = 1.0_E-27;
+        /// 10<sup>-24</sup>
+        pub const QUECTO: f64 = 1.0_E-30;
     }
     pub mod f32 {
         //! Constants for metric prefixes, f32 precision
-
+        /// 10<sup>30</sup> 
+        pub const QUETTA: f32 = 1.0_E30;
+        /// 10<sup>27</sup> 
+        pub const RONNA: f32 = 1.0_E27;
         /// 10<sup>24</sup>
         pub const YOTTA: f32 = 1.0_E24;
         /// 10<sup>21</sup>
@@ -91,6 +102,10 @@ pub mod metric {
         pub const ZEPTO: f32 = 1.0_E-21;
         /// 10<sup>-24</sup>
         pub const YOCTO: f32 = 1.0_E-24;
+        /// 10<sup>-24</sup>
+        pub const RONTO: f32 = 1.0_E-27;
+        /// 10<sup>-24</sup>
+        pub const QUECTO: f32 = 1.0_E-30;
     }
 }
 /// Constants for binary prefixes
