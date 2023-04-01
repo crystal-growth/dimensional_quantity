@@ -8,7 +8,7 @@ repository = "https://github.com/crystal-growth/dimensional_quantity"
 homepage = "https://github.com/crystal-growth/dimensional_quantity"
 documentation = "https://docs.rs/dimensional_quantity"
 readme = "README.md"
-keywords = ["units", "dimensions", "quantities", "measurement", "dimensional-analysis", "no_std"]
+keywords = ["units", "dimensions", "quantities", "measurement", "dimensional-analysis"]
 categories = [ "science"]
 
 [dependencies]
