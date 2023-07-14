@@ -2,11 +2,13 @@
 
 //! Dimensional quantity type with generic underlying storage
 use core::ops::{Add, AddAssign, Div, Mul, Sub, SubAssign};
-
 use num_traits::{Float, Num};
+#[cfg(feature = "use_serde")]
+use serde::{Deserialize, Serialize};
 
 /// Dimensional quantity
 #[derive(Debug, Copy, Clone, PartialEq, Eq)]
+#[cfg_attr(feature = "serde_support", derive(Serialize, Deserialize))]
 pub struct QuantityGeneric<
     const L: i64,
     const M: i64,
@@ -318,6 +320,10 @@ where
     ) -> QuantityGeneric<L, M, T, I, TH, N, LUM, Storage> {
         QuantityGeneric::<L, M, T, I, TH, N, LUM, Storage>(x * unit.0)
     }
+    /// Create a new dimensional quantity with zero value with generic storage type and measurement unit.
+    pub fn zero() -> QuantityGeneric<L, M, T, I, TH, N, LUM, Storage> {
+        QuantityGeneric::<L, M, T, I, TH, N, LUM, Storage>(Storage::zero())
+    }
     /// Returns dimensional formula of a quantity
     pub const fn dim(&self) -> [i64; 7] {
         [L, M, T, I, TH, N, LUM]
@@ -330,6 +336,13 @@ where
     /// Retrieve the value of the dimensional quantity in the given measurement unit.
     pub fn get_with_unit(&self, unit: QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>) -> Storage {
         self.0 / unit.0
+    }
+}
+
+impl<Storage: Num + Copy> QuantityGeneric<0, 0, 0, 0, 0, 0, 0, Storage> {
+    /// Convert dimensionless Ratio into underlying storage type
+    pub fn into_number(&self) -> Storage {
+        self.0
     }
 }
 

@@ -1,5 +1,11 @@
-## [0.0.2] XX.XX.2023
+## [0.0.3] 14.07.2023
+Serde support with "use_serde" feature
+New QuantityGeneric functions: zero() creates generic quantity with zero value, into_number() converts Ratio into underlying storage
+New MolarFlow quantity 
+
+## [0.0.2] 14.04.2023
 Removed std dependencies. Crate is now no_std
+
 
 ## [0.0.1] 03.01.2023
 New SI metric prefixes: QUETTA (10^30), RONNA (10^27), RONTO (19^-27), QUECTO (10^-30)

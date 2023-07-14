@@ -2,12 +2,14 @@
 
 //! Dimensional quantity type with generic underlying storage
 //!
-use core::ops::{Add, Div, Mul, Sub, AddAssign, SubAssign};
-
-use num_traits::{Float, Num};
+use core::ops::{Add, AddAssign, Div, Mul, Sub, SubAssign};
+use num_traits::{Float, Num, Zero};
+#[cfg(feature = "use_serde")]
+use serde::{Deserialize, Serialize};
 
 /// Dimensional quantity
 #[derive(Debug, Copy, Clone, PartialEq, Eq)]
+#[cfg_attr(feature = "use_serde", derive(Serialize, Deserialize))]
 pub struct QuantityGeneric<
     const L: i64,
     const M: i64,
@@ -251,7 +253,6 @@ pub trait IsTrue {}
 
 impl IsTrue for Assert<true> {}
 
-
 /// Addition of dimensional quantities with equal dimension formula, except ones containing absolute temperature
 impl<
         const L: i64,
@@ -270,7 +271,6 @@ impl<
 where
     QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>: Sized,
     Assert<{ TH != 1 }>: IsTrue,
-
 {
     type Output = QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>;
 
@@ -283,7 +283,6 @@ where
         QuantityGeneric::<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>(x + y)
     }
 }
-
 
 /// Perform += operation for dimensional quantities with equal dimension formula, except ones containing absolute temperature
 impl<
@@ -304,18 +303,11 @@ where
     QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>: Sized,
     Storage: AddAssign,
     Assert<{ TH != 1 }>: IsTrue,
-
 {
-
-    fn add_assign(
-        &mut self,
-        rhs: Self,
-    )  {
+    fn add_assign(&mut self, rhs: Self) {
         self.0 += rhs.0;
-        
     }
 }
-
 
 /// Subtraction of dimensional quantities with equal dimension formula, except ones containing absolute temperature
 impl<
@@ -348,8 +340,6 @@ where
     }
 }
 
-
-
 /// Perform -= operation for dimensional quantities with equal dimension formula, except ones containing absolute temperature
 impl<
         const L: i64,
@@ -370,11 +360,7 @@ where
     Storage: SubAssign,
     Assert<{ TH != 1 }>: IsTrue,
 {
-
-    fn sub_assign(
-        &mut self,
-        rhs: QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>,
-    ) {
+    fn sub_assign(&mut self, rhs: QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>) {
         self.0 -= rhs.0
     }
 }
@@ -428,16 +414,10 @@ where
     QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>: Sized,
     Storage: AddAssign,
 {
-
-    fn add_assign(
-        &mut self,
-        rhs: QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>,
-    )  {
-         self.0 += rhs.0
-       
+    fn add_assign(&mut self, rhs: QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>) {
+        self.0 += rhs.0
     }
 }
-
 
 /// Subtraction of temperature interval ΔT from absolute temperature T, result is absolute temperature
 impl<
@@ -488,15 +468,10 @@ where
     QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, INFO, Storage>: Sized,
     Storage: SubAssign,
 {
-
-    fn sub_assign(
-        &mut self,
-        rhs: QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>,
-    )  {
+    fn sub_assign(&mut self, rhs: QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, INFO, Storage>) {
         self.0 -= rhs.0
     }
 }
-
 
 /// Subtracting two absolute temperatures T, result is temperature interval ΔT
 impl<
@@ -528,8 +503,6 @@ where
     }
 }
 
-
-
 impl<
         const L: i64,
         const M: i64,
@@ -560,6 +533,11 @@ where
     ) -> QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage> {
         QuantityGeneric::<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>(x * unit.0)
     }
+    /// Create a new dimensional quantity with generic storage type from given and measurement unit.
+    pub fn zero() -> QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage> {
+        QuantityGeneric::<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>(Storage::zero())
+    }
+
     /// Returns dimensional formula of a quantity
     pub const fn dim(&self) -> [i64; 10] {
         [L, M, T, I, TH, N, LUM, D_TH, A, INFO]
@@ -574,6 +552,13 @@ where
         unit: QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, INFO, Storage>,
     ) -> Storage {
         self.0 / unit.0
+    }
+}
+
+impl<Storage: Num + Copy> QuantityGeneric<0, 0, 0, 0, 0, 0, 0, 0, 0, 0, Storage> {
+    /// Convert dimensionless Ratio into underlying storage type
+    pub fn into_number(&self) -> Storage {
+        self.0
     }
 }
 
@@ -777,7 +762,6 @@ where
         >(self.0.cbrt())
     }
 }
-
 
 /// Divide f64 by QuantityGeneric
 impl<

@@ -33,7 +33,7 @@
 //! 
 //! ```toml
 //! [dependencies]
-//! dimensional_quantity = "0.0.1"
+//! dimensional_quantity = "0.0.3"
 //! ```
 //! 
 //! 

@@ -1,0 +1,55 @@
+name = "Molar flow"
+symbol = "MolarFlow"
+snake_case_name = "molar_flow"
+short_dim_formula = "T<sup>-1</sup>⋅N"
+long_dim_formula = "Time<sup>-1</sup>⋅Amount of substance"
+units_formula = "s<sup>-1</sup>⋅mol"
+
+[dimensions]
+length = 0
+mass = 0
+time = -1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 1
+luminous_intensity = 0
+angle = 0
+information = 0
+
+[units.PARTICLE_PER_SECOND]
+multiplier = "1.6605390671738_E-24"
+symbol = "particle/s"
+singular = "particle per second"
+plural = "particles per second"
+
+[units.MOLE_PER_SECOND]
+multiplier = "1.0E0"
+symbol = "mol/s"
+singular = "mole per second"
+plural = "moles per second"
+
+[units.STANDARD_CENTIMETER_PER_MINUTE]
+multiplier = "7.3386024189971_E-7"
+symbol = "sccm"
+singular = "standard centimeter per minute"
+plural = "standard centimeters per minute"
+
+[units.STANDARD_LITER_PER_MINUTE]
+multiplier = "7.3386024189971_E-4"
+symbol = "slm"
+singular = "standard liter per minute"
+plural = "standard liters per minute"
+
+[units.STANDARD_CUBIC_METER_PER_MINUTE]
+multiplier = "7.3386024189971_E-1"
+symbol = "m³(STP)/min"
+singular = "standard cubic meter per minute"
+plural = "standard cubic meters per minute"
+
+[units.STANDARD_CUBIC_FOOT_PER_MINUTE]
+multiplier = "2.0780610390838_E-2"
+symbol = "scfm"
+singular = "standard cubic foot per hour"
+plural = "standard cubic feet per hour"
+
