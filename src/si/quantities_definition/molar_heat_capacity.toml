@@ -14,7 +14,8 @@ thermodynamic_temperature = 0
 temperature_interval = -1
 amount_of_substance = -1
 luminous_intensity = 0
-angle = 0
+angle = 0 
+solid_angle = 0
 information = 0
 
 [units.YOTTAJOULE_PER_KELVIN_MOLE]

@@ -2,48 +2,54 @@
 mod test_dimensions {
     use crate::si::extended::f64::quantities::{
         AmountOfSubstance, Angle, ElectricCurrent, Information, Length, LuminousIntensity, Mass,
-        TemperatureInterval, ThermodynamicTemperature, Time,
+        TemperatureInterval, ThermodynamicTemperature, Time, SolidAngle,
     };
     use crate::si::extended::f64::quantity::Quantity;
     #[test]
     fn length() {
-        let _l: Length = Quantity::<1, 0, 0, 0, 0, 0, 0, 0, 0, 0>::new(1.0);
+        let _l: Length = Quantity::<1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::new(1.0);
     }
     #[test]
     fn mass() {
-        let _l: Mass = Quantity::<0, 1, 0, 0, 0, 0, 0, 0, 0, 0>::new(1.0);
+        let _l: Mass = Quantity::<0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0>::new(1.0);
     }
     #[test]
     fn time() {
-        let _l: Time = Quantity::<0, 0, 1, 0, 0, 0, 0, 0, 0, 0>::new(1.0);
+        let _l: Time = Quantity::<0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0>::new(1.0);
     }
     #[test]
     fn electric_current() {
-        let _l: ElectricCurrent = Quantity::<0, 0, 0, 1, 0, 0, 0, 0, 0, 0>::new(1.0);
+        let _l: ElectricCurrent = Quantity::<0, 0, 0, 1, 0, 0, 0, 0, 0, 0 ,0>::new(1.0);
     }
     #[test]
     fn thermodynamic_temperature() {
-        let _l: ThermodynamicTemperature = Quantity::<0, 0, 0, 0, 1, 0, 0, 0, 0, 0>::new(1.0);
+        let _l: ThermodynamicTemperature = Quantity::<0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0>::new(1.0);
     }
     #[test]
     fn amount_of_substance() {
-        let _l: AmountOfSubstance = Quantity::<0, 0, 0, 0, 0, 1, 0, 0, 0, 0>::new(1.0);
+        let _l: AmountOfSubstance = Quantity::<0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0>::new(1.0);
     }
     #[test]
     fn luminous_intensity() {
-        let _l: LuminousIntensity = Quantity::<0, 0, 0, 0, 0, 0, 1, 0, 0, 0>::new(1.0);
+        let _l: LuminousIntensity = Quantity::<0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0>::new(1.0);
     }
     #[test]
     fn temperature_interval() {
-        let _l: TemperatureInterval = Quantity::<0, 0, 0, 0, 0, 0, 0, 1, 0, 0>::new(1.0);
+        let _l: TemperatureInterval = Quantity::<0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0>::new(1.0);
     }
     #[test]
     fn angle() {
-        let _l: Angle = Quantity::<0, 0, 0, 0, 0, 0, 0, 0, 1, 0>::new(1.0);
+        let _l: Angle = Quantity::<0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0>::new(1.0);
     }
+
+
+    #[test]
+    fn solid_angle() {
+        let _l: SolidAngle = Quantity::<0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0>::new(1.0);
+    }    
     #[test]
     fn information() {
-        let _l: Information = Quantity::<0, 0, 0, 0, 0, 0, 0, 0, 0, 1>::new(1.0);
+        let _l: Information = Quantity::<0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1>::new(1.0);
     }
 }
 

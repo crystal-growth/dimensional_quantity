@@ -20,6 +20,7 @@ struct Dimensions {
     amount_of_substance: i64,
     luminous_intensity: i64,
     angle: i64,
+    solid_angle: i64,
     temperature_interval: i64,
     information: i64,
 }
@@ -152,6 +153,7 @@ fn generate_quantities(qs: &[Quantity], path: &Path, system_of_quantities: Syste
             amount_of_substance,
             luminous_intensity,
             angle,
+            solid_angle,
             temperature_interval,
             information,
         } = q.dimensions;
@@ -170,7 +172,7 @@ fn generate_quantities(qs: &[Quantity], path: &Path, system_of_quantities: Syste
             SystemOfQuantities::SiExtended => {
                 writeln!(
                 output,
-                "pub type {symbol} = Quantity<{length}, {mass}, {time}, {electric_current}, {thermodynamic_temperature} , {amount_of_substance}, {luminous_intensity}, {temperature_interval},  {angle}, {information}>;")
+                "pub type {symbol} = Quantity<{length}, {mass}, {time}, {electric_current}, {thermodynamic_temperature} , {amount_of_substance}, {luminous_intensity}, {temperature_interval},  {angle}, {solid_angle}, {information}>;")
             .unwrap();
             }
         }

@@ -11,6 +11,7 @@
 //!
 //! Additional quantities:
 //!   -   Angle (base unit radian, rad)
+//!   -   SolidAngle (base unit steradian, sr)
 //!   -   Temperature interval (base unit Δkelvin, ΔK )
 //!   -   Information (base unit byte, B)
 

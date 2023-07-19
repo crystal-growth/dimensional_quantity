@@ -14,7 +14,8 @@ thermodynamic_temperature = 0
 temperature_interval = 0
 amount_of_substance = 0
 luminous_intensity = 0
-angle = 0
+angle = 0 
+solid_angle = 0
 information = 0
 
 [units.CUBIC_YOTTAMETER_PER_SECOND]

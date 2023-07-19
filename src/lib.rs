@@ -190,6 +190,7 @@
 //!                                                  0, // LuminousIntensity
 //!                                                  0, // TemperatureInterval
 //!                                                  0, // Angle
+//!                                                  0, // SolidAngle
 //!                                                  1, // Information
 //!                                                   >;
 //!
@@ -221,7 +222,8 @@
 //! temperature_interval = 0
 //! amount_of_substance = 0
 //! luminous_intensity = 0
-//! angle = 0
+//! angle = 0 
+//! solid_angle = 0
 //! information = 0
 //! 
 //! [units.SQUARE_METER]

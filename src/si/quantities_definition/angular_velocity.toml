@@ -15,6 +15,7 @@ temperature_interval = 0
 amount_of_substance = 0
 luminous_intensity = 0
 angle = 1
+solid_angle = 0
 information = 0
 
 [units.RADIAN_PER_SECOND]
