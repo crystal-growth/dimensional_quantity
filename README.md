@@ -29,7 +29,7 @@ and add this to your `Cargo.toml`
 
 ```toml
 [dependencies]
-dimensional_quantity = "0.0.3"
+dimensional_quantity = "0.0.4"
 ```
 
 
@@ -186,6 +186,7 @@ pub type VolumetricInformationDensity = Quantity<
                                                  0, // LuminousIntensity
                                                  0, // TemperatureInterval
                                                  0, // Angle
+                                                 0, // SolidAngle
                                                  1, // Information
                                                   >;
 
@@ -217,7 +218,7 @@ thermodynamic_temperature = 0
 temperature_interval = 0
 amount_of_substance = 0
 luminous_intensity = 0
-angle = 0 
+angle = 0
 solid_angle = 0
 information = 0
 

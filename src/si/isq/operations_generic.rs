@@ -2,7 +2,7 @@
 
 //! Dimensional quantity type with generic underlying storage
 use core::ops::{Add, AddAssign, Div, Mul, Sub, SubAssign};
-use num_traits::{Float, Num};
+use num_traits::{Float, Num, Zero};
 #[cfg(feature = "use_serde")]
 use serde::{Deserialize, Serialize};
 
@@ -19,6 +19,36 @@ pub struct QuantityGeneric<
     const LUM: i64,
     Storage: Num,
 >(Storage);
+
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+
+        Storage: Num + Zero,
+    > Zero for QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>
+where
+    Assert<{ TH != 1 }>: IsTrue,
+    QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>: Sized,
+    Storage: Zero,
+{
+    fn zero() -> Self {
+        QuantityGeneric::<L, M, T, I, TH, N, LUM,  Storage>(Storage::zero())
+    }
+
+    fn is_zero(&self) -> bool {
+        self.0.is_zero()
+    }
+
+    fn set_zero(&mut self) {
+        *self = Zero::zero();
+    }
+}
+
 
 impl<
         const L1: i64,
@@ -319,10 +349,6 @@ where
         unit: QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>,
     ) -> QuantityGeneric<L, M, T, I, TH, N, LUM, Storage> {
         QuantityGeneric::<L, M, T, I, TH, N, LUM, Storage>(x * unit.0)
-    }
-    /// Create a new dimensional quantity with zero value with generic storage type and measurement unit.
-    pub fn zero() -> QuantityGeneric<L, M, T, I, TH, N, LUM, Storage> {
-        QuantityGeneric::<L, M, T, I, TH, N, LUM, Storage>(Storage::zero())
     }
     /// Returns dimensional formula of a quantity
     pub const fn dim(&self) -> [i64; 7] {

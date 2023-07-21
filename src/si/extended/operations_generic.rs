@@ -26,6 +26,61 @@ pub struct QuantityGeneric<
 >(Storage);
 
 impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        const A: i64,
+        const SA: i64,
+        const D_TH: i64,
+        const INFO: i64,
+        Storage: Num + Zero,
+    > Zero for QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>
+where
+    Assert<{ TH != 1 }>: IsTrue,
+    QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>: Sized,
+    Storage: Zero,
+{
+    fn zero() -> Self {
+        QuantityGeneric::<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>(Storage::zero())
+    }
+
+    fn is_zero(&self) -> bool {
+        self.0.is_zero()
+    }
+
+    fn set_zero(&mut self) {
+        *self = Zero::zero();
+    }
+}
+
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        // const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        const A: i64,
+        const SA: i64,
+        const INFO: i64,
+        const D_TH: i64,
+        Storage: Num,
+    > QuantityGeneric<L, M, T, I, 1, N, LUM, D_TH, A, SA, INFO, Storage>
+where
+    QuantityGeneric<L, M, T, I, 1, N, LUM, D_TH, A, SA, INFO, Storage>: Sized,
+{
+    /// Create a new absolute-temperature-like Quantity with zero value.
+    pub fn zero() -> QuantityGeneric<L, M, T, I, 1, N, LUM, D_TH, A, SA, INFO, Storage> {
+        QuantityGeneric::<L, M, T, I, 1, N, LUM, D_TH, A, SA, INFO, Storage>(Storage::zero())
+    }
+}
+
+impl<
         const L1: i64,
         const M1: i64,
         const T1: i64,
@@ -62,7 +117,7 @@ where
         { LUM1 + LUM2 },
         { D_TH1 + D_TH2 },
         { A1 + A2 },
-        { SA1 + SA2}, 
+        { SA1 + SA2 },
         { INFO1 + INFO2 },
         Storage,
     >: Sized,
@@ -78,7 +133,7 @@ where
         { LUM1 + LUM2 },
         { D_TH1 + D_TH2 },
         { A1 + A2 },
-        {SA1 + SA2},
+        { SA1 + SA2 },
         { INFO1 + INFO2 },
         Storage,
     >;
@@ -96,7 +151,7 @@ where
         { LUM1 + LUM2 },
         { D_TH1 + D_TH2 },
         { A1 + A2 },
-        { SA1 + SA2},
+        { SA1 + SA2 },
         { INFO1 + INFO2 },
         Storage,
     > {
@@ -140,7 +195,7 @@ impl<
         const LUM2: i64,
         const D_TH2: i64,
         const A2: i64,
-        const SA2:i64,
+        const SA2: i64,
         const INFO2: i64,
         Storage: Num,
     > Div<QuantityGeneric<L2, M2, T2, I2, TH2, N2, LUM2, D_TH2, A2, SA2, INFO2, Storage>>
@@ -156,7 +211,7 @@ where
         { LUM1 - LUM2 },
         { D_TH1 - D_TH2 },
         { A1 - A2 },
-        { SA1 - SA2},
+        { SA1 - SA2 },
         { INFO1 - INFO2 },
         Storage,
     >: Sized,
@@ -171,7 +226,7 @@ where
         { LUM1 - LUM2 },
         { D_TH1 - D_TH2 },
         { A1 - A2 },
-        { SA1 - SA2},
+        { SA1 - SA2 },
         { INFO1 - INFO2 },
         Storage,
     >;
@@ -189,7 +244,7 @@ where
         { LUM1 - LUM2 },
         { D_TH1 - D_TH2 },
         { A1 - A2 },
-        {SA1 - SA2},
+        { SA1 - SA2 },
         { INFO1 - INFO2 },
         Storage,
     > {
@@ -205,7 +260,7 @@ where
             { LUM1 - LUM2 },
             { D_TH1 - D_TH2 },
             { A1 - A2 },
-            { SA1 - SA2},
+            { SA1 - SA2 },
             { INFO1 - INFO2 },
             Storage,
         >(x / y)
@@ -230,7 +285,10 @@ impl<
 {
     type Output = QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>;
 
-    fn mul(self, rhs: Storage) -> QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage> {
+    fn mul(
+        self,
+        rhs: Storage,
+    ) -> QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage> {
         let x = self.0;
         QuantityGeneric::<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>(x * rhs)
     }
@@ -254,7 +312,10 @@ impl<
 {
     type Output = QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>;
 
-    fn div(self, rhs: Storage) -> QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage> {
+    fn div(
+        self,
+        rhs: Storage,
+    ) -> QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage> {
         let q = self.0;
         QuantityGeneric::<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>(q / rhs)
     }
@@ -379,7 +440,10 @@ where
     Storage: SubAssign,
     Assert<{ TH != 1 }>: IsTrue,
 {
-    fn sub_assign(&mut self, rhs: QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>) {
+    fn sub_assign(
+        &mut self,
+        rhs: QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>,
+    ) {
         self.0 -= rhs.0
     }
 }
@@ -429,7 +493,7 @@ impl<
         const INFO: i64,
         // const D_TH: i64,
         Storage: Num,
-    > AddAssign<QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, SA,  INFO, Storage>>
+    > AddAssign<QuantityGeneric<L, M, T, I, 0, N, LUM, 1, A, SA, INFO, Storage>>
     for QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, SA, INFO, Storage>
 where
     QuantityGeneric<L, M, T, I, 1, N, LUM, 0, A, SA, INFO, Storage>: Sized,
@@ -558,10 +622,6 @@ where
     ) -> QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage> {
         QuantityGeneric::<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>(x * unit.0)
     }
-    /// Create a new dimensional quantity with generic storage type from given and measurement unit.
-    pub fn zero() -> QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage> {
-        QuantityGeneric::<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>(Storage::zero())
-    }
 
     /// Returns dimensional formula of a quantity
     pub const fn dim(&self) -> [i64; 11] {
@@ -632,7 +692,7 @@ where
             { LUM * POWER },
             { D_TH * POWER },
             { A * POWER },
-            { SA * POWER},
+            { SA * POWER },
             { INFO * POWER },
             Storage,
         >(self.0.powi(POWER as i32))
@@ -698,7 +758,7 @@ where
         { LUM / 2 },
         { D_TH / 2 },
         { A / 2 },
-        { SA / 2},
+        { SA / 2 },
         { INFO / 2 },
         Storage,
     > {
@@ -712,7 +772,7 @@ where
             { LUM / 2 },
             { D_TH / 2 },
             { A / 2 },
-            { SA / 2},
+            { SA / 2 },
             { INFO / 2 },
             Storage,
         >(self.0.sqrt())
@@ -778,7 +838,7 @@ where
         { LUM / 3 },
         { D_TH / 3 },
         { A / 3 },
-        { SA / 3},
+        { SA / 3 },
         { INFO / 3 },
         Storage,
     > {
@@ -792,7 +852,7 @@ where
             { LUM / 3 },
             { D_TH / 3 },
             { A / 3 },
-            { SA / 3},
+            { SA / 3 },
             { INFO / 3 },
             Storage,
         >(self.0.cbrt())
@@ -839,7 +899,7 @@ where
         { -LUM },
         { -D_TH },
         { -A },
-        { -SA},
+        { -SA },
         { -INFO },
         f64,
     >;
@@ -857,7 +917,7 @@ where
         { -LUM },
         { -D_TH },
         { -A },
-        { - SA },
+        { -SA },
         { -INFO },
         f64,
     > {

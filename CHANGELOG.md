@@ -1,3 +1,7 @@
+## [0.0.4] 21.07.2023
+Breaking change in ISQ-extended system: SolidAngle is now a basic unit of measure.
+num_traits::Zero trait implemented for QuantityGeneric
+
 ## [0.0.3] 14.07.2023
 Serde support with "use_serde" feature
 New QuantityGeneric functions: zero() creates generic quantity with zero value, into_number() converts Ratio into underlying storage
