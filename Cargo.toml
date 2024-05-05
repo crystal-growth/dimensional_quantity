@@ -12,14 +12,14 @@ keywords = ["units", "dimensions", "quantities", "measurement", "dimensional-ana
 categories = [ "science"]
 
 [dependencies]
-num-traits = "0.2.*"
+num-traits = "0.2"
 serde = {version = "1.0", optional = true}
 
 [build-dependencies]
 serde = { version = "1", features = ["derive"] }
 
-toml = "0.7.*"
-num-traits = "0.2.*"
+toml = "0.8"
+num-traits = "0.2"
 
 [features]
 "use_serde" = ["dep:serde"]

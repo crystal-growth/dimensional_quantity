@@ -1,0 +1,27 @@
+name = "Thermal pressure coefficient"
+symbol = "ThermalPressureCoefficient"
+snake_case_name = "thermal_pressure_coefficient"
+short_dim_formula = "L<sup>-1</sup>⋅M⋅T<sup>-2</sup>⋅`ΔTh`<sup>-1</sup>"
+long_dim_formula = "Length<sup>-1</sup>⋅Mass⋅Time<sup>-2</sup>⋅Temperature interval<sup>-1</sup>"
+units_formula = "m<sup>-1</sup>⋅kg⋅s<sup>-2</sup>⋅ΔK<sup>-1</sup>"
+
+[dimensions]
+length = -1
+mass = 1
+time = -2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = -1
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0 
+solid_angle = 0
+information = 0
+
+[units.PASCAL_PER_KELVIN]
+multiplier = "1.0E0"
+symbol = "Pa/K"
+singular = "pascal per kelvin"
+plural = "pascals per kelvin"
+
+

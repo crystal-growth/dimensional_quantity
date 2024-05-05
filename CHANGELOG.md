@@ -1,5 +1,8 @@
+## [0.0.5] 05.05.2024
+New ThermalPressureCoefficient quantity
+Update `toml` dependency
 ## [0.0.4] 21.07.2023
-Breaking change in ISQ-extended system: SolidAngle is now a basic unit of measure.
+Breaking change in ISQ-extended system: SolidAngle is now a basic unit of measure
 num_traits::Zero trait implemented for QuantityGeneric
 
 ## [0.0.3] 14.07.2023

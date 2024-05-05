@@ -73,7 +73,14 @@ mod tests_operations_si_extended_f64 {
         let l_2:Length = a.sqrt();
         assert_eq!(l, l_2);
     } 
-
+    
+    #[test]
+    fn cbrt(){
+        let vol: Volume = Volume::new(1000.0);
+        let len_1: Length = vol.cbrt();
+        let len_2: Length = Length::new(10.0);
+        assert_eq!(len_1, len_2);
+    }
 }
 
 
@@ -81,9 +88,7 @@ mod tests_operations_si_extended_f64 {
 mod tests_si_extended_f64 {
     use crate::prefix::metric::f64::MILLI;
     use crate::si::extended::f64::quantities::{
-        Acceleration, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity,
-        ElectricPotential, Energy, Force, Frequency, HeatCapacity, Length, Mass, Power,
-        TemperatureInterval, ThermodynamicTemperature, Velocity,
+        Acceleration, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity, ElectricPotential, Energy, Force, Frequency, HeatCapacity, Length, Mass, Power, Pressure, TemperatureInterval, ThermodynamicTemperature, Velocity, ThermalPressureCoefficient
     };
     use crate::si::extended::f64::{
         constants::{PLANCK_CONSTANT, SPEED_OF_LIGHT_IN_VACUUM, STANDARD_ACCELERATION_OF_GRAVITY},
@@ -179,6 +184,14 @@ mod tests_si_extended_f64 {
         let ti_square = ti * ti;
         let _two_t_square = ti_square + ti_square;
         let _two_t_square = t_square + t_square;
+    }
+    #[test]
+    fn test_thermal_pressure_coefficient(){
+        let dp = Pressure::new(1.0);
+        let dt = TemperatureInterval::new(1.0);
+        let dp_over_dt: ThermalPressureCoefficient = dp/dt;
+        
+        assert_eq!(dp_over_dt, dp/dt);
     }
 }
 

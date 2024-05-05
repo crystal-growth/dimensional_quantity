@@ -29,7 +29,7 @@ and add this to your `Cargo.toml`
 
 ```toml
 [dependencies]
-dimensional_quantity = "0.0.4"
+dimensional_quantity = "0.0.5"
 ```
 
 
