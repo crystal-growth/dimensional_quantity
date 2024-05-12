@@ -3,9 +3,9 @@
 #![deny(missing_docs)]
 #![allow(clippy::inconsistent_digit_grouping)]
 #![deny(unsafe_code)]
-#![no_std] 
+#![no_std]
 //! Dimensional quantity: checking dimensions of physical quantities in compile time using generic const expressions
-//! 
+//!
 //! [Documentation](https://docs.rs/dimensional_quantity/)
 //!
 //! * This crate is **experimental** and uses **unstable** [`generic_const_exprs`](https://github.com/rust-lang/rust/issues/76560)
@@ -28,17 +28,17 @@
 //! [toolchain]
 //! channel = "nightly"
 //! ```
-//! 
+//!
 //! and add this to your `Cargo.toml`
-//! 
+//!
 //! ```toml
 //! [dependencies]
-//! dimensional_quantity = "0.0.5"
+//! dimensional_quantity = "0.1.0"
 //! ```
-//! 
-//! 
+//!
+//!
 //! Here you will find:
-//! 
+//!
 //! * [Predefined dimensional quantities for International System of Units (SI)](si::extended::f64).
 //! * [Dimensional units of measure](si::extended::f64::units_of_measure).
 //!
@@ -137,7 +137,7 @@
 //! let mut width_minus_height = Length::new(0.0);
 //! width_minus_height += width;
 //! width_minus_height -= height;
-//! 
+//!
 //! assert_eq!(perimeter, Length::new(26.0));
 //!
 //! // Dimensional quantities can be multiplied and divided:
@@ -200,11 +200,11 @@
 //! assert_eq!(information_density_1, information_density_2);
 //! ```
 //!
-//! 
+//!
 //! # Definition of quantities and units of measure
-//! 
+//!
 //! Quantities and corresponding units are defined at `src/si/quantities_definition/*toml` files.
-//! 
+//!
 //! For example, definition of Area quantity is:
 //! ```toml
 //! name = "Area"
@@ -222,26 +222,26 @@
 //! temperature_interval = 0
 //! amount_of_substance = 0
 //! luminous_intensity = 0
-//! angle = 0 
+//! angle = 0
 //! solid_angle = 0
 //! information = 0
-//! 
+//!
 //! [units.SQUARE_METER]
 //! multiplier = "1.0E0"
 //! symbol = "m²"
 //! singular = "square meter"
 //! plural = "square meters"
-//! 
+//!
 //! [units.SQUARE_CENTIMETER]
 //! multiplier = "1.0_E-4"
 //! symbol = "cm²"
 //! singular = "square centimeter"
 //! plural = "square centimeters"
 //! ```
-//! 
-//! 
+//!
+//!
 //! # Licence
-//! Licensed under either of Apache License, Version 2.0 or MIT license (LICENSE-MIT or <https://opensource.org/licenses/MIT>) at your option. 
+//! Licensed under either of Apache License, Version 2.0 or MIT license (LICENSE-MIT or <https://opensource.org/licenses/MIT>) at your option.
 
 #![allow(clippy::excessive_precision)]
 

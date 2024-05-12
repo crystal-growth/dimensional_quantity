@@ -7,7 +7,7 @@ use num_traits::{Float, Num, Zero};
 use serde::{Deserialize, Serialize};
 
 /// Dimensional quantity
-#[derive(Debug, Copy, Clone, PartialEq, Eq)]
+#[derive(Debug, Copy, Clone, PartialEq, Eq, PartialOrd, Ord)]
 #[cfg_attr(feature = "serde_support", derive(Serialize, Deserialize))]
 pub struct QuantityGeneric<
     const L: i64,
@@ -28,7 +28,6 @@ impl<
         const TH: i64,
         const N: i64,
         const LUM: i64,
-
         Storage: Num + Zero,
     > Zero for QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>
 where
@@ -37,7 +36,7 @@ where
     Storage: Zero,
 {
     fn zero() -> Self {
-        QuantityGeneric::<L, M, T, I, TH, N, LUM,  Storage>(Storage::zero())
+        QuantityGeneric::<L, M, T, I, TH, N, LUM, Storage>(Storage::zero())
     }
 
     fn is_zero(&self) -> bool {
@@ -48,7 +47,6 @@ where
         *self = Zero::zero();
     }
 }
-
 
 impl<
         const L1: i64,
@@ -546,7 +544,7 @@ where
     }
 }
 
-/// Divide f64 by QuantityGeneric
+/// Divide f64 by QuantityGeneric with f64 Storage type
 impl<
         const L: i64,
         const M: i64,
@@ -572,7 +570,7 @@ where
     }
 }
 
-/// Multiply f64 by QuantityGeneric
+/// Multiply f64 by QuantityGeneric with f64 Storage type
 impl<
         const L: i64,
         const M: i64,
@@ -591,5 +589,69 @@ impl<
     ) -> QuantityGeneric<L, M, T, I, TH, N, LUM, f64> {
         let x = rhs.0;
         QuantityGeneric::<L, M, T, I, TH, N, LUM, f64>(self * x)
+    }
+}
+
+/// Divide f32 by QuantityGeneric with f32 storage type
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+    > Div<QuantityGeneric<L, M, T, I, TH, N, LUM, f32>> for f32
+where
+    QuantityGeneric<{ -L }, { -M }, { -T }, { -I }, { -TH }, { -N }, { -LUM }, f32>: Sized,
+{
+    type Output = QuantityGeneric<{ -L }, { -M }, { -T }, { -I }, { -TH }, { -N }, { -LUM }, f32>;
+
+    fn div(
+        self,
+        rhs: QuantityGeneric<L, M, T, I, TH, N, LUM, f32>,
+    ) -> QuantityGeneric<{ -L }, { -M }, { -T }, { -I }, { -TH }, { -N }, { -LUM }, f32> {
+        let rhs = rhs.0;
+        QuantityGeneric::<{ -L }, { -M }, { -T }, { -I }, { -TH }, { -N }, { -LUM }, f32>(
+            self / rhs,
+        )
+    }
+}
+
+/// Multiply f32 by QuantityGeneric with f32 storage type
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+    > Mul<QuantityGeneric<L, M, T, I, TH, N, LUM, f32>> for f32
+{
+    type Output = QuantityGeneric<L, M, T, I, TH, N, LUM, f32>;
+
+    fn mul(
+        self,
+        rhs: QuantityGeneric<L, M, T, I, TH, N, LUM, f32>,
+    ) -> QuantityGeneric<L, M, T, I, TH, N, LUM, f32> {
+        let x = rhs.0;
+        QuantityGeneric::<L, M, T, I, TH, N, LUM, f32>(self * x)
+    }
+}
+impl<Storage: Num> From<Storage> for QuantityGeneric<0, 0, 0, 0, 0, 0, 0, Storage> {
+    fn from(value: Storage) -> Self {
+        QuantityGeneric::<0, 0, 0, 0, 0, 0, 0, Storage>(value)
+    }
+}
+impl From<QuantityGeneric<0, 0, 0, 0, 0, 0, 0, f64>> for f64 {
+    fn from(value: QuantityGeneric<0, 0, 0, 0, 0, 0, 0, f64>) -> Self {
+        value.0
+    }
+}
+
+impl From<QuantityGeneric<0, 0, 0, 0, 0, 0, 0, f32>> for f32 {
+    fn from(value: QuantityGeneric<0, 0, 0, 0, 0, 0, 0, f32>) -> Self {
+        value.0
     }
 }

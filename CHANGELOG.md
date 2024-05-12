@@ -1,3 +1,9 @@
+## [0.1.0] 12.05.2024
+Div<Quantity> trait inplemented for f32 and f64
+From<Num> trait implemented for Ratio (dimensionless quantity)
+From<Ratio> trait implemented for f32 and f64
+PartialOrd and Ord traits derived for Quantity
+
 ## [0.0.5] 05.05.2024
 New ThermalPressureCoefficient quantity
 Update `toml` dependency
@@ -8,7 +14,7 @@ num_traits::Zero trait implemented for QuantityGeneric
 ## [0.0.3] 14.07.2023
 Serde support with "use_serde" feature
 New QuantityGeneric functions: zero() creates generic quantity with zero value, into_number() converts Ratio into underlying storage
-New MolarFlow quantity 
+New MolarFlow quantity
 
 ## [0.0.2] 14.04.2023
 Removed std dependencies. Crate is now no_std

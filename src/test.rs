@@ -2,7 +2,7 @@
 mod test_dimensions {
     use crate::si::extended::f64::quantities::{
         AmountOfSubstance, Angle, ElectricCurrent, Information, Length, LuminousIntensity, Mass,
-        TemperatureInterval, ThermodynamicTemperature, Time, SolidAngle,
+        SolidAngle, TemperatureInterval, ThermodynamicTemperature, Time,
     };
     use crate::si::extended::f64::quantity::Quantity;
     #[test]
@@ -19,7 +19,7 @@ mod test_dimensions {
     }
     #[test]
     fn electric_current() {
-        let _l: ElectricCurrent = Quantity::<0, 0, 0, 1, 0, 0, 0, 0, 0, 0 ,0>::new(1.0);
+        let _l: ElectricCurrent = Quantity::<0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0>::new(1.0);
     }
     #[test]
     fn thermodynamic_temperature() {
@@ -42,53 +42,86 @@ mod test_dimensions {
         let _l: Angle = Quantity::<0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0>::new(1.0);
     }
 
-
     #[test]
     fn solid_angle() {
         let _l: SolidAngle = Quantity::<0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0>::new(1.0);
-    }    
+    }
     #[test]
     fn information() {
         let _l: Information = Quantity::<0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1>::new(1.0);
     }
 }
 
-
 #[cfg(test)]
 mod tests_operations_si_extended_f64 {
-    use crate::si::extended::f64::quantities::{Volume, Area, Length};
+    use crate::si::extended::f64::quantities::{
+        Area, Length, Ratio, Volume, VolumetricNumberDensity,
+    };
     #[test]
 
     fn powi_3() {
         let v = Volume::new(1000.0);
         let l: Length = Length::new(10.0);
-        let v_2:Volume = l.powi::<3>();
+        let v_2: Volume = l.powi::<3>();
         assert_eq!(v, v_2)
     }
+
     #[test]
 
     fn sqrt() {
-        let a:Area = Area::new(100.0);
+        let a: Area = Area::new(100.0);
         let l = Length::new(10.0);
-        let l_2:Length = a.sqrt();
+        let l_2: Length = a.sqrt();
         assert_eq!(l, l_2);
-    } 
-    
+    }
+
     #[test]
-    fn cbrt(){
+    fn cbrt() {
         let vol: Volume = Volume::new(1000.0);
         let len_1: Length = vol.cbrt();
         let len_2: Length = Length::new(10.0);
         assert_eq!(len_1, len_2);
     }
+    #[test]
+    fn mul_div_scalar() {
+        let vol: Volume = Volume::new(1000.0);
+        let v1 = vol * 1000.0;
+        assert_eq!(v1, Volume::new(1000000.0));
+        let v2 = 1000.0 * vol;
+        assert_eq!(v2, Volume::new(1000000.0));
+        let v3 = vol / 1000.0;
+        assert_eq!(v3, Volume::new(1.0));
+        let v4 = 1000.0 / vol;
+        assert_eq!(v4, VolumetricNumberDensity::new(1.0));
+    }
+    #[test]
+    fn into() {
+        let r: Ratio = 20.0.into();
+        let _f: f64 = r.get_with_si_unit();
+    }
+    #[test]
+    fn equality_and_comparizon() {
+        let v1: Volume = Volume::new(1000.0);
+        let v2: Volume = Volume::new(1000.0);
+        let v3: Volume = Volume::new(1.0);
+        assert_eq!(v1, v2);
+        assert_eq!(v1, v1);
+        assert_ne!(v1, v3);
+        assert!((v1 >= v2) == true);
+        assert!((v1 <= v2) == true);
+        assert!((v1 > v3) == true);
+        assert!((v1 < v2) == false);
+        assert!((v1 < v3) == false);
+    }
 }
-
 
 #[cfg(test)]
 mod tests_si_extended_f64 {
     use crate::prefix::metric::f64::MILLI;
     use crate::si::extended::f64::quantities::{
-        Acceleration, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity, ElectricPotential, Energy, Force, Frequency, HeatCapacity, Length, Mass, Power, Pressure, TemperatureInterval, ThermodynamicTemperature, Velocity, ThermalPressureCoefficient
+        Acceleration, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity,
+        ElectricPotential, Energy, Force, Frequency, HeatCapacity, Length, Mass, Power, Pressure,
+        TemperatureInterval, ThermalPressureCoefficient, ThermodynamicTemperature, Velocity,
     };
     use crate::si::extended::f64::{
         constants::{PLANCK_CONSTANT, SPEED_OF_LIGHT_IN_VACUUM, STANDARD_ACCELERATION_OF_GRAVITY},
@@ -186,12 +219,12 @@ mod tests_si_extended_f64 {
         let _two_t_square = t_square + t_square;
     }
     #[test]
-    fn test_thermal_pressure_coefficient(){
+    fn test_thermal_pressure_coefficient() {
         let dp = Pressure::new(1.0);
         let dt = TemperatureInterval::new(1.0);
-        let dp_over_dt: ThermalPressureCoefficient = dp/dt;
-        
-        assert_eq!(dp_over_dt, dp/dt);
+        let dp_over_dt: ThermalPressureCoefficient = dp / dt;
+
+        assert_eq!(dp_over_dt, dp / dt);
     }
 }
 
@@ -357,7 +390,6 @@ mod tests_si_isq_f64 {
         },
     };
 
- 
     #[test]
     fn test_new_with_unit() {
         let meter = Length::new_with_unit(1.0, METER);
