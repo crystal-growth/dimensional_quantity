@@ -12,6 +12,6 @@ pub type Quantity<
     const LUM: i64,
     const D_TH: i64,
     const A: i64,
-    const SA:i64,
+    const SA: i64,
     const INFO: i64,
 > = QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, f32>;

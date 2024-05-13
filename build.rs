@@ -239,11 +239,7 @@ fn generate_codata_constants<Storage: Float + FromStr + Display>(codata: &Path, 
                 value.clone()
             };
 
-            writeln!(
-                of,
-                "/// {name_pretty}, {value_pretty} \\[{unit_pretty}\\]"
-            )
-            .unwrap();
+            writeln!(of, "/// {name_pretty}, {value_pretty} \\[{unit_pretty}\\]").unwrap();
             writeln!(
                 of,
                 "pub const {name}: {quantity} = {quantity}::new({value});"

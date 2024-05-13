@@ -2,7 +2,7 @@
 
 //! Dimensional quantity type with generic underlying storage
 //!
-use core::ops::{Add, AddAssign, Div, Mul, Sub, SubAssign};
+use core::ops::{Add, AddAssign, Div, DivAssign, Mul, MulAssign, Sub, SubAssign};
 use num_traits::{Float, Num, Zero};
 #[cfg(feature = "use_serde")]
 use serde::{Deserialize, Serialize};
@@ -328,6 +328,134 @@ pub enum Assert<const COND: bool> {}
 pub trait IsTrue {}
 
 impl IsTrue for Assert<true> {}
+
+/// Perform *= operation for a dimensional quantity and a number with Storage type.
+/// ```
+/// #![feature(generic_const_exprs)]
+/// use dimensional_quantity::si::extended::f64::quantities::{Volume};
+/// let mut v1 = Volume::new(1.0);
+/// v1 *= 10.0;
+/// assert_eq!(v1, Volume::new(10.0));
+/// ```
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        const D_TH: i64,
+        const A: i64,
+        const SA: i64,
+        const INFO: i64,
+        Storage: Num,
+    > MulAssign<Storage> for QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>
+where
+    QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>: Sized,
+    Storage: MulAssign,
+{
+    fn mul_assign(&mut self, rhs: Storage) {
+        self.0 *= rhs;
+    }
+}
+
+/// Perform *= operation for a dimensional quantity and a Ratio with same Storage type.
+/// ```
+/// #![feature(generic_const_exprs)]
+/// use dimensional_quantity::si::extended::f64::quantities::{Volume,Ratio};
+/// let mut v1 = Volume::new(1.0);
+/// let r = Ratio::new(10.0);
+/// v1 *= r;
+/// assert_eq!(v1, Volume::new(10.0));
+/// ```
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        const D_TH: i64,
+        const A: i64,
+        const SA: i64,
+        const INFO: i64,
+        Storage: Num,
+    > MulAssign<QuantityGeneric<0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, Storage>>
+    for QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>
+where
+    QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>: Sized,
+    Storage: MulAssign,
+{
+    fn mul_assign(&mut self, rhs: QuantityGeneric<0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, Storage>) {
+        self.0 *= rhs.0;
+    }
+}
+
+/// Perform /= operation for a dimensional quantity and a Ratio with same Storage type.
+/// ```
+/// #![feature(generic_const_exprs)]
+/// use dimensional_quantity::si::extended::f64::quantities::{Volume,Ratio};
+/// let mut v1 = Volume::new(10.0);
+/// let r = Ratio::new(10.0);
+/// v1 /= r;
+/// assert_eq!(v1, Volume::new(1.0));
+/// ```
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        const D_TH: i64,
+        const A: i64,
+        const SA: i64,
+        const INFO: i64,
+        Storage: Num,
+    > DivAssign<QuantityGeneric<0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, Storage>>
+    for QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>
+where
+    QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>: Sized,
+    Storage: DivAssign,
+{
+    fn div_assign(&mut self, rhs: QuantityGeneric<0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, Storage>) {
+        self.0 /= rhs.0;
+    }
+}
+
+/// Perform /= operation for a dimensional quantity and a number with Storage type.
+/// ```
+/// #![feature(generic_const_exprs)]
+/// use dimensional_quantity::si::extended::f64::quantities::{Volume};
+/// let mut v1 = Volume::new(10.0);
+/// v1 /= 10.0;
+/// assert_eq!(v1, Volume::new(1.0));
+/// ```
+impl<
+        const L: i64,
+        const M: i64,
+        const T: i64,
+        const I: i64,
+        const TH: i64,
+        const N: i64,
+        const LUM: i64,
+        const D_TH: i64,
+        const A: i64,
+        const SA: i64,
+        const INFO: i64,
+        Storage: Num,
+    > DivAssign<Storage> for QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>
+where
+    QuantityGeneric<L, M, T, I, TH, N, LUM, D_TH, A, SA, INFO, Storage>: Sized,
+    Storage: DivAssign,
+{
+    fn div_assign(&mut self, rhs: Storage) {
+        self.0 /= rhs;
+    }
+}
 
 /// Addition of dimensional quantities with equal dimension formula, except ones containing absolute temperature
 impl<

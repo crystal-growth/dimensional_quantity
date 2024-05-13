@@ -1,5 +1,22 @@
+## [0.1.1] 13.05.2024
+QuantityGeneric implements DivAssign and MulAssign traits for Storage:
+```rust
+use dimensional_quantity::si::isq::f64::quantities::{Volume};
+let mut v1 = Volume::new(1.0);
+v1 *= 10.0;
+assert_eq!(v1, Volume::new(10.0));
+```
+and Ratio:
+
+```rust
+use dimensional_quantity::si::isq::f64::quantities::{Volume,Ratio};
+let mut v1 = Volume::new(1.0);
+let r = Ratio::new(10.0);
+v1 *= r;
+assert_eq!(v1, Volume::new(10.0));
+```
 ## [0.1.0] 12.05.2024
-Div<Quantity> trait inplemented for f32 and f64
+Div<Quantity> trait implemented for f32 and f64
 From<Num> trait implemented for Ratio (dimensionless quantity)
 From<Ratio> trait implemented for f32 and f64
 PartialOrd and Ord traits derived for Quantity

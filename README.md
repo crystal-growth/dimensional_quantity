@@ -1,46 +1,47 @@
 # dimensional_quantity
 
 Dimensional quantity: checking dimensions of physical quantities in compile time using generic const expressions
+* [127 Predefined dimensional quantities for International System of Units (SI)](si::extended::f64).
+* [Dimensional units of measure](si::extended::f64::units_of_measure).
+* [Dimensional physical constants (CODATA 2018 values)](si::extended::f64::constants).
+* [Non-dimensional SI prefixes: metric (kilo, micro, giga, etc.) and binary (Kibi, Mebi, ...)](prefix).
 
-[Documentation](https://docs.rs/dimensional_quantity/)
+## Usage
 
 * This crate is **experimental** and uses **unstable** [`generic_const_exprs`](https://github.com/rust-lang/rust/issues/76560)
   feature and can only be compiled with **nightly** toolchain.
 * If you need a **stable** solution, please check excellent [dimensioned](https://github.com/paholg/dimensioned) and [uom](https://github.com/iliekturtles/uom) crates.
 * The only implemented underlying storage types are f64 and f32.
 
-To use this crate, you need to enable *`generic_const_exprs`* feature in your crate:
+To use this crate, first add this to your `Cargo.toml`:
+```toml
+[dependencies]
+dimensional_quantity = "0.1.0"
+```
+ then enable *`generic_const_exprs`* feature in your crate:
+```rust
+ #![feature(generic_const_exprs)]
+```
 
- ```#![feature(generic_const_exprs)]```
-
-and build it with nightly by using ```cargo +nightly```:
+and build it with nightly toolchain using ```cargo +nightly```:
 
 ```bash
 cargo +nightly build
 ```
 
-or by adding `rust-toolchain.toml` file with the following content to your project
+or add `rust-toolchain.toml` file with the following content to your project
 ```toml
 [toolchain]
 channel = "nightly"
 ```
-
-and add this to your `Cargo.toml`
-
+## Features
+### Serialization/deserialization with Serde
 ```toml
 [dependencies]
-dimensional_quantity = "0.1.0"
+dimensional_quantity = {version = "0.1.0", features = ["use_serde"]}
 ```
 
 
-Here you will find:
-
-* [Predefined dimensional quantities for International System of Units (SI)](si::extended::f64).
-* [Dimensional units of measure](si::extended::f64::units_of_measure).
-
-* [Dimensional physical constants](si::extended::f64::constants).
-
-* [Non-dimensional metric (kilo, micro, giga, etc.) and binary (Kibi, Mebi, ...) prefixes](prefix).
 
 
 
@@ -169,7 +170,7 @@ let fail_3: Length = area;
 ### Creating new quantities and tests
 
 If some quantity or unit are not implemented in [predefined dimensional quantities](si::extended::f64) and [predefined units of measure](si::extended::f64::units_of_measure),
-then new quantity and units can be defined:
+then a new quantity and corresponding units of measure can be defined as follows:
 
 ```rust
 #![feature(generic_const_exprs)]

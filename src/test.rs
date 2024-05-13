@@ -2,9 +2,13 @@
 mod test_dimensions {
     use crate::si::extended::f64::quantities::{
         AmountOfSubstance, Angle, ElectricCurrent, Information, Length, LuminousIntensity, Mass,
-        SolidAngle, TemperatureInterval, ThermodynamicTemperature, Time,
+        Ratio, SolidAngle, TemperatureInterval, ThermodynamicTemperature, Time,
     };
     use crate::si::extended::f64::quantity::Quantity;
+    #[test]
+    fn ratio() {
+        let _: Ratio = Quantity::<0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::new(1.0);
+    }
     #[test]
     fn length() {
         let _l: Length = Quantity::<1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::new(1.0);
