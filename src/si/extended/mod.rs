@@ -17,4 +17,6 @@
 
 pub mod f32;
 pub mod f64;
+#[cfg(feature = "decimal")]
+pub mod decimal;
 pub mod operations_generic;

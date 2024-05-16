@@ -8,7 +8,7 @@ use serde::{Deserialize, Serialize};
 
 /// Dimensional quantity
 #[derive(Debug, Copy, Clone, PartialEq, Eq, PartialOrd, Ord)]
-#[cfg_attr(feature = "serde_support", derive(Serialize, Deserialize))]
+#[cfg_attr(feature = "use_serde", derive(Serialize, Deserialize))]
 pub struct QuantityGeneric<
     const L: i64,
     const M: i64,

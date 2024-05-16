@@ -56,6 +56,21 @@ mod test_dimensions {
     }
 }
 
+
+#[cfg(test)]
+#[cfg(feature = "decimal")]
+mod test_decimal_storage {
+use crate::si::extended::decimal::quantities::{Length, Volume};
+use rust_decimal::Decimal;
+    #[test]
+    #[cfg(feature = "decimal")]
+    fn decimal(){
+        let l = Length::new(Decimal::from_str_exact("2").unwrap());
+        let v = Volume::new(Decimal::from_str_exact("8").unwrap());
+        assert_eq!(l*l*l, v);
+    }
+}
+
 #[cfg(test)]
 mod tests_operations_si_extended_f64 {
     use crate::si::extended::f64::quantities::{

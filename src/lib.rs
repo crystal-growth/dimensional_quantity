@@ -20,7 +20,7 @@
 //! To use this crate, first add this to your `Cargo.toml`:
 //! ```toml
 //! [dependencies]
-//! dimensional_quantity = "0.1.1"
+//! dimensional_quantity = "0.1"
 //! ```
 //!  then enable *`generic_const_exprs`* feature in your crate:
 //! ```rust
@@ -42,10 +42,14 @@
 //! ## Serialization/deserialization with Serde
 //! ```toml
 //! [dependencies]
-//! dimensional_quantity = {version = "0.1.0", features = ["use_serde"]}
+//! dimensional_quantity = {version = "0.1", features = ["use_serde"]}
 //! ```
 //!
-//!
+//! ## Decimal storage type
+//! ```toml
+//! [dependencies]
+//! dimensional_quantity = {version = "0.1", features = ["decimal"]}
+//! ```
 //!
 //!
 //!
