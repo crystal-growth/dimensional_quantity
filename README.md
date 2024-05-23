@@ -1,9 +1,9 @@
 # dimensional_quantity
 
 Dimensional quantity: checking dimensions of physical quantities in compile time using generic const expressions
-* [127 Predefined dimensional quantities for International System of Units (SI)](si::extended::f64).
+* [127 predefined dimensional quantities for International System of Units (SI)](si::extended::f64).
 * [Dimensional units of measure](si::extended::f64::units_of_measure).
-* [Dimensional physical constants (CODATA 2018 values)](si::extended::f64::constants).
+* [Dimensional physical constants (CODATA 2022 values)](si::extended::f64::constants).
 * [Non-dimensional SI prefixes: metric (kilo, micro, giga, etc.) and binary (Kibi, Mebi, ...)](prefix).
 
 ## Usage
@@ -16,7 +16,7 @@ Dimensional quantity: checking dimensions of physical quantities in compile time
 To use this crate, first add this to your `Cargo.toml`:
 ```toml
 [dependencies]
-dimensional_quantity = "0.1.0"
+dimensional_quantity = "0.1"
 ```
  then enable *`generic_const_exprs`* feature in your crate:
 ```rust
@@ -38,10 +38,14 @@ channel = "nightly"
 ### Serialization/deserialization with Serde
 ```toml
 [dependencies]
-dimensional_quantity = {version = "0.1.0", features = ["use_serde"]}
+dimensional_quantity = {version = "0.1", features = ["use_serde"]}
 ```
 
-
+### Decimal storage type
+```toml
+[dependencies]
+dimensional_quantity = {version = "0.1", features = ["decimal"]}
+```
 
 
 

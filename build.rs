@@ -183,7 +183,7 @@ fn generate_codata_constants<Storage: Float + FromStr + Display>(codata: &Path, 
     let codata = File::open(codata).unwrap();
     let codata = BufReader::new(codata);
     let storage_type = std::any::type_name::<Storage>();
-    let of = out_dir.join(format!("codata2018_{storage_type}.rs"));
+    let of = out_dir.join(format!("codata2022_{storage_type}.rs"));
     let of = Path::new(&of);
     let mut of = File::create(of).unwrap();
 
@@ -379,7 +379,7 @@ fn main() {
         &units_si_isq_f32_path,
         SystemOfQuantities::SiIsq,
     );
-    let codata_src_path = Path::new("src/si/constants_definition/codata2018.txt");
+    let codata_src_path = Path::new("src/si/constants_definition/codata2022.txt");
     let out_dir_path = Path::new(&out_dir);
     generate_codata_constants::<f64>(codata_src_path, out_dir_path);
     generate_codata_constants::<f32>(codata_src_path, out_dir_path);

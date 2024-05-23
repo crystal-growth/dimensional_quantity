@@ -1,3 +1,5 @@
+## [0.1.3] 23.05.2024
+- Updated CODATA 2022 Physical Constants
 ## [0.1.2] 16.05.2024
 - Fixed broken ```use_serde``` feature
 - Initial support for Decimal storage type 
