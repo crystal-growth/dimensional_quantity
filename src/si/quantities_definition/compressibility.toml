@@ -1,0 +1,39 @@
+name = "Compressibility"
+symbol = "Compressibility"
+snake_case_name = "compressibility"
+short_dim_formula = "L⋅M<sup>-1</sup>⋅T<sup>2</sup>"
+long_dim_formula = "Length⋅Mass<sup>-1</sup>⋅Time<sup>2</sup>"
+units_formula = "m⋅kg<sup>-1</sup>⋅s<sup>2</sup>"
+
+[dimensions]
+length = 1
+mass = -1
+time = 2
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0 
+solid_angle = 0
+information = 0
+
+
+[units.PER_PASCAL]
+multiplier = "1.0E0"
+symbol = "Pa"
+singular = "pascal"
+plural = "pascals"
+
+[units.PPM_PER_PASCAL]
+multiplier = "1.0E-6"
+symbol = "Pa"
+singular = "pascal"
+plural = "pascals"
+
+[units.PER_BAR]
+multiplier = "1.0_E-5"
+symbol = "bar"
+singular = "bar"
+plural = "bar"
+

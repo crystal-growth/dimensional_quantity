@@ -399,13 +399,15 @@ mod tests_si_isq_f64 {
     use crate::si::isq::f64::quantities::{
         Acceleration, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity,
         ElectricPotential, Energy, Force, Frequency, HeatCapacity, Length, Mass, Power,
-        TemperatureInterval, ThermodynamicTemperature, Velocity,
+        TemperatureInterval, ThermodynamicTemperature, Velocity, Ratio, Compressibility, Pressure,
     };
     use crate::si::isq::f64::{
         constants::{PLANCK_CONSTANT, SPEED_OF_LIGHT_IN_VACUUM, STANDARD_ACCELERATION_OF_GRAVITY},
         units_of_measure::{
             coulomb_constant::COULOMB_CONSTANT,
             length::{METER, MILLIMETER},
+            pressure::{PASCAL, BAR},
+            compressibility::{PER_PASCAL, PER_BAR},
         },
     };
 
@@ -495,5 +497,16 @@ mod tests_si_isq_f64 {
         let ti_square = ti * ti;
         let _two_t_square = ti_square + ti_square;
         let _two_t_square = t_square + t_square;
+    }
+    #[test]
+    fn pressure_and_compressibility(){
+        let p = Pressure::new_with_unit(100.0, PASCAL);
+        let c = Compressibility::new_with_unit(0.01, PER_PASCAL);
+        let r: Ratio = p * c;
+        assert_eq!(r.get_with_si_unit(), 1.0);
+        let p = Pressure::new_with_unit(100.0, BAR);
+        let c = Compressibility::new_with_unit(0.01, PER_BAR);
+        let r: Ratio = p * c;
+        assert_eq!(r.get_with_si_unit(), 1.0);
     }
 }
