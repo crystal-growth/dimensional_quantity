@@ -1,4 +1,4 @@
-## [0.1.4] 01.10.2024
+## [0.1.5] 01.10.2024
 - rust_decimal dependency version upgrade to 1.36
 - new quantities: Compressibility and ReciprocalTemperature 
 ## [0.1.3] 23.05.2024

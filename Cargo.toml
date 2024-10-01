@@ -1,6 +1,6 @@
 [package]
 name = "dimensional_quantity"
-version = "0.1.4"
+version = "0.1.5"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 description = "Check units of measure at compile time using generic const expressions"
