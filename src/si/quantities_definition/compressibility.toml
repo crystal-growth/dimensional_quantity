@@ -21,19 +21,19 @@ information = 0
 
 [units.PER_PASCAL]
 multiplier = "1.0E0"
-symbol = "Pa"
-singular = "pascal"
-plural = "pascals"
+symbol = "Pa⁻¹"
+singular = "per pascal"
+plural = "per pascal"
 
 [units.PPM_PER_PASCAL]
 multiplier = "1.0E-6"
-symbol = "Pa"
-singular = "pascal"
-plural = "pascals"
+symbol = "ppm/Pa"
+singular = "ppm per pascal"
+plural = "ppm per pascal"
 
 [units.PER_BAR]
 multiplier = "1.0_E-5"
-symbol = "bar"
-singular = "bar"
-plural = "bar"
+symbol = "bar⁻¹"
+singular = "per bar"
+plural = "per bar"
 

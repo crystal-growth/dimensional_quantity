@@ -1,0 +1,26 @@
+name = "Reciprocal temperature"
+symbol = "ReciprocalTemperature"
+snake_case_name = "reciprocal_temperature"
+short_dim_formula = "Th<sup>-1</sup>"
+long_dim_formula = "Thermodynamic Temperature<sup>-1</sup>"
+units_formula = "K<sup>-1</sup>"
+
+[dimensions]
+length = 0
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = -1
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0 
+solid_angle = 0
+information = 0
+
+
+[units.PER_KELVIN]
+multiplier = "1.0E0"
+symbol = "K⁻¹"
+singular = "per kelvin"
+plural = "per kelvin"

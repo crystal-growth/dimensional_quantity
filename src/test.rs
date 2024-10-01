@@ -56,18 +56,17 @@ mod test_dimensions {
     }
 }
 
-
 #[cfg(test)]
 #[cfg(feature = "decimal")]
 mod test_decimal_storage {
-use crate::si::extended::decimal::quantities::{Length, Volume};
-use rust_decimal::Decimal;
+    use crate::si::extended::decimal::quantities::{Length, Volume};
+    use rust_decimal::Decimal;
     #[test]
     #[cfg(feature = "decimal")]
-    fn decimal(){
+    fn decimal() {
         let l = Length::new(Decimal::from_str_exact("2").unwrap());
         let v = Volume::new(Decimal::from_str_exact("8").unwrap());
-        assert_eq!(l*l*l, v);
+        assert_eq!(l * l * l, v);
     }
 }
 
@@ -397,17 +396,20 @@ mod tests_si_isq_f32 {
 mod tests_si_isq_f64 {
     use crate::prefix::metric::f64::MILLI;
     use crate::si::isq::f64::quantities::{
-        Acceleration, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity,
-        ElectricPotential, Energy, Force, Frequency, HeatCapacity, Length, Mass, Power,
-        TemperatureInterval, ThermodynamicTemperature, Velocity, Ratio, Compressibility, Pressure,
+        Acceleration, Area, Capacitance, Compressibility, ElectricCharge, ElectricCurrent,
+        ElectricPermittivity, ElectricPotential, Energy, Force, Frequency, HeatCapacity, Length,
+        Mass, Power, Pressure, Ratio, ReciprocalTemperature,  TemperatureInterval,
+        ThermodynamicTemperature, Velocity,
     };
     use crate::si::isq::f64::{
         constants::{PLANCK_CONSTANT, SPEED_OF_LIGHT_IN_VACUUM, STANDARD_ACCELERATION_OF_GRAVITY},
         units_of_measure::{
+            compressibility::{PER_BAR, PER_PASCAL},
             coulomb_constant::COULOMB_CONSTANT,
             length::{METER, MILLIMETER},
-            pressure::{PASCAL, BAR},
-            compressibility::{PER_PASCAL, PER_BAR},
+            pressure::{BAR, PASCAL},
+            thermodynamic_temperature::KELVIN,
+            reciprocal_temperature::PER_KELVIN,
         },
     };
 
@@ -499,13 +501,21 @@ mod tests_si_isq_f64 {
         let _two_t_square = t_square + t_square;
     }
     #[test]
-    fn pressure_and_compressibility(){
+    fn pressure_and_compressibility() {
         let p = Pressure::new_with_unit(100.0, PASCAL);
         let c = Compressibility::new_with_unit(0.01, PER_PASCAL);
         let r: Ratio = p * c;
         assert_eq!(r.get_with_si_unit(), 1.0);
         let p = Pressure::new_with_unit(100.0, BAR);
         let c = Compressibility::new_with_unit(0.01, PER_BAR);
+        let r: Ratio = p * c;
+        assert_eq!(r.get_with_si_unit(), 1.0);
+    }
+
+    #[test]
+    fn temperature_and_reciprocal() {
+        let p = ThermodynamicTemperature::new_with_unit(100.0, KELVIN);
+        let c = ReciprocalTemperature::new_with_unit(0.01, PER_KELVIN);
         let r: Ratio = p * c;
         assert_eq!(r.get_with_si_unit(), 1.0);
     }
