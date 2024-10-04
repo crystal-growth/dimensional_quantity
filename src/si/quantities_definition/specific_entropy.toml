@@ -1,0 +1,38 @@
+name = "Specific Entropy"
+symbol = "SpecificEntropy"
+snake_case_name = "specific_entropy"
+short_dim_formula = "L<sup>2</sup>⋅T<sup>-2</sup>⋅Th<sup>-1</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Time<sup>-2</sup>⋅Thermodynamic Temperature<sup>-1</sup>"
+units_formula = "m<sup>2</sup>⋅s<sup>-2</sup>⋅K<sup>-1</sup>"
+
+[dimensions]
+length = 2
+mass = 0
+time = -2
+electric_current = 0
+thermodynamic_temperature = -1
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0 
+solid_angle = 0
+information = 0
+
+[units.JOULE_PER_KILOGRAM_KELVIN]
+multiplier = "1.0E0"
+symbol = "J/(kg·K)"
+singular = "joule per kilogram kelvin"
+plural = "joules per kilogram kelvin"
+
+[units.CALORIE_PER_KILOGRAM_KELVIN]
+multiplier = "4.184_E0"
+symbol = "cal/(kg·K)"
+singular = "calorie per kilogram kelvin"
+plural = "calories per kilogram kelvin"
+
+[units.CALORIE_PER_GRAM_KELVIN]
+multiplier = "4.184_E+3"
+symbol = "cal/(g·K)"
+singular = "calorie per gram kelvin"
+plural = "calories per gram kelvin"
+

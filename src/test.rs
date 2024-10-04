@@ -397,9 +397,9 @@ mod tests_si_isq_f64 {
     use crate::prefix::metric::f64::MILLI;
     use crate::si::isq::f64::quantities::{
         Acceleration, Area, Capacitance, Compressibility, ElectricCharge, ElectricCurrent,
-        ElectricPermittivity, ElectricPotential, Energy, Force, Frequency, HeatCapacity, Length,
-        Mass, Power, Pressure, Ratio, ReciprocalTemperature,  TemperatureInterval,
-        ThermodynamicTemperature, Velocity,
+        ElectricPermittivity, ElectricPotential, Energy, Entropy, Force, Frequency, HeatCapacity,
+        Length, Mass, Power, Pressure, Ratio, ReciprocalTemperature, SpecificEntropy,
+        TemperatureInterval, ThermalInsulance, ThermodynamicTemperature, Velocity,
     };
     use crate::si::isq::f64::{
         constants::{PLANCK_CONSTANT, SPEED_OF_LIGHT_IN_VACUUM, STANDARD_ACCELERATION_OF_GRAVITY},
@@ -408,8 +408,8 @@ mod tests_si_isq_f64 {
             coulomb_constant::COULOMB_CONSTANT,
             length::{METER, MILLIMETER},
             pressure::{BAR, PASCAL},
-            thermodynamic_temperature::KELVIN,
             reciprocal_temperature::PER_KELVIN,
+            thermodynamic_temperature::KELVIN,
         },
     };
 
@@ -518,5 +518,20 @@ mod tests_si_isq_f64 {
         let c = ReciprocalTemperature::new_with_unit(0.01, PER_KELVIN);
         let r: Ratio = p * c;
         assert_eq!(r.get_with_si_unit(), 1.0);
+    }
+    #[test]
+    fn specific_entropy() {
+        let e = Entropy::new(10.0);
+        let m = Mass::new(10.0);
+        let se: SpecificEntropy = e / m;
+        assert_eq!(se.get_with_si_unit(), 1.0);
+    }
+
+    fn thermal_insulance() {
+        let a = Area::new(10.0);
+        let t = TemperatureInterval::new(10.0);
+        let p = Power::new(100.0);
+        let i: ThermalInsulance = a * t / p;
+        assert_eq!(i.get_with_si_unit(), 1.0);
     }
 }

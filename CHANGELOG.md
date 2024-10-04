@@ -1,3 +1,6 @@
+## [0.1.6] 04.10.2024
+- new quantities: SpecificEntropy and ThermalInsulance
+
 ## [0.1.5] 01.10.2024
 - rust_decimal dependency version upgrade to 1.36
 - new quantities: Compressibility and ReciprocalTemperature 

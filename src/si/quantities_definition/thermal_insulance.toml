@@ -1,0 +1,31 @@
+name = "ThermalInsulance"
+symbol = "ThermalInsulance"
+snake_case_name = "thermal_insulance"
+short_dim_formula = "M<sup>-1</sup>⋅T<sup>3</sup>⋅`ΔTh`"
+long_dim_formula = "Mass<sup>-1</sup>⋅Time<sup>3</sup>⋅Temperature interval"
+units_formula = "kg<sup>-1</sup>⋅s<sup>3</sup>⋅ΔK"
+
+[dimensions]
+length = 0
+mass = -1
+time = 3
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 1
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0 
+solid_angle = 0
+information = 0
+
+[units.SQUARE_METER_KELVIN_PER_WATT]
+multiplier = "1.0E0"
+symbol = "(m²·K)/W"
+singular = "square meter kelvin per watt"
+plural = "square meter kelvins per watt"
+
+[units.SQUARE_METER_DEGREE_CELSIUS_PER_WATT]
+multiplier = "1.0E0"
+symbol = "(m²·°C)/W"
+singular = "square meter degree celsius per watt"
+plural = "square meter degrees celsius per watt"
