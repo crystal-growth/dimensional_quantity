@@ -3,7 +3,7 @@
 #![deny(missing_docs)]
 #![allow(clippy::inconsistent_digit_grouping)]
 #![deny(unsafe_code)]
-#![no_std]
+#![cfg_attr(not(feature = "std"), no_std)]
 //! Dimensional quantity: checking dimensions of physical quantities in compile time using generic const expressions
 //! * [131 predefined dimensional quantities for International System of Units (SI)](si::extended::f64).
 //! * [Dimensional units of measure](si::extended::f64::units_of_measure).
@@ -15,9 +15,9 @@
 //! * This crate is **experimental** and uses **unstable** [`generic_const_exprs`](https://github.com/rust-lang/rust/issues/76560)
 //!   feature and can only be compiled with **nightly** toolchain.
 //! * If you need a **stable** solution, please check excellent [dimensioned](https://github.com/paholg/dimensioned) and [uom](https://github.com/iliekturtles/uom) crates.
-//! * The only implemented underlying storage types are f64 and f32.
-//!
-//! To use this crate, first add this to your `Cargo.toml`:
+//! * The underlying storage types are f64 and f32; Decimal storage type is also available with "decimal" feature.
+//!   
+//!   To use this crate, first add this to your `Cargo.toml`:
 //! ```toml
 //! [dependencies]
 //! dimensional_quantity = "0.1"
@@ -39,6 +39,13 @@
 //! channel = "nightly"
 //! ```
 //! # Features
+//! `std` feature is enabled by default, `use_serde` and `decimal` are optional
+//! ## `no_std`
+//! ```toml
+//! [dependencies]
+//! dimensional_quantity = {version = "0.1", default-features=false}
+//! ```
+//! 
 //! ## Serialization/deserialization with Serde
 //! ```toml
 //! [dependencies]

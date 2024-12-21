@@ -3,7 +3,11 @@
 //! Dimensional quantity type with generic underlying storage
 //!
 use core::ops::{Add, AddAssign, Div, DivAssign, Mul, MulAssign, Sub, SubAssign};
-use num_traits::{Float, Num, Zero};
+use num_traits::{Num, Zero};
+#[cfg(feature = "std")]
+pub use num_traits::float::Float;
+#[cfg(not(feature = "std"))]
+pub use num_traits::float::FloatCore as Float;
 #[cfg(feature = "use_serde")]
 use serde::{Deserialize, Serialize};
 
@@ -874,6 +878,7 @@ where
     ///
     ///
     /// ```
+    #[cfg(feature = "std")]
     pub fn sqrt(
         &self,
     ) -> QuantityGeneric<
@@ -954,6 +959,8 @@ where
     ///
     ///
     /// ```
+    /// 
+    #[cfg(feature = "std")]
     pub fn cbrt(
         &self,
     ) -> QuantityGeneric<

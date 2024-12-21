@@ -59,13 +59,16 @@ mod test_dimensions {
 #[cfg(test)]
 #[cfg(feature = "decimal")]
 mod test_decimal_storage {
-    use crate::si::extended::decimal::quantities::{Length, Volume};
+    use crate::si::extended::decimal::quantities::{Length, Area, Volume};
     use rust_decimal::Decimal;
     #[test]
     #[cfg(feature = "decimal")]
     fn decimal() {
         let l = Length::new(Decimal::from_str_exact("2").unwrap());
+        let a = Length::new(Decimal::from_str_exact("4").unwrap());
+
         let v = Volume::new(Decimal::from_str_exact("8").unwrap());
+        //assert_eq!(l, a.sqrt());
         assert_eq!(l * l * l, v);
     }
 }
@@ -526,7 +529,7 @@ mod tests_si_isq_f64 {
         let se: SpecificEntropy = e / m;
         assert_eq!(se.get_with_si_unit(), 1.0);
     }
-
+    #[test]
     fn thermal_insulance() {
         let a = Area::new(10.0);
         let t = TemperatureInterval::new(10.0);
