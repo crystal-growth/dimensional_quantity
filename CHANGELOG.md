@@ -1,3 +1,5 @@
+## [0.1.7] 21.12.2024
+- ```std``` feature enable by default, disable ```default-features``` to build ```no_std``` 
 ## [0.1.6] 04.10.2024
 - new quantities: SpecificEntropy and ThermalInsulance
 
