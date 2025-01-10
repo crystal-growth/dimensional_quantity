@@ -59,16 +59,13 @@ mod test_dimensions {
 #[cfg(test)]
 #[cfg(feature = "decimal")]
 mod test_decimal_storage {
-    use crate::si::extended::decimal::quantities::{Length, Area, Volume};
+    use crate::si::extended::decimal::quantities::{Length,  Volume};
     use rust_decimal::Decimal;
     #[test]
     #[cfg(feature = "decimal")]
     fn decimal() {
         let l = Length::new(Decimal::from_str_exact("2").unwrap());
-        let a = Length::new(Decimal::from_str_exact("4").unwrap());
-
         let v = Volume::new(Decimal::from_str_exact("8").unwrap());
-        //assert_eq!(l, a.sqrt());
         assert_eq!(l * l * l, v);
     }
 }
@@ -128,9 +125,9 @@ mod tests_operations_si_extended_f64 {
         assert_eq!(v1, v2);
         assert_eq!(v1, v1);
         assert_ne!(v1, v3);
-        assert!((v1 >= v2) == true);
-        assert!((v1 <= v2) == true);
-        assert!((v1 > v3) == true);
+        assert!(v1 >= v2);
+        assert!(v1 <= v2);
+        assert!(v1 > v3);
         assert!((v1 < v2) == false);
         assert!((v1 < v3) == false);
     }
@@ -140,9 +137,7 @@ mod tests_operations_si_extended_f64 {
 mod tests_si_extended_f64 {
     use crate::prefix::metric::f64::MILLI;
     use crate::si::extended::f64::quantities::{
-        Acceleration, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity,
-        ElectricPotential, Energy, Force, Frequency, HeatCapacity, Length, Mass, Power, Pressure,
-        TemperatureInterval, ThermalPressureCoefficient, ThermodynamicTemperature, Velocity,
+        Acceleration, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity, ElectricPotential, Energy, Force, Frequency, HeatCapacity, Length, Mass, Power, Pressure, TemperatureInterval, ThermalInsulance, ThermalPressureCoefficient, ThermalResistance, ThermalConductance,ThermodynamicTemperature, Velocity
     };
     use crate::si::extended::f64::{
         constants::{PLANCK_CONSTANT, SPEED_OF_LIGHT_IN_VACUUM, STANDARD_ACCELERATION_OF_GRAVITY},
@@ -155,8 +150,8 @@ mod tests_si_extended_f64 {
     #[test]
     fn test_new_with_unit() {
         let meter = Length::new_with_unit(1.0, METER);
-        let millilmeter = Length::new_with_unit(1.0, MILLIMETER);
-        assert_eq!(meter * MILLI, millilmeter);
+        let millimeter = Length::new_with_unit(1.0, MILLIMETER);
+        assert_eq!(meter * MILLI, millimeter);
     }
 
     #[test]
@@ -172,9 +167,10 @@ mod tests_si_extended_f64 {
 
     #[test]
     fn test_heat_capacity() {
-        let cp = HeatCapacity::new(3.1);
+        let cp = HeatCapacity::new(3.0);
         let dth = TemperatureInterval::new(100.0);
-        let _dq: Energy = cp * dth;
+        let dq = Energy::new(300.0);
+        assert_eq!(dq,cp*dth);
     }
 
     #[test]
@@ -247,6 +243,30 @@ mod tests_si_extended_f64 {
 
         assert_eq!(dp_over_dt, dp / dt);
     }
+
+    #[test]
+    fn thermal_insulance() {
+        let a = Area::new(10.0);
+        let t = TemperatureInterval::new(10.0);
+        let p = Power::new(100.0);
+        let i: ThermalInsulance = a * t / p;
+        assert_eq!(i.get_with_si_unit(), 1.0);
+    }
+    #[test]
+    fn thermal_resistance(){
+        let ti = TemperatureInterval::new(10.0);
+        let power = Power::new(10.0);
+        let tr = ThermalResistance::new(1.0);
+        assert_eq!(tr, ti/power);
+    }
+    #[test]
+    fn thermal_conductance(){
+        let ti = TemperatureInterval::new(10.0);
+        let power = Power::new(10.0);
+        let tc = ThermalConductance::new(1.0);
+        assert_eq!(tc, power/ti);
+    }
+
 }
 
 #[cfg(test)]
@@ -402,7 +422,7 @@ mod tests_si_isq_f64 {
         Acceleration, Area, Capacitance, Compressibility, ElectricCharge, ElectricCurrent,
         ElectricPermittivity, ElectricPotential, Energy, Entropy, Force, Frequency, HeatCapacity,
         Length, Mass, Power, Pressure, Ratio, ReciprocalTemperature, SpecificEntropy,
-        TemperatureInterval, ThermalInsulance, ThermodynamicTemperature, Velocity,
+        TemperatureInterval, ThermodynamicTemperature, Velocity,
     };
     use crate::si::isq::f64::{
         constants::{PLANCK_CONSTANT, SPEED_OF_LIGHT_IN_VACUUM, STANDARD_ACCELERATION_OF_GRAVITY},
@@ -458,10 +478,11 @@ mod tests_si_isq_f64 {
 
     #[test]
     fn test_electric_power() {
-        let i: ElectricCurrent = ElectricCurrent::new(1.0);
-        let v: ElectricPotential = ElectricPotential::new(1.0);
+        let i: ElectricCurrent = ElectricCurrent::new(10.0);
+        let v: ElectricPotential = ElectricPotential::new(10.0);
 
-        let _p: Power = i * v;
+        let p = Power::new(100.0);
+        assert_eq!(p, i*v);
     }
 
     #[test]
@@ -529,12 +550,5 @@ mod tests_si_isq_f64 {
         let se: SpecificEntropy = e / m;
         assert_eq!(se.get_with_si_unit(), 1.0);
     }
-    #[test]
-    fn thermal_insulance() {
-        let a = Area::new(10.0);
-        let t = TemperatureInterval::new(10.0);
-        let p = Power::new(100.0);
-        let i: ThermalInsulance = a * t / p;
-        assert_eq!(i.get_with_si_unit(), 1.0);
-    }
+
 }

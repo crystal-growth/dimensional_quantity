@@ -328,7 +328,6 @@ impl<
 ///  Assert for generic const parameters
 pub enum Assert<const COND: bool> {}
 ///  Assert for generic const parameters
-
 pub trait IsTrue {}
 
 impl IsTrue for Assert<true> {}

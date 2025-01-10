@@ -1,0 +1,25 @@
+name = "Thermal Resistance"
+symbol = "ThermalResistance"
+snake_case_name = "thermal_resistance"
+short_dim_formula = "L<sup>-2</sup>⋅M<sup>-1<sup>⋅T<sup>3</sup>⋅`ΔTh`<sup>1</sup>"
+long_dim_formula = "Length<sup>-2</sup>⋅Mass<sup>-1<sup>⋅Time<sup>3</sup>⋅Temperature interval<sup>1</sup>"
+units_formula = "m<sup>-2</sup>⋅kg<sup>-1<sup>⋅s<sup>3</sup>⋅`ΔK`<sup>1</sup>"
+
+[dimensions]
+length = -2
+mass = -1
+time = 3
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 1
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0 
+solid_angle = 0
+information = 0
+
+[units.KELVIN_PER_WATT]
+multiplier = "1.0"
+symbol = "K/W"
+singular = "kelvin per watt"
+plural = "kelvins per watt"
