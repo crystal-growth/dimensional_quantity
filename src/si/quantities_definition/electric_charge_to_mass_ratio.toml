@@ -1,9 +1,9 @@
 name = "Electric charge to mass ratio"
 symbol = "ElectricChargeToMassRatio"
 snake_case_name = "electric_charge_to_mass_ratio"
-short_dim_formula = "M<sub>-1</sub>⋅T<sub>1</sub>⋅I<sub>1</sub>"
-long_dim_formula = "Mass<sub>-1</sub>⋅Time<sub>1</sub>⋅Electric current<sub>1</sub>"
-units_formula = "kg<sub>-1</sub>⋅s<sub>1</sub>⋅A<sub>1</sub>"
+short_dim_formula = "M<sup>-1</sup>⋅T<sup>1</sup>⋅I<sup>1</sup>"
+long_dim_formula = "Mass<sup>-1</sup>⋅Time<sup>1</sup>⋅Electric current<sup>1</sup>"
+units_formula = "kg<sup>-1</sup>⋅s<sup>1</sup>⋅A<sup>1</sup>"
 
 [dimensions]
 length = 0

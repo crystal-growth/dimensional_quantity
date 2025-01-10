@@ -1,9 +1,9 @@
 name = "First radiation constant"
 symbol = "FirstRadiationConstant"
 snake_case_name = "first_radiation_constant"
-short_dim_formula = "L<sub>4</sub>⋅M<sub>3</sub>⋅T<sub>-1</sub>"
-long_dim_formula = "Length<sub>4</sub>⋅Mass<sub>3</sub>⋅Time<sub>-1</sub>"
-units_formula = "m<sub>4</sub>⋅kg<sub>3</sub>⋅s<sub>-1</sub>"
+short_dim_formula = "L<sup>4</sup>⋅M<sup>3</sup>⋅T<sup>-1</sup>"
+long_dim_formula = "Length<sup>4</sup>⋅Mass<sup>3</sup>⋅Time<sup>-1</sup>"
+units_formula = "m<sup>4</sup>⋅kg<sup>3</sup>⋅s<sup>-1</sup>"
 
 [dimensions]
 length = 4
@@ -20,6 +20,6 @@ information = 0
 
 [units.WATT_SQUARE_METER]
 multiplier = "1.0E0"
-symbol = "W⋅m<sub>2</sub>"
+symbol = "W⋅m<sup>2</sup>"
 singular = "watt square meter"
 plural = "watts square meter"
