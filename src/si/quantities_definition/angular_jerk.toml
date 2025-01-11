@@ -1,7 +1,7 @@
 name = "Angular jerk"
 symbol = "AngularJerk"
 snake_case_name = "angular_jerk"
-short_dim_formula = "T<sup>-3</sup>⋅θ"
+short_dim_formula = "T<sup>-3</sup>⋅∠"
 long_dim_formula = "Time<sup>-3</sup>⋅Angle"
 units_formula = "s<sup>-3</sup>⋅rad"
 

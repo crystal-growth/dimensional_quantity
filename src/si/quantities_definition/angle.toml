@@ -1,7 +1,7 @@
 name = "Angle"
 symbol = "Angle"
 snake_case_name = "angle"
-short_dim_formula = "θ"
+short_dim_formula = "∠"
 long_dim_formula = "Angle"
 units_formula = "rad"
 

@@ -1,7 +1,7 @@
 name = "First radiation constant for spectral radiance"
 symbol = "FirstRadiationConstantForSpectralRadiance"
 snake_case_name = "first_radiation_constant_for_spectral_radiance"
-short_dim_formula = "L<sup>4</sup>⋅M<sup>3</sup>⋅T<sup>-1</sup>⋅θ<sup>-2</sup>"
+short_dim_formula = "L<sup>4</sup>⋅M<sup>3</sup>⋅T<sup>-1</sup>⋅∠<sup>-2</sup>"
 long_dim_formula = "Length<sup>4</sup>⋅Mass<sup>3</sup>⋅Time<sup>-1</sup>⋅Angle<sup>-2</sup>"
 units_formula = "m<sup>4</sup>⋅kg<sup>3</sup>⋅s<sup>-1</sup>⋅rad<sup>-2</sup>"
 

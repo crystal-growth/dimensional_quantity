@@ -1,7 +1,7 @@
 name = "Solid angle"
 symbol = "SolidAngle"
 snake_case_name = "solid_angle"
-short_dim_formula = "θ<sup>2</sup>"
+short_dim_formula = "∠<sup>2</sup>"
 long_dim_formula = "Angle<sup>2</sup>"
 units_formula = "rad<sup>2</sup>"
 

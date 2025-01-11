@@ -1,7 +1,7 @@
 name = "Curvature"
 symbol = "Curvature"
 snake_case_name = "curvature"
-short_dim_formula = "L<sup>-1</sup>⋅θ"
+short_dim_formula = "L<sup>-1</sup>⋅∠"
 long_dim_formula = "Length<sup>-1</sup>⋅Angle"
 units_formula = "m<sup>-1</sup>⋅rad"
 

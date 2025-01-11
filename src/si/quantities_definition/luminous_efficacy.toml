@@ -1,7 +1,7 @@
 name = "Luminous efficacy"
 symbol = "LuminousEfficacy"
 snake_case_name = "luminous_efficacy"
-short_dim_formula = "L<sup>-2</sup>⋅M<sup>-1</sup>⋅T<sup>3</sup>⋅J⋅θ<sup>2</sup>"
+short_dim_formula = "L<sup>-2</sup>⋅M<sup>-1</sup>⋅T<sup>3</sup>⋅J⋅∠<sup>2</sup>"
 long_dim_formula = "Length<sup>-2</sup>⋅Mass<sup>-1</sup>⋅Time<sup>3</sup>⋅Luminous intensity⋅Angle<sup>2</sup>"
 units_formula = "m<sup>-2</sup>⋅kg<sup>-1</sup>⋅s<sup>3</sup>⋅cd⋅rad<sup>2</sup>"
 

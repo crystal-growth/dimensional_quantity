@@ -1,7 +1,7 @@
 name = "Angular velocity"
 symbol = "AngularVelocity"
 snake_case_name = "angular_velocity"
-short_dim_formula = "T<sup>-1</sup>⋅θ"
+short_dim_formula = "T<sup>-1</sup>⋅∠"
 long_dim_formula = "Time<sup>-1</sup>⋅Angle"
 units_formula = "s<sup>-1</sup>⋅rad"
 
