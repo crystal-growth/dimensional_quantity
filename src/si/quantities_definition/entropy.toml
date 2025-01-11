@@ -1,7 +1,7 @@
 name = "Entropy"
 symbol = "Entropy"
 snake_case_name = "entropy"
-short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-2</sup>⋅`Th`<sup>-1</sup>"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-2</sup>⋅Θ<sup>-1</sup>"
 long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-2</sup>⋅Thermodynamic temperature<sup>-1</sup>"
 units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-2</sup>⋅K<sup>-1</sup>"
 

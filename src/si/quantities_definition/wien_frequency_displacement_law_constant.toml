@@ -1,7 +1,7 @@
 name = "Wien frequency displacement law constant"
 symbol = "WienFrequencyDisplacementLawConstant"
 snake_case_name = "wien_frequency_displacement_law_constant"
-short_dim_formula = "T<sup>-1</sup>⋅Th<sup>-1</sup>"
+short_dim_formula = "T<sup>-1</sup>⋅Θ<sup>-1</sup>"
 long_dim_formula = "Time<sup>-1</sup>⋅Thermodynamic temperature<sup>-1</sup>"
 units_formula = "s<sup>-1</sup>⋅K<sup>-1</sup>"
 

@@ -1,9 +1,9 @@
 name = "Thermal Resistance"
 symbol = "ThermalResistance"
 snake_case_name = "thermal_resistance"
-short_dim_formula = "L<sup>-2</sup>⋅M<sup>-1</sup>⋅T<sup>3</sup>⋅`ΔTh`<sup>1</sup>"
+short_dim_formula = "L<sup>-2</sup>⋅M<sup>-1</sup>⋅T<sup>3</sup>⋅ΔΘ<sup>1</sup>"
 long_dim_formula = "Length<sup>-2</sup>⋅Mass<sup>-1</sup>⋅Time<sup>3</sup>⋅Temperature interval<sup>1</sup>"
-units_formula = "m<sup>-2</sup>⋅kg<sup>-1</sup>⋅s<sup>3</sup>⋅`ΔK`<sup>1</sup>"
+units_formula = "m<sup>-2</sup>⋅kg<sup>-1</sup>⋅s<sup>3</sup>⋅ΔK<sup>1</sup>"
 
 [dimensions]
 length = -2

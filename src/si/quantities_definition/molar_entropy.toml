@@ -1,7 +1,7 @@
 name = "Molar entropy"
 symbol = "MolarEntropy"
 snake_case_name = "molar_entropy"
-short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-2</sup>⋅N<sup>-1</sup>⋅Th<sup>-1</sup>"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-2</sup>⋅N<sup>-1</sup>⋅Θ<sup>-1</sup>"
 long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-2</sup>⋅Amount of substance<sup>-1</sup>⋅Thermodynamic temperature<sup>-1</sup>"
 units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-2</sup>⋅mol<sup>-1</sup>⋅K<sup>-1</sup>"
 

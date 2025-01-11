@@ -1,7 +1,7 @@
 name = "Temperature interval"
 symbol = "TemperatureInterval"
 snake_case_name = "temperature_interval"
-short_dim_formula = "`ΔTh`"
+short_dim_formula = "ΔΘ"
 long_dim_formula = "Temperature interval"
 units_formula = "ΔK"
 

@@ -1,7 +1,7 @@
 name = "Heat transfer"
 symbol = "HeatTransfer"
 snake_case_name = "heat_transfer"
-short_dim_formula = "M⋅T<sup>-3</sup>⋅`ΔTh`<sup>-1</sup>"
+short_dim_formula = "M⋅T<sup>-3</sup>⋅ΔΘ<sup>-1</sup>"
 long_dim_formula = "Mass⋅Time<sup>-3</sup>⋅Temperature interval<sup>-1</sup>"
 units_formula = "kg⋅s<sup>-3</sup>⋅ΔK<sup>-1</sup>"
 

@@ -1,7 +1,7 @@
 name = "ThermalInsulance"
 symbol = "ThermalInsulance"
 snake_case_name = "thermal_insulance"
-short_dim_formula = "M<sup>-1</sup>⋅T<sup>3</sup>⋅`ΔTh`"
+short_dim_formula = "M<sup>-1</sup>⋅T<sup>3</sup>⋅ΔΘ"
 long_dim_formula = "Mass<sup>-1</sup>⋅Time<sup>3</sup>⋅Temperature interval"
 units_formula = "kg<sup>-1</sup>⋅s<sup>3</sup>⋅ΔK"
 

@@ -1,7 +1,7 @@
 name = "Wien wavelength displacement law constant"
 symbol = "WienWavelengthDisplacementLawConstant"
 snake_case_name = "wien_wavelength_displacement_law_constant"
-short_dim_formula = "L⋅Th"
+short_dim_formula = "L⋅Θ"
 long_dim_formula = "Length⋅Thermodynamic temperature"
 units_formula = "m⋅K"
 

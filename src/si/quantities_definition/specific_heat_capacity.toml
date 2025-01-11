@@ -1,7 +1,7 @@
 name = "Specific heat capacity"
 symbol = "SpecificHeatCapacity"
 snake_case_name = "specific_heat_capacity"
-short_dim_formula = "L<sup>2</sup>⋅T<sup>-2</sup>⋅`ΔTh`<sup>-1</sup>"
+short_dim_formula = "L<sup>2</sup>⋅T<sup>-2</sup>⋅ΔΘ<sup>-1</sup>"
 long_dim_formula = "Length<sup>2</sup>⋅Time<sup>-2</sup>⋅Temperature interval<sup>-1</sup>"
 units_formula = "m<sup>2</sup>⋅s<sup>-2</sup>⋅ΔK<sup>-1</sup>"
 

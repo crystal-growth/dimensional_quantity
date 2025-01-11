@@ -1,7 +1,7 @@
 name = "Specific Entropy"
 symbol = "SpecificEntropy"
 snake_case_name = "specific_entropy"
-short_dim_formula = "L<sup>2</sup>⋅T<sup>-2</sup>⋅Th<sup>-1</sup>"
+short_dim_formula = "L<sup>2</sup>⋅T<sup>-2</sup>⋅Θ<sup>-1</sup>"
 long_dim_formula = "Length<sup>2</sup>⋅Time<sup>-2</sup>⋅Thermodynamic Temperature<sup>-1</sup>"
 units_formula = "m<sup>2</sup>⋅s<sup>-2</sup>⋅K<sup>-1</sup>"
 

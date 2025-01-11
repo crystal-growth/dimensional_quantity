@@ -1,7 +1,7 @@
 name = "Thermodynamic temperature"
 symbol = "ThermodynamicTemperature"
 snake_case_name = "thermodynamic_temperature"
-short_dim_formula = "Th"
+short_dim_formula = "Θ"
 long_dim_formula = "Thermodynamic temperature"
 units_formula = "K"
 

@@ -1,7 +1,7 @@
 name = "Temperature coefficient"
 symbol = "TemperatureCoefficient"
 snake_case_name = "temperature_coefficient"
-short_dim_formula = "`ΔTh`<sup>-1</sup>"
+short_dim_formula = "ΔΘ<sup>-1</sup>"
 long_dim_formula = "Temperature interval<sup>-1</sup>"
 units_formula = "ΔK<sup>-1</sup>"
 

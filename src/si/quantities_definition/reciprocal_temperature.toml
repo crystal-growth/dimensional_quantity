@@ -1,7 +1,7 @@
 name = "Reciprocal temperature"
 symbol = "ReciprocalTemperature"
 snake_case_name = "reciprocal_temperature"
-short_dim_formula = "Th<sup>-1</sup>"
+short_dim_formula = "Θ<sup>-1</sup>"
 long_dim_formula = "Thermodynamic Temperature<sup>-1</sup>"
 units_formula = "K<sup>-1</sup>"
 

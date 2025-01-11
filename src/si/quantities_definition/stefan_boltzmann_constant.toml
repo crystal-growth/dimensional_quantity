@@ -1,7 +1,7 @@
 name = "Stefan boltzmann constant"
 symbol = "StefanBoltzmannConstant"
 snake_case_name = "stefan_boltzmann_constant"
-short_dim_formula = "M⋅T<sup>-3</sup>⋅`ΔTh`<sup>-4</sup>"
+short_dim_formula = "M⋅T<sup>-3</sup>⋅ΔΘ<sup>-4</sup>"
 long_dim_formula = "Mass⋅Time<sup>-3</sup>⋅Temperature interval<sup>-4</sup>"
 units_formula = "kg⋅s<sup>-3</sup>⋅ΔK<sup>-4</sup>"
 

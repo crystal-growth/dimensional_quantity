@@ -1,7 +1,7 @@
 name = "Temperature gradient"
 symbol = "TemperatureGradient"
 snake_case_name = "temperature_gradient"
-short_dim_formula = "L<sup>-1</sup>⋅`ΔTh`"
+short_dim_formula = "L<sup>-1</sup>⋅ΔΘ"
 long_dim_formula = "Length<sup>-1</sup>⋅Temperature interval"
 units_formula = "m<sup>-1</sup>⋅ΔK"
 
