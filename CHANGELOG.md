@@ -1,3 +1,13 @@
+## [0.1.9] 21.01.2015
+- new quantity: MagneticReluctance [L⁻²⋅M⁻¹⋅T²⋅I²]
+- new QuantityGeneric method: si_uom_string, that returns String with corresponding unit of measure formula:
+    ```rust
+    #![feature(generic_const_exprs)]
+    use dimensional_quantity::si::extended::f64::quantities::LuminousEfficacy;
+    let l = LuminousEfficacy::new(1.0);
+    assert_eq!(l.si_uom_str(), "m⁻²⋅kg⁻¹⋅s³⋅cd⋅sr");
+    assert_eq!(l.powi::<5>().si_uom_str(),"m⁻¹⁰⋅kg⁻⁵⋅s¹⁵⋅cd⁵⋅sr⁵");
+    ```
 ## [0.1.8] 10.01.2025
 - new quantities: ThermalResistance and ThermalConductance
 ## [0.1.7] 21.12.2024
@@ -45,7 +55,7 @@ assert_eq!(v1, Volume::new(10.0));
 
 ## [0.0.3] 14.07.2023
 - Serde support with "use_serde" feature
-- New QuantityGeneric functions: zero() creates generic quantity with zero value, into_number() converts Ratio into underlying storage
+- New QuantityGeneric methods: zero() creates generic quantity with zero value, into_number() converts Ratio into underlying storage
 - New MolarFlow quantity
 
 ## [0.0.2] 14.04.2023

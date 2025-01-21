@@ -475,6 +475,46 @@ where
     pub fn get_with_unit(&self, unit: QuantityGeneric<L, M, T, I, TH, N, LUM, Storage>) -> Storage {
         self.0 / unit.0
     }
+
+    #[cfg(feature = "std")]
+    /// Return units-of-measure string  
+    /// ```rust
+    /// #![feature(generic_const_exprs)]
+    /// use dimensional_quantity::si::isq::f64::quantities::LuminousEfficacy;
+    /// let l = LuminousEfficacy::new(1.0);
+    /// assert_eq!(l.si_uom_str(), "m⁻²⋅kg⁻¹⋅s³⋅cd");
+    /// assert_eq!(l.powi::<5>().si_uom_str(),"m⁻¹⁰⋅kg⁻⁵⋅s¹⁵⋅cd⁵");
+    /// ```
+    pub fn si_uom_str(&self) -> String {
+        use crate::format::dim_to_string;
+        use std::fmt::Write;
+
+        let mut output = String::new();
+        if let Some(dim) = dim_to_string(L) {
+            let _ = write!(output, "m{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_string(M) {
+            let _ = write!(output, "kg{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_string(T) {
+            let _ = write!(output, "s{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_string(I) {
+            let _ = write!(output, "A{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_string(TH) {
+            let _ = write!(output, "K{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_string(N) {
+            let _ = write!(output, "mol{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_string(LUM) {
+            let _ = write!(output, "cd{}⋅", dim);
+        }
+        let mut output = output.chars();
+        output.next_back();
+        output.collect()
+    }
 }
 
 impl<Storage: Num + Copy> QuantityGeneric<0, 0, 0, 0, 0, 0, 0, Storage> {

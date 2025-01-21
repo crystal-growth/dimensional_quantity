@@ -11,4 +11,5 @@
 
 pub mod prefix;
 pub mod si;
+mod format;
 mod test;

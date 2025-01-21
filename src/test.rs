@@ -85,7 +85,7 @@ mod tests_operations_si_extended_f64 {
     }
 
     #[test]
-
+    #[cfg(feature = "std")]
     fn sqrt() {
         let a: Area = Area::new(100.0);
         let l = Length::new(10.0);
@@ -94,6 +94,7 @@ mod tests_operations_si_extended_f64 {
     }
 
     #[test]
+    #[cfg(feature = "std")]
     fn cbrt() {
         let vol: Volume = Volume::new(1000.0);
         let len_1: Length = vol.cbrt();
@@ -137,7 +138,7 @@ mod tests_operations_si_extended_f64 {
 mod tests_si_extended_f64 {
     use crate::prefix::metric::f64::MILLI;
     use crate::si::extended::f64::quantities::{
-        Acceleration, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity, ElectricPotential, Energy, Force, Frequency, HeatCapacity, Length, Mass, Power, Pressure, TemperatureInterval, ThermalInsulance, ThermalPressureCoefficient, ThermalResistance, ThermalConductance,ThermodynamicTemperature, Velocity
+        Acceleration, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity, ElectricPotential, Energy, Force, Frequency, HeatCapacity, Inductance, Length, MagneticReluctance, Mass, Power, Pressure, TemperatureInterval, ThermalConductance, ThermalInsulance, ThermalPressureCoefficient, ThermalResistance, ThermodynamicTemperature, Velocity
     };
     use crate::si::extended::f64::{
         constants::{PLANCK_CONSTANT, SPEED_OF_LIGHT_IN_VACUUM, STANDARD_ACCELERATION_OF_GRAVITY},
@@ -265,6 +266,12 @@ mod tests_si_extended_f64 {
         let power = Power::new(10.0);
         let tc = ThermalConductance::new(1.0);
         assert_eq!(tc, power/ti);
+    }
+    #[test]
+    fn magnetic_reluctance(){
+        let mi = Inductance::new(10.0);
+        let mr = MagneticReluctance::new(0.1);
+        assert_eq!(mi, 1.0/mr); 
     }
 
 }

@@ -1,0 +1,27 @@
+name = "Magnetic reluctance"
+symbol = "MagneticReluctance"
+snake_case_name = "magnetic_reluctance"
+short_dim_formula = "L<sup>-2</sup>⋅M<sup>-1</sup>⋅T<sup>2</sup>⋅I<sup>2</sup>"
+long_dim_formula = "Length<sup>-2</sup>⋅Mass<sup>-1</sup>⋅Time<sup>2</sup>⋅Electric current<sup>2</sup>"
+units_formula = "m<sup>-2</sup>⋅kg<sup>-1</sup>⋅s<sup>2</sup>⋅A<sup>2</sup>"
+
+[dimensions]
+length = -2
+mass = -1
+time = 2
+electric_current = 2
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0 
+solid_angle = 0
+information = 0
+
+
+
+[units.RECIPROCAL_HENRY]
+multiplier = "1.0E0"
+symbol = "H⁻¹"
+singular = "reciprocal henry"
+plural = "reciprocal henries"

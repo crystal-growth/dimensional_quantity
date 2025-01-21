@@ -22,7 +22,7 @@ information = 0
 multiplier = "1.0E0"
 symbol = "H/m"
 singular = "henry per meter"
-plural = "henrys per meter"
+plural = "henries per meter"
 
 [units.VACUUM_MAGNETIC_PERMEABILITY]
 multiplier = "1.256_637_062_12_E-6"
