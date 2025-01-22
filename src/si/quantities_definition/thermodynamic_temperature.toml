@@ -156,8 +156,14 @@ symbol = "°F"
 singular = "degree Fahrenheit"
 plural = "degrees Fahrenheit"
 
+[units.DEGREE_REAUMUR]
+multiplier = "(1.25, 218.52)"
+symbol = "°Re"
+singular = "degree Réaumur"
+plural = "degrees Réaumur"
+
 [units.DEGREE_RANKINE]
-multiplier = "5.5555555555556_E-1"
+multiplier = "0.5555555555555556"
 symbol = "°R"
 singular = "degree Rankine"
 plural = "degrees Rankine"

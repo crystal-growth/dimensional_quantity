@@ -1,4 +1,9 @@
-## [0.1.9] 21.01.2015
+## [0.1.10] 22.01.2025
+- fixed arithmetic error in to_degree_fahrenheit() method of ThermodynamicTemperature quantity
+- Réaumur temperature scale for ThermodynamicTemperature and TemperatureInterval: DEGREE_REAUMUR unit of measure,
+  with corresponding methods for ThermodynamicTemperature: to_degree_reaumur() and from_degree_reaumur()
+- tests covering conversion between Kelvin, Celsius, Fahrenheit, Rankine, and Réaumur temperature scales
+## [0.1.9] 21.01.2025
 - new quantity: MagneticReluctance [L⁻²⋅M⁻¹⋅T²⋅I²]
 - new QuantityGeneric method: si_uom_string, that returns String with corresponding unit of measure formula:
     ```rust
@@ -14,7 +19,6 @@
 - ```std``` feature enable by default, disable ```default-features``` to build ```no_std``` 
 ## [0.1.6] 04.10.2024
 - new quantities: SpecificEntropy and ThermalInsulance
-
 ## [0.1.5] 01.10.2024
 - rust_decimal dependency version upgrade to 1.36
 - new quantities: Compressibility and ReciprocalTemperature 

@@ -301,7 +301,7 @@ fn generate_units<Storage: Float + FromStr + Display>(
                     /// Conversion to {unit_lower}
                     pub fn to_{unit_lower}(&self)  -> {storage_type} {{
                         let x = self.get_with_si_unit();
-                        (x  - {add}) / {mul}
+                        x  / {mul} - {add}
                     }}
                 }}"
                 );

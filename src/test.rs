@@ -59,7 +59,7 @@ mod test_dimensions {
 #[cfg(test)]
 #[cfg(feature = "decimal")]
 mod test_decimal_storage {
-    use crate::si::extended::decimal::quantities::{Length,  Volume};
+    use crate::si::extended::decimal::quantities::{Length, Volume};
     use rust_decimal::Decimal;
     #[test]
     #[cfg(feature = "decimal")]
@@ -138,13 +138,21 @@ mod tests_operations_si_extended_f64 {
 mod tests_si_extended_f64 {
     use crate::prefix::metric::f64::MILLI;
     use crate::si::extended::f64::quantities::{
-        Acceleration, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity, ElectricPotential, Energy, Force, Frequency, HeatCapacity, Inductance, Length, MagneticReluctance, Mass, Power, Pressure, TemperatureInterval, ThermalConductance, ThermalInsulance, ThermalPressureCoefficient, ThermalResistance, ThermodynamicTemperature, Velocity
+        Acceleration, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity,
+        ElectricPotential, Energy, Force, Frequency, HeatCapacity, Inductance, Length,
+        MagneticReluctance, Mass, Power, Pressure, TemperatureInterval, ThermalConductance,
+        ThermalInsulance, ThermalPressureCoefficient, ThermalResistance, ThermodynamicTemperature,
+        Velocity,
+    };
+    use crate::si::extended::f64::units_of_measure::temperature_interval::{
+        self, DEGREE_CELSIUS, DEGREE_FAHRENHEIT,
     };
     use crate::si::extended::f64::{
         constants::{PLANCK_CONSTANT, SPEED_OF_LIGHT_IN_VACUUM, STANDARD_ACCELERATION_OF_GRAVITY},
         units_of_measure::{
             coulomb_constant::COULOMB_CONSTANT,
             length::{METER, MILLIMETER},
+            thermodynamic_temperature::DEGREE_RANKINE,
         },
     };
 
@@ -171,7 +179,7 @@ mod tests_si_extended_f64 {
         let cp = HeatCapacity::new(3.0);
         let dth = TemperatureInterval::new(100.0);
         let dq = Energy::new(300.0);
-        assert_eq!(dq,cp*dth);
+        assert_eq!(dq, cp * dth);
     }
 
     #[test]
@@ -254,26 +262,92 @@ mod tests_si_extended_f64 {
         assert_eq!(i.get_with_si_unit(), 1.0);
     }
     #[test]
-    fn thermal_resistance(){
+    fn thermal_resistance() {
         let ti = TemperatureInterval::new(10.0);
         let power = Power::new(10.0);
         let tr = ThermalResistance::new(1.0);
-        assert_eq!(tr, ti/power);
+        assert_eq!(tr, ti / power);
     }
     #[test]
-    fn thermal_conductance(){
+    fn thermal_conductance() {
         let ti = TemperatureInterval::new(10.0);
         let power = Power::new(10.0);
         let tc = ThermalConductance::new(1.0);
-        assert_eq!(tc, power/ti);
+        assert_eq!(tc, power / ti);
     }
     #[test]
-    fn magnetic_reluctance(){
+    fn magnetic_reluctance() {
         let mi = Inductance::new(10.0);
         let mr = MagneticReluctance::new(0.1);
-        assert_eq!(mi, 1.0/mr); 
+        assert_eq!(mi, 1.0 / mr);
+    }
+    fn approx_equal(x: f64, y: f64) -> bool {
+        let tol = 1e-13;
+        let delta = (x - y).abs();
+        let maxval = x.abs().max(y.abs());
+        if delta < tol {
+            true
+        } else {
+            delta / maxval <= tol
+        }
     }
 
+    #[test]
+    fn test_temperature_scales() {
+        let t0 = ThermodynamicTemperature::new(273.15);
+        let t100 = ThermodynamicTemperature::new(373.15);
+
+        assert_eq!(t0, ThermodynamicTemperature::from_degree_celsius(0.0));
+        assert_eq!(t100, ThermodynamicTemperature::from_degree_celsius(100.0));
+        assert_eq!(t0.to_degree_celsius(), 0.0);
+        assert_eq!(t100.to_degree_celsius(), 100.0);
+
+        assert!(approx_equal(
+            t0.get_with_si_unit(),
+            ThermodynamicTemperature::from_degree_fahrenheit(32.0).get_with_si_unit()
+        ));
+        assert!(approx_equal(
+            t100.get_with_si_unit(),
+            ThermodynamicTemperature::from_degree_fahrenheit(212.0).get_with_si_unit()
+        ));
+        assert!(approx_equal(t0.to_degree_fahrenheit(), 32.0));
+        assert!(approx_equal(t100.to_degree_fahrenheit(), 212.0));
+
+        assert!(approx_equal(t0.get_with_unit(DEGREE_RANKINE), 491.67));
+        assert!(approx_equal(t100.get_with_unit(DEGREE_RANKINE), 671.67));
+
+        assert!(approx_equal(
+            t0.get_with_si_unit(),
+            ThermodynamicTemperature::from_degree_reaumur(0.0).get_with_si_unit()
+        ));
+        assert!(approx_equal(
+            t100.get_with_si_unit(),
+            ThermodynamicTemperature::from_degree_reaumur(80.0).get_with_si_unit()
+        ));
+        assert!(approx_equal(t0.to_degree_reaumur(), 0.0));
+        assert!(approx_equal(t100.to_degree_reaumur(), 80.0));
+    }
+    #[test]
+    fn test_temperature_intervals() {
+        let t100 = TemperatureInterval::new(100.0);
+
+        assert_eq!(
+            t100,
+            TemperatureInterval::new_with_unit(100.0, DEGREE_CELSIUS)
+        );
+        assert!(approx_equal(
+            TemperatureInterval::new_with_unit(180.0, DEGREE_FAHRENHEIT).get_with_si_unit(),
+            100.0
+        ));
+        assert!(approx_equal(
+            TemperatureInterval::new_with_unit(180.0, temperature_interval::DEGREE_RANKINE).get_with_si_unit(),
+            100.0
+        ));
+        assert_eq!(
+            t100,
+            TemperatureInterval::new_with_unit(80.0, temperature_interval::DEGREE_REAUMUR)
+        );
+    }
 }
 
 #[cfg(test)]
@@ -489,7 +563,7 @@ mod tests_si_isq_f64 {
         let v: ElectricPotential = ElectricPotential::new(10.0);
 
         let p = Power::new(100.0);
-        assert_eq!(p, i*v);
+        assert_eq!(p, i * v);
     }
 
     #[test]
@@ -557,5 +631,4 @@ mod tests_si_isq_f64 {
         let se: SpecificEntropy = e / m;
         assert_eq!(se.get_with_si_unit(), 1.0);
     }
-
 }

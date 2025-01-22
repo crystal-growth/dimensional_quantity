@@ -1,7 +1,7 @@
 # dimensional_quantity
 
 Dimensional quantity: checking dimensions of physical quantities in compile time using generic const expressions
-* [134 predefined dimensional quantities for International System of Units (SI)](si::extended::f64).
+* [134 predefined dimensional quantities for International System of Units (SI)](si::extended::f64::quantities).
 * [Dimensional units of measure](si::extended::f64::units_of_measure).
 * [Dimensional physical constants (CODATA 2022 values)](si::extended::f64::constants).
 * [Non-dimensional SI prefixes: metric (kilo, micro, giga, etc.) and binary (Kibi, Mebi, ...)](prefix).
