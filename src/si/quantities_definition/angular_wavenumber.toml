@@ -1,0 +1,27 @@
+name = "Angular wavenumber"
+symbol = "AngularWavenumber"
+snake_case_name = "angular_wavenumber"
+short_dim_formula = "L<sup>-1</sup>⋅∠"
+long_dim_formula = "Length<sup>-1</sup>⋅Angle"
+units_formula = "m<sup>-1</sup>⋅rad"
+
+[dimensions]
+length = -1
+mass = 0
+time = 0
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 1
+solid_angle = 0
+information = 0
+
+[units.RADIAN_PER_METER]
+multiplier = "1.0_E0"
+symbol = "rad/m"
+singular = "radian per meter"
+plural = "radians per meter"
+
+

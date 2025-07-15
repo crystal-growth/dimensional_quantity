@@ -1,3 +1,40 @@
+## [0.1.11] 15.07.2025
+- new quantities: AngularWavenumber, GyromagneticRatio, HallCoefficient, LorenzCoefficient, RichardsonConstant, ThermoelectricCoefficient, VolumetricAngularDensityOfStates
+- new QuantityGeneric method toml_template(), returning template for toml file defining an arbitrary derived quantity:
+     ```rust
+     #![feature(generic_const_exprs)]
+     use dimensional_quantity::si::extended::f64::quantities::LuminousEfficacy;
+     let l2 = LuminousEfficacy::new(1.0).powi::<2>();
+     assert_eq!(l2.toml_template(),
+     r#"
+     name = "Some quantity"
+     symbol = "SomeQuantiy"
+     snake_case_name = "some_quantity"
+     short_dim_formula = "L<sup>-4</sup>⋅M<sup>-2</sup>⋅T<sup>6</sup>⋅J<sup>2</sup>⋅Ω<sup>2</sup>"
+     long_dim_formula = "Length<sup>-4</sup>⋅Mass<sup>-2</sup>⋅Time<sup>6</sup>⋅Luminous intensity<sup>2</sup>⋅Solid angle<sup>2</sup>"
+     units_formula = "m<sup>-4</sup>⋅kg<sup>-2</sup>⋅s<sup>6</sup>⋅cd<sup>2</sup>⋅sr<sup>2</sup>"
+    
+     [dimensions]
+     length = -4
+     mass = -2
+     time = 6
+     electric_current = 0
+     thermodynamic_temperature = 0
+     temperature_interval = 0
+     amount_of_substance = 0
+     luminous_intensity = 2
+     angle = 0
+     solid_angle = 2
+     information = 0
+    
+     [units.DEFAULT_UNIT]
+     multiplier = "1.0"
+     symbol = "m⁻⁴⋅kg⁻²⋅s⁶⋅cd²⋅sr²"
+     singular = "default_unit"
+     plural = "default_units""#
+     );
+     ```
+- new QuantityGeneric methods short_dim_formula(), long_dim_formula(), units_formula(), toml_dim_formula()
 ## [0.1.10] 22.01.2025
 - fixed arithmetic error in to_degree_fahrenheit() method of ThermodynamicTemperature quantity
 - Réaumur temperature scale for ThermodynamicTemperature and TemperatureInterval: DEGREE_REAUMUR unit of measure,

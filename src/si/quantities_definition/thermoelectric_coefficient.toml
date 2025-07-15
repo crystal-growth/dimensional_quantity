@@ -1,0 +1,31 @@
+name = "Thermoelectric coefficient"
+symbol = "ThermoelectricCoefficient"
+snake_case_name = "thermoelectric_coefficient"
+short_dim_formula = "L<sup>2</sup>⋅M⋅T<sup>-3</sup>⋅I<sup>-1</sup>⋅ΔΘ<sup>-1</sup>"
+long_dim_formula = "Length<sup>2</sup>⋅Mass⋅Time<sup>-3</sup>⋅Electric current<sup>-1</sup>⋅Temperature interval<sup>-1</sup>"
+units_formula = "m<sup>2</sup>⋅kg⋅s<sup>-3</sup>⋅A<sup>-1</sup>⋅ΔK<sup>-1</sup>"
+
+[dimensions]
+length = 2
+mass = 1
+time = -3
+electric_current = -1
+thermodynamic_temperature = 0
+temperature_interval = -1
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+solid_angle = 0
+information = 0
+
+[units.VOLT_PER_KELVIN]
+multiplier = "1.0"
+symbol = "V⋅ΔK⁻¹"
+singular = "volt per kelvin"
+plural = "volts per kelvin"
+
+[units.MICROVOLT_PER_KELVIN]
+multiplier = "1.0e-6"
+symbol = "V⋅ΔK⁻¹"
+singular = "microvolt per kelvin"
+plural = "microvolts per kelvin"

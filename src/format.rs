@@ -19,3 +19,14 @@ pub (crate) fn dim_to_string(i: i64) -> Option<String> {
             .replace("-", "⁻"))
     }
 }
+
+#[cfg(feature = "std")]
+pub (crate) fn dim_to_html_string(i: i64) -> Option<String> {
+    if i == 0 {
+        None
+    } else if i == 1 {
+        Some("".into())
+    } else {
+        Some(format!("<sup>{i}</sup>"))
+    }
+}

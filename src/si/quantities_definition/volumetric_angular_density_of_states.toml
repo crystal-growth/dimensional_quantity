@@ -1,0 +1,27 @@
+name = "Volumetric angular density of states"
+symbol = "VolumetricAngularDensityOfStates"
+snake_case_name = "volumetric_angular_density_of_states"
+short_dim_formula = "L<sup>-3</sup>⋅T⋅∠<sup>-1</sup>"
+long_dim_formula = "Length<sup>-3</sup>⋅Time⋅Angle<sup>-1</sup>"
+units_formula = "m<sup>-3</sup>⋅s⋅rad<sup>-1</sup>"
+
+[dimensions]
+length = -3
+mass = 0
+time = 1
+electric_current = 0
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = -1
+solid_angle = 0
+information = 0
+
+[units.SECOND_PER_RADIAN_CUBIC_METER]
+multiplier = "1.0_E0"
+symbol = "s/(rad⋅m³)"
+singular = "second per radian cubic meter"
+plural = "seconds per radian cubic meter"
+
+

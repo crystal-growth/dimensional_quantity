@@ -3,11 +3,11 @@
 //! Dimensional quantity type with generic underlying storage
 //!
 use core::ops::{Add, AddAssign, Div, DivAssign, Mul, MulAssign, Sub, SubAssign};
-use num_traits::{Num, Zero};
 #[cfg(feature = "std")]
 pub use num_traits::float::Float;
 #[cfg(not(feature = "std"))]
 pub use num_traits::float::FloatCore as Float;
+use num_traits::{Num, Zero};
 #[cfg(feature = "use_serde")]
 use serde::{Deserialize, Serialize};
 
@@ -822,6 +822,271 @@ where
         let mut output = output.chars();
         output.next_back();
         output.collect()
+    }
+
+    #[cfg(feature = "std")]
+    /// Return units-of-measure string  
+    /// ```rust
+    /// #![feature(generic_const_exprs)]
+    /// use dimensional_quantity::si::extended::f64::quantities::LuminousEfficacy;
+    /// let l = LuminousEfficacy::new(1.0);
+    /// assert_eq!(l.units_formula(), "m<sup>-2</sup>⋅kg<sup>-1</sup>⋅s<sup>3</sup>⋅cd⋅sr");
+    /// assert_eq!(l.powi::<5>().units_formula(),"m<sup>-10</sup>⋅kg<sup>-5</sup>⋅s<sup>15</sup>⋅cd<sup>5</sup>⋅sr<sup>5</sup>");
+    /// ```
+    pub fn units_formula(&self) -> String {
+        use crate::format::dim_to_html_string;
+        use std::fmt::Write;
+
+        let mut output = String::new();
+        if let Some(dim) = dim_to_html_string(L) {
+            let _ = write!(output, "m{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(M) {
+            let _ = write!(output, "kg{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(T) {
+            let _ = write!(output, "s{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(I) {
+            let _ = write!(output, "A{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(TH) {
+            let _ = write!(output, "K{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(D_TH) {
+            let _ = write!(output, "ΔK{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(N) {
+            let _ = write!(output, "mol{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(LUM) {
+            let _ = write!(output, "cd{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(A) {
+            let _ = write!(output, "rad{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(SA) {
+            let _ = write!(output, "sr{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(INFO) {
+            let _ = write!(output, "bit{}⋅", dim);
+        }
+
+        let mut output = output.chars();
+        output.next_back();
+        output.collect()
+    }
+
+    #[cfg(feature = "std")]
+    /// Return units-of-measure string  
+    /// ```rust
+    /// #![feature(generic_const_exprs)]
+    /// use dimensional_quantity::si::extended::f64::quantities::LuminousEfficacy;
+    /// let l = LuminousEfficacy::new(1.0);
+    /// assert_eq!(l.short_dim_formula(), "L<sup>-2</sup>⋅M<sup>-1</sup>⋅T<sup>3</sup>⋅J⋅Ω");
+    /// assert_eq!(l.powi::<5>().short_dim_formula(),"L<sup>-10</sup>⋅M<sup>-5</sup>⋅T<sup>15</sup>⋅J<sup>5</sup>⋅Ω<sup>5</sup>");
+    /// ```
+    pub fn short_dim_formula(&self) -> String {
+        use crate::format::dim_to_html_string;
+        use std::fmt::Write;
+
+        let mut output = String::new();
+        if let Some(dim) = dim_to_html_string(L) {
+            let _ = write!(output, "L{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(M) {
+            let _ = write!(output, "M{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(T) {
+            let _ = write!(output, "T{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(I) {
+            let _ = write!(output, "I{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(TH) {
+            let _ = write!(output, "Θ{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(D_TH) {
+            let _ = write!(output, "ΔΘ{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(N) {
+            let _ = write!(output, "N{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(LUM) {
+            let _ = write!(output, "J{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(A) {
+            let _ = write!(output, "∠{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(SA) {
+            let _ = write!(output, "Ω{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(INFO) {
+            let _ = write!(output, "In{}⋅", dim);
+        }
+
+        let mut output = output.chars();
+        output.next_back();
+        output.collect()
+    }
+
+      #[cfg(feature = "std")]
+    /// Return units-of-measure string  
+    /// ```rust
+    /// #![feature(generic_const_exprs)]
+    /// use dimensional_quantity::si::extended::f64::quantities::LuminousEfficacy;
+    /// let l = LuminousEfficacy::new(1.0);
+    /// assert_eq!(l.long_dim_formula(), "Length<sup>-2</sup>⋅Mass<sup>-1</sup>⋅Time<sup>3</sup>⋅Luminous intensity⋅Solid angle");
+    /// ```
+    pub fn long_dim_formula(&self) -> String {
+        use crate::format::dim_to_html_string;
+        use std::fmt::Write;
+
+        let mut output = String::new();
+        if let Some(dim) = dim_to_html_string(L) {
+            let _ = write!(output, "Length{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(M) {
+            let _ = write!(output, "Mass{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(T) {
+            let _ = write!(output, "Time{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(I) {
+            let _ = write!(output, "Electric current{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(TH) {
+            let _ = write!(output, "Thermodynamic temperature{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(D_TH) {
+            let _ = write!(output, "Temperature interval{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(N) {
+            let _ = write!(output, "Amount of substance{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(LUM) {
+            let _ = write!(output, "Luminous intensity{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(A) {
+            let _ = write!(output, "Angle{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(SA) {
+            let _ = write!(output, "Solid angle{}⋅", dim);
+        }
+        if let Some(dim) = dim_to_html_string(INFO) {
+            let _ = write!(output, "Information{}⋅", dim);
+        }
+
+        let mut output = output.chars();
+        output.next_back();
+        output.collect()
+    }
+
+    #[cfg(feature = "std")]
+    /// Return units-of-measure formula in TOML  
+    /// ```rust
+    /// #![feature(generic_const_exprs)]
+    /// use dimensional_quantity::si::extended::f64::quantities::LuminousEfficacy;
+    /// let l = LuminousEfficacy::new(1.0);
+    /// assert_eq!(l.toml_dim_formula(),
+    /// "length = -2
+    /// mass = -1
+    /// time = 3
+    /// electric_current = 0
+    /// thermodynamic_temperature = 0
+    /// temperature_interval = 0
+    /// amount_of_substance = 0
+    /// luminous_intensity = 1
+    /// angle = 0
+    /// solid_angle = 1
+    /// information = 0");
+    /// assert_eq!(l.powi::<5>().toml_dim_formula(),"length = -10
+    /// mass = -5
+    /// time = 15
+    /// electric_current = 0
+    /// thermodynamic_temperature = 0
+    /// temperature_interval = 0
+    /// amount_of_substance = 0
+    /// luminous_intensity = 5
+    /// angle = 0
+    /// solid_angle = 5
+    /// information = 0");
+    /// ```
+    pub fn toml_dim_formula(&self) -> String {
+        format!(
+            "length = {L}
+mass = {M}
+time = {T}
+electric_current = {I}
+thermodynamic_temperature = {TH}
+temperature_interval = {D_TH}
+amount_of_substance = {N}
+luminous_intensity = {LUM}
+angle = {A}
+solid_angle = {SA}
+information = {INFO}"
+        )
+    }
+
+
+    #[cfg(feature = "std")]
+    /// Return units-of-measure formula in TOML  
+    /// ```rust
+    /// #![feature(generic_const_exprs)]
+    /// use dimensional_quantity::si::extended::f64::quantities::LuminousEfficacy;
+    /// let l2 = LuminousEfficacy::new(1.0).powi::<2>();
+    /// assert_eq!(l2.toml_template(),
+    /// r#"
+    /// name = "Some quantity"
+    /// symbol = "SomeQuantiy"
+    /// snake_case_name = "some_quantity"
+    /// short_dim_formula = "L<sup>-4</sup>⋅M<sup>-2</sup>⋅T<sup>6</sup>⋅J<sup>2</sup>⋅Ω<sup>2</sup>"
+    /// long_dim_formula = "Length<sup>-4</sup>⋅Mass<sup>-2</sup>⋅Time<sup>6</sup>⋅Luminous intensity<sup>2</sup>⋅Solid angle<sup>2</sup>"
+    /// units_formula = "m<sup>-4</sup>⋅kg<sup>-2</sup>⋅s<sup>6</sup>⋅cd<sup>2</sup>⋅sr<sup>2</sup>"
+    ///
+    /// [dimensions]
+    /// length = -4
+    /// mass = -2
+    /// time = 6
+    /// electric_current = 0
+    /// thermodynamic_temperature = 0
+    /// temperature_interval = 0
+    /// amount_of_substance = 0
+    /// luminous_intensity = 2
+    /// angle = 0
+    /// solid_angle = 2
+    /// information = 0
+    ///
+    /// [units.DEFAULT_UNIT]
+    /// multiplier = "1.0"
+    /// symbol = "m⁻⁴⋅kg⁻²⋅s⁶⋅cd²⋅sr²"
+    /// singular = "default_unit"
+    /// plural = "default_units""#
+    /// );
+    /// ```
+    pub fn toml_template(&self) -> String {
+        let short_dim_formula = self.short_dim_formula();
+        let long_dim_formula = self.long_dim_formula();
+        let units_formula = self.units_formula();
+        let dimensions = self.toml_dim_formula();
+        let default_unit = self.si_uom_str();
+        format!(r#"
+name = "Some quantity"
+symbol = "SomeQuantiy"
+snake_case_name = "some_quantity"
+short_dim_formula = "{short_dim_formula}"
+long_dim_formula = "{long_dim_formula}"
+units_formula = "{units_formula}"
+
+[dimensions]
+{dimensions}
+
+[units.DEFAULT_UNIT]
+multiplier = "1.0"
+symbol = "{default_unit}"
+singular = "default_unit"
+plural = "default_units""#)
+
     }
 }
 

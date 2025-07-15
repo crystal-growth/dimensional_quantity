@@ -1,0 +1,31 @@
+name = "Gyromagnetic ratio"
+symbol = "GyromagneticRatio"
+snake_case_name = "gyromagnetic_ratio"
+short_dim_formula = "M<sup>-1</sup>⋅T⋅I"
+long_dim_formula = "Mass<sup>-1</sup>⋅Time⋅Electric current"
+units_formula = "kg<sup>-1</sup>⋅s⋅A"
+
+[dimensions]
+length = 0
+mass = -1
+time = 1
+electric_current = 1
+thermodynamic_temperature = 0
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+solid_angle = 0
+information = 0
+
+[units.AMPERE_SECOND_PER_KILOGRAM]
+multiplier = "1.0"
+symbol = "kg⁻¹⋅s⋅A"
+singular = "ampere second per kilogram"
+plural = "ampere seconds per kilogram"
+
+[units.AMPERE_SQUARE_METER_PER_JOULE_SECOND]
+multiplier = "1.0"
+symbol = "A⋅m²⋅J⁻¹⋅s⁻¹"
+singular = "ampere square meter per joule second"
+plural = "ampere square meters per joule second"

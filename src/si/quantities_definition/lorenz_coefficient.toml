@@ -1,0 +1,25 @@
+name = "Lorenz coefficient"
+symbol = "LorenzCoefficient"
+snake_case_name = "lorenz_coefficient"
+short_dim_formula = "L<sup>4</sup>⋅M<sup>2</sup>⋅T<sup>-6</sup>⋅I<sup>-2</sup>⋅Θ<sup>-1</sup>⋅ΔΘ<sup>-1</sup>"
+long_dim_formula = "Length<sup>4</sup>⋅Mass<sup>2</sup>⋅Time<sup>-6</sup>⋅Electric current<sup>-2</sup>⋅Thermodynamic temperature<sup>-1</sup>⋅Temperature interval<sup>-1</sup>"
+units_formula = "m<sup>4</sup>⋅kg<sup>2</sup>⋅s<sup>-6</sup>⋅A<sup>-2</sup>⋅K<sup>-1</sup>⋅ΔK<sup>-1</sup>"
+
+[dimensions]
+length = 4
+mass = 2
+time = -6
+electric_current = -2
+thermodynamic_temperature = -1
+temperature_interval = -1
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+solid_angle = 0
+information = 0
+
+[units.VOLT_SQUARED_PER_KELVIN_SQUARED]
+multiplier = "1.0"
+symbol = "V²⋅K⁻²"
+singular = "volt squared per kelvin squared"
+plural = "volts squared per kelvin squared"

@@ -1,0 +1,25 @@
+name = "Richardson constant"
+symbol = "RichardsonConstant"
+snake_case_name = "richardson_constant"
+short_dim_formula = "L<sup>-2</sup>⋅I⋅Θ<sup>-2</sup>"
+long_dim_formula = "Length<sup>-2</sup>⋅Electric current⋅Thermodynamic temperature<sup>-2</sup>"
+units_formula = "m<sup>-2</sup>⋅A⋅K<sup>-2</sup>"
+
+[dimensions]
+length = -2
+mass = 0
+time = 0
+electric_current = 1
+thermodynamic_temperature = -2
+temperature_interval = 0
+amount_of_substance = 0
+luminous_intensity = 0
+angle = 0
+solid_angle = 0
+information = 0
+
+[units.AMPERE_PER_SQUARE_METER_KELVIN_SQUARED]
+multiplier = "1.0"
+symbol = "m⁻²⋅A⋅K⁻²"
+singular = "ampere per square meter kelvin squared"
+plural = "amperes per square meter kelvin squared"

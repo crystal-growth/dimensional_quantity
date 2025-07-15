@@ -1,6 +1,6 @@
 [package]
 name = "dimensional_quantity"
-version = "0.1.10"
+version = "0.1.11"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 description = "Check units of measure at compile time using generic const expressions"
@@ -20,11 +20,11 @@ categories = ["science"]
 [dependencies]
 num-traits = {version = "0.2",  default-features = false}
 serde = { version = "1.0",  default-features = false, features = ["derive"], optional = true }
-rust_decimal = {version = "1.36", optional = true, default-features = false}
+rust_decimal = {version = "1.37", optional = true, default-features = false}
 
 [build-dependencies]
 serde = { version = "1",  features = ["derive"] }
-toml = "0.8"
+toml = "0.9"
 num-traits = "0.2"
 
 [features]

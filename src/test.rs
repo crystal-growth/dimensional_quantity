@@ -136,13 +136,11 @@ mod tests_operations_si_extended_f64 {
 
 #[cfg(test)]
 mod tests_si_extended_f64 {
+    use core::f64;
+
     use crate::prefix::metric::f64::MILLI;
     use crate::si::extended::f64::quantities::{
-        Acceleration, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity,
-        ElectricPotential, Energy, Force, Frequency, HeatCapacity, Inductance, Length,
-        MagneticReluctance, Mass, Power, Pressure, TemperatureInterval, ThermalConductance,
-        ThermalInsulance, ThermalPressureCoefficient, ThermalResistance, ThermodynamicTemperature,
-        Velocity,
+        Acceleration, Angle, AngularVelocity, AngularWavenumber, Area, Capacitance, ElectricCharge, ElectricCurrent, ElectricPermittivity, ElectricPotential, Energy, Force, Frequency, HeatCapacity, Inductance, Length, MagneticReluctance, Mass, Power, Pressure, Ratio, TemperatureInterval, ThermalConductance, ThermalInsulance, ThermalPressureCoefficient, ThermalResistance, ThermodynamicTemperature, Velocity, Volume, VolumetricAngularDensityOfStates
     };
     use crate::si::extended::f64::units_of_measure::temperature_interval::{
         self, DEGREE_CELSIUS, DEGREE_FAHRENHEIT,
@@ -340,13 +338,34 @@ mod tests_si_extended_f64 {
             100.0
         ));
         assert!(approx_equal(
-            TemperatureInterval::new_with_unit(180.0, temperature_interval::DEGREE_RANKINE).get_with_si_unit(),
+            TemperatureInterval::new_with_unit(180.0, temperature_interval::DEGREE_RANKINE)
+                .get_with_si_unit(),
             100.0
         ));
         assert_eq!(
             t100,
             TemperatureInterval::new_with_unit(80.0, temperature_interval::DEGREE_REAUMUR)
         );
+    }
+    #[test]
+    fn test_angular_wavenumber() {
+        let angle: Angle = Angle::new(f64::consts::PI);
+        let wavelength: Length = Length::new(1e6);
+        let angular_wavenumber: AngularWavenumber = AngularWavenumber::new(f64::consts::PI * 1e-6);
+        let ratio: Ratio = angular_wavenumber / (angle/wavelength);
+        assert!(approx_equal(
+          ratio.get_with_si_unit(), 1.0
+        ));
+    }
+
+    #[test]
+    fn test_volumetric_angulad_dos(){
+        let vol = Volume::new(10.0);
+        let freq = AngularVelocity::new(0.1);
+
+        let dos = VolumetricAngularDensityOfStates::new(1.0);
+        let ratio: Ratio = dos / (1.0 / vol / freq);
+        assert!(approx_equal(ratio.get_with_si_unit(), 1.0))
     }
 }
 

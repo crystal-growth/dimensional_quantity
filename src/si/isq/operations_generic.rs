@@ -1,11 +1,11 @@
 #![allow(clippy::suspicious_arithmetic_impl)]
 //! Dimensional quantity type with generic underlying storage
 use core::ops::{Add, AddAssign, Div, DivAssign, Mul, MulAssign, Sub, SubAssign};
-use num_traits::{Num, Zero};
 #[cfg(feature = "std")]
 pub use num_traits::float::Float;
 #[cfg(not(feature = "std"))]
 pub use num_traits::float::FloatCore as Float;
+use num_traits::{Num, Zero};
 #[cfg(feature = "use_serde")]
 use serde::{Deserialize, Serialize};
 
@@ -514,6 +514,40 @@ where
         let mut output = output.chars();
         output.next_back();
         output.collect()
+    }
+
+    #[cfg(feature = "std")]
+    /// Return units-of-measure formula in TOML  
+    /// ```rust
+    /// #![feature(generic_const_exprs)]
+    /// use dimensional_quantity::si::isq::f64::quantities::LuminousEfficacy;
+    /// let l = LuminousEfficacy::new(1.0);
+    /// assert_eq!(l.toml_dim_formula(),
+    /// "length = -2
+    /// mass = -1
+    /// time = 3
+    /// electric_current = 0
+    /// thermodynamic_temperature = 0
+    /// amount_of_substance = 0
+    /// luminous_intensity = 1");
+    /// assert_eq!(l.powi::<5>().toml_dim_formula(),"length = -10
+    /// mass = -5
+    /// time = 15
+    /// electric_current = 0
+    /// thermodynamic_temperature = 0
+    /// amount_of_substance = 0
+    /// luminous_intensity = 5");
+    /// ```
+    pub fn toml_dim_formula(&self) -> String {
+        format!(
+            "length = {L}
+mass = {M}
+time = {T}
+electric_current = {I}
+thermodynamic_temperature = {TH}
+amount_of_substance = {N}
+luminous_intensity = {LUM}"
+        )
     }
 }
 
